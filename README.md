@@ -105,8 +105,14 @@ For more details, you can read the Docusaurus deployment guidehttps://products.g
 Conclusion
 This is a brief overview of how to create a Docusaurus project and set up an artificial intelligence tool on your Mac with Ollama. You can explore more features and possibilities with these tools and create amazing websites and applications.
 
-If you have any questions or feedback, please feel free to contact me or open an issue on GitHub. https://www.ionos.fr/digitalguide/sites-internet/developpement-web/markdown/:
-https://fr.wikipedia.org/wiki/Markdownhttps://code-garage.fr/blog/le-guide-simplifie-sur-la-syntaxe-markdown:
-https://docusaurus.io/fr/docshttps://products.groupdocs.app/translation/fr/markdown:
-https://olama.org/https://products.groupdocs.app/translation/fr/markdown/french-english:
-https://docusaurus.io/fr/docs/deployment/github-pages:
+If you have any questions or feedback, please feel free to contact me or open an issue on GitHub.
+
+https://www.ionos.fr/digitalguide/sites-internet/developpement-web/markdown/
+
+https://fr.wikipedia.org/wiki/Markdownhttps://code-garage.fr/blog/le-guide-simplifie-sur-la-syntaxe-markdown
+
+https://docusaurus.io/fr/docshttps://products.groupdocs.app/translation/fr/markdown
+
+https://olama.org/https://products.groupdocs.app/translation/fr/markdown/french-english
+
+https://docusaurus.io/fr/docs/deployment/github-pages
