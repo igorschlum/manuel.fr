@@ -20,16 +20,66 @@
           "contentPathLocalized": "/Users/igor/Dave/schlum/i18n/fr/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "id": "install",
-              "title": "Installation",
-              "description": "Nous allons découvrir ensemble l'intelligence artificielle sur Mac.",
-              "source": "@site/docs/install.md",
-              "sourceDirName": ".",
-              "slug": "/install",
-              "permalink": "/docs/install",
+              "id": "En-savoir-plus/Github",
+              "title": "GitHub",
+              "description": "Imaginez GitHub comme un grand coffre-fort numérique où les développeurs stockent leurs codes. Ce coffre-fort est spécial car il permet à plusieurs personnes de travailler et collaborer sur le même programme, un peu comme un document Google partagé.",
+              "source": "@site/docs/En-savoir-plus/Github.md",
+              "sourceDirName": "En-savoir-plus",
+              "slug": "/En-savoir-plus/Github",
+              "permalink": "/docs/En-savoir-plus/Github",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/install.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/En-savoir-plus/Github.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Glossaire",
+                "permalink": "/docs/En-savoir-plus/glossaire"
+              }
+            },
+            {
+              "id": "En-savoir-plus/glossaire",
+              "title": "Glossaire",
+              "description": "On explique ici les termes techniques utilisés dans ce site",
+              "source": "@site/docs/En-savoir-plus/glossaire.md",
+              "sourceDirName": "En-savoir-plus",
+              "slug": "/En-savoir-plus/glossaire",
+              "permalink": "/docs/En-savoir-plus/glossaire",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/En-savoir-plus/glossaire.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "En savoir plus",
+                "permalink": "/docs/category/en-savoir-plus"
+              },
+              "next": {
+                "title": "GitHub",
+                "permalink": "/docs/En-savoir-plus/Github"
+              }
+            },
+            {
+              "id": "intro",
+              "title": "Introduction",
+              "description": "Nous allons découvrir ensemble l'intelligence artificielle sur Mac.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/docs/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -38,8 +88,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Tutorial - Basics",
-                "permalink": "/docs/category/tutorial---basics"
+                "title": "LLM - Bibliothèque",
+                "permalink": "/docs/category/llm---bibliothèque"
               }
             },
             {
@@ -115,7 +165,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Create a Page",
+                "title": "Llama2 par Meta",
                 "permalink": "/docs/tutorial-basics/create-a-page"
               },
               "next": {
@@ -125,8 +175,8 @@
             },
             {
               "id": "tutorial-basics/create-a-page",
-              "title": "Create a Page",
-              "description": "Add Markdown or React files to src/pages to create a standalone page:",
+              "title": "Llama2 par Meta",
+              "description": "*le LLM Llama2 est un modèle de langage naturel développé par des",
               "source": "@site/docs/tutorial-basics/create-a-page.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-page",
@@ -142,8 +192,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Tutorial - Basics",
-                "permalink": "/docs/category/tutorial---basics"
+                "title": "LLM - Bibliothèque",
+                "permalink": "/docs/category/llm---bibliothèque"
               },
               "next": {
                 "title": "Create a Document",
@@ -252,6 +302,10 @@
               "previous": {
                 "title": "Manage Docs Versions",
                 "permalink": "/docs/tutorial-extras/manage-docs-versions"
+              },
+              "next": {
+                "title": "En savoir plus",
+                "permalink": "/docs/category/en-savoir-plus"
               }
             }
           ],
@@ -260,11 +314,11 @@
             "tutorialSidebar": [
               {
                 "type": "doc",
-                "id": "install"
+                "id": "intro"
               },
               {
                 "type": "category",
-                "label": "Tutorial - Basics",
+                "label": "LLM - Bibliothèque",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -295,9 +349,9 @@
                 ],
                 "link": {
                   "type": "generated-index",
-                  "description": "5 minutes to learn the most important Docusaurus concepts.",
-                  "slug": "/category/tutorial---basics",
-                  "permalink": "/docs/category/tutorial---basics"
+                  "description": "Liste des principaux LLM à disposition.",
+                  "slug": "/category/llm---bibliothèque",
+                  "permalink": "/docs/category/llm---bibliothèque"
                 }
               },
               {
@@ -319,6 +373,27 @@
                   "type": "generated-index",
                   "slug": "/category/tutorial---extras",
                   "permalink": "/docs/category/tutorial---extras"
+                }
+              },
+              {
+                "type": "category",
+                "label": "En savoir plus",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "En-savoir-plus/glossaire"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "En-savoir-plus/Github"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/en-savoir-plus",
+                  "permalink": "/docs/category/en-savoir-plus"
                 }
               }
             ]

@@ -2,7 +2,14 @@
 sidebar_position: 1
 ---
 
-# Create a Page
+# Llama2 par Meta
+
+*le LLM Llama2 est un modèle de langage naturel développé par des 
+chercheurs à la recherche en intelligence artificielle (AI) de Facebook. 
+Il a été formé sur une énorme base de données de textes du web et est 
+capable d'effectuer une grande variété de tâches de traitement du langage 
+naturel. Le modèle repose sur l'architecture Transformer et utilise des
+mécanismes d'auto-attention pour traiter les séquences d'entrée.*
 
 Add **Markdown or React** files to `src/pages` to create a **standalone page**:
 

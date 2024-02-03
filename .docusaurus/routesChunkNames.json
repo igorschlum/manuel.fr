@@ -186,30 +186,42 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-98f": {
+  "/docs-0fb": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsc-87-5d2"
     }
   },
-  "/docs-499": {
+  "/docs-6e1": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "version": "version---docs-935-398"
   },
-  "/docs-558": {
+  "/docs-d70": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/docs/category/tutorial---basics-d44": {
+  "/docs/category/en-savoir-plus-f9d": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-tutorial-basicsea-8-8c8"
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-en-savoir-pluscc-1-fbe"
+  },
+  "/docs/category/llm---bibliothèque-c32": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-llm-bibliotheque-0-cc-43a"
   },
   "/docs/category/tutorial---extras-f09": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-tutorial-extrasc-84-abc"
   },
-  "/docs/install-65c": {
+  "/docs/En-savoir-plus/Github-99e": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-installc-4-d-119"
+    "content": "content---docs-en-savoir-plus-github-3-cb-718"
+  },
+  "/docs/En-savoir-plus/glossaire-477": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-en-savoir-plus-glossaire-2-ae-3f5"
+  },
+  "/docs/intro-aed": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-intro-0-e-3-be1"
   },
   "/docs/tutorial-basics/congratulations-793": {
     "__comp": "__comp---theme-doc-item-178-a40",

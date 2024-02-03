@@ -1,6 +1,6 @@
 {
   "id": "install",
-  "title": "Installation",
+  "title": "Introduction",
   "description": "Nous allons découvrir ensemble l'intelligence artificielle sur Mac.",
   "source": "@site/docs/install.md",
   "sourceDirName": ".",
@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Tutorial - Basics",
-    "permalink": "/docs/category/tutorial---basics"
+    "title": "LLM - Bibliothèque",
+    "permalink": "/docs/category/llm---bibliothèque"
   }
 }

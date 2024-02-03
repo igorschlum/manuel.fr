@@ -64,7 +64,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/ollama.png',
       navbar: {
         title: 'ollama.fr',
         logo: {
@@ -76,7 +76,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Prérequis',
+            label: 'Introduction',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -93,8 +93,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Installation',
-                to: '/docs/install',
+                label: 'Introduction',
+                to: '/docs/intro',
               },
             ],
           },

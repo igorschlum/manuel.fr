@@ -8,11 +8,21 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "install",
+          "mainDocId": "intro",
           "docs": [
             {
-              "id": "install",
-              "path": "/docs/install",
+              "id": "En-savoir-plus/Github",
+              "path": "/docs/En-savoir-plus/Github",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "En-savoir-plus/glossaire",
+              "path": "/docs/En-savoir-plus/glossaire",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -56,13 +66,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/tutorial---basics",
-              "path": "/docs/category/tutorial---basics",
+              "id": "/category/llm---bibliothèque",
+              "path": "/docs/category/llm---bibliothèque",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/tutorial---extras",
               "path": "/docs/category/tutorial---extras",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/en-savoir-plus",
+              "path": "/docs/category/en-savoir-plus",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -70,8 +85,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/install",
-                "label": "install"
+                "path": "/docs/intro",
+                "label": "intro"
               }
             }
           }

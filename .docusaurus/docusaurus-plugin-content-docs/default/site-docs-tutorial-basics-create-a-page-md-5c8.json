@@ -1,7 +1,7 @@
 {
   "id": "tutorial-basics/create-a-page",
-  "title": "Create a Page",
-  "description": "Add Markdown or React files to src/pages to create a standalone page:",
+  "title": "Llama2 par Meta",
+  "description": "*le LLM Llama2 est un modèle de langage naturel développé par des",
   "source": "@site/docs/tutorial-basics/create-a-page.md",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/create-a-page",
@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Tutorial - Basics",
-    "permalink": "/docs/category/tutorial---basics"
+    "title": "LLM - Bibliothèque",
+    "permalink": "/docs/category/llm---bibliothèque"
   },
   "next": {
     "title": "Create a Document",

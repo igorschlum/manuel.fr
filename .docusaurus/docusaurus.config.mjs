@@ -40,7 +40,7 @@ export default {
     ]
   ],
   "themeConfig": {
-    "image": "img/docusaurus-social-card.jpg",
+    "image": "img/ollama.png",
     "navbar": {
       "title": "ollama.fr",
       "logo": {
@@ -52,7 +52,7 @@ export default {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Prérequis"
+          "label": "Introduction"
         },
         {
           "to": "/blog",
@@ -74,8 +74,8 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Installation",
-              "to": "/docs/install"
+              "label": "Introduction",
+              "to": "/docs/intro"
             }
           ]
         },

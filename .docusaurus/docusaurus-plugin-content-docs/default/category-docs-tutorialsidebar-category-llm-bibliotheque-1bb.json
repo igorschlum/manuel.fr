@@ -1,0 +1,16 @@
+{
+  "title": "LLM - Bibliothèque",
+  "description": "Liste des principaux LLM à disposition.",
+  "slug": "/category/llm---bibliothèque",
+  "permalink": "/docs/category/llm---bibliothèque",
+  "navigation": {
+    "previous": {
+      "title": "Introduction",
+      "permalink": "/docs/intro"
+    },
+    "next": {
+      "title": "Llama2 par Meta",
+      "permalink": "/docs/tutorial-basics/create-a-page"
+    }
+  }
+}
