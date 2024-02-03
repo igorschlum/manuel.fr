@@ -5,18 +5,18 @@
  */
 export default {
   "title": "ollama.fr",
-  "tagline": "Le mode d emploi pour comprendre et déployer l IA sur votre Mac",
+  "tagline": "Le mode d'emploi pour comprendre et déployer l'IA sur votre Mac",
   "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-site.example.com",
+  "url": "https://ollama.fr",
   "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "igorschlum",
+  "projectName": "Ollama.fr",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
-    "defaultLocale": "en",
+    "defaultLocale": "fr",
     "locales": [
-      "en"
+      "fr"
     ],
     "path": "i18n",
     "localeConfigs": {}
