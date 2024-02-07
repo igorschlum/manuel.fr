@@ -1,0 +1,24 @@
+{
+  "id": "models-list/texte",
+  "title": "texte",
+  "description": "",
+  "source": "@site/docs/models-list/texte.md",
+  "sourceDirName": "models-list",
+  "slug": "/models-list/texte",
+  "permalink": "/docs/models-list/texte",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/models-list/texte.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "medllama2",
+    "permalink": "/docs/models-list/medllama2"
+  },
+  "next": {
+    "title": "Usage",
+    "permalink": "/docs/category/usage"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "models-list/Llama2",
+  "title": "Llama2 par Meta",
+  "description": "*le LLM Llama2 est un modèle de langage naturel développé par des",
+  "source": "@site/docs/models-list/Llama2.md",
+  "sourceDirName": "models-list",
+  "slug": "/models-list/Llama2",
+  "permalink": "/docs/models-list/Llama2",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/models-list/Llama2.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Bibliothèque",
+    "permalink": "/docs/category/bibliothèque"
+  },
+  "next": {
+    "title": "TinyLlama",
+    "permalink": "/docs/models-list/TinyLlama"
+  }
+}

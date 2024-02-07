@@ -1,0 +1,27 @@
+{
+  "id": "En-savoir-plus/Quantization",
+  "title": "Quantization",
+  "description": "Lorsqu'un LLM (Large Language Model) est disponible dans différentes versions",
+  "source": "@site/docs/En-savoir-plus/Quantization.md",
+  "sourceDirName": "En-savoir-plus",
+  "slug": "/En-savoir-plus/Quantization",
+  "permalink": "/docs/En-savoir-plus/Quantization",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/En-savoir-plus/Quantization.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Glossaire",
+    "permalink": "/docs/En-savoir-plus/glossaire"
+  },
+  "next": {
+    "title": "instruct",
+    "permalink": "/docs/En-savoir-plus/instruct"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "Usage/chatbox",
+  "title": "chatbox",
+  "description": "",
+  "source": "@site/docs/Usage/chatbox.md",
+  "sourceDirName": "Usage",
+  "slug": "/Usage/chatbox",
+  "permalink": "/docs/Usage/chatbox",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Usage/chatbox.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Import Modèle",
+    "permalink": "/docs/Usage/Import Modèle"
+  },
+  "next": {
+    "title": "vs code",
+    "permalink": "/docs/Usage/vs code"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "models-list/medllama2",
+  "title": "medllama2",
+  "description": "",
+  "source": "@site/docs/models-list/medllama2.md",
+  "sourceDirName": "models-list",
+  "slug": "/models-list/medllama2",
+  "permalink": "/docs/models-list/medllama2",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/models-list/medllama2.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "image",
+    "permalink": "/docs/models-list/image"
+  },
+  "next": {
+    "title": "texte",
+    "permalink": "/docs/models-list/texte"
+  }
+}

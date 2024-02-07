@@ -1,0 +1,27 @@
+{
+  "id": "Usage/ModelFile",
+  "title": "ModelFile",
+  "description": "",
+  "source": "@site/docs/Usage/ModelFile.md",
+  "sourceDirName": "Usage",
+  "slug": "/Usage/ModelFile",
+  "permalink": "/docs/Usage/ModelFile",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Usage/ModelFile.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Entrainer un modèle",
+    "permalink": "/docs/Usage/Entrainer un modèle"
+  },
+  "next": {
+    "title": "Import Modèle",
+    "permalink": "/docs/Usage/Import Modèle"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "models-list/TinyLlama",
+  "title": "TinyLlama",
+  "description": "TinyLlama est un modèle de langage compact et open-source qui se distingue dans le monde de l’intelligence artificielle. Voici quelques points clés à propos de TinyLlama :",
+  "source": "@site/docs/models-list/TinyLlama.md",
+  "sourceDirName": "models-list",
+  "slug": "/models-list/TinyLlama",
+  "permalink": "/docs/models-list/TinyLlama",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/models-list/TinyLlama.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Llama2 par Meta",
+    "permalink": "/docs/models-list/Llama2"
+  },
+  "next": {
+    "title": "Llava",
+    "permalink": "/docs/models-list/Llava"
+  }
+}

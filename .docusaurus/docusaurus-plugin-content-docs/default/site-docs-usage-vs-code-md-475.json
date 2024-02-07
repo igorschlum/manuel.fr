@@ -1,0 +1,24 @@
+{
+  "id": "Usage/vs code",
+  "title": "vs code",
+  "description": "",
+  "source": "@site/docs/Usage/vs code.md",
+  "sourceDirName": "Usage",
+  "slug": "/Usage/vs code",
+  "permalink": "/docs/Usage/vs code",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Usage/vs code.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "chatbox",
+    "permalink": "/docs/Usage/chatbox"
+  },
+  "next": {
+    "title": "En savoir plus",
+    "permalink": "/docs/category/en-savoir-plus"
+  }
+}

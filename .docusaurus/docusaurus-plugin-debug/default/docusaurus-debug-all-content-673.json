@@ -15,33 +15,10 @@
           "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/fr/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/igor/Dave/schlum/sidebars.js",
-          "contentPath": "/Users/igor/Dave/schlum/docs",
-          "contentPathLocalized": "/Users/igor/Dave/schlum/i18n/fr/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/igor/Dave/Ollama/ollama.fr/sidebars.js",
+          "contentPath": "/Users/igor/Dave/Ollama/ollama.fr/docs",
+          "contentPathLocalized": "/Users/igor/Dave/Ollama/ollama.fr/i18n/fr/docusaurus-plugin-content-docs/current",
           "docs": [
-            {
-              "id": "En-savoir-plus/Github",
-              "title": "GitHub",
-              "description": "Imaginez GitHub comme un grand coffre-fort numérique où les développeurs stockent leurs codes. Ce coffre-fort est spécial car il permet à plusieurs personnes de travailler et collaborer sur le même programme, un peu comme un document Google partagé.",
-              "source": "@site/docs/En-savoir-plus/Github.md",
-              "sourceDirName": "En-savoir-plus",
-              "slug": "/En-savoir-plus/Github",
-              "permalink": "/docs/En-savoir-plus/Github",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/En-savoir-plus/Github.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Glossaire",
-                "permalink": "/docs/En-savoir-plus/glossaire"
-              }
-            },
             {
               "id": "En-savoir-plus/glossaire",
               "title": "Glossaire",
@@ -65,8 +42,116 @@
                 "permalink": "/docs/category/en-savoir-plus"
               },
               "next": {
+                "title": "Quantization",
+                "permalink": "/docs/En-savoir-plus/Quantization"
+              }
+            },
+            {
+              "id": "En-savoir-plus/instruct",
+              "title": "instruct",
+              "description": "- *Modèles Instruct …” et “### Assistant: …”. Pour certaines tâches ou domaines, les modèles Instruct peuvent être plus performants et plus fiables que les modèles non-Instruct. Pour plus d’informations, vous pouvez consulter ces ressources en ligne.*",
+              "source": "@site/docs/En-savoir-plus/instruct.md",
+              "sourceDirName": "En-savoir-plus",
+              "slug": "/En-savoir-plus/instruct",
+              "permalink": "/docs/En-savoir-plus/instruct",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/En-savoir-plus/instruct.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Quantization",
+                "permalink": "/docs/En-savoir-plus/Quantization"
+              },
+              "next": {
+                "title": "Paramètres",
+                "permalink": "/docs/En-savoir-plus/Paramètres"
+              }
+            },
+            {
+              "id": "En-savoir-plus/Paramètres",
+              "title": "Paramètres",
+              "description": "- L’intelligence artificielle (IA) est comme un cerveau pour les ordinateurs. Elle leur permet de comprendre et de réagir à ce qui se passe autour d’eux. Pour cela, l’IA a besoin d’apprendre, tout comme nous le faisons quand nous allons à l’école.",
+              "source": "@site/docs/En-savoir-plus/Paramètres.md",
+              "sourceDirName": "En-savoir-plus",
+              "slug": "/En-savoir-plus/Paramètres",
+              "permalink": "/docs/En-savoir-plus/Paramètres",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/En-savoir-plus/Paramètres.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "instruct",
+                "permalink": "/docs/En-savoir-plus/instruct"
+              },
+              "next": {
+                "title": "Rag",
+                "permalink": "/docs/En-savoir-plus/rag"
+              }
+            },
+            {
+              "id": "En-savoir-plus/Quantization",
+              "title": "Quantization",
+              "description": "Lorsqu'un LLM (Large Language Model) est disponible dans différentes versions",
+              "source": "@site/docs/En-savoir-plus/Quantization.md",
+              "sourceDirName": "En-savoir-plus",
+              "slug": "/En-savoir-plus/Quantization",
+              "permalink": "/docs/En-savoir-plus/Quantization",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/En-savoir-plus/Quantization.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Glossaire",
+                "permalink": "/docs/En-savoir-plus/glossaire"
+              },
+              "next": {
+                "title": "instruct",
+                "permalink": "/docs/En-savoir-plus/instruct"
+              }
+            },
+            {
+              "id": "En-savoir-plus/rag",
+              "title": "Rag",
+              "description": "- La Génération Augmentée de Récupération (RAG) est une technique utilisée en Intelligence Artificielle pour aider les machines à comprendre et à répondre aux questions en langage naturel, c’est-à-dire le langage que nous utilisons tous les jours.",
+              "source": "@site/docs/En-savoir-plus/rag.md",
+              "sourceDirName": "En-savoir-plus",
+              "slug": "/En-savoir-plus/rag",
+              "permalink": "/docs/En-savoir-plus/rag",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/En-savoir-plus/rag.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Paramètres",
+                "permalink": "/docs/En-savoir-plus/Paramètres"
+              },
+              "next": {
                 "title": "GitHub",
-                "permalink": "/docs/En-savoir-plus/Github"
+                "permalink": "/docs/outils/Github"
               }
             },
             {
@@ -88,48 +173,120 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "LLM - Bibliothèque",
-                "permalink": "/docs/category/llm---bibliothèque"
+                "title": "Bibliothèque",
+                "permalink": "/docs/category/bibliothèque"
               }
             },
             {
-              "id": "tutorial-basics/congratulations",
-              "title": "Congratulations!",
-              "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-              "source": "@site/docs/tutorial-basics/congratulations.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/congratulations",
-              "permalink": "/docs/tutorial-basics/congratulations",
+              "id": "models-list/ecole",
+              "title": "ecole",
+              "description": "",
+              "source": "@site/docs/models-list/ecole.md",
+              "sourceDirName": "models-list",
+              "slug": "/models-list/ecole",
+              "permalink": "/docs/models-list/ecole",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/congratulations.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/models-list/ecole.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 6,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Médecin",
+                "permalink": "/docs/models-list/Médecin"
+              },
+              "next": {
+                "title": "image",
+                "permalink": "/docs/models-list/image"
+              }
+            },
+            {
+              "id": "models-list/Général",
+              "title": "Général",
+              "description": "",
+              "source": "@site/docs/models-list/Général.md",
+              "sourceDirName": "models-list",
+              "slug": "/models-list/Général",
+              "permalink": "/docs/models-list/Général",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/models-list/Général.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Mixtral",
+                "permalink": "/docs/models-list/Mixtral"
+              },
+              "next": {
+                "title": "Médecin",
+                "permalink": "/docs/models-list/Médecin"
+              }
+            },
+            {
+              "id": "models-list/image",
+              "title": "image",
+              "description": "",
+              "source": "@site/docs/models-list/image.md",
+              "sourceDirName": "models-list",
+              "slug": "/models-list/image",
+              "permalink": "/docs/models-list/image",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/models-list/image.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "ecole",
+                "permalink": "/docs/models-list/ecole"
+              },
+              "next": {
+                "title": "medllama2",
+                "permalink": "/docs/models-list/medllama2"
+              }
+            },
+            {
+              "id": "models-list/Llama2",
+              "title": "Llama2 par Meta",
+              "description": "*le LLM Llama2 est un modèle de langage naturel développé par des",
+              "source": "@site/docs/models-list/Llama2.md",
+              "sourceDirName": "models-list",
+              "slug": "/models-list/Llama2",
+              "permalink": "/docs/models-list/Llama2",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/models-list/Llama2.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar_position": 6
+                "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
+                "title": "Bibliothèque",
+                "permalink": "/docs/category/bibliothèque"
               },
               "next": {
-                "title": "Tutorial - Extras",
-                "permalink": "/docs/category/tutorial---extras"
+                "title": "TinyLlama",
+                "permalink": "/docs/models-list/TinyLlama"
               }
             },
             {
-              "id": "tutorial-basics/create-a-blog-post",
-              "title": "Create a Blog Post",
-              "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-              "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-blog-post",
-              "permalink": "/docs/tutorial-basics/create-a-blog-post",
+              "id": "models-list/Llava",
+              "title": "Llava",
+              "description": "*Le modèle Llava est basé sur des réseaux neuronaux et",
+              "source": "@site/docs/models-list/Llava.md",
+              "sourceDirName": "models-list",
+              "slug": "/models-list/Llava",
+              "permalink": "/docs/models-list/Llava",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-blog-post.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/models-list/Llava.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -138,25 +295,124 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
+                "title": "TinyLlama",
+                "permalink": "/docs/models-list/TinyLlama"
               },
               "next": {
-                "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
+                "title": "Mixtral",
+                "permalink": "/docs/models-list/Mixtral"
               }
             },
             {
-              "id": "tutorial-basics/create-a-document",
-              "title": "Create a Document",
-              "description": "Documents are groups of pages connected through:",
-              "source": "@site/docs/tutorial-basics/create-a-document.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-document",
-              "permalink": "/docs/tutorial-basics/create-a-document",
+              "id": "models-list/Médecin",
+              "title": "Médecin",
+              "description": "",
+              "source": "@site/docs/models-list/Médecin.md",
+              "sourceDirName": "models-list",
+              "slug": "/models-list/Médecin",
+              "permalink": "/docs/models-list/Médecin",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-document.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/models-list/Médecin.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Général",
+                "permalink": "/docs/models-list/Général"
+              },
+              "next": {
+                "title": "ecole",
+                "permalink": "/docs/models-list/ecole"
+              }
+            },
+            {
+              "id": "models-list/medllama2",
+              "title": "medllama2",
+              "description": "",
+              "source": "@site/docs/models-list/medllama2.md",
+              "sourceDirName": "models-list",
+              "slug": "/models-list/medllama2",
+              "permalink": "/docs/models-list/medllama2",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/models-list/medllama2.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "image",
+                "permalink": "/docs/models-list/image"
+              },
+              "next": {
+                "title": "texte",
+                "permalink": "/docs/models-list/texte"
+              }
+            },
+            {
+              "id": "models-list/Mixtral",
+              "title": "Mixtral",
+              "description": "Mixtral est une intelligence artificielle (IA) avancée qui se distingue dans le monde de l’IA. Voici quelques points clés à propos de Mixtral :",
+              "source": "@site/docs/models-list/Mixtral.md",
+              "sourceDirName": "models-list",
+              "slug": "/models-list/Mixtral",
+              "permalink": "/docs/models-list/Mixtral",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/models-list/Mixtral.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Llava",
+                "permalink": "/docs/models-list/Llava"
+              },
+              "next": {
+                "title": "Général",
+                "permalink": "/docs/models-list/Général"
+              }
+            },
+            {
+              "id": "models-list/texte",
+              "title": "texte",
+              "description": "",
+              "source": "@site/docs/models-list/texte.md",
+              "sourceDirName": "models-list",
+              "slug": "/models-list/texte",
+              "permalink": "/docs/models-list/texte",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/models-list/texte.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "medllama2",
+                "permalink": "/docs/models-list/medllama2"
+              },
+              "next": {
+                "title": "Usage",
+                "permalink": "/docs/category/usage"
+              }
+            },
+            {
+              "id": "models-list/TinyLlama",
+              "title": "TinyLlama",
+              "description": "TinyLlama est un modèle de langage compact et open-source qui se distingue dans le monde de l’intelligence artificielle. Voici quelques points clés à propos de TinyLlama :",
+              "source": "@site/docs/models-list/TinyLlama.md",
+              "sourceDirName": "models-list",
+              "slug": "/models-list/TinyLlama",
+              "permalink": "/docs/models-list/TinyLlama",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/models-list/TinyLlama.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -166,132 +422,24 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Llama2 par Meta",
-                "permalink": "/docs/tutorial-basics/create-a-page"
+                "permalink": "/docs/models-list/Llama2"
               },
               "next": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
+                "title": "Llava",
+                "permalink": "/docs/models-list/Llava"
               }
             },
             {
-              "id": "tutorial-basics/create-a-page",
-              "title": "Llama2 par Meta",
-              "description": "*le LLM Llama2 est un modèle de langage naturel développé par des",
-              "source": "@site/docs/tutorial-basics/create-a-page.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-page",
-              "permalink": "/docs/tutorial-basics/create-a-page",
+              "id": "outils/Github",
+              "title": "GitHub",
+              "description": "Imaginez GitHub comme un grand coffre-fort numérique où les développeurs stockent leurs codes. Ce coffre-fort est spécial car il permet à plusieurs personnes de travailler et collaborer sur le même programme, un peu comme un document Google partagé.",
+              "source": "@site/docs/outils/Github.md",
+              "sourceDirName": "outils",
+              "slug": "/outils/Github",
+              "permalink": "/docs/outils/Github",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-page.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "LLM - Bibliothèque",
-                "permalink": "/docs/category/llm---bibliothèque"
-              },
-              "next": {
-                "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
-              }
-            },
-            {
-              "id": "tutorial-basics/deploy-your-site",
-              "title": "Deploy your site",
-              "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-              "source": "@site/docs/tutorial-basics/deploy-your-site.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/deploy-your-site",
-              "permalink": "/docs/tutorial-basics/deploy-your-site",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/deploy-your-site.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
-              },
-              "next": {
-                "title": "Congratulations!",
-                "permalink": "/docs/tutorial-basics/congratulations"
-              }
-            },
-            {
-              "id": "tutorial-basics/markdown-features",
-              "title": "Markdown Features",
-              "description": "Docusaurus supports Markdown and a few additional features.",
-              "source": "@site/docs/tutorial-basics/markdown-features.mdx",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/markdown-features",
-              "permalink": "/docs/tutorial-basics/markdown-features",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/markdown-features.mdx",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
-              },
-              "next": {
-                "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
-              }
-            },
-            {
-              "id": "tutorial-extras/manage-docs-versions",
-              "title": "Manage Docs Versions",
-              "description": "Docusaurus can manage multiple versions of your docs.",
-              "source": "@site/docs/tutorial-extras/manage-docs-versions.md",
-              "sourceDirName": "tutorial-extras",
-              "slug": "/tutorial-extras/manage-docs-versions",
-              "permalink": "/docs/tutorial-extras/manage-docs-versions",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/manage-docs-versions.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Tutorial - Extras",
-                "permalink": "/docs/category/tutorial---extras"
-              },
-              "next": {
-                "title": "Translate your site",
-                "permalink": "/docs/tutorial-extras/translate-your-site"
-              }
-            },
-            {
-              "id": "tutorial-extras/translate-your-site",
-              "title": "Translate your site",
-              "description": "Let's translate docs/intro.md to French.",
-              "source": "@site/docs/tutorial-extras/translate-your-site.md",
-              "sourceDirName": "tutorial-extras",
-              "slug": "/tutorial-extras/translate-your-site",
-              "permalink": "/docs/tutorial-extras/translate-your-site",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/translate-your-site.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/outils/Github.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -300,8 +448,157 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Manage Docs Versions",
-                "permalink": "/docs/tutorial-extras/manage-docs-versions"
+                "title": "Rag",
+                "permalink": "/docs/En-savoir-plus/rag"
+              },
+              "next": {
+                "title": "Python",
+                "permalink": "/docs/outils/python"
+              }
+            },
+            {
+              "id": "outils/python",
+              "title": "Python",
+              "description": "Python est un langage de programmation largement utilisé dans les applications Web, le développement de logiciels, la science des données et le machine learning¹. Il est efficace, facile à apprendre et peut s'exécuter sur de nombreuses plateformes¹. Python est également apprécié pour sa syntaxe claire et simple, ce qui facilite l'apprentissage des concepts de base de la programmation².",
+              "source": "@site/docs/outils/python.md",
+              "sourceDirName": "outils",
+              "slug": "/outils/python",
+              "permalink": "/docs/outils/python",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/outils/python.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "GitHub",
+                "permalink": "/docs/outils/Github"
+              }
+            },
+            {
+              "id": "Usage/chatbox",
+              "title": "chatbox",
+              "description": "",
+              "source": "@site/docs/Usage/chatbox.md",
+              "sourceDirName": "Usage",
+              "slug": "/Usage/chatbox",
+              "permalink": "/docs/Usage/chatbox",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Usage/chatbox.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Import Modèle",
+                "permalink": "/docs/Usage/Import Modèle"
+              },
+              "next": {
+                "title": "vs code",
+                "permalink": "/docs/Usage/vs code"
+              }
+            },
+            {
+              "id": "Usage/Entrainer un modèle",
+              "title": "Entrainer un modèle",
+              "description": "1. *Collecte de données : Tout d’abord, nous avons besoin de beaucoup d’exemples pour montrer à l’IA ce qu’elle doit apprendre. Par exemple, si nous voulons qu’elle reconnaisse des chats, nous aurons besoin de beaucoup de photos de chats.*",
+              "source": "@site/docs/Usage/Entrainer un modèle.md",
+              "sourceDirName": "Usage",
+              "slug": "/Usage/Entrainer un modèle",
+              "permalink": "/docs/Usage/Entrainer un modèle",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Usage/Entrainer un modèle.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Usage",
+                "permalink": "/docs/category/usage"
+              },
+              "next": {
+                "title": "ModelFile",
+                "permalink": "/docs/Usage/ModelFile"
+              }
+            },
+            {
+              "id": "Usage/Import Modèle",
+              "title": "Import Modèle",
+              "description": "",
+              "source": "@site/docs/Usage/Import Modèle.md",
+              "sourceDirName": "Usage",
+              "slug": "/Usage/Import Modèle",
+              "permalink": "/docs/Usage/Import Modèle",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Usage/Import Modèle.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "ModelFile",
+                "permalink": "/docs/Usage/ModelFile"
+              },
+              "next": {
+                "title": "chatbox",
+                "permalink": "/docs/Usage/chatbox"
+              }
+            },
+            {
+              "id": "Usage/ModelFile",
+              "title": "ModelFile",
+              "description": "",
+              "source": "@site/docs/Usage/ModelFile.md",
+              "sourceDirName": "Usage",
+              "slug": "/Usage/ModelFile",
+              "permalink": "/docs/Usage/ModelFile",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Usage/ModelFile.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Entrainer un modèle",
+                "permalink": "/docs/Usage/Entrainer un modèle"
+              },
+              "next": {
+                "title": "Import Modèle",
+                "permalink": "/docs/Usage/Import Modèle"
+              }
+            },
+            {
+              "id": "Usage/vs code",
+              "title": "vs code",
+              "description": "",
+              "source": "@site/docs/Usage/vs code.md",
+              "sourceDirName": "Usage",
+              "slug": "/Usage/vs code",
+              "permalink": "/docs/Usage/vs code",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Usage/vs code.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "chatbox",
+                "permalink": "/docs/Usage/chatbox"
               },
               "next": {
                 "title": "En savoir plus",
@@ -318,61 +615,89 @@
               },
               {
                 "type": "category",
-                "label": "LLM - Bibliothèque",
+                "label": "Bibliothèque",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/create-a-page"
+                    "id": "models-list/Llama2"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/create-a-document"
+                    "id": "models-list/TinyLlama"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/create-a-blog-post"
+                    "id": "models-list/Llava"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/markdown-features"
+                    "id": "models-list/Mixtral"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/deploy-your-site"
+                    "id": "models-list/Général"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/congratulations"
+                    "id": "models-list/Médecin"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "models-list/ecole"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "models-list/image"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "models-list/medllama2"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "models-list/texte"
                   }
                 ],
                 "link": {
                   "type": "generated-index",
                   "description": "Liste des principaux LLM à disposition.",
-                  "slug": "/category/llm---bibliothèque",
-                  "permalink": "/docs/category/llm---bibliothèque"
+                  "slug": "/category/bibliothèque",
+                  "permalink": "/docs/category/bibliothèque"
                 }
               },
               {
                 "type": "category",
-                "label": "Tutorial - Extras",
+                "label": "Usage",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "tutorial-extras/manage-docs-versions"
+                    "id": "Usage/Entrainer un modèle"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-extras/translate-your-site"
+                    "id": "Usage/ModelFile"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Usage/Import Modèle"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Usage/chatbox"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Usage/vs code"
                   }
                 ],
                 "link": {
                   "type": "generated-index",
-                  "slug": "/category/tutorial---extras",
-                  "permalink": "/docs/category/tutorial---extras"
+                  "slug": "/category/usage",
+                  "permalink": "/docs/category/usage"
                 }
               },
               {
@@ -387,7 +712,19 @@
                   },
                   {
                     "type": "doc",
-                    "id": "En-savoir-plus/Github"
+                    "id": "En-savoir-plus/Quantization"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "En-savoir-plus/instruct"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "En-savoir-plus/Paramètres"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "En-savoir-plus/rag"
                   }
                 ],
                 "link": {
@@ -395,6 +732,22 @@
                   "slug": "/category/en-savoir-plus",
                   "permalink": "/docs/category/en-savoir-plus"
                 }
+              },
+              {
+                "type": "category",
+                "label": "outils",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "outils/Github"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "outils/python"
+                  }
+                ]
               }
             ]
           }

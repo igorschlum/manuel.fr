@@ -1,0 +1,27 @@
+{
+  "id": "Usage/Entrainer un modèle",
+  "title": "Entrainer un modèle",
+  "description": "1. *Collecte de données : Tout d’abord, nous avons besoin de beaucoup d’exemples pour montrer à l’IA ce qu’elle doit apprendre. Par exemple, si nous voulons qu’elle reconnaisse des chats, nous aurons besoin de beaucoup de photos de chats.*",
+  "source": "@site/docs/Usage/Entrainer un modèle.md",
+  "sourceDirName": "Usage",
+  "slug": "/Usage/Entrainer un modèle",
+  "permalink": "/docs/Usage/Entrainer un modèle",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Usage/Entrainer un modèle.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Usage",
+    "permalink": "/docs/category/usage"
+  },
+  "next": {
+    "title": "ModelFile",
+    "permalink": "/docs/Usage/ModelFile"
+  }
+}

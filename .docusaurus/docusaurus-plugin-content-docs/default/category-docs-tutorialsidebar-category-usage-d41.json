@@ -1,0 +1,15 @@
+{
+  "title": "Usage",
+  "slug": "/category/usage",
+  "permalink": "/docs/category/usage",
+  "navigation": {
+    "previous": {
+      "title": "texte",
+      "permalink": "/docs/models-list/texte"
+    },
+    "next": {
+      "title": "Entrainer un modèle",
+      "permalink": "/docs/Usage/Entrainer un modèle"
+    }
+  }
+}

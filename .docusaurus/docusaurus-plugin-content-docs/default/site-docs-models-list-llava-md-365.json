@@ -1,0 +1,27 @@
+{
+  "id": "models-list/Llava",
+  "title": "Llava",
+  "description": "*Le modèle Llava est basé sur des réseaux neuronaux et",
+  "source": "@site/docs/models-list/Llava.md",
+  "sourceDirName": "models-list",
+  "slug": "/models-list/Llava",
+  "permalink": "/docs/models-list/Llava",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/models-list/Llava.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "TinyLlama",
+    "permalink": "/docs/models-list/TinyLlama"
+  },
+  "next": {
+    "title": "Mixtral",
+    "permalink": "/docs/models-list/Mixtral"
+  }
+}

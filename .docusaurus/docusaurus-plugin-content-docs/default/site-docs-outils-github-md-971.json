@@ -1,0 +1,27 @@
+{
+  "id": "outils/Github",
+  "title": "GitHub",
+  "description": "Imaginez GitHub comme un grand coffre-fort numérique où les développeurs stockent leurs codes. Ce coffre-fort est spécial car il permet à plusieurs personnes de travailler et collaborer sur le même programme, un peu comme un document Google partagé.",
+  "source": "@site/docs/outils/Github.md",
+  "sourceDirName": "outils",
+  "slug": "/outils/Github",
+  "permalink": "/docs/outils/Github",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/outils/Github.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Rag",
+    "permalink": "/docs/En-savoir-plus/rag"
+  },
+  "next": {
+    "title": "Python",
+    "permalink": "/docs/outils/python"
+  }
+}

@@ -18,77 +18,126 @@
       },
       {
         "type": "category",
-        "label": "LLM - Bibliothèque",
+        "label": "Bibliothèque",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
             "label": "Llama2 par Meta",
-            "href": "/docs/tutorial-basics/create-a-page",
-            "docId": "tutorial-basics/create-a-page",
+            "href": "/docs/models-list/Llama2",
+            "docId": "models-list/Llama2",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "Create a Document",
-            "href": "/docs/tutorial-basics/create-a-document",
-            "docId": "tutorial-basics/create-a-document",
+            "label": "TinyLlama",
+            "href": "/docs/models-list/TinyLlama",
+            "docId": "models-list/TinyLlama",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "Create a Blog Post",
-            "href": "/docs/tutorial-basics/create-a-blog-post",
-            "docId": "tutorial-basics/create-a-blog-post",
+            "label": "Llava",
+            "href": "/docs/models-list/Llava",
+            "docId": "models-list/Llava",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "Markdown Features",
-            "href": "/docs/tutorial-basics/markdown-features",
-            "docId": "tutorial-basics/markdown-features",
+            "label": "Mixtral",
+            "href": "/docs/models-list/Mixtral",
+            "docId": "models-list/Mixtral",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "Deploy your site",
-            "href": "/docs/tutorial-basics/deploy-your-site",
-            "docId": "tutorial-basics/deploy-your-site",
+            "label": "Général",
+            "href": "/docs/models-list/Général",
+            "docId": "models-list/Général",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "Congratulations!",
-            "href": "/docs/tutorial-basics/congratulations",
-            "docId": "tutorial-basics/congratulations",
+            "label": "Médecin",
+            "href": "/docs/models-list/Médecin",
+            "docId": "models-list/Médecin",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ecole",
+            "href": "/docs/models-list/ecole",
+            "docId": "models-list/ecole",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "image",
+            "href": "/docs/models-list/image",
+            "docId": "models-list/image",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "medllama2",
+            "href": "/docs/models-list/medllama2",
+            "docId": "models-list/medllama2",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "texte",
+            "href": "/docs/models-list/texte",
+            "docId": "models-list/texte",
             "unlisted": false
           }
         ],
-        "href": "/docs/category/llm---bibliothèque"
+        "href": "/docs/category/bibliothèque"
       },
       {
         "type": "category",
-        "label": "Tutorial - Extras",
+        "label": "Usage",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "Manage Docs Versions",
-            "href": "/docs/tutorial-extras/manage-docs-versions",
-            "docId": "tutorial-extras/manage-docs-versions",
+            "label": "Entrainer un modèle",
+            "href": "/docs/Usage/Entrainer un modèle",
+            "docId": "Usage/Entrainer un modèle",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "Translate your site",
-            "href": "/docs/tutorial-extras/translate-your-site",
-            "docId": "tutorial-extras/translate-your-site",
+            "label": "ModelFile",
+            "href": "/docs/Usage/ModelFile",
+            "docId": "Usage/ModelFile",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Import Modèle",
+            "href": "/docs/Usage/Import Modèle",
+            "docId": "Usage/Import Modèle",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "chatbox",
+            "href": "/docs/Usage/chatbox",
+            "docId": "Usage/chatbox",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vs code",
+            "href": "/docs/Usage/vs code",
+            "docId": "Usage/vs code",
             "unlisted": false
           }
         ],
-        "href": "/docs/category/tutorial---extras"
+        "href": "/docs/category/usage"
       },
       {
         "type": "category",
@@ -105,27 +154,88 @@
           },
           {
             "type": "link",
-            "label": "GitHub",
-            "href": "/docs/En-savoir-plus/Github",
-            "docId": "En-savoir-plus/Github",
+            "label": "Quantization",
+            "href": "/docs/En-savoir-plus/Quantization",
+            "docId": "En-savoir-plus/Quantization",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "instruct",
+            "href": "/docs/En-savoir-plus/instruct",
+            "docId": "En-savoir-plus/instruct",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Paramètres",
+            "href": "/docs/En-savoir-plus/Paramètres",
+            "docId": "En-savoir-plus/Paramètres",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Rag",
+            "href": "/docs/En-savoir-plus/rag",
+            "docId": "En-savoir-plus/rag",
             "unlisted": false
           }
         ],
         "href": "/docs/category/en-savoir-plus"
+      },
+      {
+        "type": "category",
+        "label": "outils",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "GitHub",
+            "href": "/docs/outils/Github",
+            "docId": "outils/Github",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Python",
+            "href": "/docs/outils/python",
+            "docId": "outils/python",
+            "unlisted": false
+          }
+        ]
       }
     ]
   },
   "docs": {
-    "En-savoir-plus/Github": {
-      "id": "En-savoir-plus/Github",
-      "title": "GitHub",
-      "description": "Imaginez GitHub comme un grand coffre-fort numérique où les développeurs stockent leurs codes. Ce coffre-fort est spécial car il permet à plusieurs personnes de travailler et collaborer sur le même programme, un peu comme un document Google partagé.",
-      "sidebar": "tutorialSidebar"
-    },
     "En-savoir-plus/glossaire": {
       "id": "En-savoir-plus/glossaire",
       "title": "Glossaire",
       "description": "On explique ici les termes techniques utilisés dans ce site",
+      "sidebar": "tutorialSidebar"
+    },
+    "En-savoir-plus/instruct": {
+      "id": "En-savoir-plus/instruct",
+      "title": "instruct",
+      "description": "- *Modèles Instruct …” et “### Assistant: …”. Pour certaines tâches ou domaines, les modèles Instruct peuvent être plus performants et plus fiables que les modèles non-Instruct. Pour plus d’informations, vous pouvez consulter ces ressources en ligne.*",
+      "sidebar": "tutorialSidebar"
+    },
+    "En-savoir-plus/Paramètres": {
+      "id": "En-savoir-plus/Paramètres",
+      "title": "Paramètres",
+      "description": "- L’intelligence artificielle (IA) est comme un cerveau pour les ordinateurs. Elle leur permet de comprendre et de réagir à ce qui se passe autour d’eux. Pour cela, l’IA a besoin d’apprendre, tout comme nous le faisons quand nous allons à l’école.",
+      "sidebar": "tutorialSidebar"
+    },
+    "En-savoir-plus/Quantization": {
+      "id": "En-savoir-plus/Quantization",
+      "title": "Quantization",
+      "description": "Lorsqu'un LLM (Large Language Model) est disponible dans différentes versions",
+      "sidebar": "tutorialSidebar"
+    },
+    "En-savoir-plus/rag": {
+      "id": "En-savoir-plus/rag",
+      "title": "Rag",
+      "description": "- La Génération Augmentée de Récupération (RAG) est une technique utilisée en Intelligence Artificielle pour aider les machines à comprendre et à répondre aux questions en langage naturel, c’est-à-dire le langage que nous utilisons tous les jours.",
       "sidebar": "tutorialSidebar"
     },
     "intro": {
@@ -134,52 +244,106 @@
       "description": "Nous allons découvrir ensemble l'intelligence artificielle sur Mac.",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial-basics/congratulations": {
-      "id": "tutorial-basics/congratulations",
-      "title": "Congratulations!",
-      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+    "models-list/ecole": {
+      "id": "models-list/ecole",
+      "title": "ecole",
+      "description": "",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial-basics/create-a-blog-post": {
-      "id": "tutorial-basics/create-a-blog-post",
-      "title": "Create a Blog Post",
-      "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+    "models-list/Général": {
+      "id": "models-list/Général",
+      "title": "Général",
+      "description": "",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial-basics/create-a-document": {
-      "id": "tutorial-basics/create-a-document",
-      "title": "Create a Document",
-      "description": "Documents are groups of pages connected through:",
+    "models-list/image": {
+      "id": "models-list/image",
+      "title": "image",
+      "description": "",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial-basics/create-a-page": {
-      "id": "tutorial-basics/create-a-page",
+    "models-list/Llama2": {
+      "id": "models-list/Llama2",
       "title": "Llama2 par Meta",
       "description": "*le LLM Llama2 est un modèle de langage naturel développé par des",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial-basics/deploy-your-site": {
-      "id": "tutorial-basics/deploy-your-site",
-      "title": "Deploy your site",
-      "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+    "models-list/Llava": {
+      "id": "models-list/Llava",
+      "title": "Llava",
+      "description": "*Le modèle Llava est basé sur des réseaux neuronaux et",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial-basics/markdown-features": {
-      "id": "tutorial-basics/markdown-features",
-      "title": "Markdown Features",
-      "description": "Docusaurus supports Markdown and a few additional features.",
+    "models-list/Médecin": {
+      "id": "models-list/Médecin",
+      "title": "Médecin",
+      "description": "",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial-extras/manage-docs-versions": {
-      "id": "tutorial-extras/manage-docs-versions",
-      "title": "Manage Docs Versions",
-      "description": "Docusaurus can manage multiple versions of your docs.",
+    "models-list/medllama2": {
+      "id": "models-list/medllama2",
+      "title": "medllama2",
+      "description": "",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial-extras/translate-your-site": {
-      "id": "tutorial-extras/translate-your-site",
-      "title": "Translate your site",
-      "description": "Let's translate docs/intro.md to French.",
+    "models-list/Mixtral": {
+      "id": "models-list/Mixtral",
+      "title": "Mixtral",
+      "description": "Mixtral est une intelligence artificielle (IA) avancée qui se distingue dans le monde de l’IA. Voici quelques points clés à propos de Mixtral :",
+      "sidebar": "tutorialSidebar"
+    },
+    "models-list/texte": {
+      "id": "models-list/texte",
+      "title": "texte",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "models-list/TinyLlama": {
+      "id": "models-list/TinyLlama",
+      "title": "TinyLlama",
+      "description": "TinyLlama est un modèle de langage compact et open-source qui se distingue dans le monde de l’intelligence artificielle. Voici quelques points clés à propos de TinyLlama :",
+      "sidebar": "tutorialSidebar"
+    },
+    "outils/Github": {
+      "id": "outils/Github",
+      "title": "GitHub",
+      "description": "Imaginez GitHub comme un grand coffre-fort numérique où les développeurs stockent leurs codes. Ce coffre-fort est spécial car il permet à plusieurs personnes de travailler et collaborer sur le même programme, un peu comme un document Google partagé.",
+      "sidebar": "tutorialSidebar"
+    },
+    "outils/python": {
+      "id": "outils/python",
+      "title": "Python",
+      "description": "Python est un langage de programmation largement utilisé dans les applications Web, le développement de logiciels, la science des données et le machine learning¹. Il est efficace, facile à apprendre et peut s'exécuter sur de nombreuses plateformes¹. Python est également apprécié pour sa syntaxe claire et simple, ce qui facilite l'apprentissage des concepts de base de la programmation².",
+      "sidebar": "tutorialSidebar"
+    },
+    "Usage/chatbox": {
+      "id": "Usage/chatbox",
+      "title": "chatbox",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Usage/Entrainer un modèle": {
+      "id": "Usage/Entrainer un modèle",
+      "title": "Entrainer un modèle",
+      "description": "1. *Collecte de données : Tout d’abord, nous avons besoin de beaucoup d’exemples pour montrer à l’IA ce qu’elle doit apprendre. Par exemple, si nous voulons qu’elle reconnaisse des chats, nous aurons besoin de beaucoup de photos de chats.*",
+      "sidebar": "tutorialSidebar"
+    },
+    "Usage/Import Modèle": {
+      "id": "Usage/Import Modèle",
+      "title": "Import Modèle",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Usage/ModelFile": {
+      "id": "Usage/ModelFile",
+      "title": "ModelFile",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Usage/vs code": {
+      "id": "Usage/vs code",
+      "title": "vs code",
+      "description": "",
       "sidebar": "tutorialSidebar"
     }
   }

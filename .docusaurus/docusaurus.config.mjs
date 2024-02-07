@@ -83,12 +83,16 @@ export default {
           "title": "Community",
           "items": [
             {
+              "label": "Stack Overflow",
+              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
+            },
+            {
               "label": "Discord",
               "href": "https://discord.com/invite/ollama"
             },
             {
               "label": "Twitter",
-              "href": "https://twitter.com/ollama"
+              "href": "https://twitter.com/docusaurus"
             }
           ]
         },
@@ -101,12 +105,12 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/ollama/ollama"
+              "href": "https://github.com/facebook/docusaurus"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2024 Igor Schlumberger, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2024 My Project, Inc. Built with Docusaurus."
     },
     "prism": {
       "theme": {

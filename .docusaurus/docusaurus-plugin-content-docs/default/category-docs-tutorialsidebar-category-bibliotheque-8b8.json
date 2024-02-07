@@ -1,0 +1,16 @@
+{
+  "title": "Bibliothèque",
+  "description": "Liste des principaux LLM à disposition.",
+  "slug": "/category/bibliothèque",
+  "permalink": "/docs/category/bibliothèque",
+  "navigation": {
+    "previous": {
+      "title": "Introduction",
+      "permalink": "/docs/intro"
+    },
+    "next": {
+      "title": "Llama2 par Meta",
+      "permalink": "/docs/models-list/Llama2"
+    }
+  }
+}

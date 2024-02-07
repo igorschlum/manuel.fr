@@ -1,0 +1,24 @@
+{
+  "id": "models-list/image",
+  "title": "image",
+  "description": "",
+  "source": "@site/docs/models-list/image.md",
+  "sourceDirName": "models-list",
+  "slug": "/models-list/image",
+  "permalink": "/docs/models-list/image",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/models-list/image.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ecole",
+    "permalink": "/docs/models-list/ecole"
+  },
+  "next": {
+    "title": "medllama2",
+    "permalink": "/docs/models-list/medllama2"
+  }
+}
