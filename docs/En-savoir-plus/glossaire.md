@@ -23,39 +23,6 @@ sujets sensibles, tels que la politique ou la religion, mais il est
 d'autres termes, un modèle "uncensored" est plus puissant mais aussi plus 
 risqué à utiliser.*
 
+## QLoRA
 
-
-
-
-## Add a Version Dropdown
-
-To navigate seamlessly across versions, add a version dropdown.
-
-Modify the `docusaurus.config.js` file:
-
-```js title="docusaurus.config.js"
-export default {
-  themeConfig: {
-    navbar: {
-      items: [
-        // highlight-start
-        {
-          type: 'docsVersionDropdown',
-        },
-        // highlight-end
-      ],
-    },
-  },
-};
-```
-
-The docs version dropdown appears in your navbar:
-
-![Docs Version Dropdown](./img/docsVersionDropdown.png)
-
-## Update an existing version
-
-It is possible to edit versioned docs in their respective folder:
-
-- `versioned_docs/version-1.0/hello.md` updates `http://localhost:3000/docs/hello`
-- `docs/hello.md` updates `http://localhost:3000/docs/next/hello`
+*"QLoRA" est une méthode d’ajustement fin qui réduit suffisamment l’utilisation de la mémoire pour ajuster un modèle de 65 milliards de paramètres sur une seule GPU NVIDIA A10G de 24 Go tout en préservant les performances complètes de l’ajustement fin en 16 bits. En d’autres termes, QLoRA permet d’entraîner des modèles de langage de grande taille sur du matériel relativement standard, ce qui rend la technologie plus accessible*
