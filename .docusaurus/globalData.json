@@ -41,8 +41,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "models-list/ecole",
-              "path": "/docs/models-list/ecole",
+              "id": "models-list/Code",
+              "path": "/docs/models-list/Code",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "models-list/Education",
+              "path": "/docs/models-list/Education",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -51,18 +56,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "models-list/image",
-              "path": "/docs/models-list/image",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "models-list/Llama2",
-              "path": "/docs/models-list/Llama2",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "models-list/Llava",
-              "path": "/docs/models-list/Llava",
+              "id": "models-list/Image",
+              "path": "/docs/models-list/Image",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -71,23 +66,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "models-list/medllama2",
-              "path": "/docs/models-list/medllama2",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "models-list/Mixtral",
-              "path": "/docs/models-list/Mixtral",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "models-list/texte",
-              "path": "/docs/models-list/texte",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "models-list/TinyLlama",
-              "path": "/docs/models-list/TinyLlama",
+              "id": "outils/Docker",
+              "path": "/docs/outils/Docker",
               "sidebar": "tutorialSidebar"
             },
             {

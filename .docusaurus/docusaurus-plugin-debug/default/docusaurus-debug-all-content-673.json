@@ -11,8 +11,8 @@
           "className": "docs-version-current",
           "path": "/docs",
           "tagsPath": "/docs/tags",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
-          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/fr/docusaurus-plugin-content-docs/current",
+          "editUrl": "https://github.com/igorschlum/ollama.fr/tree/main/docs",
+          "editUrlLocalized": "https://github.com/igorschlum/ollama.fr/tree/main/i18n/fr/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "/Users/igor/Dave/Ollama/ollama.fr/sidebars.js",
@@ -29,7 +29,7 @@
               "permalink": "/docs/En-savoir-plus/glossaire",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/En-savoir-plus/glossaire.md",
+              "editUrl": "https://github.com/igorschlum/ollama.fr/tree/main/docs/En-savoir-plus/glossaire.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -56,7 +56,7 @@
               "permalink": "/docs/En-savoir-plus/instruct",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/En-savoir-plus/instruct.md",
+              "editUrl": "https://github.com/igorschlum/ollama.fr/tree/main/docs/En-savoir-plus/instruct.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -83,7 +83,7 @@
               "permalink": "/docs/En-savoir-plus/Paramètres",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/En-savoir-plus/Paramètres.md",
+              "editUrl": "https://github.com/igorschlum/ollama.fr/tree/main/docs/En-savoir-plus/Paramètres.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -110,7 +110,7 @@
               "permalink": "/docs/En-savoir-plus/Quantization",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/En-savoir-plus/Quantization.md",
+              "editUrl": "https://github.com/igorschlum/ollama.fr/tree/main/docs/En-savoir-plus/Quantization.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -130,14 +130,14 @@
             {
               "id": "En-savoir-plus/rag",
               "title": "Rag",
-              "description": "- La Génération Augmentée de Récupération (RAG) est une technique utilisée en Intelligence Artificielle pour aider les machines à comprendre et à répondre aux questions en langage naturel, c’est-à-dire le langage que nous utilisons tous les jours.",
+              "description": "- C’est une méthode utilisée pour améliorer les résultats des grands modèles de langage, en les enrichissants avec par exemple les données de votre entreprise ou de vos travaux de recherche personnels",
               "source": "@site/docs/En-savoir-plus/rag.md",
               "sourceDirName": "En-savoir-plus",
               "slug": "/En-savoir-plus/rag",
               "permalink": "/docs/En-savoir-plus/rag",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/En-savoir-plus/rag.md",
+              "editUrl": "https://github.com/igorschlum/ollama.fr/tree/main/docs/En-savoir-plus/rag.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 5,
@@ -164,7 +164,7 @@
               "permalink": "/docs/intro",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+              "editUrl": "https://github.com/igorschlum/ollama.fr/tree/main/docs/intro.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -178,115 +178,16 @@
               }
             },
             {
-              "id": "models-list/ecole",
-              "title": "ecole",
-              "description": "",
-              "source": "@site/docs/models-list/ecole.md",
+              "id": "models-list/Code",
+              "title": "Code",
+              "description": "CodeLlama :",
+              "source": "@site/docs/models-list/Code.md",
               "sourceDirName": "models-list",
-              "slug": "/models-list/ecole",
-              "permalink": "/docs/models-list/ecole",
+              "slug": "/models-list/Code",
+              "permalink": "/docs/models-list/Code",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/models-list/ecole.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Médecin",
-                "permalink": "/docs/models-list/Médecin"
-              },
-              "next": {
-                "title": "image",
-                "permalink": "/docs/models-list/image"
-              }
-            },
-            {
-              "id": "models-list/Général",
-              "title": "Général",
-              "description": "",
-              "source": "@site/docs/models-list/Général.md",
-              "sourceDirName": "models-list",
-              "slug": "/models-list/Général",
-              "permalink": "/docs/models-list/Général",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/models-list/Général.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Mixtral",
-                "permalink": "/docs/models-list/Mixtral"
-              },
-              "next": {
-                "title": "Médecin",
-                "permalink": "/docs/models-list/Médecin"
-              }
-            },
-            {
-              "id": "models-list/image",
-              "title": "image",
-              "description": "",
-              "source": "@site/docs/models-list/image.md",
-              "sourceDirName": "models-list",
-              "slug": "/models-list/image",
-              "permalink": "/docs/models-list/image",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/models-list/image.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "ecole",
-                "permalink": "/docs/models-list/ecole"
-              },
-              "next": {
-                "title": "medllama2",
-                "permalink": "/docs/models-list/medllama2"
-              }
-            },
-            {
-              "id": "models-list/Llama2",
-              "title": "Llama2 par Meta",
-              "description": "*le LLM Llama2 est un modèle de langage naturel développé par des",
-              "source": "@site/docs/models-list/Llama2.md",
-              "sourceDirName": "models-list",
-              "slug": "/models-list/Llama2",
-              "permalink": "/docs/models-list/Llama2",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/models-list/Llama2.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Bibliothèque",
-                "permalink": "/docs/category/bibliothèque"
-              },
-              "next": {
-                "title": "TinyLlama",
-                "permalink": "/docs/models-list/TinyLlama"
-              }
-            },
-            {
-              "id": "models-list/Llava",
-              "title": "Llava",
-              "description": "*Le modèle Llava est basé sur des réseaux neuronaux et",
-              "source": "@site/docs/models-list/Llava.md",
-              "sourceDirName": "models-list",
-              "slug": "/models-list/Llava",
-              "permalink": "/docs/models-list/Llava",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/models-list/Llava.md",
+              "editUrl": "https://github.com/igorschlum/ollama.fr/tree/main/docs/models-list/Code.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -295,73 +196,25 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "TinyLlama",
-                "permalink": "/docs/models-list/TinyLlama"
+                "title": "Image",
+                "permalink": "/docs/models-list/Image"
               },
               "next": {
-                "title": "Mixtral",
-                "permalink": "/docs/models-list/Mixtral"
+                "title": "Education",
+                "permalink": "/docs/models-list/Education"
               }
             },
             {
-              "id": "models-list/Médecin",
-              "title": "Médecin",
-              "description": "",
-              "source": "@site/docs/models-list/Médecin.md",
+              "id": "models-list/Education",
+              "title": "Education",
+              "description": "Llama-Pro :",
+              "source": "@site/docs/models-list/Education.md",
               "sourceDirName": "models-list",
-              "slug": "/models-list/Médecin",
-              "permalink": "/docs/models-list/Médecin",
+              "slug": "/models-list/Education",
+              "permalink": "/docs/models-list/Education",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/models-list/Médecin.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Général",
-                "permalink": "/docs/models-list/Général"
-              },
-              "next": {
-                "title": "ecole",
-                "permalink": "/docs/models-list/ecole"
-              }
-            },
-            {
-              "id": "models-list/medllama2",
-              "title": "medllama2",
-              "description": "",
-              "source": "@site/docs/models-list/medllama2.md",
-              "sourceDirName": "models-list",
-              "slug": "/models-list/medllama2",
-              "permalink": "/docs/models-list/medllama2",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/models-list/medllama2.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "image",
-                "permalink": "/docs/models-list/image"
-              },
-              "next": {
-                "title": "texte",
-                "permalink": "/docs/models-list/texte"
-              }
-            },
-            {
-              "id": "models-list/Mixtral",
-              "title": "Mixtral",
-              "description": "Mixtral est une intelligence artificielle (IA) avancée qui se distingue dans le monde de l’IA. Voici quelques points clés à propos de Mixtral :",
-              "source": "@site/docs/models-list/Mixtral.md",
-              "sourceDirName": "models-list",
-              "slug": "/models-list/Mixtral",
-              "permalink": "/docs/models-list/Mixtral",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/models-list/Mixtral.md",
+              "editUrl": "https://github.com/igorschlum/ollama.fr/tree/main/docs/models-list/Education.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -370,49 +223,52 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Llava",
-                "permalink": "/docs/models-list/Llava"
+                "title": "Code",
+                "permalink": "/docs/models-list/Code"
               },
               "next": {
-                "title": "Général",
-                "permalink": "/docs/models-list/Général"
+                "title": "Médecin",
+                "permalink": "/docs/models-list/Médecin"
               }
             },
             {
-              "id": "models-list/texte",
-              "title": "texte",
-              "description": "",
-              "source": "@site/docs/models-list/texte.md",
+              "id": "models-list/Général",
+              "title": "Général",
+              "description": "Llama2",
+              "source": "@site/docs/models-list/Général.md",
               "sourceDirName": "models-list",
-              "slug": "/models-list/texte",
-              "permalink": "/docs/models-list/texte",
+              "slug": "/models-list/Général",
+              "permalink": "/docs/models-list/Général",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/models-list/texte.md",
+              "editUrl": "https://github.com/igorschlum/ollama.fr/tree/main/docs/models-list/Général.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "medllama2",
-                "permalink": "/docs/models-list/medllama2"
+                "title": "Bibliothèque",
+                "permalink": "/docs/category/bibliothèque"
               },
               "next": {
-                "title": "Usage",
-                "permalink": "/docs/category/usage"
+                "title": "Image",
+                "permalink": "/docs/models-list/Image"
               }
             },
             {
-              "id": "models-list/TinyLlama",
-              "title": "TinyLlama",
-              "description": "TinyLlama est un modèle de langage compact et open-source qui se distingue dans le monde de l’intelligence artificielle. Voici quelques points clés à propos de TinyLlama :",
-              "source": "@site/docs/models-list/TinyLlama.md",
+              "id": "models-list/Image",
+              "title": "Image",
+              "description": "Llava",
+              "source": "@site/docs/models-list/Image.md",
               "sourceDirName": "models-list",
-              "slug": "/models-list/TinyLlama",
-              "permalink": "/docs/models-list/TinyLlama",
+              "slug": "/models-list/Image",
+              "permalink": "/docs/models-list/Image",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/models-list/TinyLlama.md",
+              "editUrl": "https://github.com/igorschlum/ollama.fr/tree/main/docs/models-list/Image.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -421,12 +277,59 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Llama2 par Meta",
-                "permalink": "/docs/models-list/Llama2"
+                "title": "Général",
+                "permalink": "/docs/models-list/Général"
               },
               "next": {
-                "title": "Llava",
-                "permalink": "/docs/models-list/Llava"
+                "title": "Code",
+                "permalink": "/docs/models-list/Code"
+              }
+            },
+            {
+              "id": "models-list/Médecin",
+              "title": "Médecin",
+              "description": "Meditron :",
+              "source": "@site/docs/models-list/Médecin.md",
+              "sourceDirName": "models-list",
+              "slug": "/models-list/Médecin",
+              "permalink": "/docs/models-list/Médecin",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/igorschlum/ollama.fr/tree/main/docs/models-list/Médecin.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Education",
+                "permalink": "/docs/models-list/Education"
+              },
+              "next": {
+                "title": "Usage",
+                "permalink": "/docs/category/usage"
+              }
+            },
+            {
+              "id": "outils/Docker",
+              "title": "Docker",
+              "description": "",
+              "source": "@site/docs/outils/Docker.md",
+              "sourceDirName": "outils",
+              "slug": "/outils/Docker",
+              "permalink": "/docs/outils/Docker",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/igorschlum/ollama.fr/tree/main/docs/outils/Docker.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Python",
+                "permalink": "/docs/outils/python"
               }
             },
             {
@@ -439,12 +342,12 @@
               "permalink": "/docs/outils/Github",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/outils/Github.md",
+              "editUrl": "https://github.com/igorschlum/ollama.fr/tree/main/docs/outils/Github.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar_position": 2
+                "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -466,7 +369,7 @@
               "permalink": "/docs/outils/python",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/outils/python.md",
+              "editUrl": "https://github.com/igorschlum/ollama.fr/tree/main/docs/outils/python.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -477,30 +380,37 @@
               "previous": {
                 "title": "GitHub",
                 "permalink": "/docs/outils/Github"
+              },
+              "next": {
+                "title": "Docker",
+                "permalink": "/docs/outils/Docker"
               }
             },
             {
               "id": "Usage/chatbox",
-              "title": "chatbox",
-              "description": "",
+              "title": "ChatBox",
+              "description": "Chatbox est un chatbot alimenté par l'intelligence artificielle. Nous allons voir ici, comment utiliser un modèle ollama, lancé localement, sur chatbox pour avoir une interface beaucoup plus esthétique.",
               "source": "@site/docs/Usage/chatbox.md",
               "sourceDirName": "Usage",
               "slug": "/Usage/chatbox",
               "permalink": "/docs/Usage/chatbox",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Usage/chatbox.md",
+              "editUrl": "https://github.com/igorschlum/ollama.fr/tree/main/docs/Usage/chatbox.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Import Modèle",
-                "permalink": "/docs/Usage/Import Modèle"
+                "title": "Usage",
+                "permalink": "/docs/category/usage"
               },
               "next": {
-                "title": "vs code",
-                "permalink": "/docs/Usage/vs code"
+                "title": "Entrainer un modèle",
+                "permalink": "/docs/Usage/Entrainer un modèle"
               }
             },
             {
@@ -513,7 +423,7 @@
               "permalink": "/docs/Usage/Entrainer un modèle",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Usage/Entrainer un modèle.md",
+              "editUrl": "https://github.com/igorschlum/ollama.fr/tree/main/docs/Usage/Entrainer un modèle.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -522,8 +432,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Usage",
-                "permalink": "/docs/category/usage"
+                "title": "ChatBox",
+                "permalink": "/docs/Usage/chatbox"
               },
               "next": {
                 "title": "ModelFile",
@@ -540,7 +450,7 @@
               "permalink": "/docs/Usage/Import Modèle",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Usage/Import Modèle.md",
+              "editUrl": "https://github.com/igorschlum/ollama.fr/tree/main/docs/Usage/Import Modèle.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -550,8 +460,8 @@
                 "permalink": "/docs/Usage/ModelFile"
               },
               "next": {
-                "title": "chatbox",
-                "permalink": "/docs/Usage/chatbox"
+                "title": "vs code",
+                "permalink": "/docs/Usage/vs code"
               }
             },
             {
@@ -564,7 +474,7 @@
               "permalink": "/docs/Usage/ModelFile",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Usage/ModelFile.md",
+              "editUrl": "https://github.com/igorschlum/ollama.fr/tree/main/docs/Usage/ModelFile.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 5,
@@ -591,14 +501,14 @@
               "permalink": "/docs/Usage/vs code",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Usage/vs code.md",
+              "editUrl": "https://github.com/igorschlum/ollama.fr/tree/main/docs/Usage/vs code.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "chatbox",
-                "permalink": "/docs/Usage/chatbox"
+                "title": "Import Modèle",
+                "permalink": "/docs/Usage/Import Modèle"
               },
               "next": {
                 "title": "En savoir plus",
@@ -621,43 +531,23 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "models-list/Llama2"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "models-list/TinyLlama"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "models-list/Llava"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "models-list/Mixtral"
-                  },
-                  {
-                    "type": "doc",
                     "id": "models-list/Général"
                   },
                   {
                     "type": "doc",
+                    "id": "models-list/Image"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "models-list/Code"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "models-list/Education"
+                  },
+                  {
+                    "type": "doc",
                     "id": "models-list/Médecin"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "models-list/ecole"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "models-list/image"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "models-list/medllama2"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "models-list/texte"
                   }
                 ],
                 "link": {
@@ -675,6 +565,10 @@
                 "items": [
                   {
                     "type": "doc",
+                    "id": "Usage/chatbox"
+                  },
+                  {
+                    "type": "doc",
                     "id": "Usage/Entrainer un modèle"
                   },
                   {
@@ -684,10 +578,6 @@
                   {
                     "type": "doc",
                     "id": "Usage/Import Modèle"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Usage/chatbox"
                   },
                   {
                     "type": "doc",
@@ -746,6 +636,10 @@
                   {
                     "type": "doc",
                     "id": "outils/python"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "outils/Docker"
                   }
                 ]
               }
@@ -763,7 +657,7 @@
           "id": "welcome",
           "metadata": {
             "permalink": "/blog/welcome",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-26-welcome/index.md",
+            "editUrl": "https://github.com/igorschlum/ollama.fr/blob/main/blog/2021-08-26-welcome/index.md",
             "source": "@site/blog/2021-08-26-welcome/index.md",
             "title": "Welcome",
             "description": "Docusaurus blogging features are powered by the blog plugin.",
@@ -826,7 +720,7 @@
           "id": "mdx-blog-post",
           "metadata": {
             "permalink": "/blog/mdx-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-01-mdx-blog-post.mdx",
+            "editUrl": "https://github.com/igorschlum/ollama.fr/blob/main/blog/2021-08-01-mdx-blog-post.mdx",
             "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
             "title": "MDX Blog Post",
             "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
@@ -875,7 +769,7 @@
           "id": "long-blog-post",
           "metadata": {
             "permalink": "/blog/long-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-29-long-blog-post.md",
+            "editUrl": "https://github.com/igorschlum/ollama.fr/blob/main/blog/2019-05-29-long-blog-post.md",
             "source": "@site/blog/2019-05-29-long-blog-post.md",
             "title": "Long Blog Post",
             "description": "This is the summary of a very long blog post,",
@@ -927,7 +821,7 @@
           "id": "first-blog-post",
           "metadata": {
             "permalink": "/blog/first-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-28-first-blog-post.md",
+            "editUrl": "https://github.com/igorschlum/ollama.fr/blob/main/blog/2019-05-28-first-blog-post.md",
             "source": "@site/blog/2019-05-28-first-blog-post.md",
             "title": "First Blog Post",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",

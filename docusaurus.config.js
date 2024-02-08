@@ -44,7 +44,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/igorschlum/ollama.fr/',
+            'https://github.com/igorschlum/ollama.fr/tree/main/',
         },
         blog: {
           showReadingTime: true,

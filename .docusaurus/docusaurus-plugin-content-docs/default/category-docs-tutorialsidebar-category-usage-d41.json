@@ -4,12 +4,12 @@
   "permalink": "/docs/category/usage",
   "navigation": {
     "previous": {
-      "title": "texte",
-      "permalink": "/docs/models-list/texte"
+      "title": "Médecin",
+      "permalink": "/docs/models-list/Médecin"
     },
     "next": {
-      "title": "Entrainer un modèle",
-      "permalink": "/docs/Usage/Entrainer un modèle"
+      "title": "ChatBox",
+      "permalink": "/docs/Usage/chatbox"
     }
   }
 }

@@ -99,15 +99,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '443'),
+    component: ComponentCreator('/docs', '19b'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '91d'),
+        component: ComponentCreator('/docs', '798'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'c6f'),
+            component: ComponentCreator('/docs', '330'),
             routes: [
               {
                 path: '/docs/category/bibliothèque',
@@ -164,8 +164,14 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/models-list/ecole',
-                component: ComponentCreator('/docs/models-list/ecole', 'c00'),
+                path: '/docs/models-list/Code',
+                component: ComponentCreator('/docs/models-list/Code', '9ca'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/models-list/Education',
+                component: ComponentCreator('/docs/models-list/Education', '268'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -176,20 +182,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/models-list/image',
-                component: ComponentCreator('/docs/models-list/image', '37a'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/models-list/Llama2',
-                component: ComponentCreator('/docs/models-list/Llama2', '7a2'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/models-list/Llava',
-                component: ComponentCreator('/docs/models-list/Llava', 'c00'),
+                path: '/docs/models-list/Image',
+                component: ComponentCreator('/docs/models-list/Image', '5f6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -200,26 +194,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/models-list/medllama2',
-                component: ComponentCreator('/docs/models-list/medllama2', 'e76'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/models-list/Mixtral',
-                component: ComponentCreator('/docs/models-list/Mixtral', '26a'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/models-list/texte',
-                component: ComponentCreator('/docs/models-list/texte', 'a47'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/models-list/TinyLlama',
-                component: ComponentCreator('/docs/models-list/TinyLlama', 'cde'),
+                path: '/docs/outils/Docker',
+                component: ComponentCreator('/docs/outils/Docker', '54c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

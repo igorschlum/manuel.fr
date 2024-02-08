@@ -1,24 +1,27 @@
 {
   "id": "Usage/chatbox",
-  "title": "chatbox",
-  "description": "",
+  "title": "ChatBox",
+  "description": "Chatbox est un chatbot alimenté par l'intelligence artificielle. Nous allons voir ici, comment utiliser un modèle ollama, lancé localement, sur chatbox pour avoir une interface beaucoup plus esthétique.",
   "source": "@site/docs/Usage/chatbox.md",
   "sourceDirName": "Usage",
   "slug": "/Usage/chatbox",
   "permalink": "/docs/Usage/chatbox",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Usage/chatbox.md",
+  "editUrl": "https://github.com/igorschlum/ollama.fr/tree/main/docs/Usage/chatbox.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Import Modèle",
-    "permalink": "/docs/Usage/Import Modèle"
+    "title": "Usage",
+    "permalink": "/docs/category/usage"
   },
   "next": {
-    "title": "vs code",
-    "permalink": "/docs/Usage/vs code"
+    "title": "Entrainer un modèle",
+    "permalink": "/docs/Usage/Entrainer un modèle"
   }
 }

@@ -24,34 +24,6 @@
         "items": [
           {
             "type": "link",
-            "label": "Llama2 par Meta",
-            "href": "/docs/models-list/Llama2",
-            "docId": "models-list/Llama2",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "TinyLlama",
-            "href": "/docs/models-list/TinyLlama",
-            "docId": "models-list/TinyLlama",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "Llava",
-            "href": "/docs/models-list/Llava",
-            "docId": "models-list/Llava",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "Mixtral",
-            "href": "/docs/models-list/Mixtral",
-            "docId": "models-list/Mixtral",
-            "unlisted": false
-          },
-          {
-            "type": "link",
             "label": "Général",
             "href": "/docs/models-list/Général",
             "docId": "models-list/Général",
@@ -59,37 +31,30 @@
           },
           {
             "type": "link",
+            "label": "Image",
+            "href": "/docs/models-list/Image",
+            "docId": "models-list/Image",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Code",
+            "href": "/docs/models-list/Code",
+            "docId": "models-list/Code",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Education",
+            "href": "/docs/models-list/Education",
+            "docId": "models-list/Education",
+            "unlisted": false
+          },
+          {
+            "type": "link",
             "label": "Médecin",
             "href": "/docs/models-list/Médecin",
             "docId": "models-list/Médecin",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "ecole",
-            "href": "/docs/models-list/ecole",
-            "docId": "models-list/ecole",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "image",
-            "href": "/docs/models-list/image",
-            "docId": "models-list/image",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "medllama2",
-            "href": "/docs/models-list/medllama2",
-            "docId": "models-list/medllama2",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "texte",
-            "href": "/docs/models-list/texte",
-            "docId": "models-list/texte",
             "unlisted": false
           }
         ],
@@ -101,6 +66,13 @@
         "collapsible": true,
         "collapsed": true,
         "items": [
+          {
+            "type": "link",
+            "label": "ChatBox",
+            "href": "/docs/Usage/chatbox",
+            "docId": "Usage/chatbox",
+            "unlisted": false
+          },
           {
             "type": "link",
             "label": "Entrainer un modèle",
@@ -120,13 +92,6 @@
             "label": "Import Modèle",
             "href": "/docs/Usage/Import Modèle",
             "docId": "Usage/Import Modèle",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "chatbox",
-            "href": "/docs/Usage/chatbox",
-            "docId": "Usage/chatbox",
             "unlisted": false
           },
           {
@@ -202,6 +167,13 @@
             "href": "/docs/outils/python",
             "docId": "outils/python",
             "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Docker",
+            "href": "/docs/outils/Docker",
+            "docId": "outils/Docker",
+            "unlisted": false
           }
         ]
       }
@@ -235,7 +207,7 @@
     "En-savoir-plus/rag": {
       "id": "En-savoir-plus/rag",
       "title": "Rag",
-      "description": "- La Génération Augmentée de Récupération (RAG) est une technique utilisée en Intelligence Artificielle pour aider les machines à comprendre et à répondre aux questions en langage naturel, c’est-à-dire le langage que nous utilisons tous les jours.",
+      "description": "- C’est une méthode utilisée pour améliorer les résultats des grands modèles de langage, en les enrichissants avec par exemple les données de votre entreprise ou de vos travaux de recherche personnels",
       "sidebar": "tutorialSidebar"
     },
     "intro": {
@@ -244,64 +216,40 @@
       "description": "Nous allons découvrir ensemble l'intelligence artificielle sur Mac.",
       "sidebar": "tutorialSidebar"
     },
-    "models-list/ecole": {
-      "id": "models-list/ecole",
-      "title": "ecole",
-      "description": "",
+    "models-list/Code": {
+      "id": "models-list/Code",
+      "title": "Code",
+      "description": "CodeLlama :",
+      "sidebar": "tutorialSidebar"
+    },
+    "models-list/Education": {
+      "id": "models-list/Education",
+      "title": "Education",
+      "description": "Llama-Pro :",
       "sidebar": "tutorialSidebar"
     },
     "models-list/Général": {
       "id": "models-list/Général",
       "title": "Général",
-      "description": "",
+      "description": "Llama2",
       "sidebar": "tutorialSidebar"
     },
-    "models-list/image": {
-      "id": "models-list/image",
-      "title": "image",
-      "description": "",
-      "sidebar": "tutorialSidebar"
-    },
-    "models-list/Llama2": {
-      "id": "models-list/Llama2",
-      "title": "Llama2 par Meta",
-      "description": "*le LLM Llama2 est un modèle de langage naturel développé par des",
-      "sidebar": "tutorialSidebar"
-    },
-    "models-list/Llava": {
-      "id": "models-list/Llava",
-      "title": "Llava",
-      "description": "*Le modèle Llava est basé sur des réseaux neuronaux et",
+    "models-list/Image": {
+      "id": "models-list/Image",
+      "title": "Image",
+      "description": "Llava",
       "sidebar": "tutorialSidebar"
     },
     "models-list/Médecin": {
       "id": "models-list/Médecin",
       "title": "Médecin",
+      "description": "Meditron :",
+      "sidebar": "tutorialSidebar"
+    },
+    "outils/Docker": {
+      "id": "outils/Docker",
+      "title": "Docker",
       "description": "",
-      "sidebar": "tutorialSidebar"
-    },
-    "models-list/medllama2": {
-      "id": "models-list/medllama2",
-      "title": "medllama2",
-      "description": "",
-      "sidebar": "tutorialSidebar"
-    },
-    "models-list/Mixtral": {
-      "id": "models-list/Mixtral",
-      "title": "Mixtral",
-      "description": "Mixtral est une intelligence artificielle (IA) avancée qui se distingue dans le monde de l’IA. Voici quelques points clés à propos de Mixtral :",
-      "sidebar": "tutorialSidebar"
-    },
-    "models-list/texte": {
-      "id": "models-list/texte",
-      "title": "texte",
-      "description": "",
-      "sidebar": "tutorialSidebar"
-    },
-    "models-list/TinyLlama": {
-      "id": "models-list/TinyLlama",
-      "title": "TinyLlama",
-      "description": "TinyLlama est un modèle de langage compact et open-source qui se distingue dans le monde de l’intelligence artificielle. Voici quelques points clés à propos de TinyLlama :",
       "sidebar": "tutorialSidebar"
     },
     "outils/Github": {
@@ -318,8 +266,8 @@
     },
     "Usage/chatbox": {
       "id": "Usage/chatbox",
-      "title": "chatbox",
-      "description": "",
+      "title": "ChatBox",
+      "description": "Chatbox est un chatbot alimenté par l'intelligence artificielle. Nous allons voir ici, comment utiliser un modèle ollama, lancé localement, sur chatbox pour avoir une interface beaucoup plus esthétique.",
       "sidebar": "tutorialSidebar"
     },
     "Usage/Entrainer un modèle": {

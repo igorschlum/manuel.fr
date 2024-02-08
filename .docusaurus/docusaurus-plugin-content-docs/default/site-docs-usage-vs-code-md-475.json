@@ -8,14 +8,14 @@
   "permalink": "/docs/Usage/vs code",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Usage/vs code.md",
+  "editUrl": "https://github.com/igorschlum/ollama.fr/tree/main/docs/Usage/vs code.md",
   "tags": [],
   "version": "current",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "chatbox",
-    "permalink": "/docs/Usage/chatbox"
+    "title": "Import Modèle",
+    "permalink": "/docs/Usage/Import Modèle"
   },
   "next": {
     "title": "En savoir plus",

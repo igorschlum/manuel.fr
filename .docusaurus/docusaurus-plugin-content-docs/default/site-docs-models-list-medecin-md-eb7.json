@@ -1,24 +1,27 @@
 {
   "id": "models-list/Médecin",
   "title": "Médecin",
-  "description": "",
+  "description": "Meditron :",
   "source": "@site/docs/models-list/Médecin.md",
   "sourceDirName": "models-list",
   "slug": "/models-list/Médecin",
   "permalink": "/docs/models-list/Médecin",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/models-list/Médecin.md",
+  "editUrl": "https://github.com/igorschlum/ollama.fr/tree/main/docs/models-list/Médecin.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Général",
-    "permalink": "/docs/models-list/Général"
+    "title": "Education",
+    "permalink": "/docs/models-list/Education"
   },
   "next": {
-    "title": "ecole",
-    "permalink": "/docs/models-list/ecole"
+    "title": "Usage",
+    "permalink": "/docs/category/usage"
   }
 }

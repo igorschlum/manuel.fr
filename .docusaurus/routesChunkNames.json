@@ -186,17 +186,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-443": {
+  "/docs-19b": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docs-804-17e"
     }
   },
-  "/docs-91d": {
+  "/docs-798": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "version": "version---docs-935-398"
   },
-  "/docs-c6f": {
+  "/docs-330": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/category/bibliothèque-724": {
@@ -235,45 +235,29 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
   },
-  "/docs/models-list/ecole-c00": {
+  "/docs/models-list/Code-9ca": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-models-list-ecole-79-c-c44"
+    "content": "content---docs-models-list-codea-40-c2a"
+  },
+  "/docs/models-list/Education-268": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-models-list-education-8-e-2-c83"
   },
   "/docs/models-list/Général-e51": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-models-list-general-467-6da"
   },
-  "/docs/models-list/image-37a": {
+  "/docs/models-list/Image-5f6": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-models-list-imageb-88-a4d"
-  },
-  "/docs/models-list/Llama2-7a2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-models-list-llama-273-f-139"
-  },
-  "/docs/models-list/Llava-c00": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-models-list-llava-365-67c"
+    "content": "content---docs-models-list-image-584-454"
   },
   "/docs/models-list/Médecin-372": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-models-list-medecineb-7-992"
   },
-  "/docs/models-list/medllama2-e76": {
+  "/docs/outils/Docker-54c": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-models-list-medllama-2-e-27-03f"
-  },
-  "/docs/models-list/Mixtral-26a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-models-list-mixtral-803-22c"
-  },
-  "/docs/models-list/texte-a47": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-models-list-textea-48-87d"
-  },
-  "/docs/models-list/TinyLlama-cde": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-models-list-tiny-llama-5-ac-d07"
+    "content": "content---docs-outils-docker-7-e-6-a3e"
   },
   "/docs/outils/Github-f17": {
     "__comp": "__comp---theme-doc-item-178-a40",

@@ -8,7 +8,7 @@
   "permalink": "/docs/Usage/Import Modèle",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Usage/Import Modèle.md",
+  "editUrl": "https://github.com/igorschlum/ollama.fr/tree/main/docs/Usage/Import Modèle.md",
   "tags": [],
   "version": "current",
   "frontMatter": {},
@@ -18,7 +18,7 @@
     "permalink": "/docs/Usage/ModelFile"
   },
   "next": {
-    "title": "chatbox",
-    "permalink": "/docs/Usage/chatbox"
+    "title": "vs code",
+    "permalink": "/docs/Usage/vs code"
   }
 }

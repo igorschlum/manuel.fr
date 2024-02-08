@@ -1,0 +1,20 @@
+{
+  "id": "outils/Docker",
+  "title": "Docker",
+  "description": "",
+  "source": "@site/docs/outils/Docker.md",
+  "sourceDirName": "outils",
+  "slug": "/outils/Docker",
+  "permalink": "/docs/outils/Docker",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/igorschlum/ollama.fr/tree/main/docs/outils/Docker.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Python",
+    "permalink": "/docs/outils/python"
+  }
+}

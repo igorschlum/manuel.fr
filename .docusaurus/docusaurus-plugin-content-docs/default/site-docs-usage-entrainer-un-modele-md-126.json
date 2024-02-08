@@ -8,7 +8,7 @@
   "permalink": "/docs/Usage/Entrainer un modèle",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Usage/Entrainer un modèle.md",
+  "editUrl": "https://github.com/igorschlum/ollama.fr/tree/main/docs/Usage/Entrainer un modèle.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,
@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Usage",
-    "permalink": "/docs/category/usage"
+    "title": "ChatBox",
+    "permalink": "/docs/Usage/chatbox"
   },
   "next": {
     "title": "ModelFile",
