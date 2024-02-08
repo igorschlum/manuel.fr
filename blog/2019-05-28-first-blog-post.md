@@ -10,3 +10,4 @@ tags: [hola, docusaurus]
 ---
 
 Ne tenez pas compte des auteurs, pour l'instant, le blog n'est pas en place.
+J'essaie de travailler sur plusieurs machines à la fois.
