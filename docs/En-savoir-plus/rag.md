@@ -5,17 +5,19 @@ sidebar_position: 5
 # Rag
 
 
-- *La **Génération Augmentée de Récupération (RAG)** est une technique utilisée en Intelligence Artificielle pour aider les machines à comprendre et à répondre aux questions en langage naturel, c’est-à-dire le langage que nous utilisons tous les jours.*
+- *C’est une méthode utilisée pour améliorer les résultats des grands modèles de langage, en les enrichissants avec par exemple les données de votre entreprise ou de vos travaux de recherche personnels*
 
-- *Imaginez que vous avez une grande bibliothèque remplie de livres. Maintenant, supposez que quelqu’un vous pose une question et que la réponse se trouve quelque part dans l’un de ces livres. Le problème est que vous ne savez pas exactement dans quel livre se trouve la réponse.*
+- *Pour cela, il faut nourrir le modèle choisi en lui ingurgitant les données qui doivent être prises en compte dans ses réponses.*
 
-- *C’est là que le RAG entre en jeu. La première étape du RAG est comme un super bibliothécaire qui peut rapidement parcourir tous les livres et trouver les plus pertinents pour la question posée. C’est ce qu’on appelle l’**étape de récupération**.*
+Voici une méthode pas à pas pour le faire avec Ollama, sachant que cette méthode est encore réservée aux développeurs.
 
-- *Une fois que le super bibliothécaire a trouvé les bons livres, la deuxième étape du RAG intervient. Cette étape est comme un écrivain talentueux qui peut lire les informations de ces livres et rédiger une réponse claire et concise à la question. C’est ce qu’on appelle l’**étape de génération**.*
+- Ces modèles peuvent parfois devenir incomplets ou générer des réponses incorrectes car ils sont limités aux données d’entraînement utilisées pour créer le modèle.
 
-- *En combinant ces deux étapes, le RAG peut répondre à des questions complexes en utilisant une grande quantité d’informations. C’est comme avoir un super bibliothécaire et un écrivain talentueux à votre disposition pour répondre à toutes vos questions.*
+- Le modèle RAG obtient les faits les plus à jour et fiables.
 
-Vous trouverez [ici](https://www.cohesity.com/fr/glossary/retrieval-augmented-generation-rag/), une explication plus détaillée.
+- Vous pouvez voir d’où le modèle a obtenu ses informations, ce qui donne plus de crédibilité à ce qu’il génère.
+
+Vous trouverez [ici](https://www.youtube.com/watch?v=T-D1OfcDW1M), une explication plus détaillée.
 
 ## Comment faire ?
 
