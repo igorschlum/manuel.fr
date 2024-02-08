@@ -83,8 +83,8 @@ export default {
           "title": "Community",
           "items": [
             {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
+              "label": "Stack Ollama.ai",
+              "href": "https://ollama.ai"
             },
             {
               "label": "Discord",
@@ -110,7 +110,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2024 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2024 Igor Schlumberger."
     },
     "prism": {
       "theme": {
