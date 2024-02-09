@@ -1,8 +1,9 @@
 ---
 sidebar_position: 5
 ---
+Pour installer Docusaurus et d'autres programmes sur votre ordinateur, il faut d'abord installer Node et npm
 
-1. Pour installer npm sur Mac, vous devez d’abord installer Node.js car npm est installé avec Node.js. Voici les étapes pour l’installation :
+1. Quand vous installez Node.js cela installe également npm. Voici les étapes pour l’installation :
 
 2. Téléchargez Node.js : Vous pouvez télécharger Node.js à partir de leur site officiel. Assurez-vous de télécharger la version LTS (Long Term Support).
 
