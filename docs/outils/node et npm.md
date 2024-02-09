@@ -5,7 +5,7 @@ Pour installer Docusaurus et d'autres programmes sur votre ordinateur, il faut d
 
 1. Quand vous installez Node.js cela installe également npm. Voici les étapes pour l’installation :
 
-2. Téléchargez Node.js : Vous pouvez télécharger Node.js à partir de leur site officiel. Assurez-vous de télécharger la version LTS (Long Term Support).
+2. Téléchargez Node.js : Vous pouvez télécharger Node.js en cliquant [ici](https://nodejs.org/dist/v20.11.0/node-v20.11.0.pkg).
 
 3. Installez Node.js : Ouvrez le fichier téléchargé et suivez les instructions pour installer Node.js.
 
