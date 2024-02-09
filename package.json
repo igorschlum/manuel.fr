@@ -1,6 +1,6 @@
 {
-  "name": "schlum",
-  "version": "0.0.0",
+  "name": "Ollama.fr",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",

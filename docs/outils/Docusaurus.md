@@ -10,7 +10,7 @@ Pour installer et commencer à utiliser Docusaurus sur votre Mac, voici les éta
 
 ## Prérequis
 
-Vous aurez besoin de Node.js version 18.0 ou supérieure, nous en avons fait une [page](https://www.ollama.fr/docs/outils/npm).
+Vous aurez besoin de Node.js version 18.0 ou supérieure, nous en avons fait une [page](https://www.ollama.fr/docs/outils/node%20et%20npm).
 
 ## Générez un nouveau site
 
