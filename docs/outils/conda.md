@@ -16,7 +16,7 @@ L'installation de Conda sur macOS est simple et rapide :
 
 1. Téléchargez l'installeur
 
-Rendez-vous sur la page de téléchargement d'Anaconda : https://www.anaconda.com/download/
+Rendez-vous sur la page de [téléchargement d'Anaconda](https://www.anaconda.com/download/)
 Sélectionnez MacOS et choisissez l'installateur Anaconda ou Miniconda.
 Anaconda inclut une suite d'outils pour la science des données, tandis que Miniconda est une installation minimale de Conda.
 2. Lancez l'installation
@@ -33,8 +33,9 @@ conda list
 Vous devriez voir une liste des paquets installés avec Conda.
 Pour plus d'informations:
 
-Consultez la documentation officielle de Conda : https://docs.conda.io/
-Regardez des tutoriels vidéo sur YouTube : <URL non valide supprimée>
+Consultez la [documentation officielle de Conda](https://docs.conda.io/)
+
+
 Astuces:
 
 Utilisez Anaconda Navigator : Anaconda Navigator est une interface graphique qui facilite la gestion des environnements et des paquets Conda.

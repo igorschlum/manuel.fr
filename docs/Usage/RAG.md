@@ -6,7 +6,7 @@ sidebar_position: 4
 
 Pour enrichir un modèle, nous allons utiliser le RAG (voir la page dans En savoir plus)
 
-On va commencer par installer conda (allez voir dans les outils, c'est expliqué)
+On va commencer par [installer conda](/docs/outils/conda)
 
 Ensuite, placez-vous dans un dossier sur votre ordinateur dans lequel on va travailler le plus simple est de l'installer où vous voulez, et d'ouvrir le Terminal, de taper *cd* et de faire glisser le nom du dossier vide à côté de cd et d'appuyer sur la touche return. Vous devriez être dans votre dossier de travail.
 
