@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 2
 ---
 Pour installer Docusaurus et d'autres programmes sur votre ordinateur, il faut d'abord installer Node et npm
 

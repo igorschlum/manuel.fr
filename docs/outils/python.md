@@ -43,3 +43,7 @@ python3 get-pip.py
 pip3 --version
 ```
 N'oubliez pas que Python est livré avec un environnement de développement appelé IDLE, qui vous permet d'écrire, de tester et éventuellement de déboguer vos scripts. Bonne programmation ! 🐍
+
+Si vous voulez apprendre le langage python en vu d'usages en intelligence artificielle, vous pouvez regarder cette série de vidéos de formation très bien faite et créé par Guillaume Saint-Cirgue.
+
+https://www.youtube.com/watch?v=82KLS2C_gNQ&list=PLO_fdPEVlfKqMDNmCFzQISI2H_nJcEDJq
