@@ -46,3 +46,7 @@ La commande npm run start construit votre site localement et le sert via un serv
 Ouvrez `docs/intro.md` (cette page) et modifiez quelques lignes : le site se recharge automatiquement et affiche vos modifications.
 
 Le lien Gitbug de [Docusaurus](https://github.com/facebook/docusaurus)
+
+[Video en français](https://www.youtube.com/watch?v=rKjyB_PKcV8) pour expliquer comment on peut faire un site Docusaurus.
+
+Autre [vidéo Youtube en anglais](https://www.youtube.com/watch?v=xKOhIJQi84w) qui explique comment on peut personnaliser un site Docusaurus.

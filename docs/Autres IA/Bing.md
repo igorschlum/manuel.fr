@@ -15,4 +15,4 @@ L'intérêt aussi de Bing, c'est qu'il donne des liens de site en référence à
 
 Autre intérêt c'est qu'on peut demander à Bing de dessiner des images, ce qu'il fait volontier.
 
-Ses défauts, c'est qu'il n'est pas très rapide pour afficher les réponses et que parfois il perd le file de la conversation.
+Ses défauts, c'est qu'il n'est pas très rapide pour afficher les réponses et que parfois il perd le file de la conversation..

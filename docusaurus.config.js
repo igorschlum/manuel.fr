@@ -102,7 +102,7 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Ollama.ai',
+                label: 'Ollama.ai',
                 href: 'https://ollama.ai',
               },
               {
@@ -134,6 +134,7 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        additionalLanguages: ['php'],
       },
     }),
 };

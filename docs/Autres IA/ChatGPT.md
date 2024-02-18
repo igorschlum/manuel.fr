@@ -18,6 +18,8 @@ OpenIA continue d'améliorer ChatGPT très rapidement en embauchant les meilleur
 
 ChatGPT est également disponible par API, c'est à dire qu'un logiciel de gestion de données peut l'interroger pour traiter des données.
 
+ChatGPT permet par exemple de transformer un texte en voix ou par un prompt de générer une vidéo avec Sora.
+
 Un exemple qui illustre celà est le fait que les boîtes email de contact des entreprises sont souvent très mal traitées, car on y retrouve pèle-mèle des messages pour le service des ressources humaines, des messages de fournisseurs et de clients qui n'arrivent pas à s'y retrouver par d'autres canaux et des messages publicitaires.
 
 Faire un logiciel qui récupère le texte de chaque mail, qui interroge l'IA pour déterminer quel est le meilleur service de l'entreprise qui doit y répondre et transférer le mail à ce service peut se faire assez facilement en interrogeant un modèle d'IA et ChatGPT a été le premier a proposer cela, mais cette fonctionnalité est payante.

@@ -1,17 +1,13 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+  
+igorschlum:
+  name: Igor Schlumberger
+  title: Redacteur du site Ollama.fr
+  url: https://github.com/igorschlum
+  image_url: https://github.com/igorschlum.png
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+valentin:
+  name: Valentin Wei
+  title: Etudiant en sécurité
+  url: https://github.com/wgao19
+  image_url: https://github.com/wgao19.png

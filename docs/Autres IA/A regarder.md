@@ -2,7 +2,6 @@
 sidebar_position: 6
 ---
 
-
 # Des vidéos à regarder
 
 Cette vidéo est intéressante, car elle montre qu'on peut maintenant faire des dessins animés avec la bouche et l'expression du visage qui change en fonction des paroles qui sont prononcées.

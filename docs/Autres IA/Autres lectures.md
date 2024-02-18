@@ -8,7 +8,6 @@ https://www.humanornot.co
 
 Ce site rescense des d'outils d'IA dans un certain nombre de domaines.
 Comme je préfère les outils OpenSource, je ne me suis pas trop penché sur ces outils.
-
 Il y a ce projet GitHub pour créer du RAG, mais visiblement pas très populaire.
 Comme je n'ai pas encore réussi à faire du rag sur mon Mac, je vais voir ce qui peut être fait avant d'expliquer en français la bonne méthode :
 
@@ -33,4 +32,4 @@ Il a été évalué sur la précision du diagnostic, le raisonnement thérapeuti
 
 https://arxiv.org/abs/2401.05654
 
-
+Il y a aussi [LiteLLM](https://litellm.ai) qui est compatible avec Ollama et qui permet normalement d'utiliser une interface standard pour interroger tous les moteurs d'IA. Ollama sait maintenant être appelé comme ChatGPT, mais si vous devez appeler d'autres IA, LiteLLM est peut-être la bonne solution.

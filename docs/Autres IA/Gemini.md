@@ -12,4 +12,4 @@ Visiblement le compte n'est pas encore accessible depuis la France, mais si vous
 
 Google fait beaucoup d'efforts pour améliorer la qualité de bard. Sur certains points, il n'est pas très bon, sur d'autre il est bien. Je l'utilise pour l'instant pour des tâches rapides, car il répond vite.
 
-Je l'utilise par exemple pour me rédiger des prompts que je fais exécuter à d'autres moteurs d'IA.
+Il est rapide et progresse rapidement dans la qualité de ses réponses. Google qui se veut le champion toute catégorie de l'innovation s'est laissé dépassé encore une fois dans un usage très important de l'internet de demain et veut réagir comme il a voulu réagir sans succès contre Meta dans le domaine des réseaux sociaux.

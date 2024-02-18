@@ -3,28 +3,33 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
+ /* c'est ici que je peux changer les couleurs de la page d'accueil
+il y a dans la doc de docusarus une page qui peret de voir si les couleurs
+ sont facilement lisibles : https://docusaurus.io/docs/2.x/styling-layout
+*/
+
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #223d72;
+  --ifm-color-primary-dark: #1f3767;
+  --ifm-color-primary-darker: #1d3461;
+  --ifm-color-primary-darkest: #182b50;
+  --ifm-color-primary-light: #25437d;
+  --ifm-color-primary-lighter: #274683;
+  --ifm-color-primary-lightest: #2c4f94;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #89dbec;
+  --ifm-color-primary-dark: #69d1e7;
+  --ifm-color-primary-darker: #59cce4;
+  --ifm-color-primary-darkest: #29bedc;
+  --ifm-color-primary-light: #a9e5f1;
+  --ifm-color-primary-lighter: #b9eaf4;
+  --ifm-color-primary-lightest: #e9f8fc;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
