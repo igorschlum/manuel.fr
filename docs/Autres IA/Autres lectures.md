@@ -8,6 +8,7 @@ https://www.humanornot.co
 
 Ce site rescense des d'outils d'IA dans un certain nombre de domaines.
 Comme je préfère les outils OpenSource, je ne me suis pas trop penché sur ces outils.
+
 Il y a ce projet GitHub pour créer du RAG, mais visiblement pas très populaire.
 Comme je n'ai pas encore réussi à faire du rag sur mon Mac, je vais voir ce qui peut être fait avant d'expliquer en français la bonne méthode :
 

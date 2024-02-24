@@ -11,6 +11,16 @@ sidebar_position: 3
 
 Pour obtenir ce modèle rendez-vous sur [le site](https://ollama.ai/library/codellama/tags) de ollama.
 
+## Phind-CodeLlama
+
+*Phind est un modèle d'IA novateur développé par l'équipe de CodeLlama. Il s'agit d'une version affinée de CodeLlama-34B, optimisée pour exceller dans le domaine du codage.*
+
+Comme CodeLlama, il est assez gourmand en mémoire vive. On peut aussi l'utiliser gratuitement [en ligne ici](https://www.phind.com/search?home=true)
+
+A la fin de la réponse sur le site, Phind propose d'autres questions pour rebondir et des liens en rapport avec la réponse.
+
+Le modèle économique de phind est intéressant, la version  34B est gratuite sur Ollama et sur phind.com, mais la version 70B est disponible avec un abonnement payant.
+
 ## WizardCoder :
 
 - *WizardCoder 34B est construit sur Code Llama, un grand modèle de langage développé par Meta.*

@@ -14,3 +14,4 @@ Ce site explique bien son installation
 
 https://www.stablediffusion.blog/installation-sd-mac#
 
+Les images générées sont assez étonnantes.

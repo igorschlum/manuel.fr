@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Quantization
 
-Lorsqu'un LLM (Large Language Model) est disponible dans différentes versions 
+Lorsqu'un [LLM](/docs/En-savoir-plus/glossaire#LLM) (Large Language Model) est disponible dans différentes versions 
 quantifiées telles que Q2, Q4 ou Q8, la vitesse et la précision du modèle
 dépendent du niveau de quantification utilisé. La puissance d'un modèle ne 
 peut pas être comparée directement car cela varie en fonction des besoins

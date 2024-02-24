@@ -14,7 +14,7 @@ Vous devez avoir envie de découvrire l'intelligence artificielle en utilisation
 
 Vous devez avoir du temps devant vous, pour avancer pas à pas dans ce site.
 
-Et vous devez avoir quelques notions d'anglais, mais nous traduirons au fur et à mesure tous les termes anglais que nous croiserons, comme [LLM](#LLM)
+Et vous devez avoir quelques notions d'anglais, mais nous traduirons au fur et à mesure tous les termes anglais que nous croiserons, comme [LLM](/docs/En-savoir-plus/glossaire#LLM)
 
 N'hésitez pas à m'écrire si vous ne comprenez pas une étape, tout est fait pour être très accessible.
 
