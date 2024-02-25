@@ -18,6 +18,6 @@ Ce site est fait avec la technologie Docusaurus qui est un projet Open Source di
 
 Le lien GitHub de [Ollama](https://github.com/ollama/ollama)
 
-Le lien GitHub de [Ollama.fr](https://github.com/igorschlum/ollama.fr)
+Le lien GitHub de [manuel.fr](https://github.com/igorschlum/manuel.fr)
 
 Le lien Gitbug de [Docusaurus](https://github.com/facebook/docusaurus)

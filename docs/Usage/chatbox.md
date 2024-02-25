@@ -26,7 +26,7 @@ sidebar_position: 1
 
 *Nous allons maintenant voir, comment **utilisé un modèle ollama sur Chatbox**, pour obtenir une plus belle interface qu'un terminal.*
 
-*Tout d'abord installez le modèle souhaité, comme expliqué* [ici](https://www.ollama.fr/docs/intro#ouvrir-lapplication-terminal). *Une fois le modèle complètement **installé**, retournez sur l'application Chatbox.*
+*Tout d'abord installez le modèle souhaité, comme expliqué* [ici](/docs/intro#ouvrir-lapplication-terminal). *Une fois le modèle complètement **installé**, retournez sur l'application Chatbox.*
 
 ***Ouvrez** une nouvelle discution.*
 

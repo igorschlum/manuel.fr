@@ -4,13 +4,13 @@ sidebar_position: 3
 
 # Docusaurus
 
-Docusaurus est un outil qui permet à plusieurs personnes de collaborer à la rédaction d'un site internet. Les pages s'affichent très rapidement. C'est l'outil que nous avons choisi pour convevoir le site Ollama.fr
+Docusaurus est un outil qui permet à plusieurs personnes de collaborer à la rédaction d'un site internet. Les pages s'affichent très rapidement. C'est l'outil que nous avons choisi pour convevoir le site manuel.fr
 
 Pour installer et commencer à utiliser Docusaurus sur votre Mac, voici les étapes à suivre :
 
 ## Prérequis
 
-Vous aurez besoin de Node.js version 18.0 ou supérieure, nous en avons fait une [page](https://www.ollama.fr/docs/outils/node%20et%20npm).
+Vous aurez besoin de Node.js version 18.0 ou supérieure, nous en avons fait une [page](/docs/outils/node%20et%20npm).
 
 ## Générez un nouveau site
 

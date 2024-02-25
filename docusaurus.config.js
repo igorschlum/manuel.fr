@@ -8,12 +8,12 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ollama.fr',
-  tagline: "Le mode d'emploi pour comprendre et déployer l'IA sur votre Mac",
+  title: 'Manuel.fr',
+  tagline: "pour comprendre et déployer l'IA sur votre Mac avec Ollama",
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://ollama.fr',
+  url: 'https://manuel.fr',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -21,7 +21,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'igorschlum', // Usually your GitHub org/user name.
-  projectName: 'Ollama.fr', // Usually your repo name.
+  projectName: 'manuel.fr', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -44,14 +44,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/igorschlum/ollama.fr/tree/main/',
+            'https://github.com/igorschlum/manuel.fr/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/igorschlum/ollama.fr/blob/main/',
+            'https://github.com/igorschlum/manuel.fr/blob/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -79,9 +79,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/ollama.png',
       navbar: {
-        title: 'ollama.fr',
+        title: 'manuel.fr',
         logo: {
-          alt: 'Manual.fr Logo',
+          alt: 'Manuel.fr Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -93,7 +93,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/igorschlum/ollama.fr',
+            href: 'https://github.com/igorschlum/manuel.fr',
             label: 'GitHub',
             position: 'right',
           },
@@ -137,7 +137,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/igorschlum/ollama.fr',
+                href: 'https://github.com/igorschlum/manuel.fr',
               },
             ],
           },
