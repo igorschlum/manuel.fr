@@ -81,6 +81,3 @@ Number of requested results 4 is greater than number of elements in index 3, upd
 J'ai fais quelques essais en modifiant le script et les résultats sont bons et ouvrent des portes à des LLM open source et alimentés par les données de l'entreprise.
 
 Le projet utilise l'Embedding d'Ollama avec le LLM Open Source [Nomic Embed](https://blog.nomic.ai/posts/nomic-embed-text-v1) qui ouvre à mon avis la porte à beaucoup d'innovations.
-
-
-

@@ -12,13 +12,11 @@ Voyons comment mettre cela en pratique avec Ollama sur Mac, mais avant de commen
 
 ### Bun
 
-C'est un utilitaire pour lire des grands fichiers en javacript. Interessant pour faire du [RAG](/docs/En-savoir-plus/Rag) ou du Bert.
+C'est un utilitaire pour lire des grands fichiers en javacript. Interessant pour faire du [RAG](/docs/En-savoir-plus/rag) ou du Bert.
 
-
-
+```bash
 npm install -g bun
-
-
+```
 
 ## Préparer vos données textuelles:
 
@@ -32,9 +30,6 @@ On va prendre un exemple très simple voici trois phrases que nous voulons donne
 "Manuel.fr explique comment utiliser l'IA en local avec Ollama."
 
 ## Ollama sait directement récupérer ces informations
-
-et il y a le modèle 
-
 
 Pour entrainer ces données dans un modèle BERT personnalisé, il me semble que l'on peut utiliser [**SBert**](https://www.sbert.net) (en anglais).
 

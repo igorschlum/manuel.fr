@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-Manuel pour installer, comprendre et utiliser **l'intelligence artificielle** sur Mac avec Ollama.
+Manuel pour installer, comprendre et utiliser **l'intelligence artificielle** sur Mac avec [Ollama](https://ollama.ai).
 
 ## Prérequis
 
