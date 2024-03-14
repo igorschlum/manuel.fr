@@ -6,12 +6,31 @@ sidebar_position: 1
 
 On explique ici les termes techniques utilisés dans ce site
 
+## GGUF
+
+*signifie GPT-Generated Unified Format. Il s'agit d'un format de fichier pour stocker les modèles de langage de grande taille (LLM) développé par l'équipe de Facebook AI. GGUF a été conçu pour être plus efficace et plus performant que les formats de fichier LLM existants, tels que GGML.*
+
+*Voici les principaux avantages de GGUF :*
+
+*Taille de fichier réduite: Les fichiers GGUF sont généralement 2 à 3 fois plus petits que les fichiers GGML, ce qui facilite leur stockage et leur partage.*
+*Chargement plus rapide: Les modèles GGUF se chargent plus rapidement que les modèles GGML, ce qui permet d'améliorer les performances d'inférence.*
+*Meilleure compression: GGUF utilise une compression plus efficace que GGML, ce qui permet d'obtenir une meilleure précision des modèles.*
+*GGUF est actuellement pris en charge par un certain nombre d'outils d'IA, notamment :**
+
+Llama CPP: Un outil open source pour l'inférence LLM sur CPU.*
+*GPT4All: Une interface graphique pour Llama CPP.*
+*Hugging Face: Une plateforme de partage de modèles d'IA.*
+
+Un article en anglais explique ici comment faire tourner les fichiers GGUF sur Ollama, je n'ai pas encore eu le temps de tester cela.
+
+https://www.markhneedham.com/blog/2023/10/18/ollama-hugging-face-gguf-models/
+
+
 ## LLM{#LLM}
 
 Large Language Model.
 
-*LLM signifie "Large Language Model" en anglais, et se traduit par "modèle 
-de langage naturel à grande échelle" en français.*
+*LLM signifie "Large Language Model" en anglais, et se traduit par "Grand modèle de langage" en français.*
 
 ## Unsencored
 
