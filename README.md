@@ -10,4 +10,5 @@ Ollama is a software that allows you to load and run artificial intelligence mod
 https://ollama.ai
 
 Contributors
+
 Igor Schlumberger, Emile Schlumberger
