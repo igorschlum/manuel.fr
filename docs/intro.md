@@ -6,7 +6,7 @@ Manuel pour installer, comprendre et utiliser **l'intelligence artificielle** su
 
 # Introduction
 
-A la sortie du premier Macintosh, tout le monde était impressionné par MacWrite, le traitement de texte qui permettait de faire de la mise en page tellement facilement et par MacPaint l'outil pour dessiner.
+A la sortie du premier Macintosh, tout le monde était impressionné par [MacWrite](https://fr.wikipedia.org/wiki/MacWrite), le traitement de texte qui permettait de faire de la mise en page tellement facilement et par [MacPaint](https://fr.wikipedia.org/wiki/MacPaint) l'outil pour dessiner.
 
 On pouvait voir l'ordinateur personnel comme une super machine à écrire et une feuille de dessin où l'on pouvait effacer facilement et agencer des créations graphiques.
 
