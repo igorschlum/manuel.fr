@@ -8,3 +8,6 @@ https://code-garage.fr/blog/le-guide-simplifie-sur-la-syntaxe-markdown.
 What is Ollama?
 Ollama is a software that allows you to load and run artificial intelligence models such as Llama 2 and Code Llama on your Mac. Ollama exposes a webservice that can be queried by HTTP requests
 https://ollama.ai
+
+Contributors
+Igor Schlumberger, Emile Schlumberger
