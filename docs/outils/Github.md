@@ -21,3 +21,49 @@ Le lien GitHub de [Ollama](https://github.com/ollama/ollama)
 Le lien GitHub de [manuel.fr](https://github.com/igorschlum/manuel.fr)
 
 Le lien Gitbug de [Docusaurus](https://github.com/facebook/docusaurus)
+
+## Création d'un compte
+
+Rendez-vous sur le site web de GitHub : https://github.com/.
+
+Cliquez sur le bouton "S'inscrire".
+
+Renseigner vos informations
+
+Nom d'utilisateur : Choisissez un nom unique et facile à retenir et à prononcer.
+Adresse e-mail : Indiquez une adresse e-mail valide.
+Mot de passe : Choisissez un mot de passe fort et unique.
+
+et ensuite confirmer votre adresse e-mail
+
+Un e-mail de confirmation sera envoyé à l'adresse que vous avez indiquée. Cliquez sur le lien dans l'e-mail pour valider votre compte.
+
+Vous pouvez personnaliser votre profil en y ajoutant une photo, une biographie et d'autres informations vous concernant.
+
+## GitHub Desktop
+
+C'est un outil pour les débutants qui souhaitent collaborer sur des projets open source. Ce logiciel offre une interface conviviale et intuitive, ce qui en fait un excellent choix pour ceux qui n'ont pas encore une grande expérience avec la ligne de commande ou d'autres outils de contrôle de version.
+
+Grâce à GitHub Desktop, vous pouvez cloner des dépôts pour ensuite executer du code en local sur votre Mac et enregistrer des modifications que vous pouvez proposer, comme par exemple sur ce site Manuel.fr, et synchroniser votre travail avec le dépôt distant sur GitHub.
+
+### installation
+
+Pour installer GitHub Desktop sur un Mac :
+
+Rendez-vous sur le site officiel de [GitHub Desktop](https://desktop.github.com). Cliquez sur le bouton pour télécharger le fichier d'installation en zip. Décompressez le fichier et déplacez l'application dans votre dossier Application.
+
+Quand vous lancez l'application, vous pouvez être invité à autoriser l'ouverture de l'application, car elle provient d'une source non identifiée. Si c'est le cas, suivez simplement les instructions à l'écran pour autoriser l'ouverture.
+
+Une fois GitHub Desktop ouvert, vous serez invité à vous connecter à votre compte GitHub.
+
+C'est tout ! Vous avez maintenant installé GitHub Desktop sur votre Mac et vous êtes prêt à commencer à cloner des dépôts, à travailler sur des projets et à contribuer à la communauté GitHub.
+
+## Git
+
+Une fois GitHub Desktop installé sur votre mac, vous pouvez installer git avec la commande suivante
+
+```bash
+brew install git
+```
+
+
