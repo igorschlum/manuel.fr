@@ -24,3 +24,11 @@ sidebar_position: 8
 *Tutoriels vidéo pour débutants: https://www.youtube.com/watch?v=QEaBAZQCtwE*
 *Documentation de Transformers: https://huggingface.co/transformers/v3.0.2/index.html*
 *Exemples de pipelines: https://streamsets.com/blog/7-examples-of-data-pipelines/*
+
+On peut maintenant importer des modèles de Hugging Face dans Ollama
+
+Il faut commencer par installer depuis le terminal, un outil qui permet de télécharger en git des gros fichiers
+
+```bash
+brew install git-lfs
+```

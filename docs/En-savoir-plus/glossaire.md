@@ -25,6 +25,11 @@ Un article en anglais explique ici comment faire tourner les fichiers GGUF sur O
 
 https://www.markhneedham.com/blog/2023/10/18/ollama-hugging-face-gguf-models/
 
+et c'est simplement expliqué dans la documentation ici :
+
+https://github.com/jmorganca/ollama#import-from-gguf
+
+
 
 ## LLM{#LLM}
 

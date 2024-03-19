@@ -2,9 +2,17 @@
 sidebar_position: 1
 ---
 
+Manuel pour installer, comprendre et utiliser **l'intelligence artificielle** sur Mac avec [Ollama](https://ollama.ai).
+
 # Introduction
 
-Manuel pour installer, comprendre et utiliser **l'intelligence artificielle** sur Mac avec [Ollama](https://ollama.ai).
+A la sortie du premier Macintosh, tout le monde était impressionné par MacWrite, le traitement de texte qui permettait de faire de la mise en page tellement facilement et par MacPaint l'outil pour dessiner.
+
+On pouvait voir l'ordinateur personnel comme une super machine à écrire et une feuille de dessin où l'on pouvait effacer facilement et agencer des créations graphiques.
+
+Le parallèle avec l'intelligence artificielle sur Mac, c'est qu'aujourd'hui on est impressionné par l'IA générative qui sait écrire, résumer et analyser des textes et par la capacité graphique à faire des images à partir de prompts.
+
+Les usages sont pourtant beaucoup plus larges et on va explorer le potentiel d'utilisation de l'IA OpenSource sur Mac, en cherchant à expliquer le pourquoi et le comment pour des novices.
 
 ## Prérequis
 
