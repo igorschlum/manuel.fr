@@ -53,7 +53,7 @@ il faut également installer PyTorch si vous ne l'avez pas déjà fait
 conda install pytorch torchvision -c pytorch
 ```
 
-pour vérifier que PyTorch est bien installé, on peut faire un script en python que l'on lance depuis le dossier développement. On va par exemple appeler ce fichier : pytorch_test.py avec [Visual Code Studio](/docs/Usage/vs%20code) (VSC)
+pour vérifier que PyTorch est bien installé, on peut faire un script en python que l'on lance depuis le dossier développement. On va par exemple appeler ce fichier : pytorch_test.py avec [Visual Code Studio](/docs/installation/Usage/vs%20code) (VSC)
 
 ```bash
 import torch
