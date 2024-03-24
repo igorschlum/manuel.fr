@@ -4,7 +4,7 @@ sidebar_position: 2
 
 Rien ne vaut une démonstration de ce qui est faisable en IA sur son Mac en OpenSource avec Ollama. Avant de vous lancer dans l'installation du logiciel et de ce qu'il faut pour le faire tourner, je vous propose de passer en revue ce que vous pouvez faire avec cet outil.
 
-# Comme un dictionnaire
+## Comme un dictionnaire
 
 Quand vous lancez Ollama, vous pouvez lui poser des questions comme si vous consultiez un dictionnaire :
 
@@ -17,5 +17,34 @@ En plus de son sens littéral, le terme "caligraphie" peut également être util
 
 La caligraphie peut être pratiquée à main levée ou à l'aide d'un outil, tels que un stylet ou une plume, et peut être utilisée pour créer des textes en écritureursive, en calligraphie mixte, en calligraphie cursive, etc. Les artistes caligraphes peuvent également combiner différentes techniques et styles pour créer des œuvres originales et riches en details.
 ```
-# Comme un mode d'emploi
+## Comme un mode d'emploi
 
+Mais on peut aussi lui demander des conseils.
+
+```
+>>> peux-tu me répondre en français ? Par quoi faut-il commencer pour apprendre la caligraphie ?  Bien sûr ! Voici les étapes à suivre pour commencer à apprendre la calligraphie :
+
+1. Choisissez les outils appropriés : Commencez avec des outils de base tels que une bonne qualité de plume, de l'encre et du papier. Vous pourriez également investir dans un guide ou un livre d'apprentissage pour vous aider à comprendre les bases.
+
+2. Apprenez les grandes lignes de la construction des lettres : Déterminez les formes géométriques sous-jacentes aux lettres, y compris les traits verticaux et horizontaux, les boucles et les flourishes. Practiquez en drawant ces formes sur du papier pour développer la mémoire musculaire et la coordination.
+
+3. Exécutez des exercices de base : Commencez avec des drills simples tels que le tracé des lettres ou la pratique de combinaisons de lettres. Au fil du temps, accroissez les exercices pour tester vos coordonnées et votre contrôle.
+
+4. Apprenez des techniques de lettre à la main : Étudiez différents styles de calligraphie tels que le moderne, le copperplate ou le brush script. Practiquez en utilisant différents outils et techniques.
+
+5. Essayez avec différentes matières : Tentez d'utiliser différentes sortes d'encre, de papier et de plumes pour voir comment elles affectent votre lettrage. Cela peut vous aider à développer un style personnel et préféré.
+
+6. Étudiez le travail des autres calligraphes : Regardez le travail des calligraphes professionnels pour en être inspiré et apprendre de leurs techniques. Vous pouvez trouver des exemples en ligne ou dans des livres de calligraphie.
+
+7. Prend un cours ou une atelier : Considérez prendre une classe ou un atelier de calligraphie pour obtenir des conseils personnalisés et une guiderisation directe d'un enseignant expérimenté. Cela vous aidera à améliorer vos compétences et votre technique.
+
+8. Pratiquez régulièrement : La consistance est la clé pour apprendre la calligraphie. Réservez du temps chaque jour ou chaque semaine pour pratiquer et expérimenter différents styles et techniques.
+
+9. Utilisez les technologies à votre avantage : Utilisez des outils numériques tels que des logiciels de lettre ou des applications pour vous aider à pratiquer et à améliorer vos compétences en calligraphie. Ces outils peuvent fournir des conseils utiles sur votre lettrage et vous aider à raffiner votre technique.
+
+10. Soyez patient et persévérant : Apprendre la calligraphie prend du temps et de l'effort, donc ne vous découragez pas si vous ne voyez pas d'améliorations immédiates. Maintenez une pratique régulière, avec détermination e persévérance, et vous serez bientôt maître de cette belle art forme
+```
+
+On voit à la fin de ce dixième conseil qu'il y a des erreurs dans le texte. En effet, si on pose la question en français, mais qu'on ne demande pas de répondre en français et que l'IA n'a pas assez d'informations pour répondre en français, il va répondre en anglais. Quand on le force à répondre en français, il le fait, mais traduit la réponse qu'il avait préparé en anglais et peut faire des erreurs.
+
+Les ingénieurs de l'IA ont eu la bonne idée de dire que l'IA ne fait pas d'erreur, mais que ce sont des allucinations.
