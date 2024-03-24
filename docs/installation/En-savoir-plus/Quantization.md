@@ -25,7 +25,7 @@ plus grand nombre de valeurs numériques. Cependant, cela se traduit également
 par une consommation accrue de ressources informatiques (telles que la mémoire
 et les calculs) pour stocker et traiter ces valeurs.
 
-Ainsi, le choix entre différentes versions quantifiées d'un LLM dépend des 
+Ainsi, le choix entre différentes versions quantifiées d'un [LLM](/docs/installation/En-savoir-plus/glossaire#LLM) dépend des 
 compromis en termes de précision et de performance souhaités dans un scénario 
 donné :
 

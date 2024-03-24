@@ -48,3 +48,7 @@ Mais on peut aussi lui demander des conseils.
 On voit à la fin de ce dixième conseil qu'il y a des erreurs dans le texte. En effet, si on pose la question en français, mais qu'on ne demande pas de répondre en français et que l'IA n'a pas assez d'informations pour répondre en français, il va répondre en anglais. Quand on le force à répondre en français, il le fait, mais traduit la réponse qu'il avait préparé en anglais et peut faire des erreurs.
 
 Les ingénieurs de l'IA ont eu la bonne idée de dire que l'IA ne fait pas d'erreur, mais que ce sont des allucinations.
+
+## comme un livre de recette de cuisine
+
+

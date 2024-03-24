@@ -17,7 +17,7 @@ On explique ici les termes techniques utilisés dans ce site
 *Meilleure compression: GGUF utilise une compression plus efficace que GGML, ce qui permet d'obtenir une meilleure précision des modèles.*
 *GGUF est actuellement pris en charge par un certain nombre d'outils d'IA, notamment :**
 
-Llama CPP: Un outil open source pour l'inférence LLM sur CPU.*
+Llama CPP: Un outil open source pour l'inférence [LLM](#LLM) sur CPU.*
 *GPT4All: Une interface graphique pour Llama CPP.*
 *Hugging Face: Une plateforme de partage de modèles d'IA.*
 

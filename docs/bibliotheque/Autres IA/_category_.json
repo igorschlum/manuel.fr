@@ -1,6 +1,6 @@
 {
-  "label": "Bibliothèque",
-  "position": 2,
+  "label": "Autres IA",
+  "position": 7,
   "link": {
     "type": "generated-index",
     "description": "Liste des principaux LLM à disposition."

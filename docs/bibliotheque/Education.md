@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 ## Llama-Pro :
@@ -16,6 +16,6 @@ Pour obtenir ce modèle rendez-vous sur [le site](https://ollama.ai/library/llam
 
 2. *Il a montré des performances extraordinaires dans les tâches de raisonnement mathématique.*
 
-3. *Il surpasse tous les autres modèles de langage à grande échelle (LLM) open-source.*
+3. *Il surpasse tous les autres modèles de langage à grande échelle ([LLM](/docs/installation/En-savoir-plus/glossaire#LLM)) open-source.*
 
 Pour obtenir ce modèle rendez-vous sur [le site](https://ollama.ai/library/wizard-math/tags) de ollama.

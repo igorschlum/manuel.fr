@@ -91,6 +91,11 @@ const config = {
             position: 'left',
           },
           {
+            to: '/docs/bibliotheque', // Chemin vers la page d'accueil de la sidebar "galerie"
+            label: 'Bibliothèque',
+            position: 'left',
+          },
+          {
             to: '/docs/installation', // Chemin vers la page d'accueil de la sidebar "installation"
             label: 'Installation',
             position: 'left',
