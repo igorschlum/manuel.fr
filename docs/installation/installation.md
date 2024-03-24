@@ -38,20 +38,20 @@ Double cliquez dessus (pour décompresser l'application) et déplacez la dans vo
 
 Lancez l'application Ollama,
 
-![Attention](../static/img/warning.png)
+![Attention](/img/warning.png)
 
 
 Un dialogue apparaît pour vous demander de confirmer, car c'est une application chargée depuis l'internet et pas depuis l'AppStore d'Apple. Vous pouvez confirmer.
 
 Ollama se lance et si vous ne l'avez pas déplacé dans le dossier Applications, un dialogue en anglais vous proposera de le faire
 
-![Attention](../static/img/move.png)
+![Attention](/img/move.png)
 
 Cliquez sur **Move to application**
 
 Un autre dialogue en anglais vous souhaite la bienvenue et vous présente le logo Ollama.
 
-![Attention](../static/img/next.png)
+![Attention](/img/next.png)
 
 Cliquez sur Next.
 
@@ -67,7 +67,7 @@ ollama run llama2
 
 Le mot `run` permet d'executer le modèle `llama2`. Si le modèle n'est pas chargé, il va se charger (cela occupe un peu moins de 4 Giga sur le disque)
 
-![run llama2](../static/img/llama2.png)
+![run llama2](/img/llama2.png)
 
 Une fois le modèle téléchargé, vous pouvez commencer une discution.
 
@@ -241,6 +241,6 @@ Pour afficher les modèles installés, taper dans le terminal de commande:
 ollama list
 ```
 
-![Attention](../static/img/list.png)
+![Attention](/img/list.png)
 
 Pour proposer une modification, rendez-vous sur le [github de cette page](https://github.com/igorschlum/manuel.fr) puis dans `docs/intro.md` et cliquer sur le petit stylet.

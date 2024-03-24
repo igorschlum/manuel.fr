@@ -86,10 +86,14 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            to: '/docs/galerie', // Chemin vers la page d'accueil de la sidebar "galerie"
+            label: 'Galerie',
             position: 'left',
-            label: 'Introduction',
+          },
+          {
+            to: '/docs/installation', // Chemin vers la page d'accueil de la sidebar "installation"
+            label: 'Installation',
+            position: 'left',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -97,7 +101,7 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
-        ],
+       ],
       },
       footer: {
         style: 'dark',
