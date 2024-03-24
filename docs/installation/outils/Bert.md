@@ -12,7 +12,7 @@ Voyons comment mettre cela en pratique avec Ollama sur Mac, mais avant de commen
 
 ### Bun
 
-C'est un utilitaire pour lire des grands fichiers en javacript. Interessant pour faire du [RAG](/docs/En-savoir-plus/rag) ou du Bert.
+C'est un utilitaire pour lire des grands fichiers en javacript. Interessant pour faire du [RAG](/docs/installation/En-savoir-plus/rag) ou du Bert.
 
 ```bash
 npm install -g bun
