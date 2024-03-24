@@ -35,7 +35,7 @@ Pour entrainer ces données dans un modèle BERT personnalisé, il me semble que
 
 ### installer SBert
 
-Pour ça il faut se placer dans son dossier de développement et taper la commande suivante si vous êtes sur mac silicon (et que vous avez déjà installé [conda](/docs/outils/conda))
+Pour ça il faut se placer dans son dossier de développement et taper la commande suivante si vous êtes sur mac silicon (et que vous avez déjà installé [conda](/docs/installation/outils/conda))
 
 ```bash
 conda install -c conda-forge sentence-transformers

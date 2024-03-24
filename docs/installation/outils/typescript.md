@@ -12,7 +12,7 @@ Les erreurs de typage sont ainsi détectées à la compilation, ce qui permet d'
 
 TypeScript s'intègre parfaitement avec JavaScript, ce qui permet de l'utiliser dans des projets existants. TypeScript peut être utilisé pour le développement web, le développement mobile, le développement d'applications back-end et bien plus encore.
 
-TypeScript peut également être utilisé pour améliorer les sites [Docusaurus](/docs/outils/Docusaurus)
+TypeScript peut également être utilisé pour améliorer les sites [Docusaurus](/docs/installation/outils/Docusaurus)
 
 ## installer TypeScript sur votre Mac
 
