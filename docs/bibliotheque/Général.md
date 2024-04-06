@@ -29,3 +29,7 @@ Pour obtenir ce modèle rendez-vous sur [le site](https://ollama.ai/library/llam
 3. *Il prend en charge des fonctionnalités multilingues, une excellente génération de code et une fenêtre contextuelle de 32 000 octets.*
 
 Pour obtenir ce modèle rendez-vous sur [le site](https://ollama.ai/library/mixtral/tags) de ollama.
+
+## Gemma
+
+Google fait également de l'OpenSource et 
