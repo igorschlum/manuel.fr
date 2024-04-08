@@ -13,4 +13,7 @@ Par exemple, vous naviguer sur Google Maps et celui-ci affiche les coordonnées 
 
 On voit que les Applications de l'IA sortent de l'IA générative qui sait générer du texte.
 
+ReaLM se dit très performant, mais avec une base documentaire beaucoup plus réduite, car son objectif n'est pas d'être une encyclopédie, mais de pouvoir répondre à des questions pratiques de la vie de tous les jours. Le Model de donner doit pouvoir se télécharger rapidement en mémoire et s'exécuter rapidement, car la rapidité de réaction des applications a toujours été une priorité pour Apple.
+
+
 Attendons que ReaLM soit sorti pour compléter les informations à son sujet.

@@ -86,8 +86,8 @@ const config = {
         },
         items: [
           {
-            to: '/docs/galerie', // Chemin vers la page d'accueil de la sidebar "galerie"
-            label: 'Galerie',
+            to: '/docs/decouvrir', // Chemin vers la page d'accueil de la sidebar "Découvrir"
+            label: 'Découvrir',
             position: 'left',
           },
           {
