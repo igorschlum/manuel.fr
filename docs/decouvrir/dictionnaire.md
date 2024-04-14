@@ -51,4 +51,40 @@ Les ingénieurs de l'IA ont eu la bonne idée de dire que l'IA ne fait pas d'err
 
 ## comme un livre de recette de cuisine
 
+```
+ peux-tu me donner une recette de mousse au chocolat en m'indiquant les dosag
+... es dans le système métrique et en me donnant la liste des ingrédients et la 
+... recette en français ?
+Of course! Here is the recipe for egg-free chocolate mousse in both French
+and metric units, along with the list of ingredients:
 
+Ingrédients (en métrique):
+
+* 350 ml de lait de coco entier
+* 6 oz de chocolat noir (70% de cocoa ou plus)
+* 1/4 tasse de farine de cacao
+* 1 tas d'extrait de vanille en poudre
+* 1/2 tasse de lait d'eau
+
+Recette (en français):
+
+1. Dans un blender ou un robot culinaire, mélangez le lait de coco, le chocolat, la farine de cacao et l'extrait de vanille jusqu'à ce que les ingrédients soient bien miscies et crémeux.
+2. Dans un bol séparé, battez la crème chantilliat hasta qu'elle forme des croissants. Laissez refroidir.
+3. Folds la crème battue dans le mélange de chocolat jusqu'à ce qu'il soit bien combiné.
+4. Versez la mousse dans des cuillères individuelles ou dans un plat de 
+service. Laissez réfrigérer pendant au moins 2 heures ou une nuit complète.
+5. Avant de servir, décorez la mousse avec des lamelles de chocolat ou des graines de noix (optionnel).
+
+Here are the dosages for each ingredient in the recipe:
+
+* Lait de coco entier: 350 ml
+* Chocolat noir (70% de cocoa ou plus): 6 oz
+* Farine de cacao: 1/4 tasse
+* Extrait de vanille en poudre: 1 tas
+* Lait d'eau: 1/2 tasse
+
+I hope this helps! Let me know if you have any questions.
+````
+On voit ici qu'on doit forcer llama2 a répondre en français et qu'on doit le forcer (sans total succès à utiliser le système métrique dans ses réponses)
+
+Cliquez sur le côté pour découvrir d'autres usages de l'intelligence artificielle

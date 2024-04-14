@@ -30,7 +30,7 @@ https://www.thetransmitter.org/from-bench-to-bot/boost-your-writing-with-ai-pers
 
 # A essayer
 
-## video d'adie
+## video d'aide
 
 Pour créer rapidement une vidéo d'aide avec l'IA. Il y a un plan gratuit pour essayer :
 

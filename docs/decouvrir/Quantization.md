@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Quantization
 
-Lorsqu'un [LLM](/docs/installation/En-savoir-plus/glossaire#LLM) (Large Language Model) est disponible dans différentes versions 
+Lorsqu'un [LLM](/docs/decouvrir/glossaire#LLM) (Large Language Model) est disponible dans différentes versions 
 quantifiées telles que Q2, Q4 ou Q8, la vitesse et la précision du modèle
 dépendent du niveau de quantification utilisé. La puissance d'un modèle ne 
 peut pas être comparée directement car cela varie en fonction des besoins
@@ -25,7 +25,7 @@ plus grand nombre de valeurs numériques. Cependant, cela se traduit également
 par une consommation accrue de ressources informatiques (telles que la mémoire
 et les calculs) pour stocker et traiter ces valeurs.
 
-Ainsi, le choix entre différentes versions quantifiées d'un [LLM](/docs/installation/En-savoir-plus/glossaire#LLM) dépend des 
+Ainsi, le choix entre différentes versions quantifiées d'un [LLM](/docs/decouvrir/glossaire#LLM) dépend des 
 compromis en termes de précision et de performance souhaités dans un scénario 
 donné :
 

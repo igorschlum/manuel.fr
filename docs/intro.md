@@ -25,7 +25,7 @@ Vous devez avoir envie de découvrire l'intelligence artificielle en utilisation
 
 Vous devez avoir du temps devant vous, pour avancer pas à pas dans ce site.
 
-Et vous devez avoir quelques notions d'anglais, mais nous traduirons au fur et à mesure tous les termes anglais que nous croiserons, comme [LLM](/docs/installation/En-savoir-plus/glossaire#LLM)
+Et vous devez avoir quelques notions d'anglais, mais nous traduirons au fur et à mesure tous les termes anglais que nous croiserons, comme [LLM](/docs/decouvrir/glossaire#LLM)
 
 N'hésitez pas à m'écrire si vous ne comprenez pas une étape, tout est fait pour être très accessible.
 
@@ -60,7 +60,7 @@ Cliquez sur Next.
 
 ## Ouvrir l'application terminal
 
-Pour lancer Ollama et pour charger un premier [LLM](/docs/installation/En-savoir-plus/glossaire#LLM), il faut lancer l'application Terminal qui se trouve dans le dossier Utilitaire de votre Mac.
+Pour lancer Ollama et pour charger un premier [LLM](/docs/decouvrir/glossaire#LLM), il faut lancer l'application Terminal qui se trouve dans le dossier Utilitaire de votre Mac.
 
 Taper dans le terminal la commande:
 
