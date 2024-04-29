@@ -51,3 +51,7 @@ C'est un concurrent d'Ollama, mais qui n'est pas OpenSource. Je ne pense pas qu'
 Toutefois, LM Studio propose une interface graphique incluse dans l’application et c’est peut-être plus facile d’utiliser les modèles de Hugging Face.
 https://lmstudio.ai/
 
+## DBRX
+
+https://www.lemagit.fr/actualites/366575659/LLM-Avec-DBRX-Databricks-se-met-au-niveau-de-Meta-Mistral-AI-et-xAI
+

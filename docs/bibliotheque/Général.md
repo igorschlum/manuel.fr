@@ -2,15 +2,17 @@
 sidebar_position: 2
 ---
 
-## Llama2
+## Llama3
 
-1. *Llama2 est un chatbot développé par Meta AI qui utilise le traitement du langage naturel (NLP) pour travailler sur les entrées humaines.*
+1. Llama3 est un chatbot développé par Meta AI qui utilise le traitement du langage naturel (NLP) pour travailler sur les entrées humaines. Llama3 est sorti un peu près un an après Llama2 qui a démocratisé les LLM OpenSource en étant le premier qui avait de bonnes performance.
+
+Llama3 se décline actuellement en deux versions, Llama3 8b et Llama3 70b. On peut faire tourner Llama3 8b sur un Mac avec 8 Go de mémoire vive. Pour faire tourner le modèle 70b, il faut 40 Gb de mémoire.
 
 2. *Il peut générer du texte, répondre à des questions complexes et avoir des conversations naturelles et engageantes avec les utilisateurs.*
 
 3. *Il peut expliquer des concepts, écrire des poèmes et du code, résoudre des puzzles logiques, ou même nommer vos animaux de compagnie.*
 
-Pour obtenir plus d'informations rendez-vous sur [le site](https://ollama.ai/library/llama2/tags) de ollama.
+Pour obtenir plus d'informations rendez-vous sur [le site](https://ollama.ai/library/llama3/tags) de ollama.
 
 ## Llama2-uncensored
 
