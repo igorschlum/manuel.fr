@@ -12,7 +12,7 @@ Llama3 se décline actuellement en deux versions, Llama3 8b et Llama3 70b. On pe
 
 3. *Il peut expliquer des concepts, écrire des poèmes et du code, résoudre des puzzles logiques, ou même nommer vos animaux de compagnie.*
 
-Pour obtenir plus d'informations rendez-vous sur [la page Llama3](https://ollama.ai/library/llama3/tags) de ollama.
+Pour obtenir plus d'informations rendez-vous sur [la page Llama3](https://ollama.ai/library/llama3/) de ollama.
 
 ## Llama3-uncensored
 
@@ -31,10 +31,10 @@ Pour obtenir ce modèle rendez-vous sur [la page LLama3-Uncensored](https://olla
 
 3. *Il prend en charge des fonctionnalités multilingues, une excellente génération de code et une fenêtre contextuelle de 32 000 octets.*
 
-Pour obtenir ce modèle rendez-vous sur [le site](https://ollama.ai/library/mixtral/tags) de ollama.
+Pour obtenir ce modèle rendez-vous sur [le site](https://ollama.ai/library/mixtral/) de ollama.
 
 ## Gemma
 
 Google fait également de l'OpenSource et a mis à disposition le modèle Gemma qui a connu quelques problèmes au début et qu'il faut retester.
 
-Pour obtenir ce modèle rendez-vous sur [la page Gemma](https://ollama.ai/library/gemma/tags) de ollama.
+Pour obtenir ce modèle rendez-vous sur [la page Gemma](https://ollama.ai/library/gemma/) de ollama.
