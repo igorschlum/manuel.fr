@@ -12,15 +12,16 @@ Llama3 se décline actuellement en deux versions, Llama3 8b et Llama3 70b. On pe
 
 3. *Il peut expliquer des concepts, écrire des poèmes et du code, résoudre des puzzles logiques, ou même nommer vos animaux de compagnie.*
 
-Pour obtenir plus d'informations rendez-vous sur [le site](https://ollama.ai/library/llama3/tags) de ollama.
+Pour obtenir plus d'informations rendez-vous sur [la page Llama3](https://ollama.ai/library/llama3/tags) de ollama.
 
-## Llama2-uncensored
+## Llama3-uncensored
 
-1. *Llama2 Uncensored est une version non censurée du modèle Llama2. Il a la capacité de générer des plans élaborés pour prendre le contrôle d’un pays, ce qui en fait le meilleur modèle non censuré jusqu’à présent.*
+1. *Llama3 Uncensored est une version non censurée du modèle Llama3. Il a la capacité de générer des plans élaborés pour prendre le contrôle d’un pays, ce qui en fait le meilleur modèle non censuré jusqu’à présent.*
 
-2. *Il utilise le format GGUF, qui est un nouveau format introduit par l’équipe llama.cpp le 21 août 2023. GGUF offre de nombreux avantages par rapport à GGML, tels qu’une meilleure tokenisation et le support des tokens spéciaux.*
+Seule la version 8b existe en version uncensored avec Llam3.
 
-Pour obtenir ce modèle rendez-vous sur [le site](https://ollama.ai/library/llama2-uncensored/tags) de ollama. 
+Pour obtenir ce modèle rendez-vous sur [la page LLama3-Uncensored](https://ollama.com/gurubot/llama3-guru-uncensored) de ollama. 
+
 
 ## Mixtral 8x7B
 
