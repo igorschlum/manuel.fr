@@ -35,4 +35,6 @@ Pour obtenir ce modèle rendez-vous sur [le site](https://ollama.ai/library/mixt
 
 ## Gemma
 
-Google fait également de l'OpenSource et 
+Google fait également de l'OpenSource et a mis à disposition le modèle Gemma qui a connu quelques problèmes au début et qu'il faut retester.
+
+Pour obtenir ce modèle rendez-vous sur [la page Gemma](https://ollama.ai/library/gemma/tags) de ollama.
