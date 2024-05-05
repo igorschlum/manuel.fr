@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # ChatBox
@@ -25,8 +25,6 @@ sidebar_position: 1
 ## Utiliser un modèle sur Chatbox
 
 *Nous allons maintenant voir, comment **utiliser un modèle ollama sur Chatbox**, pour obtenir une plus belle interface qu'un terminal.*
-
-*Tout d'abord installez le modèle souhaité, comme expliqué* [ici](/docs/intro#ouvrir-lapplication-terminal). *Une fois le modèle complètement **installé**, retournez sur l'application Chatbox.*
 
 ***Ouvrez** une nouvelle discution.*
 

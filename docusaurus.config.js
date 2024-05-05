@@ -85,21 +85,21 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          //{
-          //  to: '/docs/decouvrir/galerie', // Chemin vers la page d'accueil de la sidebar "Découvrir"
-          // label: 'Découvrir',
-          // position: 'left',
-          //},
           {
-            to: '/docs/bibliotheque', // Chemin vers la page d'accueil de la sidebar "galerie"
-           label: 'Bibliothèque',
+            to: '/docs/Comprendre', // Chemin vers la page d'accueil de la sidebar "Découvrir"
+            label: 'Comprendre',
             position: 'left',
-          },
-          {
-            to: '/docs/installation', // Chemin vers la page d'accueil de la sidebar "installation"
-           label: 'Installation',
+          },  
+         {
+           to: '/docs/Installer', // Chemin vers la page d'accueil de la sidebar "installation"
+           label: 'Installer',
            position: 'left',
-         },
+        },
+        {
+            to: '/docs/Langages', // Chemin vers la page d'accueil de la sidebar "Bibliotèque"
+            label: 'Langages',
+            position: 'left',
+        },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/igorschlum/manuel.fr',
@@ -116,7 +116,7 @@ const config = {
            items: [
              {
                label: 'Découvrir',
-              to: '/docs/decouvrir/galerie',
+              to: '/docs/Comprendre/',
             },
            ],
          },
