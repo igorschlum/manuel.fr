@@ -1,37 +1,19 @@
 ---
 sidebar_position: 1
 ---
+C'est Bibliothèque ici
 
-Manuel pour installer, comprendre et utiliser **l'intelligence artificielle** grand public sur son Mac avec [Ollama](https://ollama.ai).
+# Prérequis
 
-# Introduction
+Vous devez avoir un Mac M1. Si vous ne savez pas ce que c'est, visitez [cette page Wikipedia](https://fr.wikipedia.org/wiki/Apple_M1). Si vous n'en avez pas, vous pouvez consulter sur internet comment installer Ollama sur votre PC ou sur votre ancien Macintosh.
 
-
-
-##
-A la sortie du premier Macintosh, tout le monde était impressionné par [MacWrite](https://fr.wikipedia.org/wiki/MacWrite), le traitement de texte qui permettait de faire de la mise en page tellement facilement et par [MacPaint](https://fr.wikipedia.org/wiki/MacPaint) l'outil pour dessiner.
-
-On pouvait voir l'ordinateur personnel comme une super machine à écrire et une feuille de dessin où l'on pouvait effacer facilement et agencer des créations graphiques.
-
-Le parallèle avec l'intelligence artificielle sur Mac, c'est qu'aujourd'hui on est impressionné par l'IA générative qui sait écrire, résumer et analyser des textes et par la capacité graphique à faire des images à partir de prompts.
-
-Les usages sont pourtant beaucoup plus larges et on va explorer le potentiel d'utilisation de l'IA OpenSource sur Mac, en cherchant à expliquer le pourquoi et le comment pour des novices.
-
-## Prérequis
-
-Vous devez avoir un Mac M1. Si vous ne savez pas ce que c'est, visitez [cette page Wikipedia](https://fr.wikipedia.org/wiki/Apple_M1). Si vous n'en avez pas, vous pouvez apprendre la théorie et pas la pratique.
-
-Vous devez avoir envie de découvrire l'intelligence artificielle en utilisation libre et gratuite. Nous allons utiliser l'application Ollama.
-
-Vous devez avoir du temps devant vous, pour avancer pas à pas dans ce site.
-
-Et vous devez avoir quelques notions d'anglais, mais nous traduirons au fur et à mesure tous les termes anglais que nous croiserons, comme [LLM](/docs/decouvrir/glossaire#LLM)
+Et vous devez avoir quelques notions d'anglais, mais nous traduirons au fur et à mesure tous les termes anglais que nous croiserons, comme [LLM](/docs/Comprendre/glossaire#LLM)
 
 N'hésitez pas à m'écrire si vous ne comprenez pas une étape, tout est fait pour être très accessible.
 
 C'est parti !
 
-### Installation
+# Installation
 
 Si ce n'est déjà fait, commencez par **[téléchargez Ollama](https://ollama.ai/download)**
 
@@ -41,36 +23,36 @@ Double cliquez dessus (pour décompresser l'application) et déplacez la dans vo
 
 Lancez l'application Ollama,
 
-![Attention](../static/img/warning.png)
+![Attention](/img/warning.png)
 
 
 Un dialogue apparaît pour vous demander de confirmer, car c'est une application chargée depuis l'internet et pas depuis l'AppStore d'Apple. Vous pouvez confirmer.
 
 Ollama se lance et si vous ne l'avez pas déplacé dans le dossier Applications, un dialogue en anglais vous proposera de le faire
 
-![Attention](../static/img/move.png)
+![Attention](/img/move.png)
 
 Cliquez sur **Move to application**
 
 Un autre dialogue en anglais vous souhaite la bienvenue et vous présente le logo Ollama.
 
-![Attention](../static/img/next.png)
+![Attention](/img/next.png)
 
 Cliquez sur Next.
 
 ## Ouvrir l'application terminal
 
-Pour lancer Ollama et pour charger un premier [LLM](/docs/decouvrir/glossaire#LLM), il faut lancer l'application Terminal qui se trouve dans le dossier Utilitaire de votre Mac.
+Pour lancer Ollama et pour charger un premier [LLM](/docs/Comprendre/glossaire#LLM), il faut lancer l'application Terminal qui se trouve dans le dossier Utilitaire de votre Mac.
 
 Taper dans le terminal la commande:
 
 ```bash
-ollama run llama2
+ollama run llama3
 ```
 
-Le mot `run` permet d'executer le modèle `llama2`. Si le modèle n'est pas chargé, il va se charger (cela occupe un peu moins de 4 Giga sur le disque)
+Le mot `run` permet d'executer le modèle `llama3`. Si le modèle n'est pas chargé, il va se charger (cela occupe un peu moins de 4 Giga sur le disque)
 
-![run llama2](../static/img/llama2.png)
+![run llama3](/img/llama3.png)
 
 Une fois le modèle téléchargé, vous pouvez commencer une discution.
 
@@ -244,6 +226,6 @@ Pour afficher les modèles installés, taper dans le terminal de commande:
 ollama list
 ```
 
-![Attention](../static/img/list.png)
+![Attention](/img/list.png)
 
 Pour proposer une modification, rendez-vous sur le [github de cette page](https://github.com/igorschlum/manuel.fr) puis dans `docs/intro.md` et cliquer sur le petit stylet.
