@@ -28,7 +28,13 @@ https://www.resemble.ai/introducing-rapid-voice-cloning-create-voice-clones-in-s
 
 https://www.thetransmitter.org/from-bench-to-bot/boost-your-writing-with-ai-personas/?utm_source=www.neatprompts.com&utm_medium=newsletter&utm_campaign=google-is-paywalling-ai-search
 
+
 # A essayer
+
+## modification des images avec Dall-E
+
+On peut modifier des images avec Dall-E [lecture en anglais](https://www.theverge.com/2024/4/3/24120181/openai-dall-e-chat-gpt-image-edit)
+
 
 ## video d'aide
 
@@ -40,9 +46,20 @@ https://www.guidde.com
 
 [et outil pour faire des vidéos](http://visla.us/) avec un plan gratuit également.
 
+## des conseils la rédaction
+
+Article en anglais pour améliorer la rédaction en anglais avec l'IA
+
+https://www.thetransmitter.org/from-bench-to-bot/boost-your-writing-with-ai-personas/?utm_source=www.neatprompts.com&utm_medium=newsletter&utm_campaign=google-is-paywalling-ai-search
+
 ## droit
 
 On peut essayer la dernière version de Dall-E qui maintenant ajoute un Watermark sur les images générées en IA.
+
+## Rapsberry P5
+
+On peut faire tourner Ollama sur un Rapsberry P5, qui est un petit ordinateur. On ne peut faire tourner que des petits modèles, ce qui est déjà execptionnel.
+[En savoir plus en anglais](https://k33g.hashnode.dev/connect-your-llm-to-the-world-with-the-ollama-functions)
 
 ## LM Studio
 
