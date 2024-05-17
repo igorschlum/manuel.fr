@@ -14,13 +14,21 @@ Llama3 se décline actuellement en deux versions, Llama3 8b et Llama3 70b. On pe
 
 Pour obtenir plus d'informations rendez-vous sur [la page Llama3](https://ollama.ai/library/llama3/) de ollama.
 
-## Llama3-uncensored
 
-1. *Llama3 Uncensored est une version non censurée du modèle Llama3. Il a la capacité de générer des plans élaborés pour prendre le contrôle d’un pays, ce qui en fait le meilleur modèle non censuré jusqu’à présent.*
+## Dolphin-llama3
 
-Seule la version 8b existe en version uncensored avec Llam3.
+[Dolphin-Llama3](https://ollama.com/library/dolphin-llama3) est une version non censurée et fine tunée du modèle Llama3. il faudrait le comparer précisement sur des tâche comme l'aide à la programmation avec Llama3 pour mieux comprendre les différences entre ces deux modèles.
 
-Pour obtenir ce modèle rendez-vous sur [la page LLama3-Uncensored](https://ollama.com/gurubot/llama3-guru-uncensored) de ollama. 
+Seule la version 8b existe en version uncensored avec Llam3, il faut savoir que Llama3 est beaucoup plus permissif que Llama2 et que l'utilité d'une version Unscensored présente moins d'intérêt.
+
+Sinon il existe aussi ce modèle ]LLama3-Uncensored](https://ollama.com/gurubot/llama3-guru-uncensored) sur une page perso de modèle ollama. 
+
+
+
+## Falcon et Falcon2
+
+[Falcon](https://ollama.com/library/falcon) est intéressant car c'est un modèle qui n'est pas américain et donc on peut espérer qu'il soit plus interntional. C'est aussi le modèle le plus volumineux avec une version en 120GB. Toutefois ils ont sorti un nouveau modèle plus rapide et plus léger avec [Falcon2](https://ollama.com/library/falcon2) qui est un modèle 11B qui prend donc 6,4B sur le disque dur et qui tourne sur des ordinateurs à partir de 16G de Ram, on peut donc le faire tourner sur un Mac mini M1 16Go que l'on voit passer régulièrement en dessous de 600 € d'occasion sur LeBonCoin.
+
 
 
 ## Mixtral 8x7B
@@ -32,6 +40,7 @@ Pour obtenir ce modèle rendez-vous sur [la page LLama3-Uncensored](https://olla
 3. *Il prend en charge des fonctionnalités multilingues, une excellente génération de code et une fenêtre contextuelle de 32 000 octets.*
 
 Pour obtenir ce modèle rendez-vous sur [le site](https://ollama.ai/library/mixtral/) de ollama.
+
 
 ## Gemma
 
