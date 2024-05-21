@@ -2,8 +2,9 @@
 sidebar_position: 6
 ---
 
+# Médecine
 
-## Meditron :
+## Meditron
 
 - *Modèle de langage de grande taille spécifiquement adapté au domaine médical.*
 
@@ -15,7 +16,7 @@ sidebar_position: 6
 
 Pour obtenir le modèle, rendez-vous sur le [site](https://ollama.ai/library/meditron/tags) de ollama.
 
-## Medllama
+# Medllama
 
 - *Il s’agit d’un modèle Llama 2 affiné pour répondre aux questions médicales basées sur un ensemble de données médicales open source.*
 
