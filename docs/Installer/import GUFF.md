@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+title: "Import GUFF"
 ---
 
 # Importer un modèle GUFF depuis Hunging Face
