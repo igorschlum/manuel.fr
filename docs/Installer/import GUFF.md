@@ -19,11 +19,16 @@ Normalement, vous avez déjà installer HomeBrew .
 Puis il faut installer si vous ne l'avez pas déjà: git lfs (Large file storage), cette extension vous aidera a gérer les fichiers lourds comme les GUFF .
 
 Sur le terminal, entrer la commande:
+
+```bash
 git lfs install
+```
 
 Après cela il faut copier le répertoire qui contient le fichier GUFF que vous souhaitez importer:
 
+```bash
 git clone https://huggingface.co/<username>/<model-name>
+```
 
 il suffit just de remplacer les username & model-name avec ceux de votre fichier GUFF , par exemple avec le modèle Croissant LLM ca donnerait :
 
@@ -41,6 +46,7 @@ ou vous pouvez créer votre fichier sur un editeur de code comme Visual Studio C
 
 dans les deux cas, il faudra y entrer ce script la :
 
+```bash
 # Modelfile
 
 FROM "/path/to/downloaded/GGUF/file.gguf"
@@ -49,6 +55,7 @@ TEMPLATE """
 <|im_start|>system
 ...
 """
+```
 
 Ajuster le contenu du FROM pour qu'il correspond a la location du téléchargements de votre fichier GUFF. Pas besoin de modifier le reste du script.
 
@@ -56,7 +63,10 @@ Ajuster le contenu du FROM pour qu'il correspond a la location du téléchargeme
 
 Puis il va maintenant falloir "créer" le modèle avec la commande:
 
+```bash
 ollama create ><model-name -f Modelfile
+```
+
 
 Remplacer model-name par le nom que vous souhaitez donner a votre modèle.
 
@@ -64,7 +74,9 @@ Remplacer model-name par le nom que vous souhaitez donner a votre modèle.
 
 Avezc le Modelfile prêt, vous pouvez lancer et utiliser votre model avec la commande:
 
+```bash
 ollama run <model-name>:latest
+```
 
 cette commande lancera le modele et vous permettera d'intéragir avec en utilisant l'interface d'Ollama.
 
