@@ -115,8 +115,8 @@ const config = {
             title: 'Docs',
            items: [
              {
-               label: 'Découvrir',
-              to: '/docs/comprendre/',
+               label: 'Comprendre',
+              to: '/docs/comprendre',
             },
            ],
          },

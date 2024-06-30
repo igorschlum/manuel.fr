@@ -1,4 +1,5 @@
 ---
+"label": "comprendre",
 sidebar_position: 1
 ---
 

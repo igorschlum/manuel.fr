@@ -1,6 +1,6 @@
 {
-  "label": "Comprendre",
-  "position": 1,
+  "label": "comprendre",
+  "position": 2,
   "link": {
     "type": "generated-index"
   }
