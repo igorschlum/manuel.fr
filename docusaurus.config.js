@@ -86,17 +86,17 @@ const config = {
         },
         items: [
           {
-            to: '/docs/comprendre', // Chemin vers la page d'accueil de la sidebar "Découvrir"
+            to: '/docs/comprendre/', // Chemin vers la page d'accueil de la sidebar "Découvrir"
             label: 'comprendre',
             position: 'left',
           },  
          {
-           to: '/docs/installer', // Chemin vers la page d'accueil de la sidebar "installer"
+           to: '/docs/installer/', // Chemin vers la page d'accueil de la sidebar "installer"
            label: 'installer',
            position: 'left',
         },
         {
-            to: '/docs/bib', // Chemin vers la page d'accueil de la sidebar "Bibliotèques"
+            to: '/docs/bib/', // Chemin vers la page d'accueil de la sidebar "Bibliotèques"
             label: 'bib',
             position: 'left',
         },
