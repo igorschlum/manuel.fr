@@ -12,7 +12,7 @@ Large Language Model.
 
 *LLM signifie "Large Language Model" en anglais, et se traduit par "Grand modèle de langage" en français.*
 
-## quantification
+## quantifications
 
 La quantification est une technique utilisée pour réduire la taille d'un modèle tout en essayant de conserver autant que possible ses performances.
 
@@ -27,7 +27,7 @@ La quantification est une technique utilisée pour réduire la taille d'un modè
 *Meilleure compression: GGUF utilise une compression plus efficace que GGML, ce qui permet d'obtenir une meilleure précision des modèles.*
 *GGUF est actuellement pris en charge par un certain nombre d'outils d'IA, notamment :**
 
-Llama CPP: Un outil open source pour l'inférence [LLM](#LLM) sur CPU.*
+Llama CPP: Un outil open source pour l'inférence LLM sur CPU.*
 *GPT4All: Une interface graphique pour Llama CPP.*
 *Hugging Face: Une plateforme de partage de modèles d'IA.*
 

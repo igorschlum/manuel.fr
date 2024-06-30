@@ -24,7 +24,7 @@ https://x.com/_philschmid/status/1746107252912599314
 
 Ici les résultats d'une étude sur le giagnostic médical 
 
-Il y est dit que le nouveau [LLM](#LLM) (langage modèle à grande échelle) médical de Google surpasse les médecins lors de consultations textuelles en double aveugle.
+Il y est dit que le nouveau LLM (langage modèle à grande échelle) médical de Google surpasse les médecins lors de consultations textuelles en double aveugle.
 
 Le [LLM](#LLM) a été entraîné via des simulations d'auto-apprentissage couvrant diverses maladies, spécialités et contextes.
 Il a été évalué sur la précision du diagnostic, le raisonnement thérapeutique, la communication et l'empathie.

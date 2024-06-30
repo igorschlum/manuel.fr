@@ -20,7 +20,7 @@ Cela permet à certains LLM d'être spécialisés dans l'assistance à la progra
 
 ## combien en existe-t-il ?
 
-sur le site [Ollama.com](https=//ollama.com), il existe plus d'une centaine de LLM. Il y a ceux qui sont officiellement affichés sur le site et ceux qui sont mis à disposition par des utilisateurs d'Ollama et qu'on ne retrouve qu'en faisant une recherche. Tout ceux-là s'installent très facilement.
+sur le site [Ollama.com](https://ollama.com), il existe plus d'une centaine de LLM. Il y a ceux qui sont officiellement affichés sur le site et ceux qui sont mis à disposition par des utilisateurs d'Ollama et qu'on ne retrouve qu'en faisant une recherche. Tout ceux-là s'installent très facilement.
 
 sur le site [Hugging face](https://huggingface.com), il en existe des centaines de milliers, mais qui sont dans des formats pas directement exploitables par Ollama, il faut les importer au paravents comme expliqué ici et là.
 
