@@ -11,7 +11,7 @@ Il y au ne litérature assez fournie en français pour l'installer et pour expli
 
 Il faut toutefois une mémoire vive importante pour le faire fonction en local, comptez au moins 32 Go de mémoire vive si vous voulez générer des 
 
-Stable Diffusion fonctionne grâce à des [LLM](/docs/Comprendre/glossaire#LLM) qui ont été entraînés sur des millions d'images et de textes. Vous lui donnez une description de l'image que vous souhaitez créer, et il génère une image unique et originale.
+Stable Diffusion fonctionne grâce à des [LLM](/docs/comprendre/lectures/glossaire#LLM) qui ont été entraînés sur des millions d'images et de textes. Vous lui donnez une description de l'image que vous souhaitez créer, et il génère une image unique et originale.
 
 Plus votre description est précise, plus l'image sera réaliste. Vous pouvez utiliser des mots simples comme "chat" ou "paysage" ou des phrases plus complexes comme "un portrait de femme en robe rouge dans un champ de fleurs".
 

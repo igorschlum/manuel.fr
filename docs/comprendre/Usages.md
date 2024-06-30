@@ -2,7 +2,9 @@
 sidebar_position: 2
 ---
 
-Rien ne vaut une démonstration de ce qui est faisable en IA sur son Mac en OpenSource avec Ollama. Avant de vous lancer dans l'installation du logiciel et de ce qu'il faut pour le faire tourner, je vous propose de passer en revue ce que vous pouvez faire avec cet outil.
+# Usages
+
+Avant de vous lancer dans l'installation du logiciel Ollama et de ce qu'il faut pour le faire tourner, je vous propose de passer en revue quelques exemples concrets et simples de ce qu'on peut faire avec l'IA générative.
 
 ## Comme un dictionnaire
 
@@ -52,39 +54,43 @@ Les ingénieurs de l'IA ont eu la bonne idée de dire que l'IA ne fait pas d'err
 ## comme un livre de recette de cuisine
 
 ```
- peux-tu me donner une recette de mousse au chocolat en m'indiquant les dosag
-... es dans le système métrique et en me donnant la liste des ingrédients et la 
-... recette en français ?
-Of course! Here is the recipe for egg-free chocolate mousse in both French
-and metric units, along with the list of ingredients:
+ peux-tu me donner une recette de mousse au chocolat en m'indiquant les dosages dans le système métrique et en me donnant la liste des ingrédients et la recette en français ?
+Oui, bien sûr ! Voici une recette de mousse au chocolat sans lactose, adaptée aux besoins des personnes allergiques ou
+intolérantes au lactose. Les ingrédients sont mesurés en grammes et les étapes sont détaillées pour vous aider à obtenir une 
+mousse au chocolat délicieuse et sans lactose.
 
-Ingrédients (en métrique):
+**Ingrédients :**
 
-* 350 ml de lait de coco entier
-* 6 oz de chocolat noir (70% de cocoa ou plus)
-* 1/4 tasse de farine de cacao
-* 1 tas d'extrait de vanille en poudre
-* 1/2 tasse de lait d'eau
+* 250 g de chocolat noir (au moins 70% de cacao)
+* 100 g de sucre
+* 50 g d'eau
+* 20 g de mascarpone sans lactose (ou équivalent, par exemple SoyaMascarpone ou Coconut Cream)
+* 20 g de crème de noix de macadamia (ou autre crème végétale)
+* 1 cuillère à soupe de café soluble (facultatif, pour un goût plus intense)
 
-Recette (en français):
+**Recette :**
 
-1. Dans un blender ou un robot culinaire, mélangez le lait de coco, le chocolat, la farine de cacao et l'extrait de vanille jusqu'à ce que les ingrédients soient bien miscies et crémeux.
-2. Dans un bol séparé, battez la crème chantilliat hasta qu'elle forme des croissants. Laissez refroidir.
-3. Folds la crème battue dans le mélange de chocolat jusqu'à ce qu'il soit bien combiné.
-4. Versez la mousse dans des cuillères individuelles ou dans un plat de 
-service. Laissez réfrigérer pendant au moins 2 heures ou une nuit complète.
-5. Avant de servir, décorez la mousse avec des lamelles de chocolat ou des graines de noix (optionnel).
+1. Étalez le chocolat sur une plaque ou un plan de travail et laissez-le fondre à température ambiante. Il est important que le 
+chocolat soit fondu complètement pour éviter les grumeaux.
+2. Dans un bol, mélangez le sucre et l'eau jusqu'à obtenir un sirop liquide. Ajoutez ce sirop au chocolat fondu et mélangez
+jusqu'à obtenir une émulsion homogène.
+3. Dans un autre bol, fouettez le mascarpone sans lactose et la crème de noix de macadamia jusqu'à obtenir une consistance lisse 
+et aérée.
+4. Ajoutez progressivement le mélange chocolat-sucre à la mousse de mascarpone, en fouettant constamment pour éviter les grumeaux.
+5. Si vous souhaitez ajouter un goût café, ajoutez maintenant la cuillère à soupe de café soluble et mélangez bien.
+6. Pour finir, versez le mélange dans des verrines ou des coupes individuelles. Mettez-les au réfrigérateur pendant au moins 2 
+heures pour permettre au chocolat de prendre forme.
+7. Servez fraîche et savourez votre délicieuse mousse au chocolat sans lactose !
 
-Here are the dosages for each ingredient in the recipe:
+Conseils :
 
-* Lait de coco entier: 350 ml
-* Chocolat noir (70% de cocoa ou plus): 6 oz
-* Farine de cacao: 1/4 tasse
-* Extrait de vanille en poudre: 1 tas
-* Lait d'eau: 1/2 tasse
-
-I hope this helps! Let me know if you have any questions.
-````
-On voit ici qu'on doit forcer llama2 a répondre en français et qu'on doit le forcer (sans total succès à utiliser le système métrique dans ses réponses)
+* Assurez-vous que le mascarpone sans lactose est compatible avec vos besoins alimentaires et que vous n'avez pas d'allergies ou 
+de tolérances à certains ingrédients.
+* Pour conserver la mousse au réfrigérateur pendant plusieurs jours, il est préférable de couvrir les verrines d'un film plastique
+ou d'une feuille de papier parchemin pour éviter l'oxydation du chocolat.
+* Vous pouvez personnaliser cette recette en ajoutant des ingrédients supplémentaires, tels que des fruits (par exemple, des 
+framboises ou des raisins), des noix ou même du poivre noir.
+```
+On voit que llama3 laisse quelques mots d'anglais dans la recette, mais il répond mieux en français que ne le faisait llama2, ce qui montre que les modèles progressent à chaque version et savent travailler dans plus de langues.
 
 Cliquez sur le côté pour découvrir d'autres usages de l'intelligence artificielle

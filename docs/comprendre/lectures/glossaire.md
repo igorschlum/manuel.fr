@@ -6,6 +6,16 @@ sidebar_position: 3
 
 On explique ici les termes techniques utilisés dans ce site
 
+## LLM {#LLM}
+
+Large Language Model.
+
+*LLM signifie "Large Language Model" en anglais, et se traduit par "Grand modèle de langage" en français.*
+
+## quantification
+
+La quantification est une technique utilisée pour réduire la taille d'un modèle tout en essayant de conserver autant que possible ses performances.
+
 ## GGUF
 
 *signifie GPT-Generated Unified Format. Il s'agit d'un format de fichier pour stocker les modèles de langage de grande taille (LLM) développé par l'équipe de Facebook AI. GGUF a été conçu pour être plus efficace et plus performant que les formats de fichier LLM existants, tels que GGML.*
@@ -21,21 +31,48 @@ Llama CPP: Un outil open source pour l'inférence [LLM](#LLM) sur CPU.*
 *GPT4All: Une interface graphique pour Llama CPP.*
 *Hugging Face: Une plateforme de partage de modèles d'IA.*
 
-Un article en anglais explique ici comment faire tourner les fichiers GGUF sur Ollama, je n'ai pas encore eu le temps de tester cela.
+Cette page explique comment importer un modèle GUFF sur Ollama.
 
-https://www.markhneedham.com/blog/2023/10/18/ollama-hugging-face-gguf-models/
+## Safetensors
 
-et c'est simplement expliqué dans la documentation ici :
+SafeTensors est un autre format spécialisé pour stocker et partager des modèles d'apprentissage automatique, conçu pour répondre à certaines limitations et préoccupations de sécurité associées
 
-https://github.com/jmorganca/ollama#import-from-gguf
+On peut transformer des formats Safetensors en GUFF comme indiqué ici :
+
+Thanks for this! In case someone else comes across this, here is how I did this from scratch on a mac, following your directions:
+
+```bash
+git clone https://github.com/ggerganov/llama.cpp
+```
 
 
+ - This command is cloning the repository located at "https://github.com/ggerganov/llama.cpp" to the local machine.
+```bash
+cd llama.cpp/
+```
 
-## LLM{#LLM}
+- Navigate to the newly cloned repository located at "llama.cpp".
+```bash
+make
+```
+- This command is building the project using the make build system. It will compile the source code and link any necessary libraries to produce an executable binary.
 
-Large Language Model.
+```bash
+python3 -m pip install -r requirements.txt
+```
+ - This command is installing the Python dependencies required for the project, specified in the "requirements.txt" file.
 
-*LLM signifie "Large Language Model" en anglais, et se traduit par "Grand modèle de langage" en français.*
+ ```bash
+python convert.py --outtype f16 --ctx 4096 models/<INSERT_YOUR_FOLDER_NAME_HERE>
+```
+
+- This command is running a Python script named "convert.py" with the arguments --outtype f16 and --ctx 4096, using the model located at models/&lt;INSERT_YOUR_FOLDER_NAME_HERE&gt;, you have to specify a context length, may be a new requirement since you wrote this.
+
+```bash
+./quantize models/<INSERT_YOUR_FOLDER_NAME_HERE>/ggml-model-f16.gguf models/<INSERT_YOUR_FOLDER_NAME_HERE>/<INSERT_YOUR_MODEL_NAME_HERE>.
+gguf Q6_K
+```
+ - Quantize the model with one argument, including the path to the model and the output file name.
 
 ## Unsencored
 

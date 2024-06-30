@@ -86,18 +86,18 @@ const config = {
         },
         items: [
           {
-            to: '/docs/Comprendre', // Chemin vers la page d'accueil de la sidebar "Découvrir"
-            label: 'Comprendre',
+            to: '/docs/comprendre', // Chemin vers la page d'accueil de la sidebar "Découvrir"
+            label: 'comprendre',
             position: 'left',
           },  
          {
-           to: '/docs/Installer', // Chemin vers la page d'accueil de la sidebar "installation"
-           label: 'Installer',
+           to: '/docs/installer', // Chemin vers la page d'accueil de la sidebar "installer"
+           label: 'installer',
            position: 'left',
         },
         {
-            to: '/docs/Langages', // Chemin vers la page d'accueil de la sidebar "Bibliotèque"
-            label: 'Langages',
+            to: '/docs/bib', // Chemin vers la page d'accueil de la sidebar "Bibliotèques"
+            label: 'bib',
             position: 'left',
         },
           {to: '/blog', label: 'Blog', position: 'left'},
@@ -116,7 +116,7 @@ const config = {
            items: [
              {
                label: 'Découvrir',
-              to: '/docs/Comprendre/',
+              to: '/docs/comprendre/',
             },
            ],
          },
