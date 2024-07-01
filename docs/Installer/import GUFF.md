@@ -13,18 +13,18 @@ Par exemple, on peut depuis le terminal taper "Ollama run llama3" et charger en 
 
 Il y a une centaine de modèles prêt à l'emploi sur le site [Ollama.com](https://ollama.com/library)
 
-Vous pouvez aussi dans le cadre de l'utilisation que vous voulez faire de l'IA Générative, utiliser d'autres modèles qui ne sont pas encore disponible sur le site Ollama, par exemple des modèles qui sont sur le site [Hugging Face](https://www.manuel.fr/docs/Comprendre/Autres%20IA/Hugging%20Face) qui en héberge plusieurs centaines de milliers.
+Vous pouvez aussi dans le cadre de l'utilisation que vous voulez faire de l'IA Générative, utiliser d'autres modèles qui ne sont pas encore disponible sur le site Ollama, par exemple des modèles qui sont sur le site [Hugging Face](https://www.manuel.fr/docs/comprendre/Autres%20IA/Hugging%20Face) qui en héberge plusieurs centaines de milliers.
 
 
 ## choisir son modèle
 
 Commencez par aller sur Hugging Face et recherchez un modèle qui vous intéressent. Par exemple nous allons importer le modèle Croissant LLM trouvé sur le [site de central suppélec](https://www.centralesupelec.fr/fr/croissant-llm-une-percee-en-ia-generative-realisee-par-le-laboratoire-mics)
 
-vous pouvez aller sur [Hugging Face](https://www.manuel.fr/docs/Comprendre/Autres%20IA/Hugging%20Face), faire des recherches et choisir un modèle parmis les centaines de milliers de Modèles disponibles.
+vous pouvez aller sur [Hugging Face](https://www.manuel.fr/docs/comprendre/Autres%20IA/Hugging%20Face), faire des recherches et choisir un modèle parmis les centaines de milliers de Modèles disponibles.
 
 ## pré-requis
 
-Avant d'importer un LLM au [format GUFF](https://www.manuel.fr/docs/Comprendre/glossaire#gguf), il va falloir le télécharger depuis le site d'HuggingFace, mais parfois les modèles sont composés de plusieurs fichiers et il y a un script qui permet de faire cette importation facilement sur votre Mac.
+Avant d'importer un LLM au [format GUFF](https://www.manuel.fr/docs/comprendre/lecture/glossaire#gguf), il va falloir le télécharger depuis le site d'HuggingFace, mais parfois les modèles sont composés de plusieurs fichiers et il y a un script qui permet de faire cette importation facilement sur votre Mac.
 
 Pour faire tourner ce script, il faut l'installer sur votre Mac et pour l'installer on va utiliser HomeBrew qui est un utilitaire très connu pour installer des librairies et les mettre à jour.
 
