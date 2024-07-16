@@ -30,8 +30,8 @@ configurer des logiciels manuellement.
 gérer vos packages de manière facile. Vous pouvez :
 	* Listez tous les packages installés (par exemple, `brew list`)
 	* Cherchez des packages spécifiques (par exemple, `brew search python`)
-	* Installez de nouveaux packages (par exemple, `brew install 
-<package-name>`)
+	* Installez de nouveaux packages (par exemple, `brew install`)
+	* Mettre à jour la version cliente d'Ollama (par exemple, `brew Update ollama`)
 	* Mettre à jour ou supprimer des packages existants
 
 **3. Découverte de packages :** Homebrew dispose d'une grande bibliothèque

@@ -87,3 +87,7 @@ risqué à utiliser.*
 ## QLoRA
 
 *"QLoRA" est une méthode d’ajustement fin qui réduit suffisamment l’utilisation de la mémoire pour ajuster un modèle de 65 milliards de paramètres sur une seule GPU NVIDIA A10G de 24 Go tout en préservant les performances complètes de l’ajustement fin en 16 bits. En d’autres termes, QLoRA permet d’entraîner des modèles de langage de grande taille sur du matériel relativement standard, ce qui rend la technologie plus accessible*
+
+## NLP (Natural Language Processing)
+
+Il s'agit de permettre aux gens de discuter avec les données de l'entreprise en utilisant un langage naturel. L'idée est de de pas avoir à apprendre comment la donnée de l'entreprise est organisée.
