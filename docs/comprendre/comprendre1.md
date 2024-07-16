@@ -4,6 +4,7 @@ sidebar_position: 1
 
 Manuel.fr veux vous faire découvrir, comprendre et utiliser **l'intelligence artificielle** sur Mac avec [Ollama](https://ollama.ai).
 
+
 # Introduction
 
 A la sortie du premier Macintosh, tout le monde était impressionné par [MacWrite](https://fr.wikipedia.org/wiki/MacWrite), le traitement de texte qui permettait de faire de la mise en page tellement facilement et par [MacPaint](https://fr.wikipedia.org/wiki/MacPaint) l'outil pour dessiner.
