@@ -13,7 +13,7 @@ Par exemple, on peut depuis le terminal taper "Ollama run llama3" et charger en 
 
 Il y a une centaine de modèles prêt à l'emploi sur le site [Ollama.com](https://ollama.com/library)
 
-Vous pouvez aussi dans le cadre de l'utilisation que vous voulez faire de l'IA Générative, utiliser d'autres modèles qui ne sont pas encore disponible sur le site Ollama, par exemple des modèles qui sont sur le site [Hugging Face](https://www.manuel.fr/docs/comprendre/Autres%20IA/Hugging%20Face) qui en héberge plusieurs centaines de milliers.
+Vous pouvez aussi dans le cadre de l'utilisation que vous voulez faire de l'IA Générative, utiliser d'autres modèles qui ne sont pas encore disponible sur le site Ollama, par exemple des modèles qui sont sur le site [Hugging Face](https://www.manuel.fr/docs/learn/autres_ia/Hugging%20Face) qui en héberge plusieurs centaines de milliers.
 
 
 ## choisir son modèle

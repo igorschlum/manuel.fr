@@ -7,7 +7,7 @@ C'est Bibliothèque ici
 
 Vous devez avoir un Mac M1. Si vous ne savez pas ce que c'est, visitez [cette page Wikipedia](https://fr.wikipedia.org/wiki/Apple_M1). Si vous n'en avez pas, vous pouvez consulter sur internet comment installer Ollama sur votre PC ou sur votre ancien Macintosh.
 
-Et vous devez avoir quelques notions d'anglais, mais nous traduirons au fur et à mesure tous les termes anglais que nous croiserons, comme [LLM](/docs/comprendre/lectures/glossaire#LLM)
+Et vous devez avoir quelques notions d'anglais, mais nous traduirons au fur et à mesure tous les termes anglais que nous croiserons, comme [LLM](/docs/learn/lectures/glossaire#LLM)
 
 N'hésitez pas à m'écrire si vous ne comprenez pas une étape, tout est fait pour être très accessible.
 
@@ -42,7 +42,7 @@ Cliquez sur Next.
 
 ## Ouvrir l'application terminal
 
-Pour lancer Ollama et pour charger un premier [LLM](/docs/comprendre/lectures/glossaire#LLM), il faut lancer l'application Terminal qui se trouve dans le dossier Utilitaire de votre Mac.
+Pour lancer Ollama et pour charger un premier [LLM](/docs/learn/lectures/glossaire#LLM), il faut lancer l'application Terminal qui se trouve dans le dossier Utilitaire de votre Mac.
 
 Taper dans le terminal la commande:
 

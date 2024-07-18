@@ -35,7 +35,7 @@ Pour entrainer ces données dans un modèle BERT personnalisé, il me semble que
 
 ### installer SBert
 
-Pour ça il faut se placer dans son dossier de développement et taper la commande suivante si vous êtes sur mac silicon (et que vous avez déjà installé [conda](/docs/installer/outils/conda))
+Pour ça il faut se placer dans son dossier de développement et taper la commande suivante si vous êtes sur mac silicon (et que vous avez déjà installé [conda](/docs/install/outils/conda))
 
 ```bash
 conda install -c conda-forge sentence-transformers
@@ -53,7 +53,7 @@ il faut également installer PyTorch si vous ne l'avez pas déjà fait
 conda install pytorch torchvision -c pytorch
 ```
 
-pour vérifier que PyTorch est bien installé, on peut faire un script en python que l'on lance depuis le dossier développement. On va par exemple appeler ce fichier : pytorch_test.py avec [Visual Code Studio](/docs/installer/outils/vs%20code) (VSC)
+pour vérifier que PyTorch est bien installé, on peut faire un script en python que l'on lance depuis le dossier développement. On va par exemple appeler ce fichier : pytorch_test.py avec [Visual Code Studio](/docs/install/outils/vs_code) (VSC)
 
 ```bash
 import torch
