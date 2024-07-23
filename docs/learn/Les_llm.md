@@ -10,6 +10,8 @@ LLM est l'acronyme de Large Language Model.
 
 Par analogie, on peut comparer un LLM à un documentaliste - écrivain public avec une encyclopédie. On peut lui poser des questions, et en fonction de ce qui est écrit dans son dictionnaire, il va vous répondre et vous pouvez entamer une discussion avec lui et il vous répond. Le LLM peut être multi-langue, c'est à dire qu'on peut lui poser des questions en français, en anglais ou dans d'autres langues et il répond plus ou moins bien dans la langue demandée en fonction de ce qui est écrit dans son encyclopédie.
 
+D'un point de vue technique, un LLM est une somme de connaissance entrainée qui sait deviner les caractères à afficher selon les questions que vous lui posez. C'est très étonnant car donne l'impression qu'i y a une intelligence, mais elle n'est qu'artificielle.
+
 ## pourquoi plusieurs LLM ?
 
 Il y a plusieurs LLM comme il y a plusieurs encyclopédie. Chaque éditeur de LLM essai de faire le meilleur selon ses critères. certains répondent plus rapidement aux questions, d'autres maîtrisent mieux le français et mes données qui les composent varient aussi d'un LLM à l'autre.
