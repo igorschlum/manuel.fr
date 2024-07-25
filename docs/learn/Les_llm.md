@@ -26,11 +26,9 @@ sur le site [Hugging face](https://huggingface.com), il en existe des centaines 
 
 ## combien de variations de chaque LLM ?
 
-En plus d'être très nombreux, chaque LLM est disponible en plusieurs variations. La première consiste dans le corpus utilisé. Par exemple le modèle Llama3 exite dans une version 8B qui prend 4,7 Go en mémoire vive et dans une version 70B qui utilise 40 Go de mémoire vive et donc qui nécessite un ordinateur avec plus de mémoire pour le faire tourner. La version 70B est moins rapide, mais plus précise dans ses réponses.
+En plus d'être très nombreux, chaque LLM est disponible en plusieurs variations. La première consiste dans le corpus utilisé. Par exemple le modèle Llama3.1 exite dans une version 8B qui prend 8 Go en mémoire vive et dans une version 70B qui utilise 70 Go de mémoire vive et donc qui nécessite un ordinateur avec plus de mémoire pour le faire tourner. La version 70B est moins rapide, mais plus précise dans ses réponses. Llama3.1 est aussi disponible dans une version 240B qui nécessite 240 Go pour le faire tourner ce qui n'est pas possible sur un seul mac à date, il faut donc plusieurs Mac en cluster pour faire tourner ce modèle.
 
 Si on privilégie la qualité des réponses, il est préférables d'utiliser un LLM plus puissant, s'il s'agit de réaliser des tâches plus simples, la version 8B est plus rapide et est suffisante.
-
-Les modèles peuvent être disponibles selon un nombre de quantifications comme expliqué ici.
 
 Les modèles varient aussi 
 

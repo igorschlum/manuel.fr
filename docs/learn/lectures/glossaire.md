@@ -12,6 +12,10 @@ Large Language Model.
 
 *LLM signifie "Large Language Model" en anglais, et se traduit par "Grand modèle de langage" en français.*
 
+## prompt
+
+Le prompt est l'instruction qui est donnée au LLM pour recevoir la réponse. Plus un prompt est précis, plus la réponse attendu sera adaptée.
+
 ## quantifications
 
 La quantification est une technique utilisée pour réduire la taille d'un modèle tout en essayant de conserver autant que possible ses performances.

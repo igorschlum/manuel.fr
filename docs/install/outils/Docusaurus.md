@@ -51,6 +51,6 @@ Le lien Gitbug de [Docusaurus](https://github.com/facebook/docusaurus)
 
 Autre [vidéo Youtube en anglais](https://www.youtube.com/watch?v=xKOhIJQi84w) qui explique comment on peut personnaliser un site Docusaurus.
 
-J'aimerai implanté sur ce site la recherche qui est possible avec Docusaurus. Visiblement, ce module est compatible avec Docusaurus 3
+J'aimerai implanter sur ce site la recherche qui est possible avec Docusaurus. Visiblement, ce module est compatible avec Docusaurus 3
 
 https://github.com/easyops-cn/docusaurus-search-local/issues

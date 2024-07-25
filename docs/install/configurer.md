@@ -9,10 +9,10 @@ Je vous propose de configurer Ollama pour le rendre encore plus performant
 Dans son utilisation basique, on lance l'application Ollama depuis le terminal en tapant
 
 ```bash
-ollama run lama3
+ollama run lama3.1
 ```
 
-Cette commande va lancer l'application Ollama si elle ne tourne pas déjà, charger le modèle lama3 et vous donner la main pour que vous puissiez taper votre "prompt", c'est à dire la question que vous allez poser à Llama3.
+Cette commande va lancer l'application Ollama si elle ne tourne pas déjà, charger le modèle lama3.1 et vous donner la main pour que vous puissiez taper votre "prompt", c'est à dire la question que vous allez poser à Llama3.
 
 Ce que vous ne voyez pas, c'est que l'application Ollama va installer un serveur qui est disponible depuis votre terminal en tapant dans la barre d'URL http://127.0.0.1:11434
 

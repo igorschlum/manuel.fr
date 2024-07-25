@@ -14,12 +14,16 @@ On pouvait voir l'ordinateur personnel comme une super machine à écrire et une
 
 Imaginez que vous êtes dans une bibliothèque municipale et que vous pouvez poser n'importe quelle question au documentaliste qui va regarder dans ses livres et ses encyclopédies pour vous concocter une réponse sur mesure.
 
-par exemple
-```bash
-pourquoi le ciel est bleu ?
-```
 
 # L'IA générative
+
+
+Ce qui nous intéresse sur manuel.fr, est ce qu'on appelle l'IA générative, c'est à dire qu'à partir d'un [Prompt](/lectures/glossaire#prompt), (terme utilisé en anglais pour désigner l'instruction que l'on demander à l'IA) l'IA va vous répondre par un texte.
+
+Exemple :
+
+<details open>
+  <summary>pourquoi le ciel est bleu ?</summary>
 
 
 * La couleur du ciel est un phénomène complexe qui a fasciné les scientifiques et les philosophes depuis l'Antiquité. La réponse est liée à la physique de la lumière, à la composition de l'atmosphère et aux propriétés des molécules qui la composent.
@@ -53,3 +57,24 @@ d'incidence des rayons solaires et donc sur la couleur perçue.
 En résumé, le ciel est bleu en raison de la diffusion de la lumière par 
 les molécules d'azote et d'oxygène dans l'atmosphère, qui privilégie les 
 couleurs bleues et violettes.
+ </details>
+
+
+# Les LLM
+
+Les réponses sont générées par un LLM. Il sera le plus souvent différent, même si vous posez plusieurs fois la même question.
+
+Ces LLM sont composés de textes qui prendrdaient des centaines de milliers d'année à lire pour un humaine qui subissent deux traitements informatiques
+
+## Pré-entrainement (Pre-training)
+
+Cette étape consiste à entraîner le modèle sur une vaste quantité de données textuelles pour qu'il apprenne les structures et les régularités de la langue. Durant cette phase, le modèle essaie de prédire la suite d'un texte donné, ce qui l'oblige à comprendre le contexte, la syntaxe, le vocabulaire, et les relations entre les mots.
+Détails techniques : Le modèle est exposé à d'immenses corpus de textes, souvent provenant de l'internet, de livres, d'articles scientifiques, etc. Les algorithmes comme les réseaux de neurones transformateurs (Transformers) sont fréquemment utilisés. Le modèle apprend à minimiser une fonction de perte qui mesure l'écart entre ses prédictions et les textes réels.
+
+
+## Ajustement fin (Fine-tuning)
+
+Après le pré-entrainement, le modèle est affiné sur des tâches spécifiques ou des types de textes particuliers. Cette phase permet de spécialiser le modèle pour qu'il soit plus performant sur des applications concrètes.
+Détails techniques : Le modèle pré-entraîné est encore entraîné, mais cette fois-ci sur un ensemble de données plus restreint et spécialisé, souvent étiqueté, qui correspond aux tâches ciblées (par exemple, la classification de textes, la réponse à des questions, la traduction automatique, etc.). Cela permet d'ajuster les paramètres du modèle pour améliorer sa précision et sa pertinence dans le contexte spécifique.
+
+Ces deux étapes, le pré-entrainement et l'ajustement fin, sont cruciales pour la conception et la performance d'un modèle LLM et c'est pour cela qu'il y a plusieurs LLM, car ils ne partent pas du même corpus de texte et il ne sont pas entrainés de la même façon.
