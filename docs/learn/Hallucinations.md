@@ -751,6 +751,112 @@ Donc, nous avons finalement un total de 1,063 + 122 = 1,185 jours entre le 2 fé
 précédemment en ne prenant pas en compte les jours dans l'année 2024 jusqu'au 23 mai. Merci de votre correction !
 </details>
 
+### Avec llama3.1:70b-instruct-q8_0
+
+Ce modèle OpenSource a la bonne réponse, mais il nécessite 70 Go de mémoire vive pour tourner.
+
+<details open>
+  <summary>combien il y a de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
+
+>>> peux-tu m'expliquer comment tu fais ton calcul ?
+Pour calculer le nombre de jours entre deux dates, j'utilise une méthode 
+qui consiste à soustraire la date de début de la date de fin. Voici les 
+étapes que je suis :
+
+1. J'identifie les deux dates : 
+   - Date de début : 2 février 2021
+   - Date de fin : 23 mai 2024
+
+2. Je calcule le nombre de jours restants dans l'année pour la date de 
+début :
+   - Février a 28 jours, mais comme c'est une année non bissextile (2020 
+n'était pas une année bissextile et 2021 n'a que 365 jours), je considère 
+les 28 jours de février.
+   - Mars a 31 jours
+   - Avril a 30 jours
+   - Mai a 31 jours
+   - Juin a 30 jours
+   - Juillet a 31 jours
+   - Août a 31 jours
+   - Septembre a 30 jours
+   - Octobre a 31 jours
+   - Novembre a 30 jours
+   - Décembre a 31 jours
+
+   J'ajoute les jours restants de l'année : 
+   28 (février) + 31 (mars) + 30 (avril) + 31 (mai) + 30 (juin) + 31 
+(juillet) + 31 (août) + 30 (septembre) + 31 (octobre) + 30 (novembre) + 31 
+(décembre) = 323 jours
+
+   J'ajoute les jours écoulés jusqu'à la date de début : 
+   1er janvier au 2 février, il y a 32 jours.
+   
+   Je soustrais ces jours des jours restants dans l'année pour obtenir le 
+nombre total de jours restant en 2021 :
+   365 (jours dans une année non bissextile) - 32 (jusqu'à février) = 333
+
+3. J'ajoute les jours des années intermédiaires : 
+   - Pour l'année 2022, il y a 365 jours.
+   - Pour l'année 2023, il y a également 365 jours.
+
+4. J'ajoute le nombre de jours restants jusqu'à la date de fin en 2024 :
+   - Janvier a 31 jours
+   - Février a 29 jours (puisque c'est une année bissextile)
+   - Mars a 31 jours
+   - Avril a 30 jours
+   - Mai a 23 jours
+
+   J'ajoute ces jours pour obtenir le nombre total de jours jusqu'à la 
+date de fin :
+   31 + 29 + 31 + 30 + 23 = 144 jours
+
+5. Enfin, j'additionne tous les jours que j'ai comptés : 
+   - Jours en 2021 : 333
+   - Jours dans les années intermédiaires : 365 + 365 = 730
+   - Jours jusqu'à la date de fin en 2024 : 144
+
+   Je calcule le total : 
+   333 + 730 + 144 = 1207 jours
+
+Donc, entre le 2 février 2021 et le 23 mai 2024, il y a exactement 
+**1207** jours.
+
+>>> est-ce que tu comptes la date de début et la date du fin dans ton calcul ou 
+... le nombre de jours entre ces deux dates ?                     
+Je comprends mieux maintenant. Dans mon calcul précédent, j'ai inclus les dates de 
+début et de fin dans le décompte des jours.
+
+Pour obtenir le nombre de jours entre les deux dates (c'est-à-dire exclure la date de 
+début et inclure la date de fin), il faut soustraire 1 jour du total.
+
+Donc, si je recalcule :
+
+* Jours en 2021 : 333
+* Jours dans les années intermédiaires : 730
+* Jours jusqu'à la date de fin en 2024 : 144
+
+Total : 333 + 730 + 144 = 1207 jours
+
+Puis, je soustrais 1 jour pour exclure la date de début :
+
+1207 - 1 = 1206 jours
+
+Et enfin, j'ajoute 1 jour pour inclure la date de fin :
+
+1206 + 1 = 1207 jours
+
+Mais attendez... Je me rends compte que mon calcul initial était correct ! Je comptais 
+bien les dates de début et de fin.
+
+Alors, pour répondre à votre question : oui, je compte la date de début et la date de 
+fin dans mon calcul. Le nombre de jours entre le 2 février 2021 et le 23 mai 2024 est 
+effectivement de **1207** jours.
+
+Je m'excuse pour la confusion précédente !
+
+</details>
+
+
 ### Avec ChatGPT d'OpenAI
 
 Il a le bon résonnement et la bonne réponse
@@ -794,6 +900,44 @@ Total des jours entre le 2 février 2021 et le 23 mai 2024
 
 Donc, il y a 1206 jours entre le 2 février 2021 et le 23 mai 2024.
 
+et quand je lui demande à nouveau : combien de jour entre le 2 février 2021 et le 23 mai 2024 ?
+
+Pour calculer le nombre de jours entre le 2 février 2021 et le 23 mai 2024, nous devons prendre en compte les années, les mois et les jours intermédiaires. Voici le calcul détaillé:
+
+Du 2 février 2021 au 2 février 2022: 1 année complète.
+Du 2 février 2022 au 2 février 2023: 1 année complète.
+Du 2 février 2023 au 2 février 2024: 1 année complète.
+Du 2 février 2024 au 23 mai 2024: Nous devons additionner les jours des mois de février (29 jours car 2024 est une année bissextile), mars (31 jours), avril (30 jours) et 23 jours de mai.
+Effectuons les calculs détaillés:
+
+Années complètes: 
+3
+×
+365
+3×365 = 1095 jours
+Année bissextile (2024): +1 jour (366 jours pour l'année bissextile)
+Donc, pour les années complètes: 1095 + 1 = 1096 jours
+
+Ensuite, ajoutons les jours des mois de 2024:
+
+Février: 29 jours - 2 jours (puisque nous commençons à partir du 2 février) = 27 jours
+Mars: 31 jours
+Avril: 30 jours
+Mai: 23 jours
+Total des jours de 2024 (du 2 février au 23 mai):
+27 + 31 + 30 + 23 = 111 jours
+
+Finalement, le total des jours entre le 2 février 2021 et le 23 mai 2024 est:
+1096 + 111 = 1207 jours
+
+Il y a donc 1207 jours entre le 2 février 2021 et le 23 mai 2024.
+
 </details>
 
-Comme vous pouvez le constater, les solutions openSource ne sont pas toujours aussi puissantes que ChatGPT.
+Comme vous pouvez le constater, ChatGPT a la bonne réponse mais interprête différemment la question. Dans un cas il va dire qu'il y a zéro jours entre le 2 et le 3 mars et dans un autre cas, il va dire qu'il y a un jour.
+
+Il faut donc faire attention à la fois à la façon de poser la question et à bien relire la réponse pour voir si on est d'accord.
+
+On voit aussi qu'en demandant à l'IA d'expliquer sa réponse, il va donner plus de détails et que ça peut changer sa façon trouver le résultat et donc proposer une réponse différente.
+
+On voit également que plus une IA est grande, plus elle est capable de répondre à des questions complexes.

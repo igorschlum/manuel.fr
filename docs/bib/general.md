@@ -2,11 +2,11 @@
 sidebar_position: 2
 ---
 
-## Llama3
+## Llama3.1
 
-1. Llama3 est un chatbot développé par Meta AI qui utilise le traitement du langage naturel (NLP) pour travailler sur les entrées humaines. Llama3 est sorti un peu près un an après Llama2 qui a démocratisé les LLM OpenSource en étant le premier qui avait de bonnes performance.
+1. Llama3.1 est un chatbot développé par Meta AI qui utilise le traitement du langage naturel (NLP) pour travailler sur les entrées humaines. Llama3.1 est sorti quelques semaines après Llama3, lui-même sorti un peu près un an après Llama2. Llama2 a démocratisé les LLM OpenSource en étant le premier qui avait de bonnes performance.
 
-Llama3 se décline actuellement en deux versions, Llama3 8b et Llama3 70b. On peut faire tourner Llama3 8b sur un Mac avec 8 Go de mémoire vive. Pour faire tourner le modèle 70b, il faut 40 Gb de mémoire.
+Llama3.1 se décline actuellement en trois versions, Llama3.1 8b, Llama3.1 70b et Llama3.1 240B. On peut faire tourner Llama3 8b sur un Mac avec 8 Go de mémoire vive. Pour faire tourner le modèle 70B, il faut 40 Gb de mémoire et pour faire tourner le modèle 240B, il faut utiliser un cluster de Mac, c'est à dire faire tourner plusieurs Macs à la fois.
 
 2. *Il peut générer du texte, répondre à des questions complexes et avoir des conversations naturelles et engageantes avec les utilisateurs.*
 
