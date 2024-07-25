@@ -18,7 +18,7 @@ Imaginez que vous êtes dans une bibliothèque municipale et que vous pouvez pos
 # L'IA générative
 
 
-Ce qui nous intéresse sur manuel.fr, est ce qu'on appelle l'IA générative, c'est à dire qu'à partir d'un [Prompt](/lectures/glossaire#prompt), (terme utilisé en anglais pour désigner l'instruction que l'on demander à l'IA) l'IA va vous répondre par un texte.
+Ce qui nous intéresse sur manuel.fr, est ce qu'on appelle l'IA générative, c'est à dire qu'à partir d'un [Prompt](/docs/learn/lectures/glossaire#prompt), (terme utilisé en anglais pour désigner l'instruction que l'on demander à l'IA) l'IA va vous répondre par un texte.
 
 Exemple :
 
