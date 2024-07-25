@@ -24,7 +24,7 @@ vous pouvez aller sur [Hugging Face](https://www.manuel.fr/docs/comprendre/Autre
 
 ## pré-requis
 
-Avant d'importer un LLM au [format GUFF](https://www.manuel.fr/docs/comprendre/lecture/glossaire#gguf), il va falloir le télécharger depuis le site d'HuggingFace, mais parfois les modèles sont composés de plusieurs fichiers et il y a un script qui permet de faire cette importation facilement sur votre Mac.
+Avant d'importer un LLM au [format GUFF](https://www.manuel.fr/docs/comprendre/lectures/glossaire#gguf), il va falloir le télécharger depuis le site d'HuggingFace, mais parfois les modèles sont composés de plusieurs fichiers et il y a un script qui permet de faire cette importation facilement sur votre Mac.
 
 Pour faire tourner ce script, il faut l'installer sur votre Mac et pour l'installer on va utiliser HomeBrew qui est un utilitaire très connu pour installer des librairies et les mettre à jour.
 
