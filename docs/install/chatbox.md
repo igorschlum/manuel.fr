@@ -6,6 +6,10 @@ sidebar_position: 3
 
 *Chatbox est un chatbot alimenté par l'**intelligence artificielle**. Nous allons voir ici, comment utiliser un modèle ollama, **lancé** **localement**, sur chatbox pour avoir une **interface** beaucoup plus **esthétique**.*
 
+ChatBox existe en plusieurs versions dont l'une est complètement gratuite. L'interface n'est pas complètement en français, mais certaines parties le sont.
+
+Il est assez simple d'utilisation.
+
 ## Installation
 
 *Tout d'abord il faut **installer** Chatbox, pour cela cliquer *[ici](https://chatboxai.app/fr/install?download=darwin-x86_64)* pour une installation net, ou rendez-vous sur leur* [site](https://chatboxai.app/fr)
