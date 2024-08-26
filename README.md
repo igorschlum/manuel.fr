@@ -9,6 +9,8 @@ What is Ollama?
 Ollama is a software that allows you to load and run artificial intelligence models such as Llama 2 and Code Llama on your Mac. Ollama exposes a webservice that can be queried by HTTP requests
 https://ollama.ai
 
-Contributors
+Contributor
 
-Igor Schlumberger, Emile Schlumberger
+Igor Schlumberger
+
+Feal free to help

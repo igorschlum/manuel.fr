@@ -9,7 +9,7 @@ description: "Description pas à pas de l'import d'un modèle GUFF dans Ollama d
 ## introduction
 
 Sur le site Ollama.com, il y a de nombreux modèles qui peuvent être téléchargés et installer facilement avec une ligne de commande.
-Par exemple, on peut depuis le terminal taper "Ollama run llama3" et charger en mémoire vive le modèle Llama3 depuis votre disque dur et si le modèle n'est pas encore présent sur votre stockage local, il sera préalablement chargé depuis le site d'Ollama.com.
+Par exemple, on peut depuis le terminal taper "Ollama run llama3.1" et charger en mémoire vive le modèle Llama3.1 depuis votre disque dur et si le modèle n'est pas encore présent sur votre stockage local, il sera préalablement chargé depuis le site d'Ollama.com.
 
 Il y a une centaine de modèles prêt à l'emploi sur le site [Ollama.com](https://ollama.com/library)
 

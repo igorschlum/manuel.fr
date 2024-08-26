@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Facile à utiliser',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+
     description: (
       <>
         Ollama est la solution idéale pour exploiter la puissance 

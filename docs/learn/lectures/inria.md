@@ -10,6 +10,11 @@ L'inria est l'institut nationale de recherche en informatique et en automatique.
 
 L'INRIA maintient [ce chapitre](https://www.inria.fr/fr/intelligence-artificielle) avec ses dernières publications sur l'intelligence Artificielle vu de notre côté de l'atlantique.
 
+## des formations sur l'Intelligence Artificielle
+
+https://learninglab.inria.fr/module-2-iai-contenus/
+
+
 ## La médiathèque sur l'Intelligence Artificielle de l'INRIA
 
 La Médiathèque permet de faire des recherches sur des sujets d'innovation, [voir les films sur l'IA](https://mediatheque.inria.fr/Mediatheque/search.do?q=intelligence%20artificielle)
