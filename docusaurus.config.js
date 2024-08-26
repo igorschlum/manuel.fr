@@ -124,8 +124,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Ollama.ai',
-                href: 'https://ollama.ai',
+                label: 'Ollama.com',
+                href: 'https://ollama.com',
               },
               {
                 label: 'Discord',
