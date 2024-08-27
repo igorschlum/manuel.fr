@@ -16,26 +16,18 @@ Large Language Model.
 
 Le prompt est l'instruction qui est donnée au LLM pour recevoir la réponse. Plus un prompt est précis, plus la réponse attendu sera adaptée.
 
+## couches
+
+Le nombre de couches fait référence à la profondeur du réseau neuronal, c'est-à-dire le nombre d'étapes de traitement que les données traversent. Chaque couche est composée de blocs de calcul qui analysent et transforment l'entrée pour produire des sorties de plus en plus abstraites et complexes. Un nombre plus élevé de couches permet au modèle d'apprendre des représentations plus sophistiquées et de capturer des dépendances complexes dans les données, mais cela augmente également le coût en termes de calcul et de mémoire. Les modèles avec plus de couches peuvent donc offrir de meilleures performances pour des tâches complexes, mais nécessitent davantage de ressources.
+
 ## quantifications
 
-La quantification est une technique utilisée pour réduire la taille d'un modèle tout en essayant de conserver autant que possible ses performances.
+C'est une technique utilisée pour réduire la taille des modèles de langage et diminuer leur consommation de mémoire en réduisant la précision des poids du modèle. Au lieu d'utiliser des nombres en virgule flottante de haute précision (comme les 32 bits), la quantization représente les poids du modèle avec moins de bits (par exemple, 8, 6, 5 ou 4 bits). Cela permet de diminuer l'espace de stockage requis et d'accélérer les calculs, rendant ainsi les modèles plus légers et capables de fonctionner sur des Mac avec une mémoire réduite. Bien que la quantization puisse légèrement affecter la précision du modèle, elle est souvent un compromis efficace entre performance et efficacité.
 
 ## GGUF
 
-*signifie GPT-Generated Unified Format. Il s'agit d'un format de fichier pour stocker les modèles de langage de grande taille (LLM) développé par l'équipe de Facebook AI. GGUF a été conçu pour être plus efficace et plus performant que les formats de fichier LLM existants, tels que GGML.*
+GGUF (Grok GPT-Unified Format) est un format de fichier conçu pour stocker et partager efficacement des modèles de langage comme GPT (Generative Pre-trained Transformer). Un modèle peut être disponible en plusieurs fichiers GGUF correspondant à différents niveaux de quantization (par exemple, 4 bits, 5 bits, 6 bits, 8 bits), ce qui permet de réduire la taille du modèle et d'adapter ses performances aux contraintes de calcul ou de mémoire. Les fichiers GGUF contiennent des métadonnées qui décrivent les caractéristiques du modèle, comme le type de quantization utilisé. On retrouve souvent ces formats sur des plateformes comme Hugging Face, facilitant le partage et l'utilisation de modèles optimisés pour diverses applications d'intelligence artificielle.
 
-*Voici les principaux avantages de GGUF :*
-
-*Taille de fichier réduite: Les fichiers GGUF sont généralement 2 à 3 fois plus petits que les fichiers GGML, ce qui facilite leur stockage et leur partage.*
-*Chargement plus rapide: Les modèles GGUF se chargent plus rapidement que les modèles GGML, ce qui permet d'améliorer les performances d'inférence.*
-*Meilleure compression: GGUF utilise une compression plus efficace que GGML, ce qui permet d'obtenir une meilleure précision des modèles.*
-*GGUF est actuellement pris en charge par un certain nombre d'outils d'IA, notamment :**
-
-Llama CPP: Un outil open source pour l'inférence LLM sur CPU.*
-*GPT4All: Une interface graphique pour Llama CPP.*
-*Hugging Face: Une plateforme de partage de modèles d'IA.*
-
-Cette page explique comment importer un modèle GUFF sur Ollama.
 
 ## Safetensors
 
