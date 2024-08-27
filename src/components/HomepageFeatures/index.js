@@ -8,8 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/facile.svg').default,
     description: (
       <>
-        Ollama est la solution idéale pour exploiter la puissance 
-        des LLM sans la complexité technique.
+        Ollama est la solution idéale pour installer et utiliser les LLM Open Source.
       </>
     ),
   },
@@ -18,8 +17,8 @@ const FeatureList = [
     Svg: require('@site/static/img/efficace.svg').default,
     description: (
       <>
-        Performances ⚡, Déploiement facile , Large choix , Évolutivité.
-        Exploitez la puissance des LLM  avec Ollama !
+        Large choix, Performances⚡, paramétrages.
+        Exploitez la puissance des LLM avec Ollama !
       </>
     ),
   },
@@ -28,7 +27,7 @@ const FeatureList = [
     Svg: require('@site/static/img/pratique.svg').default,
     description: (
       <>
-        Grace à ses scripts et ses API, Ollama est le pont entre les LLM et vos usages concrets.
+        Booster vos applications grace à ses scripts et ses API. Ollama est le pont entre les LLM et vos données.
       </>
     ),
   },
