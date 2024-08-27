@@ -42,10 +42,10 @@ PARAMETER stop <|im_end|>
 Faites attention que les LLM en fp16 prennent plus de ressources en mémoire pour fonctionner
 ```bash
 $ ollama run magnum-v2-12b
-/>/>/> hello
+>>> hello
 Hello! How can I help you today?
 
-/>/>/> /bye
+>>> /bye
 $ ollama ps
 NAME                    ID              SIZE    PROCESSOR       UNTIL   
 magnum-v2-12b:latest    0daea775ee7d    25 GB   36%/64% CPU/GPU Forever

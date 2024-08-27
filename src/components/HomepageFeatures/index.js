@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Facile à utiliser',
-
+    Svg: require('@site/static/img/facile.svg').default,
     description: (
       <>
         Ollama est la solution idéale pour exploiter la puissance 
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Efficace',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/efficace.svg').default,
     description: (
       <>
         Performances ⚡, Déploiement facile , Large choix , Évolutivité.
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Pratique',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/pratique.svg').default,
     description: (
       <>
         Grace à ses scripts et ses API, Ollama est le pont entre les LLM et vos usages concrets.
