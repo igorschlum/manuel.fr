@@ -151,12 +151,15 @@ const config = {
             ],
           },
         ],
-         copyright: `Copyright © ${new Date().getFullYear()} <a href="https://x.com/igorschlum" target="_blank" rel="noopener noreferrer">Igor Schlumberger</a>.`,
+         copyright: `Copyright © ${new Date().getFullYear()} <a href="https://x.com/igorschlum" className="cust-link">Igor Schlumberger</a>.`,
+
       },
       prism: {
         theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
         additionalLanguages: ['php'],
+        .cust-link {
+          color: white;
+        }
       },
     }),
 };
