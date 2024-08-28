@@ -151,7 +151,7 @@ const config = {
             ],
           },
         ],
-         copyright: `Copyright © ${new Date().getFullYear()} <a href="https://x.com/igorschlum" style="color: white;>Igor Schlumberger</a>.`,
+         copyright: `Copyright © ${new Date().getFullYear()} Igor Schlumberger.`,
 
       },
       prism: {
