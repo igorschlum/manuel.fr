@@ -132,8 +132,8 @@ const config = {
                 href: 'https://discord.com/invite/ollama',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: '(X) Twitter',
+                href: 'https://x.com/ollama',
               },
             ],
           },
@@ -151,7 +151,9 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Igor Schlumberger.`,
+        const twitterHandle = "igorschlum";
+        const copyright = `Copyright © ${new Date().getFullYear()} <a href="https://x.com/${twitterHandle}" target="_blank" rel="noopener noreferrer">Igor Schlumberger</a>.`;
+         copyright: `Copyright © ${new Date().getFullYear()} Igor Schlumberger.`,
       },
       prism: {
         theme: prismThemes.github,
