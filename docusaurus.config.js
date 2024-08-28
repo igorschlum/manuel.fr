@@ -151,9 +151,7 @@ const config = {
             ],
           },
         ],
-        const twitterHandle = "igorschlum";
-        const copyright = `Copyright © ${new Date().getFullYear()} <a href="https://x.com/${twitterHandle}" target="_blank" rel="noopener noreferrer">Igor Schlumberger</a>.`;
-         copyright: `Copyright © ${new Date().getFullYear()} Igor Schlumberger.`,
+         copyright: `Copyright © ${new Date().getFullYear()} <a href="https://x.com/${igorschlum}" target="_blank" rel="noopener noreferrer">Igor Schlumberger</a>.`,
       },
       prism: {
         theme: prismThemes.github,
