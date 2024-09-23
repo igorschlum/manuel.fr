@@ -25,12 +25,12 @@ Nous allons choisir d'affiner [Mistral](https://ollama.com/library/mistral), qui
 Nous commençons par [ouvrir le template]( ) qui est la description de comment les systèmes informatiques doivent poser les questions à Mistral. On voit à la fin me format des questions et des réponses :
 
 ```bash
-[INST] {{ if .System }}{{ .System }}
+\[INST\] \{\{ if .System \}\}\{\{ .System \}\}
 
-{{ end }}{{ .Prompt }}[/INST]
-{{- end }} {{ .Response }}
-{{- if .Response }}</s>
-{{- end }}
+\{\{ end \}\}\{\{ .Prompt \}\}\[/INST\]
+\{\{- end \}\} \{\{ .Response \}\}
+\{\{- if .Response \}\}\</s\>
+\{\{- end \}\}
 ```
 
 Nous allons dupliquer cela pour créer une liste de questions et réponses que nous allons créer dans un [format JSONL](https://jsonlines.org/on_the_web/).
