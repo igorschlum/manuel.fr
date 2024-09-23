@@ -22,7 +22,7 @@ Bien sûr vous pouvez aussi suivre pas à pas ce que j'ai essayé ci-dessous.
 ## choisir le modèle que l'on va affiner
 
 Nous allons choisir d'affiner [Mistral](https://ollama.com/library/mistral), qui est le LLM openSource français.
-Nous commençons par [ouvrir le template]( ) qui est la description de comment les systèmes informatiques doivent poser les questions à Mistral. On voit à la fin me format des questions et des réponses :
+Nous commençons par ouvrir le template qui est la description de comment les systèmes informatiques doivent poser les questions à Mistral. On voit à la fin me format des questions et des réponses :
 
 ```bash
 \[INST\] \{\{ if .System \}\}\{\{ .System \}\}
