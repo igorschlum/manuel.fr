@@ -253,350 +253,61 @@ Donc, il y a au total 1210 jours entre le 2 février 2021 et le 23 mai 2024.
 
 <details open>
   <summary>ollama run gemma2:27b
-\>\>\> combien de jours entre ces deux dates : 2 février 2021 et 23 mai 2024 ?</summary>
-Voici comment calculer le nombre de jours entre le 2 février 2021 et le 2 février 2024 :
+\>\>\> combien de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
+... 
+Voici comment calculer le nombre de jours :
 
-\* \*\*Du 2 février 2021 au 2 février 2024, il y a 3 ans.\*\*
+* **2021:** Du 2 février au 31 décembre il y a 333 jours (365 - 32).
+* **2022:** Il y a 365 jours.
+* **2023:** Il y a 365 jours.
+* **2024:** Du 1er janvier au 23 mai il y a 143 jours (31 + 29 + 31 + 30 + 
+22).
 
-\* \*\*En considérant que 2024 est une année bissextile (avec 366 jours), on a:\*\*
-
-\* \*\*2 février 2021 à 2 février 2022 : 365 jours\*\*
-\* \*\*2 février 2022 à 2 février 2023 : 365 jours\*\*
-\* \*\*2 février 2023 à 2 février 2024 : 366 jours\*\*
-
-\* \*\*Le nombre de jours dans une année bissextile est de 366\*\*, car il y a un jour supplémentaire en février (le 29 février).
-
-\* \*\*Par conséquent, le nombre total de jours est:\*\* 365 \+ 365 \+ 365 = \*\*1101\*\* 
-
-\*\*Il y a 1101 jours entre le 2 février 2021 et le 2 février 2024.\*\*
-
-
-\>\>\> tu as bien lu la question ? 
-Oui, j'ai bien lu la question.
-
-Je comprends que vous voulez connaître le nombre de jours entre deux dates. Vous avez demandé le nombre de jours entre le 2 février 
-2021 et le 2 mai 2024.
-
-\*\*Cependant\*\*,  je ne peux pas fournir une réponse numérique exacte à cette question.
-
-\* Je peux calculer the total number of days between two dates, but
-\* \*\*The difference en jours entre deux dates est de 3 ans et 8 jours\*\*.
-
-\*\*Please note:\*\*
-
-\* I've only provided the number of days to calculate the difference.
-
-Is there anything else specific you need me to do with these dates? For example:
-
-\* Do you want to know the total number of days between them, taking into account leap years?
-\* Are you looking for the number of weekdays or weekends within the period?
-\* Do you need a breakdown of days in each year, or just the total across all 3 years and 8 days?
-
-Let me know if I can help further!
-
-\*\*I'm happy to help you find the answer depending on what you are looking for.\*\*
-
-\>\>\> Je voudrai avoir le nombre de jours entre le 2 février 2021 et le 23 mai 2024.
-Ok, je comprends.
-
-Pour calculer la différence de jours, il faut tenir compte des années bissextiles. 
-
-\* \*\*Entre le 2 Février 2021 et le 2 Février 2024, il y a 3 ans.\*\*
-
-\*\*Puisque 2024 est une année bissextile,\*\*  le nombre de jours entre ces deux dates dépendra de la date exacte de naissance.
-
-Pourriez-vous me donner la date de naissance du sujet concerné par cette différence de jours ? 
-
-\* \*\*Je peux calculer le nombre de days entre le 2 février 2024 et le 2 Février 2021\*\* (car je sais que "le 2 février 2024" est dans 
-le futur). Cela me permettra de vous donner une réponse plus précise.
-
-Let me know!
-
-\>\>\> combien de jours il y a entre le 2 février 2024 et le 23 mai 2024 ?
-Ah, merci pour la clarification! 
-
-Si on considère que "le 2 Février 2024" est une date fixe dans le futur (like a future birthday),  then the différence would be 
-calculated from the 2nd of February 2024 onwards.
-
-Let me know if you need to calculate anything else!
-
-\>\>\> OK, let's do it in English. How many days between Febuary 2nd, 2024 and may 23, 2024?
-You're asking for the number of days between February 2nd, 2024 and May 2nd, 2024.
-
-To be precise:
-
-\* \*\*February 2nd\*\* is a fixed point in time, so we can assume it's referring to the beginning of the year.  We'd need a specific 
-date in February 2024 (like the 2nd) and the same for May 23rd (assuming you meant a specific day in May),  to calculate the exact 
-number of days.
-
-Let me know if you have a specific date in mind, and I can help you with that!
-
-\>\>\> yes between those two dates.
-You're right! We need to consider the leap year for accuracy.
-
-To figure out the number of days between February 2nd, 2024 and May 2nd, 2024 (remembering that February 2nd is a fixed date in 
-2024), we need to know:
-
-\* \*\*How many days are there between February 2nd and the end of the year?\*\*
-
-This is because the exact number of days depends on which year you're considering.  Let me know the year, and I can calculate it for
-you!  
-
-For example, if we're talking about the years leading up to the "February 2nd" in the future:
-
-\* \*\*February 2nd, 2024\*\* (we'll assume this is the date you meant)
-\* \*\*Are you referring to the 2nd of February, 2024?\*\*  If so, I can tell you the number of days between February 2nd and a specific 
-date.
-
-Let me know the exact year in your desired timeframe and I can give you a precise answer!
-
-\>\>\> between febuary 2, 2024 and may 23 2024.
-You're asking for the number of days between February 2nd and May 23rd, 2024.
-
-Let me figure that out for you.  Since we are talking about a future date, we need to consider leap year dates. 
-
-\*\*The number of days between February 2nd, 2021 and \*\* \*\*May 23rd\*\*, \*\*2024 is approximately 819 days.\*\*
-
-
-Let me know if you want me to calculate the days for a different date range!
+**Total :** 333 + 365 + 365 + 143 = **1206 jours**
  </details>
 
-## Avec Qwen2:7b par Alibaba
+## Avec Qwen2.5:7b par Alibaba
 
 
 <details open>
   <summary>ollama run qwen2:7b
-\>\>\> combien de jours entre ces deux dates : 2 février 2021 et 23 mai 2024 ?</summary>
-
-
-Pour calculer le nombre exact de jours entre les deux dates que vous avez fournies, nous pouvons simplement soustraire la première date de la 
-seconde. 
-
-Du 2 février 2021 au 2 février 2022 : c'est une année entière complète donc cela fait 365 jours.
-Du 2 février 2022 au 2 février 2023 également donne 365 jours (l'année n'est pas bissextile, donc pas de saut d'un jour supplémentaire).
-Du 2 février 2023 au 2 février 2024 donne à nouveau 365 jours.
-Enfin, du 2 février 2024 au 23 mai 2024 représente une période de 102 jours.
-
-Ainsi, la somme total est : 
-
-365 (2021-2022) \+ 365 (2022-2023) \+ 365 (2023-2024) \+ 102 = 1097 jours.
-
-\>\>\> il y a combien de jours entre le 2 février 2024 et le 23 mai 2024 ? Peux-tu détailler ?
-
-Bien sûr, je vais vous expliquer étape par étape.
-
-Du 2 février au 1er mai :
-- Il y a 8 mois et 16 jours.
- 
-- Avril est un mois de 30 jours, alors on a donc :
-
-   - 29 jours pour le mois de Février (2024 étant un année bissextile) \+  
-   - 7 jours du début d'Avril au 1er Mai = 36 jours.
-
-- Mais nous avons 8 mois à comptabiliser et pas seulement jusqu'à Avril, il y a encore le mois de Mai avec ses 22 premiers jours (puisque le 
-jour demandé est inclus).
-
-Ainsi :
-
-36 jours (Février \+ Avril) \+ 
-22 jours du début de Mai au 23ème jour = 
-
-58 jours pour le mois de Février jusqu'au mois de Mai.
-
-Ensuite, nous ajoutons les jours à partir du début du mois de Mai jusqu'à la date demandée qui est le 23ème jour :
-
-Cela donne donc un total de : 
-58 \+ 22 = 80 jours entre le 2 février et le 23 mai 2024.
-
-\>\>\> et le mois de mars ?
-
-Je m'excuse pour la confusion, je me suis mal exprimé.
-
-Comme je vous l'ai expliqué précédemment, nous sommes en train d'estimer la durée entre le deuxième jour du mois de février et le 23ème jour du 
-mois de mai de l'année suivante. 
-
-Dans cette période :
-- Il n'y a pas de jours à compter pour le mois de mars car nous passons directement du mois de février au début du mois de mai.
-
-Donc, la durée totale sera basée sur :
-- 29 jours de Février 2024 (année bissextile)
-\+ 31 jours d'Avril
-\+ 1 jour du début du mois de Mai jusqu'à l'arrivée du deuxième jour
-
-Cela donne donc un total de : 
-
-29 \+ 31 \+ 1 = 61 jours entre le 2 février et le 2 mars inclusivement.
-
-Si vous voulez la durée exacte entre le 2ème de février au 23ème de mai, cela serait :
-
-29 (Février) \+ 31 (Avril) \+ 22 (Mai) = 82 jours. 
-
-Je m'excuse pour cette erreur précédente et j'espère que c'est plus clair maintenant !
-
-\>\>\> pourquoi on ne compte pas le mois de mars ?
-
-Je suis désolé pour la confusion précédentes.
-
-En effet, je dois clarifier ma réponse :
-
-Le nombre total de jours entre le 2 février et le 23 mai de l'année suivante (c'est-à-dire du 2 février 2024 au 23 mai 2024) comprendrait tous 
-les mois entre ces deux dates.
-
-Voici la décomposition :
-
-Du 2 Février au début d'avril : 
-Il y a 1 mois et demi. C'est un peu plus de 45 jours (en comptant chaque jour du 2 février jusqu'à la fin du mois d'avril).
-
-Du début d'Avril au début de mai :
-C'est juste une journée, le premier jour de mai.
-
-Et enfin,
-Du 1er Mai au 23ème : C'est exactement 22 jours (du début du mois de Mai jusqu'à ce que nous atteignons le 23ème).
-
-Donc, l'addition serait :
-
-45 (de février à mi-avril) \+ 
-1 (premier jour du mois de mai) \+  
-22 (jusqu'au 23ème) = 
-
-68 jours entre le deuxième jour de Février et le 23ème jour de Mai inclusivement.
-
-\>\>\> il y a combien de jours en mars ?
-
-Il y a généralement 31 jours en mars.
-
-\>\>\> et en avril ?
-
-Il y a généralement 30 jours en avril.
-
-\>\>\> et du 1er mars au 1 mai ?
-
-Du 1er mars au 1er mai, vous avez les mois de mars et avril inclus.
-
-- Mars a généralement 31 jours donc cela représente une période de 31 jours.
-- Avril a généralement 30 jours.
-
-Ainsi, en ajoutant ces deux périodes ensemble :
-
-31 (dans le mois de mars) \+ 30 (dans le mois d'avril) = 61 jours 
-
-C'est donc la durée totale entre les premiers du mois de mars et du mois d'avril.
-
-\>\>\> du 2 février au 1er mars ?
-
-Du 2 février au 1er mars, vous avez une période qui comprend l'intégralité du mois de février.
-
-Il est à noter que le nombre de jours dans un mois dépend de son numéro (ou de sa position par rapport à l'année bissextile):
-
-- Si le mois est entre le 1er janvier et le dernier jour du mois de février, vous avez 28 jours.
-- Si le mois est entre le premier mars et le dernier jour du mois d'avril (y compris), vous avez 29 jours.
-
-Ainsi :
-
-Du deuxième jour de février au premier jour du mois suivant (mars) comprendrait donc soit :
-27 jours dans un an ordinaire ou 
-
-28 jours dans l'année bissextile,
-puisque nous sommes en 2024 et c'est une année bissextile.
-
-\>\>\> du 2 février au 1er mai?
-
-Du 2 février au 1er mai, vous avez les mois suivants :
-
-- Février 2023 : Il y a généralement 28 jours dans un mois de février en année non bissextile. Cependant, vu que cette année est une année 
-bissextile (donc le prochain février aura 29 jours), la période comprendrait donc les 29 premiers jours de Février.
-
-- Mars : Il y a généralement 31 jours dans un mois de mars.
-
-- Avril : Il y a également généralement 30 jours dans un mois d'avril. 
-
-- Mai : Et enfin, la période comprendrait le premier jour du mois de mai.
-
-En totalité :
-
-29 (premiers jours de Février) \+ 
-31 (dans Mars) \+  
-30 (dans Avril) \+  
-1 (premier jour de Mai)
-
-Cela donne un total de 91 jours entre le deuxième jour de février et le premier jour de mai.
-
-\>\>\> et du 1er mai au 23 mai ?
-
-Du 1er mai au 23ème mai, vous avez 23 jours compris dans le mois de mai.
-
-C'est donc une durée totale de 23 jours.
-
-\>\>\> donc du 2 février 2024 au 23 mai 2024 ?
-
-Du 2 février 2024 au 23 mai 2024, nous avons :
-
-- 1 mois et 3 mois et demi (ou 4 mois si on compte jusqu'à la fin du mois de Mai inclus) entre ces deux dates.
-
-Cela donne un total de :
-
-(31 jours en février \+ 30 jours en mars \+ 31 jours en avril \+ 23 jours en mai)
-
-Total = 31 \+ 30 \+ 31 \+ 23 = 115 jours
-
-Donc, il y a un total de 115 jours entre le deuxième jour du mois de février et le vingt-deuxième jour du mois de mai.
-
-\>\>\> et du 2 février 2021 au 2 février 2024 ?
-
-Du 2 février 2021 au 2 février 2024, cela représente une période de trois ans.
-
-Si nous ne comptons que les années normales (2021, 2022 et 2023), il y aurait alors :
-
-- 365 jours pour l'année 2021 
-- 365 jours pour l'année 2022  
-- 365 jours pour l'année 2023  
-
-Total de 365 \+ 365 \+ 365 = 1095 jours 
-
-Cependant, 2024 est une année bissextile avec un saut de 29 février au lieu du 28. Ainsi la période totale serait donc légèrement plus longue.
-
-Donc en comptant tous les jours, il y a :
-
-- 365 jours pour l'année 2021 
-- 366 jours pour l'année 2024 (compte tenu de l'ajout d'un jour supplémentaire du fait qu'il est bissextile)
-- 365 jours pour l'année 2022  
-- 365 jours pour l'année 2023  
-
-Total de 365 \+ 366 \+ 365 \+ 365 = 1461 jours 
-
-Donc, du 2 février 2021 au 2 février 2024 représente un total de 1461 jours.
-
-\>\>\> donc du 2 février 2021 au 23 mai 2024, il y a combien de jours ?
-
-Du 2 février 2021 au 23 mai 2024 est une période qui couvre les années 2021, 2022 et 2023.
-
-Voici la décomposition :
-
-- Pour l'année 2021 : Du deuxième jour de février à la fin de cette année (c'est-à-dire jusqu'au 31 décembre), cela donne un total de :
-  
-   - Du deuxième jour de février au dernier jour de décembre = 365 jours, puisqu'il s'agit d'une année non bissextile.
-
-- Pour l'année 2022 : Comme elle est une année non bissextile aussi, cela donne un total de :
-   
-   - Un an entier soit 365 jours.
-
-- Pour l'année 2023 : 
-
-   - Du début de l'année jusqu'au 23 mai. Cela comprend :
-     
-     - 1 jour pour le mois de janvier (31 - 2 = 29 jours)
-     - 28 jours en février
-     - Tous les mois de mars, avril et mai compris jusqu'à la date spécifiée 
-        - Avril a 30 jours
-        - Mai a 23 jours 
-
-La somme de ces jours donne le nombre total de jours pour la période.
-
-Donc :
-
-365 (2021) \+ 365 (2022) \+ (29 \+ 28 \+ 30 \+ 23)
-
-Soit environ 1141 jours.
+\>\>\>combien de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
+Pour calculer le nombre de jours entre le 2 février 2021 et le 23 mai 2024, nous pouvons diviser cette période en plusieurs segments plus 
+faciles à gérer :
+
+1. Du 2 février 2021 au 31 décembre 2021 (année non-bissextile) :
+   - Février : 28 jours - 2 = 26 jours
+   - Mars : 31 jours
+   - Avril : 30 jours
+   - Mai : 31 jours
+   - Juin : 30 jours
+   - Juillet : 31 jours
+   - Août : 31 jours
+   - Septembre : 30 jours
+   - Octobre : 31 jours
+   - Novembre : 30 jours
+   - Décembre : 31 jours
+   Total : 26 + 31 + 30 + 31 + 30 + 31 + 31 + 30 + 31 + 30 + 31 = 337 jours
+
+2. Du 1 janvier 2022 au 31 décembre 2022 (année non-bissextile) :
+   Total : 365 jours
+
+3. Du 1 janvier 2023 au 31 décembre 2023 (année non-bissextile) :
+   Total : 365 jours
+
+4. Enfin, du 1 janvier 2024 au 23 mai 2024 :
+   - Janvier : 31 jours
+   - Février : 29 jours (année bissextile)
+   - Mars : 31 jours
+   - Avril : 30 jours
+   - Mai : 23 jours
+   Total : 31 + 29 + 31 + 30 + 23 = 144 jours
+
+En ajoutant tous ces segments, nous obtenons :
+
+337 (2021) + 365 (2022) + 365 (2023) + 144 (2024) = 1211 jours
+
+Donc, il y a 1211 jours entre le 2 février 2021 et le 23 mai 2024.
 </details>
 
 ## Avec Falcon2 proposé par TII

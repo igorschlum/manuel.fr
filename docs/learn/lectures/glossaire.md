@@ -6,27 +6,34 @@ sidebar_position: 3
 
 On explique ici les termes techniques utilisés dans ce site
 
+## Affinage (Fine Tuning)
+
+Le fine-tuning d'un modèle de langage de grande taille (LLM) consiste à adapter un modèle pré-entraîné à un ensemble de données spécifique ou à une tâche particulière afin d'améliorer ses performances pour ce cas d'utilisation précis. Cette technique permet de tirer parti des vastes connaissances générales du LLM tout en le spécialisant sur des nuances ou des besoins spécifiques, comme la compréhension de termes techniques d'une industrie donnée ou la génération de réponses adaptées à un contexte particulier. Le fine-tuning est essentiel pour améliorer la pertinence et l'efficacité des réponses générées par le modèle dans des applications ciblées.
+
+
+## couches
+
+Le nombre de couches fait référence à la profondeur du réseau neuronal, c'est-à-dire le nombre d'étapes de traitement que les données traversent. Chaque couche est composée de blocs de calcul qui analysent et transforment l'entrée pour produire des sorties de plus en plus abstraites et complexes. Un nombre plus élevé de couches permet au modèle d'apprendre des représentations plus sophistiquées et de capturer des dépendances complexes dans les données, mais cela augmente également le coût en termes de calcul et de mémoire. Les modèles avec plus de couches peuvent donc offrir de meilleures performances pour des tâches complexes, mais nécessitent davantage de ressources.
+
+
+## GGUF
+
+GGUF (Grok GPT-Unified Format) est un format de fichier conçu pour stocker et partager efficacement des modèles de langage comme GPT (Generative Pre-trained Transformer). Un modèle peut être disponible en plusieurs fichiers GGUF correspondant à différents niveaux de quantization (par exemple, 4 bits, 5 bits, 6 bits, 8 bits), ce qui permet de réduire la taille du modèle et d'adapter ses performances aux contraintes de calcul ou de mémoire. Les fichiers GGUF contiennent des métadonnées qui décrivent les caractéristiques du modèle, comme le type de quantization utilisé. On retrouve souvent ces formats sur des plateformes comme Hugging Face, facilitant le partage et l'utilisation de modèles optimisés pour diverses applications d'intelligence artificielle.
+
 ## LLM {#LLM}
 
 Large Language Model.
 
 *LLM signifie "Large Language Model" en anglais, et se traduit par "Grand modèle de langage" en français.*
 
-## prompt {#prompt}
-
-Le prompt est l'instruction qui est donnée au LLM pour recevoir la réponse. Plus un prompt est précis, plus la réponse attendu sera adaptée.
-
-## couches
-
-Le nombre de couches fait référence à la profondeur du réseau neuronal, c'est-à-dire le nombre d'étapes de traitement que les données traversent. Chaque couche est composée de blocs de calcul qui analysent et transforment l'entrée pour produire des sorties de plus en plus abstraites et complexes. Un nombre plus élevé de couches permet au modèle d'apprendre des représentations plus sophistiquées et de capturer des dépendances complexes dans les données, mais cela augmente également le coût en termes de calcul et de mémoire. Les modèles avec plus de couches peuvent donc offrir de meilleures performances pour des tâches complexes, mais nécessitent davantage de ressources.
 
 ## quantifications
 
 C'est une technique utilisée pour réduire la taille des modèles de langage et diminuer leur consommation de mémoire en réduisant la précision des poids du modèle. Au lieu d'utiliser des nombres en virgule flottante de haute précision (comme les 32 bits), la quantization représente les poids du modèle avec moins de bits (par exemple, 8, 6, 5 ou 4 bits). Cela permet de diminuer l'espace de stockage requis et d'accélérer les calculs, rendant ainsi les modèles plus légers et capables de fonctionner sur des Mac avec une mémoire réduite. Bien que la quantization puisse légèrement affecter la précision du modèle, elle est souvent un compromis efficace entre performance et efficacité.
 
-## GGUF
+## prompt {#prompt}
 
-GGUF (Grok GPT-Unified Format) est un format de fichier conçu pour stocker et partager efficacement des modèles de langage comme GPT (Generative Pre-trained Transformer). Un modèle peut être disponible en plusieurs fichiers GGUF correspondant à différents niveaux de quantization (par exemple, 4 bits, 5 bits, 6 bits, 8 bits), ce qui permet de réduire la taille du modèle et d'adapter ses performances aux contraintes de calcul ou de mémoire. Les fichiers GGUF contiennent des métadonnées qui décrivent les caractéristiques du modèle, comme le type de quantization utilisé. On retrouve souvent ces formats sur des plateformes comme Hugging Face, facilitant le partage et l'utilisation de modèles optimisés pour diverses applications d'intelligence artificielle.
+Le prompt est l'instruction qui est donnée au LLM pour recevoir la réponse. Plus un prompt est précis, plus la réponse attendu sera adaptée.
 
 
 ## Safetensors

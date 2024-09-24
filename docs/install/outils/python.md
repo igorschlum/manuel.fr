@@ -8,9 +8,9 @@ sidebar_position: 5
 
 Voici comment vous pouvez installer Python sur votre Mac :
 
-1. Rendez-vous sur le site officiel de Python.
+1. Rendez-vous sur le [site officiel de Python](https://www.python.org/downloads/macos/).
 
-2. Téléchargez la version la plus récente de Python 3⁶. Une version « binaire universelle » de Python, qui fonctionne nativement sur les nouveaux processeurs Intel et les anciens processeurs PPC du Mac, y est disponible.
+2. Téléchargez la version la plus récente de Python 3 (la 3.12.5). Une version « binaire universelle » de Python, qui fonctionne nativement sur les nouveaux processeurs Intel et les anciens processeurs PPC du Mac, y est disponible.
 
 3. Une fois le téléchargement terminé, localisez le fichier d’installation et double-cliquez dessus pour lancer le processus d’installation.
 
