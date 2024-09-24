@@ -3,24 +3,25 @@ sidebar_position: 1
 title: "Comprendre"
 ---
 
-Manuel.fr veux vous faire découvrir, comprendre et utiliser **l'intelligence artificielle** sur Mac avec [Ollama](https://ollama.ai).
-
+Manuel.fr veux vous faire découvrir, comprendre et et surtout utiliser **l'intelligence artificielle** sur Mac avec [Ollama](https://ollama.com).
+J'ai passé beaucoup de temps à comprendre et à synthétiser ce que j'ai apris pour vous faire gagner du temps.
 
 # Introduction
 
-A la sortie du premier Macintosh, tout le monde était impressionné par [MacWrite](https://fr.wikipedia.org/wiki/MacWrite), le traitement de texte qui permettait de faire de la mise en page tellement facilement et par [MacPaint](https://fr.wikipedia.org/wiki/MacPaint) l'outil pour dessiner.
+Vous connaissez ChatGPT, on peut lui poser des questions dans un prompt et vous obtenez instantanément une réponse à votre question. C'est une avancé technologique étonnante que l'on appelle l'IA générative. ChatGPT qui est très utile a pourtant quelques défauts.
 
-On pouvait voir l'ordinateur personnel comme une super machine à écrire et une feuille de dessin où l'on pouvait retravailler facilement ses documents.
+Son premier défaut, c'est qu'il sait qui vous êtes et ce que vous cherchez et que potentiellement votre profil publicitaire peut être vendu.
+Son deuxième défaut, c'est qu'il n'est pas souverain, c'est à dire que les questions que vous posez et les informations qui vont avec sont envoyées sur les serveurs de la société OpenAI.
+Son troisième défaut, c'est qu'il ne tourne qu'avec ses propres dictionnaires et que vous devez vous en accomoder.
 
-Imaginez que vous êtes dans une bibliothèque municipale et que vous pouvez poser n'importe quelle question au documentaliste qui va regarder dans ses livres et ses encyclopédies pour vous concocter une réponse sur mesure.
+L'application Ollama vous permet de faire tourner les dictionnaires (LLM) que vous voulez sur votre ordinateur en toute confidentialité et sans coût supplémentaire que l'électricité consommée par votre ordinateur. Le plus connu des LLM gratuits est Llama3.1 qui a inspiré le nom de l'application Ollama, mais nous verrons plus loin sur le site qu'il y a beaucoup d'autres LLM que l'on peut utiliser.
 
 
-# L'IA générative
+# Exemple
 
 
-Ce qui nous intéresse sur manuel.fr, est ce qu'on appelle l'IA générative, c'est à dire qu'à partir d'un [Prompt](/docs/learn/lectures/glossaire#prompt), (terme utilisé en anglais pour désigner l'instruction que l'on demander à l'IA) l'IA va vous répondre par un texte.
+Avant d'installer Ollama, voici un exemple de [Prompt](/docs/learn/lectures/glossaire#prompt), (terme utilisé en anglais pour désigner l'instruction que l'on demander à l'IA) et de réponse
 
-Exemple :
 
 <details open>
   <summary>pourquoi le ciel est bleu ?</summary>
@@ -59,22 +60,26 @@ les molécules d'azote et d'oxygène dans l'atmosphère, qui privilégie les
 couleurs bleues et violettes.
  </details>
 
+Nous allons voir sur ce site comment installer Ollama sur votre Mac en lançant llama3.1
+il vous suffira de suivre les instructions expliquées ici.
 
-# Les LLM
+Vouz verrez également ici quelles sont les différents types de LLM.
 
-Les réponses sont générées par un LLM. Il sera le plus souvent différent, même si vous posez plusieurs fois la même question.
+Vous pourrez accéder à la liste des LLM qui sont disponibles sur le site Ollama qui en facilite l'installation.
 
-Ces LLM sont composés de textes qui prendrdaient des centaines de milliers d'année à lire pour un humaine qui subissent deux traitements informatiques
+Vous comprendrez pourquoi chaque LLM est souvent distribué en plusieurs tailles et en plusieur types.
 
-## Pré-entrainement (Pre-training)
+Vous verrez que vous pourrez cloner modèle pour en créer un qui aura un comportement différents.
 
-Cette étape consiste à entraîner le modèle sur une vaste quantité de données textuelles pour qu'il apprenne les structures et les régularités de la langue. Durant cette phase, le modèle essaie de prédire la suite d'un texte donné, ce qui l'oblige à comprendre le contexte, la syntaxe, le vocabulaire, et les relations entre les mots.
-Détails techniques : Le modèle est exposé à d'immenses corpus de textes, souvent provenant de l'internet, de livres, d'articles scientifiques, etc. Les algorithmes comme les réseaux de neurones transformateurs (Transformers) sont fréquemment utilisés. Le modèle apprend à minimiser une fonction de perte qui mesure l'écart entre ses prédictions et les textes réels.
+Vous verrez quels sont les outils que l'on peut ajouter pour compléter le fonctionnement d'Ollama.
 
+Vous verrez comment vous pourrez affiner un modèle avec des informations nouvelles.
 
-## Ajustement fin (Fine-tuning)
+Vous verrez la différence entre Affiner un modèle et faire du RAG
 
-Après le pré-entrainement, le modèle est affiné sur des tâches spécifiques ou des types de textes particuliers. Cette phase permet de spécialiser le modèle pour qu'il soit plus performant sur des applications concrètes.
-Détails techniques : Le modèle pré-entraîné est encore entraîné, mais cette fois-ci sur un ensemble de données plus restreint et spécialisé, souvent étiqueté, qui correspond aux tâches ciblées (par exemple, la classification de textes, la réponse à des questions, la traduction automatique, etc.). Cela permet d'ajuster les paramètres du modèle pour améliorer sa précision et sa pertinence dans le contexte spécifique.
+Vous verrez aussi comment importer un LLM depuis Hunging Face.
 
-Ces deux étapes, le pré-entrainement et l'ajustement fin, sont cruciales pour la conception et la performance d'un modèle LLM et c'est pour cela qu'il y a plusieurs LLM, car ils ne partent pas du même corpus de texte et il ne sont pas entrainés de la même façon.
+et plein d'autres choses qui vont être ajoutées au fur et à mesure sur ce site.
+
+Si vous voulez collaborer à l'écriture de ce site, il est fait avec Docusaurus et son code source est sur GitHub.
+En attendant, n'hésitez pas à cliquer dans les menus du site pour le parcourir et vous formez.

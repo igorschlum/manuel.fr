@@ -5,7 +5,7 @@ A vous de jouer, et installons [Ollama](https://ollama.ai) l'outil libre et grat
 
 # Prérequis
 
-Vous devez avoir un Mac M1. Si vous ne savez pas ce que c'est, visitez [cette page Wikipedia](https://fr.wikipedia.org/wiki/Apple_M1). Si vous n'en avez pas, vous pouvez consulter sur internet comment installer Ollama sur votre PC ou sur votre ancien Macintosh.
+Vous devez avoir un Mac M1, M2 ou M3. Si vous ne savez pas ce que c'est, visitez [cette page Wikipedia](https://fr.wikipedia.org/wiki/Apple_M1). Si vous n'en avez pas, vous pouvez consulter sur internet comment installer Ollama sur votre PC ou sur votre ancien Macintosh.
 
 Et vous devez avoir quelques notions d'anglais, mais nous traduirons au fur et à mesure tous les termes anglais que nous croiserons, comme [LLM](/docs/learn/lectures/glossaire#LLM)
 
@@ -19,7 +19,7 @@ Si ce n'est déjà fait, commencez par **[téléchargez Ollama](https://ollama.a
 
 Vous avez dans votre dossier téléchargement le fichier Ollama-darwin.zip
 
-Double cliquez dessus (pour décompresser l'application) et déplacez la dans votre dossier applications.
+Double cliquez dessus (pour décompresser l'application) si la décompression n'est pas automatique et déplacez la dans votre dossier applications.
 
 Lancez l'application Ollama,
 
@@ -50,18 +50,6 @@ Taper dans le terminal la commande:
 ollama run llama3.1
 ```
 
-Le mot `run` permet d'executer le modèle `llama3.1`. Si le modèle n'est pas chargé, il va se charger (cela occupe un peu moins de 4 Giga sur le disque)
+Le mot `run` permet d'executer le modèle `llama3.1`. Si le modèle n'est pas chargé, il va se charger (cela occupe un peu moins de 4 Giga sur le disque). Ça veut dire qu'une fois Llama3.1 chargé sur votre ordinateur, vous n'avez plus besoin de connexion internet pour l'interroger. Vous pouvez le faire gratuitement, autant de fois que vous voulez sans risquer de recevoir de la publicité en rapport avec vos recherches.
 
 ![run llama3](/img/llama3.png)
-
-Une fois le modèle téléchargé, vous pouvez commencer une discution.
-
-## installer un modèle de Langage
-
-Pour afficher les modèles de langage installés, tapez dans le terminal de commande :
-
-```bash
-ollama list
-```
-
-![Attention](/img/list.png)
