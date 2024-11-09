@@ -19,11 +19,11 @@ Voici une méthode pas à pas pour le faire avec Ollama, sachant que cette méth
 
 Vous trouverez [ici](https://www.youtube.com/watch?v=T-D1OfcDW1M), une explication plus détaillée.
 
-## Comment faire ?
+## Comment faire dans la méthode avec Chromadb?
 
 Tout d'abord, vous devez avoir **installer python3 et pip3** sur votre machine. Si ce n'est pas fait, nous avons fait [une page](/docs/install/outils/python) consacrer à ça.
 
-1. **Installation des packages nécessaires** : 
+1. **Installation des packages nécessaires** pour faire du RAG avec chormadb
 
 ```bash
 pip3 install ollama
@@ -76,3 +76,17 @@ import ollama
 ...
 ```
 Cette partie du code crée une interface utilisateur avec Gradio. L'utilisateur peut entrer une URL et une question, et le système RAG récupère des documents pertinents à partir de l'URL, génère une réponse à la question, et affiche la réponse dans l'interface utilisateur.
+
+## Comment faire avec la méthode avec LanceDB
+
+Cette [vidéo](https://www.youtube.com/watch?v=HcqGiCu2Bjs) en anglais explique comment faire du RAG locallement sur votre Mac avec LanceDB et Ollama.
+
+1. **Installation des packages nécessaires** pour faire du RAG avec chormadb
+
+Il faut avoir installé Python, pip3 et iphyton sur votre Mac comme vue [ici](/).
+
+```bash
+
+pip3 install ollama
+pip3 install lancedb
+```

@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Manuel.fr',
-  tagline: "Déployer l'IA sur votre Mac avec Ollama",
+  tagline: "Déployer l'IA OpenSource sur votre Mac avec Ollama",
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

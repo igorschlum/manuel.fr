@@ -5,6 +5,7 @@ authors: [igorschlum]
 tags: [Bonjour, Ollama]
 ---
 
+<!-- truncate -->
 
 J'ai commencé l'informatique en 1979 avec un Apple II, c'était la première révolution numérique, la micro-informatique à la portée de tout un chacun.
 
@@ -13,4 +14,3 @@ En 1994, j'ai découvert eWord par Apple, ça a marqué pour moi le début d'int
 En 2007, l'iPhone est sorti et ça a marqué pour moi la troisième révolution numérique, on pouvait avoir un micro-ordinateur et internet dans la poche.
 
 2023 a marqué avec ChatGPT la quatrième révolution numérique, la possibilité de communiquer simplement et d'avoir des réponses claires et précises et ça m'a donné envie de créer ce site en français sur Ollama qui est un projet OpenSource qui me plait particulièrement.
-
