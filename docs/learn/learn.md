@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: "Comprendre"
+title: "Introduction"
 ---
 
 Manuel.fr veux vous faire découvrir, comprendre et et surtout utiliser **l'intelligence artificielle** sur Mac avec [Ollama](https://ollama.com).
@@ -18,7 +18,6 @@ L'application Ollama vous permet de faire tourner les dictionnaires (LLM) que vo
 
 
 # Exemple
-
 
 Avant d'installer Ollama, voici un exemple de [Prompt](/docs/learn/lectures/glossaire#prompt), (terme utilisé en anglais pour désigner l'instruction que l'on demander à l'IA) et de réponse
 
@@ -59,6 +58,9 @@ En résumé, le ciel est bleu en raison de la diffusion de la lumière par
 les molécules d'azote et d'oxygène dans l'atmosphère, qui privilégie les 
 couleurs bleues et violettes.
  </details>
+
+Ce site est diviser en deux grandes parties, une partie [Comprendre](/docs/learn), dans laquelle on va donner des explications théoriques et une partie [Apprendre](/docs/use) dans laquelle on va mettre en pratique nos avancées, les deux étant liées.
+
 
 Nous allons voir sur ce site comment installer Ollama sur votre Mac en lançant llama3.1
 il vous suffira de suivre les instructions expliquées ici.

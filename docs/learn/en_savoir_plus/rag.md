@@ -21,7 +21,7 @@ Vous trouverez [ici](https://www.youtube.com/watch?v=T-D1OfcDW1M), une explicati
 
 ## Comment faire dans la méthode avec Chromadb?
 
-Tout d'abord, vous devez avoir **installer python3 et pip3** sur votre machine. Si ce n'est pas fait, nous avons fait [une page](/docs/install/outils/python) consacrer à ça.
+Tout d'abord, vous devez avoir **installer python3 et pip3** sur votre machine. Si ce n'est pas fait, nous avons fait [une page](/docs/use/outils/python) consacrer à ça.
 
 1. **Installation des packages nécessaires** pour faire du RAG avec chormadb
 
