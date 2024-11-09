@@ -16,6 +16,6 @@ Pour obtenir ce modèle rendez-vous sur [le site](https://ollama.ai/library/llam
 
 2. *Il a montré des performances extraordinaires dans les tâches de raisonnement mathématique.*
 
-3. *Il surpasse tous les autres modèles de langage à grande échelle ([LLM](/docs/learn/lectures/glossaire#LLM)) open-source.*
+3. *Il surpasse tous les autres modèles de langage à grande échelle ([LLM](/learn/lectures/glossaire#LLM)) open-source.*
 
 Pour obtenir ce modèle rendez-vous sur [le site](https://ollama.ai/library/wizard-math/tags) de ollama.

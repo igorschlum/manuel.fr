@@ -1,7 +1,7 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
-C'est Bibliothèque ici
+C'est Installation ici
 
 # Prérequis
 

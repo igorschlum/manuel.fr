@@ -8,18 +8,18 @@ J'ai passé beaucoup de temps à comprendre et à synthétiser ce que j'ai apris
 
 # Introduction
 
-Vous connaissez ChatGPT, on peut lui poser des questions dans un prompt et vous obtenez instantanément une réponse à votre question. C'est une avancé technologique étonnante que l'on appelle l'IA générative. ChatGPT qui est très utile a pourtant quelques défauts.
+Vous connaissez ChatGPT qui a été lancé le 30 novembre 2022, on peut lui poser des questions dans un prompt et vous obtenez instantanément une réponse à votre question. C'est la révolution de l'IA Générative, et les géants de l'informatique font la course à l'innovation.
 
-Son premier défaut, c'est qu'il sait qui vous êtes et ce que vous cherchez et que potentiellement votre profil publicitaire peut être vendu.
-Son deuxième défaut, c'est qu'il n'est pas souverain, c'est à dire que les questions que vous posez et les informations qui vont avec sont envoyées sur les serveurs de la société OpenAI.
-Son troisième défaut, c'est qu'il ne tourne qu'avec ses propres dictionnaires et que vous devez vous en accomoder.
+Une autre révolution plus discrète a suivi. Celle de l'IA OpenSource, menée par le groupe Meta et suivie par d'autres qui permet de faire tourner l'IA sur son propre ordinateur ou ses propres serveurs.
 
-L'application Ollama vous permet de faire tourner les dictionnaires (LLM) que vous voulez sur votre ordinateur en toute confidentialité et sans coût supplémentaire que l'électricité consommée par votre ordinateur. Le plus connu des LLM gratuits est Llama3.1 qui a inspiré le nom de l'application Ollama, mais nous verrons plus loin sur le site qu'il y a beaucoup d'autres LLM que l'on peut utiliser.
+Vous pouvez ainsi éviter que votre Usage de l'IA ne vienne nourrir des serveurs de publicité et que vos informations transmises restent confidentielles. l'IA OpenSource permet également de faire tourner différents models qui ont chacun leur propre comportement.
+
+L'application Ollama vous permet de faire tourner les dictionnaires ([LLM](/learn/lectures/glossaire#LLM)) Open source que vous voulez sur votre ordinateur en toute confidentialité et sans coût supplémentaire que l'électricité consommée par votre ordinateur. Le plus connu des LLM gratuits est Llama qui a inspiré le nom de l'application Ollama, mais nous verrons plus loin sur le site qu'il y a beaucoup d'autres LLM que l'on peut utiliser.
 
 
-# Exemple
+## Exemple
 
-Avant d'installer Ollama, voici un exemple de [Prompt](/docs/learn/lectures/glossaire#prompt), (terme utilisé en anglais pour désigner l'instruction que l'on demander à l'IA) et de réponse
+Avant d'installer Ollama, voici un exemple de [Prompt](/learn/lectures/glossaire#prompt), (terme utilisé en anglais pour désigner l'instruction que l'on demander à l'IA) et de réponse
 
 
 <details open>
@@ -44,28 +44,31 @@ et d'oxygène, tandis que les photons de plus grande longueur d'onde (les rouges
 En conséquence, lorsque nous regardons le ciel, nous voyons principalement la lumière bleue qui a été diffusée dans toutes les directions par les molécules d'azote et d'oxygène. C'est pourquoi le ciel apparaît bleu 
 pendant la journée, notamment lorsqu'il est dégagé de nuages.
 
-La couleur du ciel peut varier en fonction de plusieurs facteurs, tels que
-:
+La couleur du ciel peut varier en fonction de plusieurs facteurs, tels que :
 
-* La quantité de poussière et d'aérosols dans l'atmosphère, qui peuvent 
-absorber ou diffuser les photons de manière inégale.
-* La présence de nuages, qui peuvent réfléchir la lumière solaire et 
-donner une apparence blanche ou grise au ciel.
-* L'heure du jour et la position du soleil, qui influent sur l'angle 
-d'incidence des rayons solaires et donc sur la couleur perçue.
+* La quantité de poussière et d'aérosols dans l'atmosphère, qui peuvent absorber ou diffuser les photons de manière inégale.
+* La présence de nuages, qui peuvent réfléchir la lumière solaire et donner une apparence blanche ou grise au ciel.
+* L'heure du jour et la position du soleil, qui influent sur l'angle d'incidence des rayons solaires et donc sur la couleur perçue.
 
-En résumé, le ciel est bleu en raison de la diffusion de la lumière par 
-les molécules d'azote et d'oxygène dans l'atmosphère, qui privilégie les 
-couleurs bleues et violettes.
+En résumé, le ciel est bleu en raison de la diffusion de la lumière par les molécules d'azote et d'oxygène dans l'atmosphère, qui privilégie les couleurs bleues et violettes.
  </details>
 
-Ce site est diviser en deux grandes parties, une partie [Comprendre](/docs/learn), dans laquelle on va donner des explications théoriques et une partie [Apprendre](/docs/use) dans laquelle on va mettre en pratique nos avancées, les deux étant liées.
+Ce site est diviser en quatre grandes parties :
+
+[Comprendre](/learn), pour les explications théoriques
+
+[Utiliser](/use/), pour utiliser Ollama
+
+[Installer](/install/) pour installer les outils dont nous allons avoir besoin lors de l'utilisation d'Ollama
+
+[Bibliothèque](/bib/) pour découvrir les principaux LLM disponibles
+
+Nous allons partir du principe que vous êtes curieux, malin, que vous avez envie d'apprendre, mais que nous n'y connaissez pas grand chose. Les fins connaisseurs pourront toujours utiliser les index à droite pour passer à la section suivante quand il connaisse déjà je sujet traité.
 
 
-Nous allons voir sur ce site comment installer Ollama sur votre Mac en lançant llama3.1
-il vous suffira de suivre les instructions expliquées ici.
+Nous allons voir sur ce site comment installer Ollama sur votre Mac en lançant llama3.2
 
-Vouz verrez également ici quelles sont les différents types de LLM.
+Vouz verrez également ici quelles sont les différents types de LLM et à quoi ils servent.
 
 Vous pourrez accéder à la liste des LLM qui sont disponibles sur le site Ollama qui en facilite l'installation.
 
@@ -80,8 +83,6 @@ Vous verrez comment vous pourrez affiner un modèle avec des informations nouvel
 Vous verrez la différence entre Affiner un modèle et faire du RAG
 
 Vous verrez aussi comment importer un LLM depuis Hunging Face.
-
-et plein d'autres choses qui vont être ajoutées au fur et à mesure sur ce site.
 
 Si vous voulez collaborer à l'écriture de ce site, il est fait avec Docusaurus et son code source est sur GitHub.
 En attendant, n'hésitez pas à cliquer dans les menus du site pour le parcourir et vous formez.

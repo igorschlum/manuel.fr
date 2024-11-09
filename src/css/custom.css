@@ -5,31 +5,59 @@
  */
  /* c'est ici que je peux changer les couleurs de la page d'accueil
 il y a dans la doc de docusarus une page qui peret de voir si les couleurs
- sont facilement lisibles : https://docusaurus.io/docs/2.x/styling-layout
+ sont facilement lisibles : https://docusaurus.io/2.x/styling-layout
 */
 
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #223d72;
-  --ifm-color-primary-dark: #1f3767;
-  --ifm-color-primary-darker: #1d3461;
-  --ifm-color-primary-darkest: #182b50;
-  --ifm-color-primary-light: #25437d;
-  --ifm-color-primary-lighter: #274683;
-  --ifm-color-primary-lightest: #2c4f94;
+  --ifm-color-primary: #0042aa;
+  --ifm-color-primary-dark: #003b99;
+  --ifm-color-primary-darker: #003890;
+  --ifm-color-primary-darkest: #002e77;
+  --ifm-color-primary-light: #0049bb;
+  --ifm-color-primary-lighter: #004cc3;
+  --ifm-color-primary-lightest: #0056dd;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Couleur des SVG en mode clair */
+  --svg-color: #223d72;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Définition des couleurs en mode sombre */
 [data-theme='dark'] {
-  --ifm-color-primary: #89dbec;
-  --ifm-color-primary-dark: #69d1e7;
-  --ifm-color-primary-darker: #59cce4;
-  --ifm-color-primary-darkest: #29bedc;
-  --ifm-color-primary-light: #a9e5f1;
-  --ifm-color-primary-lighter: #b9eaf4;
-  --ifm-color-primary-lightest: #e9f8fc;
+  --ifm-color-primary: #a8c6fe;
+  --ifm-color-primary-dark: #7eabfe;
+  --ifm-color-primary-darker: #699dfd;
+  --ifm-color-primary-darkest: #558ffd;
+  --ifm-color-primary-light: #d2e1fe;
+  --ifm-color-primary-lighter: #e7efff;
+  --ifm-color-primary-lightest: #ffffff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  /* Couleur des SVG en mode sombre */
+  --svg-color: #ffffff;
+}
+
+/* CSS pour le logo en fonction du thème */
+
+/* Mode clair */
+:root .navbar__logo img {
+  filter: invert(0); /* Couleur normale (noir ou sombre) en mode clair */
+}
+
+/* Mode sombre */
+:root[data-theme='dark'] .navbar__logo img {
+  filter: invert(1); /* Inverse les couleurs pour afficher en blanc en mode sombre */
+}
+
+/* Mode clair */
+.themed-svg {
+  filter: invert(0); /* Affiche les SVG en couleur sombre (ou noire) */
+}
+
+/* Mode sombre */
+:root[data-theme='dark'] .themed-svg {
+  filter: invert(1); /* Inverse les couleurs pour afficher les SVG en blanc */
 }

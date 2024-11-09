@@ -1,55 +1,27 @@
 ---
 sidebar_position: 1
 ---
-A vous de jouer, et installons [Ollama](https://ollama.ai) l'outil libre et gratuit, pour que vous puissiez pratiquer l'intelligence artificielle sur votre Macintosh. Vous devez avoir du temps devant vous, pour avancer pas à pas dans ce site.
+Pour utiliser Ollama sur votre Mac, on va d'abord devoir l'installer.
 
 # Prérequis
 
-Vous devez avoir un Mac M1, M2 ou M3. Si vous ne savez pas ce que c'est, visitez [cette page Wikipedia](https://fr.wikipedia.org/wiki/Apple_M1). Si vous n'en avez pas, vous pouvez consulter sur internet comment installer Ollama sur votre PC ou sur votre ancien Macintosh.
+Vous devez avoir un Mac M1, M2, M3 ou M4. Si vous ne savez pas ce que c'est, visitez [cette page Wikipedia](https://fr.wikipedia.org/wiki/Apple_M1). Si vous n'en avez pas, vous pouvez consulter sur internet comment installer Ollama sur votre PC ou sur votre ancien Mac.
 
-Et vous devez avoir quelques notions d'anglais, mais nous traduirons au fur et à mesure tous les termes anglais que nous croiserons, comme [LLM](/docs/learn/lectures/glossaire#LLM)
+Et vous devez avoir quelques notions d'anglais, mais nous traduirons au fur et à mesure tous les termes anglais que nous croiserons, comme [LLM](/learn/lectures/glossaire#LLM)
 
-N'hésitez pas à m'écrire si vous ne comprenez pas une étape, tout est fait pour être très accessible.
+N'hésitez pas à m'écrire si vous ne comprenez pas une étape, tout est fait pour être le plus accessible possible.
 
-C'est parti !
+Si vous parlez anglais, vous pouvez aller sur le site d'Ollama pour voir comment il est fait. Il est très simple d'accès. Il présente un gros bouton pour installer Ollama, un blog qui annonce les avancées majeures de l'application et l'accès à GitHub, car Ollama est OpenSource, c'est à dire que vous pouvez télécharger les sources du logiciel et les télécharger sur votre ordinateur pour les modifier et les recompiler pour vous.
 
-# Installation
+Ça veut dire que si la société Ollama change de politique, vous pourrez toujours continuer à utiliser la version gratuite et OpenSource qui est sur votre Mac et que la communauté pourra la faire évoluer en fonction de ses besoins.
 
-Si ce n'est déjà fait, commencez par **[téléchargez Ollama](https://ollama.ai/download)**
+Rendez vous sur la [page d'installation d'Ollama](/install/ollama) et revenez sur cette page.
 
-Vous avez dans votre dossier téléchargement le fichier Ollama-darwin.zip
+Une fois Ollama installé, il faut lancer l'application Ollama, qui a été installé dans le dossier Application de votre Mac.
 
-Double cliquez dessus (pour décompresser l'application) si la décompression n'est pas automatique et déplacez la dans votre dossier applications.
+Quand l'application Ollama est lancée, son icône apparaît dans la barre de titre de votre Mac. Si vous cliquez dessus, un menu vous propose tout simplement de quitter Ollama pour le relancer. Parfois l'icône change et vous voyez une option supplémentaire qui indique "Quite to Update", ça veut dire qu'il a une nouvelle version d'Ollama qui est disponible et qu'il faut quitter l'application et la relancer pour charger la dernière version du logiciel.
 
-Lancez l'application Ollama,
+Si vous êtes curieux et que vous parlez anglais, avant d'installer une nouvelle version d'Ollama vous pouvez aller voir les améliorations qui ont été apportées à Ollama en allant voir la [liste des Releases sur GitHub](https://github.com/ollama/ollama/releases).
 
-![Attention](/img/warning.png)
+A l'heure où je mets sous presse, nous en sommes à la version 0.4.1 et Ollama vient d'annoncer fierement le support de Lllama3.2 vision sur [son blog](https://ollama.com/blog). Llama 3.2 vision permet d'appliquer l'IA au traitement des images. Nous verrons tout cela plus loin.
 
-
-Un dialogue apparaît pour vous demander de confirmer, car c'est une application chargée depuis l'internet et pas depuis l'AppStore d'Apple. Vous pouvez confirmer.
-
-Ollama se lance et si vous ne l'avez pas déplacé dans le dossier Applications, un dialogue en anglais vous proposera de le faire
-
-![Attention](/img/move.png)
-
-Cliquez sur **Move to application**
-
-Un autre dialogue en anglais vous souhaite la bienvenue et vous présente le logo Ollama.
-
-![Attention](/img/next.png)
-
-Cliquez sur Next.
-
-## Ouvrir l'application terminal
-
-Pour lancer Ollama et pour charger un premier [LLM](/docs/learn/lectures/glossaire#LLM), il faut lancer l'application Terminal qui se trouve dans le dossier Utilitaire de votre Mac.
-
-Taper dans le terminal la commande:
-
-```bash
-ollama run llama3.1
-```
-
-Le mot `run` permet d'executer le modèle `llama3.1`. Si le modèle n'est pas chargé, il va se charger (cela occupe un peu moins de 4 Giga sur le disque). Ça veut dire qu'une fois Llama3.1 chargé sur votre ordinateur, vous n'avez plus besoin de connexion internet pour l'interroger. Vous pouvez le faire gratuitement, autant de fois que vous voulez sans risquer de recevoir de la publicité en rapport avec vos recherches.
-
-![run llama3](/img/llama3.png)

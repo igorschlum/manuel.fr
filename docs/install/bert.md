@@ -12,7 +12,7 @@ Voyons comment mettre cela en pratique avec Ollama sur Mac, mais avant de commen
 
 ### Bun
 
-C'est un utilitaire pour lire des grands fichiers en javacript. Interessant pour faire du RAG /docs/decouvrir/En-savoir-plus/rag ou du Bert.
+C'est un utilitaire pour lire des grands fichiers en javacript. Interessant pour faire du RAG /decouvrir/En-savoir-plus/rag ou du Bert.
 
 ```bash
 npm install -g bun
@@ -35,7 +35,7 @@ Pour entrainer ces données dans un modèle BERT personnalisé, il me semble que
 
 ### installer SBert
 
-Pour ça il faut se placer dans son dossier de développement et taper la commande suivante si vous êtes sur mac silicon (et que vous avez déjà installé [conda](/docs/use/outils/conda))
+Pour ça il faut se placer dans son dossier de développement et taper la commande suivante si vous êtes sur mac silicon (et que vous avez déjà installé [conda](/install/conda))
 
 ```bash
 conda install -c conda-forge sentence-transformers
@@ -53,7 +53,7 @@ il faut également installer PyTorch si vous ne l'avez pas déjà fait
 conda install pytorch torchvision -c pytorch
 ```
 
-pour vérifier que PyTorch est bien installé, on peut faire un script en python que l'on lance depuis le dossier développement. On va par exemple appeler ce fichier : pytorch_test.py avec [Visual Code Studio](/docs/use/outils/vs_code) (VSC)
+pour vérifier que PyTorch est bien installé, on peut faire un script en python que l'on lance depuis le dossier développement. On va par exemple appeler ce fichier : pytorch_test.py avec [Visual Code Studio](/install/vs_code) (VSC)
 
 ```bash
 import torch

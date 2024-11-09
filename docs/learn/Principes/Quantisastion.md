@@ -37,7 +37,7 @@ Cependant, cet erreur peut être négligeable en fonction de votre cas d'utilisa
 
 Par exemple, dans les tâches de traitement du langage naturel telles que la traduction et la résumé, où le contexte est crucial mais pas toujours critique pour la correction, des erreurs mineures peuvent encore produire des résultats acceptables sans affecter significativement l'expérience utilisateur.
 
-Pour récapituler
+### Pour récapituler
 
 Lorsque les utilisateurs exécutent leurs propres modèles, ils devraient prendre en compte les facteurs suivants :
 

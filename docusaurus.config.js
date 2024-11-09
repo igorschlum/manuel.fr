@@ -2,7 +2,7 @@
 // `@type` JSDoc annotations allow editor autocompletion and type checking
 // (when paired with `@ts-check`).
 // There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
+// See: https://docusaurus.io/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
@@ -40,6 +40,11 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+
+          routeBasePath: '/', // Sert les docs à la racine du site
+          /* autres options du plugin docs */
+
+          
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -86,17 +91,22 @@ const config = {
         },
         items: [
           {
-            to: '/docs/learn', // Chemin vers la page d'accueil de la sidebar "Découvrir"
+            to: '/learn', // Chemin vers la page d'accueil de la sidebar "Découvrir"
             label: 'Comprendre',
             position: 'left',
           },  
+          {
+            to: '/use', // Chemin vers la page d'accueil de la sidebar "installer"
+            label: 'Utiliser',
+            position: 'left',
+         },
          {
-           to: '/docs/install', // Chemin vers la page d'accueil de la sidebar "installer"
+           to: '/install', // Chemin vers la page d'accueil de la sidebar "installer"
            label: 'Installer',
            position: 'left',
         },
         {
-            to: '/docs/bib', // Chemin vers la page d'accueil de la sidebar "Bibliotèques"
+            to: '/bib', // Chemin vers la page d'accueil de la sidebar "Bibliotèques"
             label: 'Bib',
             position: 'left',
         },
@@ -112,16 +122,29 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Chapitres',
            items: [
              {
                label: 'Comprendre',
-              to: '/docs/learn/',
+              to: '/learn/',
             },
+            {
+              label: 'Utiliser',
+             to: '/use/',
+           },
+           {
+            label: 'Installer',
+           to: '/install/',
+         },
+         {
+          label: 'Bibliothèque',
+         to: '/bib/',
+       },
+
            ],
          },
           {
-            title: 'Community',
+            title: 'Communauté',
             items: [
               {
                 label: 'Ollama.com',
@@ -138,7 +161,7 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Et aussi',
             items: [
               {
                 label: 'Blog',
@@ -152,11 +175,15 @@ const config = {
           },
         ],
          copyright: `Copyright © ${new Date().getFullYear()} Igor Schlumberger.`,
-
       },
       prism: {
         theme: prismThemes.github,
         additionalLanguages: ['php'],
+      },
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
       },
     }),
 };

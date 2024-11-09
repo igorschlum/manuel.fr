@@ -32,7 +32,7 @@ En plus d'être très nombreux, chaque LLM est disponible en plusieurs variation
 
 Si on privilégie la qualité des réponses, il est préférables d'utiliser un LLM plus puissant, s'il s'agit de réaliser des tâches plus simples comme de la complétion automatique à la saisie, la version 3B sera préférée car elle est beaucoup plus rapide. En effet, cette version est capatble de générer près de 40 tockens par seconde sur un Mac M1, ce qui est suffisant.
 
-Les modèles varient aussi aussi en fonction de la Quantization comme expliqué [ici](https://www.manuel.fr/docs/learn/Principes/Quantisastion), le prinicpe est d'attribuer plus de précision à un LLM pour qu'il donne des réponses plus précises, mais c'est plus lent.
+Les modèles varient aussi aussi en fonction de la Quantization comme expliqué [ici](https://www.manuel.fr/learn/Principes/Quantisastion), le prinicpe est d'attribuer plus de précision à un LLM pour qu'il donne des réponses plus précises, mais c'est plus lent.
 
 Il est encore possible de faire varier des LLM en changeant la taille de leur taille de contexte, par exemple, si vous voulez résumer un livre entier, il faut que le LLM puisse stocker le livre pour entre le résumer. Aujourd'hui les meilleurs modèles peuvent avoir jusqu'à 128K de taille de contexte, mais il faut pour cela cloner le modèle pour lui dire d'utiliser un espace de mémoire plus important.
 
