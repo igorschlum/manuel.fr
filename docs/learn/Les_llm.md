@@ -24,17 +24,47 @@ Cela permet à certains LLM d'être spécialisés dans l'assistance à la progra
 
 sur le site [Ollama.com](https://ollama.com), il existe plus d'une centaine de LLM. Il y a ceux qui sont officiellement affichés sur le site et ceux qui sont mis à disposition par des utilisateurs d'Ollama et qu'on ne retrouve qu'en faisant une recherche. Tout ceux-là s'installent très facilement.
 
-sur le site [Hugging face](https://huggingface.com), il en existe des centaines de milliers, mais qui sont dans des formats pas directement exploitables par Ollama, il faut les importer au paravents comme expliqué ici et là.
+sur le site [Hugging face](https://huggingface.com), il en existe des centaines de milliers, mais qui sont le plus souvent dans un format que l'on peut importer dans Ollama.
 
 ## combien de variations de chaque LLM ?
 
-En plus d'être très nombreux, chaque LLM est disponible en plusieurs variations. La première consiste dans le corpus utilisé. Par exemple le modèle Llama3.2 exite dans une version 3B qui prend 3 Go en mémoire vive et la version 3.1 existe dans une version 70B qui utilise 70 Go de mémoire vive et donc qui nécessite un ordinateur avec plus de mémoire pour le faire tourner. La version 70B est moins rapide, mais plus précise dans ses réponses. Llama3.1 est aussi disponible dans une version 240B qui nécessite 240 Go pour le faire tourner ce qui n'est pas possible sur un seul mac à date, il faut donc plusieurs Mac en cluster pour faire tourner ce modèle.
+### Les version majeurs
 
-Si on privilégie la qualité des réponses, il est préférables d'utiliser un LLM plus puissant, s'il s'agit de réaliser des tâches plus simples comme de la complétion automatique à la saisie, la version 3B sera préférée car elle est beaucoup plus rapide. En effet, cette version est capatble de générer près de 40 tockens par seconde sur un Mac M1, ce qui est suffisant.
+En plus d'être très nombreux, chaque LLM est disponible en plusieurs variations. La première dans sont numéro de version. Par exemple, le LLM LLama est sorti en openSource en version 2, puis en version 3, puis en version 3.1 et maintenant en version 3.2.
 
-Les modèles varient aussi aussi en fonction de la Quantization comme expliqué [ici](https://www.manuel.fr/learn/Principes/Quantisastion), le prinicpe est d'attribuer plus de précision à un LLM pour qu'il donne des réponses plus précises, mais c'est plus lent.
+Il en est de même pour le modèle Gemma de Google qui est sorti en version 1 puis en version 2.
+
+Quand un éditeur sort une nouvelle version  de son LLM cela a nécessité de réentrainer complètement le modèle, c'est un gros travail en temps machine et c'est pourquoi les versions sont souvent espacées de 6 mois à plus d'un an.
+
+### La taille du modèle
+
+Prenons par exemple le LLM Gemma2 de Google. Il est disponible en version 2b, 9b et 27b. Le nombre représente le nombre de paramètres dans le modèle. Donc 9b signifie que le modèle contient 9 milliards de paramètres.
+
+Les paramètres sont comme des "connections" internes dans le cerveau d'une IA. Plus il y a de paramètres, plus le modèle peut apprendre de détails et produire des réponses complexes. Un modèle de 27B aura donc bien plus de capacité qu'un modèle de 2B, mais ce surplus de puissance vient avec des avantages et des inconvénients.
+
+Les versions plus petites, comme le modèle 3B, nécessitent moins de puissance de calcul et produisent des réponses plus rapides, bien adaptées aux tâches simples comme la complétion automatique de texte. Par exemple, le modèle 3B peut générer environ 40 tokens par seconde sur un Mac M1, ce qui le rend très efficace pour des applications légères.
+
+En revanche, les versions plus grandes offrent une meilleure qualité de réponse, mais elles demandent davantage de ressources et sont plus lentes. Il est souvent judicieux de commencer par tester un modèle plus puissant lors des premiers essais pour voir si le LLM répond bien aux besoins. Une fois les capacités validées, on peut ensuite passer à des modèles plus petits pour optimiser la vitesse et l'efficacité.
+
+### La quantisation
+
+Les modèles varient aussi aussi en fonction de la Quantization comme expliqué [ici](https://www.manuel.fr/learn/Principes/Quantisastion), le prinicpe est d'attribuer moins de précision à un LLM pour qu'il donne des réponses plus rapide, mais c'est moins précis.
+
+La quantization est une technique qui permet de réduire la taille des modèles d’IA en économisant de la mémoire. Cela consiste à diminuer le nombre de bits utilisés pour représenter chaque paramètre du modèle : par exemple, passer de 16 bits à 8 bits ou même à 4 bits. En diminuant le nombre de bits, chaque paramètre utilise moins de mémoire. Par exemple, passer de 16 à 8 bits divise presque par deux la quantité de mémoire nécessaire.
+
+La quantization a un coût. En diminuant la précision des nombres qui représentent les paramètres du modèle, on perd en finesse de calcul, ce qui peut générer des réponses moins nuancées, des erreurs de compréhension et des incohérences.
+
+Ollama est fait pour faire tourner des LLM sur des ordinateur personnels à choisi de proposer une quantization par défaut de 4 bites, ce qui me semble personnellement trop modeste, mais nous verrons cela plus tard.
+
+### La taille du contexte
 
 Il est encore possible de faire varier des LLM en changeant la taille de leur taille de contexte, par exemple, si vous voulez résumer un livre entier, il faut que le LLM puisse stocker le livre pour entre le résumer. Aujourd'hui les meilleurs modèles peuvent avoir jusqu'à 128K de taille de contexte, mais il faut pour cela cloner le modèle pour lui dire d'utiliser un espace de mémoire plus important.
+
+Les premiers modèles comme Llama2 avaientt une taille de contexte de 4096 tokens, ce qui fait qu'il oubliait au fur et à mesure le début de la conversation et on pouvait tourner en rond. Il me semble que c'est Gemma2 qui a proposé une taille de context de 128K tokens, suivi ensuite par les autres LLM OpenSource. Toutefois cette taille est la taille maximum qu'un LLM peut avoir, mais il faut que le paramètre soit modifié dans le modèle pour lui faire travailler avec un contexte plus grand. Comme ça prend plus de mémoire, ce n'est pas proposé par défaut par Ollama.
+
+Nous verrons tout cela dans la personnalisation des LLM.
+
+### Le rôle du modèle
 
 Vous pouvez aussi modifier un LLM en lui demander de changer son attitude, lui dire qu'il est un professeur d'histoire pour des enfants de CM2 ou qu'il vous apprend une langue ou qu'il critique chacune de choses que vous lui indiquez. En changeant son attitude vous changer complètement sa façon de réagir à vos demandes.
 
