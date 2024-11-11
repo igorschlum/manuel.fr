@@ -10,87 +10,134 @@ Avant de vous lancer dans l'installation du logiciel Ollama et de ce qu'il faut 
 
 Quand vous lancez Ollama, vous pouvez lui poser des questions comme si vous consultiez un dictionnaire :
 
-```
-quelle est la définition du mot "caligraphie" ?
+<details open>
+  <summary>ollama run llama3.2\>\>\> quelle est la définition du mot "caligraphie" ?</summary>
 
-Le mot "caligraphie" provient du grec antiguî "kallos" (beauté) et "graphein" (écrire). La caligraphie est donc définie comme l'art de  Writings (l'écriture) de manière élégante et raffinée, mettant en valeur la beauté de la calligraphie.
+La calligraphie est une forme d'écriture qui utilise des caractères 
+graphiques spécifiques pour créer un effet visuel et émotionnel. Elle 
+implique l'utilisation d'instruments tels que les plumes, les stylis ou 
+les digites pour créer de belles lettres et signes.
 
-En plus de son sens littéral, le terme "caligraphie" peut également être utilisé pour décrire l'art de créer des écritures nobles et ornées, souvent utilisées dans les documents importants ou des objets de collection. La caligraphie est considérée comme un art digne d'intérêt et d'étude, car elle nécessite une grande maîtrise de la plume et du papier, ainsi qu'une bonne compréhension de la calligraphie itself.
+La calligraphie a une longue histoire et se développe dans différentes 
+régions du monde à travers le temps, notamment en Chine, en Grèce antique 
+et au Moyen Âge en Europe. Les premiers manuscrits calligraphiques étaient 
+créés sur des supports tels que la soie, le papier ou les tablettes en 
+bois.
 
-La caligraphie peut être pratiquée à main levée ou à l'aide d'un outil, tels que un stylet ou une plume, et peut être utilisée pour créer des textes en écritureursive, en calligraphie mixte, en calligraphie cursive, etc. Les artistes caligraphes peuvent également combiner différentes techniques et styles pour créer des œuvres originales et riches en details.
-```
+Les caractéristiques de la calligraphie incluent :
+
+*   L'utilisation d'instruments spécifiques pour créer les caractères
+*   La précision et l'exactitude du dessin
+*   Le choix des caractères et des lettres à utiliser
+*   La façon dont les caractères sont disposés sur la page
+
+La calligraphie est une forme d'expression artistique qui permet aux 
+individus de créer des œuvres uniques et émouvantes. Elle peut être 
+utilisée pour exprimer des sentiments, des idées ou simplement pour 
+ajouter une touche personnelle à ses écrits.
+ </details>
+
 ## Comme un mode d'emploi
 
 Mais on peut aussi lui demander des conseils.
 
-```
->>> peux-tu me répondre en français ? Par quoi faut-il commencer pour apprendre la caligraphie ?  Bien sûr ! Voici les étapes à suivre pour commencer à apprendre la calligraphie :
+<details open>
+  <summary>\>\>\>Par quoi faut-il commencer pour apprendre la caligraphie ?</summary>
 
-1. Choisissez les outils appropriés : Commencez avec des outils de base tels que une bonne qualité de plume, de l'encre et du papier. Vous pourriez également investir dans un guide ou un livre d'apprentissage pour vous aider à comprendre les bases.
+Pour apprendre la calligraphie, il est recommandé de commencer par les 
+étapes suivantes :
 
-2. Apprenez les grandes lignes de la construction des lettres : Déterminez les formes géométriques sous-jacentes aux lettres, y compris les traits verticaux et horizontaux, les boucles et les flourishes. Practiquez en drawant ces formes sur du papier pour développer la mémoire musculaire et la coordination.
+1.  **Comprendre les fondamentaux** : Commencez par comprendre les 
+principes fondamentaux de l'écriture calligraphique, tels que le choix des 
+instruments, les techniques de dessin et la disposition des caractères.
+2.  **Choisir un instrument** : Choisissez un instrument approprié pour 
+votre niveau d'apprentissage. Les plumes, les stylis et les digites sont 
+des options courantes.
+3.  **Enseignement en ligne ou personnelle** : Il est possible de suivre 
+des cours en ligne ou personnels pour apprendre la calligraphie. Cela vous 
+permettra d'obtenir une formation personnalisée et d'accéder à des 
+ressources supplémentaires.
+4.  **Pratique régulière** : La pratique régulière est essentielle pour 
+améliorer vos compétences en calligraphie. Commencez par pratiquer chaque 
+jour, même si ce n'est que pendant quelques minutes.
 
-3. Exécutez des exercices de base : Commencez avec des drills simples tels que le tracé des lettres ou la pratique de combinaisons de lettres. Au fil du temps, accroissez les exercices pour tester vos coordonnées et votre contrôle.
+Voici un exemple de la progression :
 
-4. Apprenez des techniques de lettre à la main : Étudiez différents styles de calligraphie tels que le moderne, le copperplate ou le brush script. Practiquez en utilisant différents outils et techniques.
+*   Le niveau débutant : Entraînez-vous aux bases de l'écriture 
+calligraphique, comme le choix des instruments et les techniques de 
+dessin.
+*   Le niveau intermédiaire : Améliorez vos compétences en 
+apprenant plus de caractères et en praticant avec différents instruments.
+*   Le niveau avancé : Apprenez les techniques avancées de calligraphie, 
+comme la composition des pages et l'utilisation d'embellissements.
+ </details>
 
-5. Essayez avec différentes matières : Tentez d'utiliser différentes sortes d'encre, de papier et de plumes pour voir comment elles affectent votre lettrage. Cela peut vous aider à développer un style personnel et préféré.
+## comme un livre de recettes
 
-6. Étudiez le travail des autres calligraphes : Regardez le travail des calligraphes professionnels pour en être inspiré et apprendre de leurs techniques. Vous pouvez trouver des exemples en ligne ou dans des livres de calligraphie.
+<details open>
+  <summary>\>\>\> Peux-tu me donner une recette de mousse au chocolat ?</summary>
+  
+Voici une recette de mousse au chocolat :
 
-7. Prend un cours ou une atelier : Considérez prendre une classe ou un atelier de calligraphie pour obtenir des conseils personnalisés et une guiderisation directe d'un enseignant expérimenté. Cela vous aidera à améliorer vos compétences et votre technique.
+Ingrédients:
 
-8. Pratiquez régulièrement : La consistance est la clé pour apprendre la calligraphie. Réservez du temps chaque jour ou chaque semaine pour pratiquer et expérimenter différents styles et techniques.
+*   250g de chocolat noir
+*   150ml de crème fraîche liquide
+*   2 œufs
+*   1 cuillère à café de sucre
 
-9. Utilisez les technologies à votre avantage : Utilisez des outils numériques tels que des logiciels de lettre ou des applications pour vous aider à pratiquer et à améliorer vos compétences en calligraphie. Ces outils peuvent fournir des conseils utiles sur votre lettrage et vous aider à raffiner votre technique.
+Instructions:
 
-10. Soyez patient et persévérant : Apprendre la calligraphie prend du temps et de l'effort, donc ne vous découragez pas si vous ne voyez pas d'améliorations immédiates. Maintenez une pratique régulière, avec détermination e persévérance, et vous serez bientôt maître de cette belle art forme
-```
+1.  Mélangez le chocolat et la crème fraîche dans un bol à feu doux.
+2.  Ajoutez les œufs et le sucre, mélangez jusqu'à obtenir une pâte lisse.
+3.  Versez la pâte dans des tasses individuelles ou une plaque en plastique pour 
+servir.
+4.  Refrigerer au moins 30 minutes avant de servir.
 
-On voit à la fin de ce dixième conseil qu'il y a des erreurs dans le texte. En effet, si on pose la question en français, mais qu'on ne demande pas de répondre en français et que l'IA n'a pas assez d'informations pour répondre en français, il va répondre en anglais. Quand on le force à répondre en français, il le fait, mais traduit la réponse qu'il avait préparé en anglais et peut faire des erreurs.
+Vous pouvez ajouter des ingrédients supplémentaires, comme :
 
-Les ingénieurs de l'IA ont eu la bonne idée de dire que l'IA ne fait pas d'erreur, mais que ce sont des allucinations.
+*   Une cuillère à café de vanille
+*   Un peu de noix de macadamia
+*   Des feuilles de laurier fraîches
 
-## comme un livre de recette de cuisine
+Cette recette est simple et délicieuse.
+ </details>
 
-```
- peux-tu me donner une recette de mousse au chocolat en m'indiquant les dosages dans le système métrique et en me donnant la liste des ingrédients et la recette en français ?
-Oui, bien sûr ! Voici une recette de mousse au chocolat sans lactose, adaptée aux besoins des personnes allergiques ou
-intolérantes au lactose. Les ingrédients sont mesurés en grammes et les étapes sont détaillées pour vous aider à obtenir une 
-mousse au chocolat délicieuse et sans lactose.
+ ## comme un écrivain public
 
-**Ingrédients :**
+<details open>
+  <summary>\>\>\> Peux-tu me rédiger une courrier pour la mairie pour remplacer la poubelle de végétaux qui a été endommagée par le camion de ramassage des végétaux ?</summary>
 
-* 250 g de chocolat noir (au moins 70% de cacao)
-* 100 g de sucre
-* 50 g d'eau
-* 20 g de mascarpone sans lactose (ou équivalent, par exemple SoyaMascarpone ou Coconut Cream)
-* 20 g de crème de noix de macadamia (ou autre crème végétale)
-* 1 cuillère à soupe de café soluble (facultatif, pour un goût plus intense)
+Bien sûr, voici un exemple de courrier que vous pouvez envoyer à la mairie :
 
-**Recette :**
+Objet : Remplacement de la poubelle de végétaux endommagée
 
-1. Étalez le chocolat sur une plaque ou un plan de travail et laissez-le fondre à température ambiante. Il est important que le 
-chocolat soit fondu complètement pour éviter les grumeaux.
-2. Dans un bol, mélangez le sucre et l'eau jusqu'à obtenir un sirop liquide. Ajoutez ce sirop au chocolat fondu et mélangez
-jusqu'à obtenir une émulsion homogène.
-3. Dans un autre bol, fouettez le mascarpone sans lactose et la crème de noix de macadamia jusqu'à obtenir une consistance lisse 
-et aérée.
-4. Ajoutez progressivement le mélange chocolat-sucre à la mousse de mascarpone, en fouettant constamment pour éviter les grumeaux.
-5. Si vous souhaitez ajouter un goût café, ajoutez maintenant la cuillère à soupe de café soluble et mélangez bien.
-6. Pour finir, versez le mélange dans des verrines ou des coupes individuelles. Mettez-les au réfrigérateur pendant au moins 2 
-heures pour permettre au chocolat de prendre forme.
-7. Servez fraîche et savourez votre délicieuse mousse au chocolat sans lactose !
+Madame/Monsieur,
 
-Conseils :
+Je vous écris pour signaler qu'une poubelle de végétaux située dans mon quartier a été 
+endommagée récemment par le camion de ramassage des végétaux. La poubelle, qui est 
+équipée d'un système de fermeture automatique, a été détruite et ne peut plus être 
+utilisée pour recycler les déchets de végétaux.
 
-* Assurez-vous que le mascarpone sans lactose est compatible avec vos besoins alimentaires et que vous n'avez pas d'allergies ou 
-de tolérances à certains ingrédients.
-* Pour conserver la mousse au réfrigérateur pendant plusieurs jours, il est préférable de couvrir les verrines d'un film plastique
-ou d'une feuille de papier parchemin pour éviter l'oxydation du chocolat.
-* Vous pouvez personnaliser cette recette en ajoutant des ingrédients supplémentaires, tels que des fruits (par exemple, des 
-framboises ou des raisins), des noix ou même du poivre noir.
-```
-On voit que llama3 laisse quelques mots d'anglais dans la recette, mais il répond mieux en français que ne le faisait llama2, ce qui montre que les modèles progressent à chaque version et savent travailler dans plus de langues.
+Je comprends que l'accident était imprévu et je souhaite que vous preniez les mesures 
+nécessaires pour remplacer la poubelle endommagée. Je serais rassuré si j'obtenais un 
+nouveau système de collecte pour éviter toute nouvelle perturbation ou risque de 
+sécurité dans mon quartier.
 
-Cliquez sur le côté pour découvrir d'autres usages de l'intelligence artificielle
+Je vous remercie de prendre en compte ma requête et je serai heureux de discuter plus 
+en détail de ce problème avec vous ou votre équipe responsable des services de 
+collecte.
+
+Je vous prie de me confirmer l'arrangement du remplacement, si possible.
+
+Cordialement,
+
+[Votre nom]
+
+Veuillez noter que vous pouvez adapter ce modèle à vos besoins et ajouter ou supprimer 
+des informations en fonction de votre situation. N'hésitez pas à me demander si vous 
+avez besoin d'aide supplémentaire !
+ </details>
+
+
+Mais attention, il ne faut pas avoir une confiance folle dans l'IA et parfois elle se trompe, c'est ce que nous allons voir sur la page [Hallucinations](/learn/hallucinations)

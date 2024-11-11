@@ -86,3 +86,5 @@ Vous verrez aussi comment importer un [LLM](/learn/lectures/glossaire#LLM) depui
 
 Si vous voulez collaborer à l'écriture de ce site, il est fait avec Docusaurus et son code source est sur GitHub.
 En attendant, n'hésitez pas à cliquer dans les menus du site pour le parcourir et vous formez.
+
+Commençons par conprendre ce que sont [les LLMs](/learn/llms)

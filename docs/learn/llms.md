@@ -8,23 +8,23 @@ LLM est l'acronyme de Large Language Model.
 
 ## Qu'est-ce qu'un LLM ?
 
-Par analogie, on peut comparer un LLM à un documentaliste - écrivain public avec une encyclopédie. On peut lui poser des questions, et en fonction de ce qui est écrit dans son dictionnaire, il va vous répondre et vous pouvez entamer une discussion avec lui et il vous répond. Le LLM peut être multi-langue, c'est à dire qu'on peut lui poser des questions en français, en anglais ou dans d'autres langues et il répond plus ou moins bien dans la langue demandée en fonction de ce qui est écrit dans son encyclopédie.
+Par analogie, on peut comparer un LLM à un documentaliste - écrivain public avec une encyclopédie. On peut lui poser des questions, et en fonction de ce qui est écrit dans son dictionnaire, il va vous répondre et vous pouvez entamer une discussion avec lui. Le LLM peut être multi-langue, c'est à dire qu'on peut lui poser des questions en français, en anglais ou dans d'autres langues et il répond plus ou moins bien dans la langue demandée en fonction de ce qui est écrit dans son encyclopédie.
 
 D'un point de vue technique, un LLM est une somme de connaissance entrainée qui sait deviner les caractères à afficher selon les questions que vous lui posez. C'est très étonnant car donne l'impression qu'i y a une intelligence, mais elle n'est qu'artificielle.
 
 ## pourquoi plusieurs LLM ?
 
-Il y a plusieurs LLM comme il y a plusieurs encyclopédie. Chaque éditeur de LLM essai de faire le meilleur selon ses critères. certains répondent plus rapidement aux questions, d'autres maîtrisent mieux le français et mes données qui les composent varient aussi d'un LLM à l'autre.
+Il y a plusieurs LLM comme il y a plusieurs encyclopédies. Chaque éditeur de LLM essai de faire le meilleur selon ses critères. certains répondent plus rapidement aux questions, d'autres maîtrisent mieux le français.
 
-Ils sont également entrainés de façon différentes, donc même si deux LLM partaient de la même base de connaissance, la façon dont ils sont entrainés les rendra différents.
+Ils sont entrainés de façon différentes, donc même si deux LLM partaient de la même base de connaissance, la façon dont ils sont entrainés les rendra différents et bien sûr, ils sont entrainés sur des jeux de données différents. Chacun entraîne son champion pour qu'il soit le meilleur dans sa catégorie.
 
-Cela permet à certains LLM d'être spécialisés dans l'assistance à la programmation, dans le droit ou dans la résolution de problèmes mathématiques.
+Cela permet à certains LLM d'être spécialisés dans l'assistance à la programmation, la description d'images, la médecine,le droit ou dans la résolution de problèmes mathématiques.
 
 ## combien en existe-t-il ?
 
 sur le site [Ollama.com](https://ollama.com), il existe plus d'une centaine de LLM. Il y a ceux qui sont officiellement affichés sur le site et ceux qui sont mis à disposition par des utilisateurs d'Ollama et qu'on ne retrouve qu'en faisant une recherche. Tout ceux-là s'installent très facilement.
 
-sur le site [Hugging face](https://huggingface.com), il en existe des centaines de milliers, mais qui sont le plus souvent dans un format que l'on peut importer dans Ollama.
+sur le site [Hugging face](https://huggingface.com), il en existe des centaines de milliers qui sont le plus souvent dans un format que l'on peut importer facilement dans Ollama.
 
 ## combien de variations de chaque LLM ?
 
@@ -77,3 +77,5 @@ Il y a encore d'autres variations que vous pouvez appliquer à un modèle, comme
 C'est bien le problème et comme de nouveaux LLM sortent régulièrement, il faut commencer par faire des tests manuellement et c'est pour cela qu'Ollama est très pratique, car il permet de charger et de configurer des LLM localement, rapidement et sans coût particulier.
 
 On peut dire quand même que pour l'instant les modèles de type LLama fournis par la société Meta sont les plus performants et la sortie de Llama3.2 vient conforter encore cette position de leader dans les modèles généralistes.
+
+On va maintenant aborder [les usages](/learn/usages) que l'on peut faire avec de l'IA OpenSource.

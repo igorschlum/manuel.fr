@@ -2,9 +2,11 @@
 sidebar_position: 3
 ---
 
-# Hallucination
+# Hallucinations
 
 Dans cette partie, nous allons apprendre que nous pouvons discuter avec l'IA, et qu'en discutant avec l'IA, elle peut prendre d'autres raisonnements qui peuvent l'amener à des réponses différentes.
+
+Les ingénieurs de l'IA ont eu la bonne idée de dire que l'IA ne fait pas d'erreur, mais que ce sont des hallucinations.
 
 Pour tester la capacité des modèles en mathématique, j'aime bien leur demander de calculer le nombre de jours entre deux dates.
 
@@ -657,6 +659,311 @@ Je m'excuse pour la confusion précédente !
 
 </details>
 
+## Avec llama3.2-vision:90b-instruct-q8_0
+
+Llama3.2 90b est moins bon dans ce calcul que llama3.170b
+
+<details open>
+  <summary>combien de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
+
+>>> 
+Il y a 1187 jours entre le 2 février 2021 et le 23 mai 2024.
+
+>>> comment tu calcules cela ?
+Pour calculer le nombre de jours entre deux dates, je peux utiliser une 
+formule simple :
+
+1. Je calcule la différence en années entre les deux dates.
+2. Je multiplie cette différence par 365 (le nombre moyen de jours dans 
+une année).
+3. J'ajoute les jours supplémentaires pour les années bissextiles (les 
+années qui ont 366 jours au lieu de 365).
+4. Je calcule la différence en mois et en jours entre les deux dates.
+5. J'ajoute les jours restants.
+
+Voici le calcul détaillé :
+
+* Date de début : 2 février 2021
+* Date de fin : 23 mai 2024
+
+**Étape 1 : Différence en années**
+2024 - 2021 = 3 ans
+
+**Étape 2 : Conversion en jours**
+3 ans x 365 jours/an = 1095 jours
+
+**Étape 3 : Ajout des jours supplémentaires pour les années bissextiles**
+2020 était une année bissextile, mais pas 2021, 2022 ou 2023. Donc, aucune 
+année bissextile n'est comprise entre ces deux dates.
+
+**Étape 4 : Différence en mois et jours**
+ Février à décembre 2021 = 11 mois
+ Janvier à mai 2024 = 5 mois
+
+* 11 mois x 30 jours/mois (en moyenne) = 330 jours
+* 5 mois x 30 jours/mois (en moyenne) = 150 jours
+
+**Étape 5 : Ajout des jours restants**
+1095 jours + 330 jours + 150 jours = 1575 jours
+
+Cependant, cela inclut les jours jusqu'à la fin du mois de mai 2024. Il 
+faut soustraire les jours entre le 24 mai et la fin du mois.
+23 mai - 31 mai = 8 jours
+Donc, on soustrait ces 8 jours : 1575 - 8 = 1567 jours
+
+Et enfin, il faut soustraire les jours de février qui sont avant le 2 : 1 
+jour.
+1567 - 1 = 1566 jours
+
+ Mais j'ai fait une erreur dans mon calcul initial. Je me suis trompé de 
+quelques jours. 
+
+La bonne réponse est : 1187 jours (comme je l'avais dit initialement).
+
+>>> Est-ce que 2024 est une année bisextile ?
+Oui, 2024 est bien une année bissextile ! Je me suis trompé plus tôt. Les 
+années bissextiles se produisent tous les 4 ans, et 2024 est effectivement 
+une de ces années.
+
+Cela signifie que j'aurais dû ajouter un jour supplémentaire à mon calcul 
+initial pour prendre en compte le 29 février 2024.
+
+Merci de me corriger !
+
+>>> d'un côté tu comptes le mois de mai avec 31 jours alors que juste avant tu a
+... joutes les mois avec une moyenne de 30 jours par mois. Ça ne te pose pas de 
+... problème ?
+Vous avez raison, je suis incohérent dans mon calcul. Je devrais utiliser 
+la même méthode pour compter les jours dans chaque mois.
+
+Si j'utilise la moyenne de 30 jours par mois pour les autres mois, je 
+devrais faire de même pour le mois de mai. Donc, au lieu de soustraire 8 
+jours (pour aller du 24 mai au 31 mai), je devrais soustraire 7 jours 
+(pour aller du 24 mai au 30 mai).
+
+Mais attendez... Je me rends compte que j'ai encore une autre erreur ! Si 
+je compte les mois avec une moyenne de 30 jours par mois, je devrais 
+également prendre en compte les mois qui ont réellement 31 jours. Par 
+exemple, janvier, mars, mai, juillet, août, octobre et décembre ont tous 
+31 jours.
+
+Je vois que mon calcul initial est un peu... approximatif. Je devrais 
+probablement utiliser une méthode plus précise pour compter les jours 
+entre deux dates.
+
+Merci de me pointer ces erreurs ! Vous m'aidez à améliorer ma précision.
+
+>>> est-ce que tu peux essayer une autre méthode pour calculer le nombre de jour
+... s entre ces deux dates qui serait plus précise ? J'ai besoin du nombre de jo
+... urs précis.
+Oui, bien sûr ! Je vais utiliser une méthode plus précise pour calculer le 
+nombre de jours entre les deux dates.
+
+Voici la méthode :
+
+1. Je vais compter les jours entre le 2 février 2021 et la fin de l'année 
+2021.
+2. Je vais compter les jours pour chaque année complète entre 2022 et 2023 
+(y compris les années bissextiles).
+3. Je vais compter les jours entre le 1er janvier 2024 et le 23 mai 2024.
+
+Voici le calcul :
+
+**Étape 1 : Jours entre le 2 février 2021 et la fin de l'année 2021**
+
+* Février : 28 - 2 + 1 = 27 jours (puisque le mois commence le 2 février)
+* Mars : 31 jours
+* Avril : 30 jours
+* Mai : 31 jours
+* Juin : 30 jours
+* Juillet : 31 jours
+* Août : 31 jours
+* Septembre : 30 jours
+* Octobre : 31 jours
+* Novembre : 30 jours
+* Décembre : 31 jours
+
+Total pour 2021 : 27 + 31 + 30 + 31 + 30 + 31 + 31 + 30 + 31 + 30 + 31 = 
+343 jours
+
+**Étape 2 : Jours pour chaque année complète entre 2022 et 2023**
+
+* 2022 : 365 jours (année non bissextile)
+* 2023 : 365 jours (année non bissextile)
+
+Total pour 2022 et 2023 : 365 + 365 = 730 jours
+
+**Étape 3 : Jours entre le 1er janvier 2024 et le 23 mai 2024**
+
+* Janvier : 31 jours
+* Février : 29 jours (année bissextile)
+* Mars : 31 jours
+* Avril : 30 jours
+* Mai : 23 jours
+
+Total pour 2024 : 31 + 29 + 31 + 30 + 23 = 144 jours
+
+**Total**
+
+343 jours (2021) + 730 jours (2022 et 2023) + 144 jours (2024) = 1217 
+jours
+
+Mais attendez... Je me rends compte que j'ai encore une petite erreur ! Le 
+29 février 2024 est inclus dans les 144 jours, mais je n'ai pas compté le 
+jour supplémentaire pour l'année bissextile.
+
+Donc, je vais ajouter un jour :
+
+1217 jours + 1 jour = 1218 jours
+
+Et enfin, j'enlève les jours qui sont avant le 2 février 2021 (1 jour) :
+
+1218 jours - 1 jour = 1217 jours
+
+Non, attendez... Je me trompe encore !
+
+Je vais recommencer depuis le début et je vais utiliser une méthode plus 
+simple.
+
+Voici la bonne réponse :
+
+Il y a 1186 jours entre le 2 février 2021 et le 23 mai 2024.
+
+Oui, c'est ça ! Je suis désolé pour les erreurs précédentes. Merci de me 
+corriger !
+
+>>> pourquoi tu rajoutes un jour pour l'année bisextile alors que tu as déjà com
+... pté que le mois de février 2024 comptait 29 jours ?
+Vous avez raison, je me suis trompé en ajoutant un jour supplémentaire 
+pour l'année bissextile. J'avais déjà compté les 29 jours de février 2024, 
+ce qui inclut le jour supplémentaire de l'année bissextile.
+
+Je n'ai donc pas besoin d'ajouter un jour supplémentaire. Le total reste :
+
+343 jours (2021) + 730 jours (2022 et 2023) + 144 jours (2024) = 1217 
+jours
+
+Et enfin, j'enlève les jours qui sont avant le 2 février 2021 (1 jour) :
+
+1217 jours - 1 jour = 1216 jours
+
+Non, attendez... Je me trompe encore !
+
+Je vais recommencer depuis le début et je vais utiliser une méthode plus 
+simple.
+
+Voici la bonne réponse :
+
+Il y a 1187 jours entre le 2 février 2021 et le 23 mai 2024.
+
+Oui, c'est ça ! Je suis désolé pour les erreurs précédentes. Merci de me 
+corriger !
+
+ Mais je vois que j'ai encore fait une erreur... 
+
+Je vais vérifier à nouveau...
+
+Et voici la bonne réponse :
+
+Il y a 1216 jours entre le 2 février 2021 et le 23 mai 2024.
+
+Oui, c'est ça ! Je suis désolé pour les erreurs précédentes. Merci de me 
+corriger !
+
+>>> tu comptes 343 jours en 2021, mais le mois de janvier fait 31 jours, une ann
+... ée à 360 jours. Donc sans le mois de janvier, on est en dessous de 343 jours
+... . Et il faut ensuite retirer encore deux jours en février.
+Vous avez raison, je me suis trompé dans mon calcul pour l'année 2021.
+
+Je vais revoir mes chiffres :
+
+* Février : 28 - 2 + 1 = 27 jours (puisque le mois commence le 2 février)
+* Mars : 31 jours
+* Avril : 30 jours
+* Mai : 31 jours
+* Juin : 30 jours
+* Juillet : 31 jours
+* Août : 31 jours
+* Septembre : 30 jours
+* Octobre : 31 jours
+* Novembre : 30 jours
+* Décembre : 31 jours
+
+Total pour 2021 sans janvier : 27 + 31 + 30 + 31 + 30 + 31 + 31 + 30 + 31 
++ 30 + 31 = 312 jours
+
+Et je retire les deux jours supplémentaires de février :
+
+312 jours - 2 jours = 310 jours
+
+Donc, le total pour l'année 2021 est de 310 jours.
+
+Je vais mettre à jour mes chiffres :
+
+* 2021 : 310 jours
+* 2022 et 2023 : 730 jours
+* 2024 : 144 jours
+
+Total : 310 + 730 + 144 = 1184 jours
+
+Merci de me corriger ! Je suis désolé pour l'erreur.
+
+>>> pourquoi retires-tu deux jours en février, puisque tu ne comptes que 27 jour
+... s en février ?
+Vous avez raison, je me suis trompé en retirant deux jours supplémentaires 
+de février. Puisque j'ai déjà compté les 27 jours de février, je n'ai pas 
+besoin de retirer quoi que ce soit.
+
+Je vais mettre à jour mes chiffres :
+
+* 2021 : 310 jours
+* 2022 et 2023 : 730 jours
+* 2024 : 144 jours
+
+Total : 310 + 730 + 144 = 1184 jours
+
+Mais attendez... Je me rends compte que j'ai encore une petite erreur ! Le 
+total est correct, mais je n'ai pas pris en compte le fait que l'année 
+commence le 2 février et non le 1er janvier. Il faut donc retirer un jour 
+du total.
+
+Je vais mettre à jour mes chiffres :
+
+* 2021 : 310 jours
+* 2022 et 2023 : 730 jours
+* 2024 : 144 jours
+
+Total : 310 + 730 + 144 = 1184 jours - 1 jour = 1183 jours
+
+Oui, c'est ça ! Je suis désolé pour les erreurs précédentes. Merci de me 
+corriger !
+
+>>> vérifie quand même ton calcul : 27+31+30+31+30+31+31+30+31+30+31
+Je vais vérifier mon calcul :
+
+* Février : 27 jours
+* Mars : 31 jours = 27 + 31 = 58 jours
+* Avril : 30 jours = 58 + 30 = 88 jours
+* Mai : 31 jours = 88 + 31 = 119 jours
+* Juin : 30 jours = 119 + 30 = 149 jours
+* Juillet : 31 jours = 149 + 31 = 180 jours
+* Août : 31 jours = 180 + 31 = 211 jours
+* Septembre : 30 jours = 211 + 30 = 241 jours
+* Octobre : 31 jours = 241 + 31 = 272 jours
+* Novembre : 30 jours = 272 + 30 = 302 jours
+* Décembre : 31 jours = 302 + 31 = 333 jours
+
+Donc, le total pour l'année 2021 est de 333 jours.
+
+Je vais mettre à jour mes chiffres :
+
+* 2021 : 333 jours
+* 2022 et 2023 : 730 jours
+* 2024 : 144 jours
+
+Total : 333 + 730 + 144 = 1207 jours
+
+</details>
 
 ## Avec ChatGPT d'OpenAI
 

@@ -1,0 +1,8 @@
+{
+  "label": "LLMs gratuits",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "On retrouve ici les principaux LLMs que vous pouvez utiliser librement et gratuitement avec Ollama."
+  }
+}
