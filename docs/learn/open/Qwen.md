@@ -1,17 +1,12 @@
----
-sidebar_position: 3
----
 
-# Qwen
+Qwen
 
-Qwen est le modèle de langage large (LLM) développé par Alibaba, l’un des géants technologiques chinois, avec un focus particulier sur les langues asiatiques et les cultures locales. Contrairement à Llama et Gemma, Qwen se distingue par sa capacité à comprendre et traiter le mandarin ainsi qu’une gamme de dialectes et de langues asiatiques, ce qui le rend particulièrement précieux pour les utilisateurs et les entreprises situées en Asie ou ayant des besoins dans ces langues moins couvertes.
+Qwen est un modèle de langage large (LLM) développé par Alibaba, spécifiquement conçu pour répondre aux besoins des utilisateurs en Asie et dans d’autres régions nécessitant des capacités avancées en langues asiatiques et dans un contexte multiculturel. Ce modèle comprend et traite le mandarin, ainsi que de nombreux dialectes et langues asiatiques comme le cantonais, le japonais et le coréen, tout en étant optimisé pour l'anglais et d'autres langues occidentales. Qwen prend en charge plus de 29 langues, y compris le chinois, l'anglais, le français, l'espagnol, le portugais, l'allemand, l'italien, le russe, le vietnamien, le thaï et l'arabe.
 
-Conçu pour répondre aux besoins du marché asiatique, Qwen a été entraîné sur des sources de données locales et internationales, enrichies de contextes culturels qui lui permettent de mieux comprendre les spécificités linguistiques et culturelles propres à cette région. Par exemple, il est capable de gérer des subtilités dans des langues comme le cantonais, le japonais ou le coréen, tout en intégrant une grande base de données en anglais pour fonctionner à l’international.
+Destiné aux applications commerciales, Qwen s'intègre dans des secteurs tels que le commerce en ligne, l’éducation et le service client, en offrant des fonctionnalités multilingues pour une gestion de contenu et des interactions clients adaptées à des nuances culturelles et linguistiques spécifiques. Grâce à ses capacités multimodales avancées, Qwen analyse aussi bien les images que les textes, enrichissant ainsi l'expérience des utilisateurs dans des contextes e-commerce ou de service client.
 
-L’approche d’Alibaba avec Qwen met également l’accent sur des applications commerciales pratiques. Déployé pour les secteurs du commerce en ligne, de l’éducation et du service client, Qwen est optimisé pour assister dans des scénarios variés, allant de la gestion de contenus multilingues à des interactions complexes avec des clients, où la nuance culturelle et linguistique est essentielle.
+Qwen Coder
+Qwen propose également le modèle Qwen2.5 Coder Instruct en 0,5b pour faire de l'autocomplétion très rapidement, en 1.5b, 3b, 7b, 14b et 32b, qui se distinguent dans les tâches de génération et de réparation de code. Le modèle de 32 milliards de paramètres surpasse les performances des modèles open-source dans des benchmarks de génération de code comme EvalPlus, LiveCodeBench et BigCodeBench, et rivalise avec des modèles propriétaires tels que GPT-4o. En termes de réparation de code, Qwen2.5 Coder 32B dit atteindre un score remarquable de 73,7 sur le benchmark Aider, se positionnant ainsi au même niveau que des modèles de pointe.
 
-Qwen intègre également une technologie avancée pour le traitement de textes et images, permettant des fonctionnalités de reconnaissance visuelle et d’analyse multimodale, similaires à celles de Llama 3.2 Vision. Cette capacité est particulièrement utile pour les plateformes d’e-commerce, où l’analyse d’images et de textes combinée peut enrichir les descriptions produits, améliorer le service client et proposer des recommandations personnalisées.
-
-En somme, Qwen se positionne comme un LLM orienté vers la compréhension profonde des langues asiatiques et leur usage en contexte professionnel, répondant ainsi à des besoins que Llama et Gemma n’abordent pas encore pleinement.
-
-Cela positionne bien Qwen comme un modèle taillé pour les particularités linguistiques et culturelles de la région asiatique, tout en soulignant ses applications commerciales uniques.
+Performance Multilingue et Préférence Humaine
+Qwen2.5 Coder 32B Instruct excelle dans plus de 40 langages de programmation, avec un score de 65,9 sur McEval, et montre des résultats particulièrement bons pour des langages tels que Haskell et Racket. En réparation de code, il atteint un score de 75,2 sur MdEval, marquant ainsi des performances de pointe. Enfin, pour aligner ses réponses sur les préférences humaines, Qwen utilise une évaluation interne appelée Code Arena, démontrant son efficacité en alignement de préférences face aux meilleurs modèles open-source.
