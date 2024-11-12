@@ -139,5 +139,6 @@ des informations en fonction de votre situation. N'hésitez pas à me demander s
 avez besoin d'aide supplémentaire !
  </details>
 
+Ce sont ici des exemples simples, d'autres pages sont consacrées à des techniques comme le RAG et les agents virtuels.
 
 Mais attention, il ne faut pas avoir une confiance folle dans l'IA et parfois elle se trompe, c'est ce que nous allons voir sur la page [Hallucinations](/learn/hallucinations)
