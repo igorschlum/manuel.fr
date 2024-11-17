@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
 ---
 
 # Hallucinations
@@ -1048,4 +1048,4 @@ Il faut donc faire attention à la fois à la façon de poser la question et à 
 
 On voit aussi qu'en demandant à l'IA d'expliquer sa réponse, il va donner plus de détails et que ça peut changer sa façon trouver le résultat et donc proposer une réponse différente.
 
-On voit également que plus une IA est grande, plus elle est capable de répondre à des questions complexes.
+On voit aussi que plus une IA est grande, plus elle est capable de répondre à des questions complexes, mais pas toujours.

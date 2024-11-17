@@ -42,3 +42,22 @@ Une fois brew installé, il faut rajouter le chemin d'accès de Brew dans votre 
 ```bash
 export PATH=/opt/homebrew/bin:$PATH
 ```
+
+si ça ne fonctionne pas, une autre solution est d'installer l'utilitaire nvm
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
+
+On doit redémarrer l'application terminal ou taper la commande suivante :
+
+
+nvm install node
+
+Il faut ensuite définir la dernière version de node comme version par défaut :
+
+nvm alias default node
+
+On peut vérifier que la mise à jour s'est bien passée :
+
+nvm install node
+

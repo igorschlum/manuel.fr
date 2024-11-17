@@ -11,7 +11,7 @@ Avant de vous lancer dans l'installation du logiciel Ollama et de ce qu'il faut 
 Quand vous lancez Ollama, vous pouvez lui poser des questions comme si vous consultiez un dictionnaire :
 
 <details open>
-  <summary>ollama run llama3.2\>\>\> quelle est la définition du mot "caligraphie" ?</summary>
+  <summary>\>\>\> Quelle est la définition du mot "caligraphie" ?</summary>
 
 La calligraphie est une forme d'écriture qui utilise des caractères 
 graphiques spécifiques pour créer un effet visuel et émotionnel. Elle 
@@ -42,7 +42,7 @@ ajouter une touche personnelle à ses écrits.
 Mais on peut aussi lui demander des conseils.
 
 <details open>
-  <summary>\>\>\>Par quoi faut-il commencer pour apprendre la caligraphie ?</summary>
+  <summary>\>\>\> Par quoi faut-il commencer pour apprendre la caligraphie ?</summary>
 
 Pour apprendre la calligraphie, il est recommandé de commencer par les 
 étapes suivantes :
@@ -139,6 +139,5 @@ des informations en fonction de votre situation. N'hésitez pas à me demander s
 avez besoin d'aide supplémentaire !
  </details>
 
-Ce sont ici des exemples simples, d'autres pages sont consacrées à des techniques comme le RAG et les agents virtuels.
+Ce sont ici des exemples simples, nous allons aborder le sujet des [LLMs](/learn/llms), là où se niche la connaissance des IA génératrices.
 
-Mais attention, il ne faut pas avoir une confiance folle dans l'IA et parfois elle se trompe, c'est ce que nous allons voir sur la page [Hallucinations](/learn/hallucinations)

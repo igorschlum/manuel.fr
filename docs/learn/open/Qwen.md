@@ -1,5 +1,8 @@
+---
+sidebar_position: 3
+---
 
-Qwen
+# Qwen
 
 Qwen est un modèle de langage large (LLM) développé par Alibaba, spécifiquement conçu pour répondre aux besoins des utilisateurs en Asie et dans d’autres régions nécessitant des capacités avancées en langues asiatiques et dans un contexte multiculturel. Ce modèle comprend et traite le mandarin, ainsi que de nombreux dialectes et langues asiatiques comme le cantonais, le japonais et le coréen, tout en étant optimisé pour l'anglais et d'autres langues occidentales. Qwen prend en charge plus de 29 langues, y compris le chinois, l'anglais, le français, l'espagnol, le portugais, l'allemand, l'italien, le russe, le vietnamien, le thaï et l'arabe.
 
