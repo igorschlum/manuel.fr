@@ -106,9 +106,14 @@ const config = {
            position: 'left',
         },
         {
-            to: '/bib', // Chemin vers la page d'accueil de la sidebar "Bibliotèques"
-            label: 'Bib',
-            position: 'left',
+          to: '/dev', // Chemin vers la page d'accueil de la sidebar "installer"
+          label: 'Developper',
+          position: 'left',
+       },
+       {
+           to: '/bib', // Chemin vers la page d'accueil de la sidebar "Bibliotèques"
+           label: 'Bib',
+           position: 'left',
         },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -137,8 +142,12 @@ const config = {
            to: '/install/',
          },
          {
-          label: 'Bibliothèque',
-         to: '/bib/',
+          label: 'Développer',
+         to: '/dev/',
+         },
+         {
+        label: 'Bibliothèque',
+       to: '/bib/',
        },
 
            ],

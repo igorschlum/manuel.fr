@@ -15,3 +15,5 @@ Le développement de Gemma a été conçu pour un usage modulable et ouvert aux 
 Avec Gemma, Google vise à étendre l’accessibilité et la capacité d’innovation en matière d’IA conversationnelle, offrant un outil gratuit, flexible, et particulièrement utile pour les développeurs, les créateurs et les entreprises de toutes tailles.
 
 Pour plus de détails sur Gemma, vous pouvez consulter la [documentation officielle de Google](https://ai.google.dev/gemma?hl=fr).
+
+Google offre également des formations sur l'intelligence artificielle en français sur [cette page](https://www.cloudskillsboost.google/paths/118?locale=fr)

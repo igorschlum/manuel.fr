@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Les LLM
@@ -78,4 +78,4 @@ C'est bien le problème et comme de nouveaux LLM sortent régulièrement, il fau
 
 On peut dire quand même que pour l'instant les modèles de type LLama fournis par la société Meta sont les plus performants et la sortie de Llama3.2 vient conforter encore cette position de leader dans les modèles généralistes.
 
-On va maintenant aborder [les usages](/learn/usages) que l'on peut faire avec de l'IA OpenSource.
+On va maintenant regarder les principaux [LLMs gratuits](/category/llms-gratuits) qui sont à notre disposition.
