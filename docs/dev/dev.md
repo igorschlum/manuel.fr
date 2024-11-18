@@ -1,7 +1,7 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
+title: "Introduction"
 ---
-(page encore en chantier)
 
 # Developper avec l'IA
 

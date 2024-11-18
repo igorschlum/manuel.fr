@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Llama
+# LlaMa
 
 Les modèles de langage Llama sont développés par Meta, la société derrière Facebook et Instagram. Llama est gratuit d'utilisation pour les entreprises de moins d'un milliard d'utilisateurs, en d'autres termes, la plupart des entreprises en dehors des géants de la tech.
 
@@ -22,6 +22,10 @@ Avec un modèle Tool, les LLM peuvent utiliser des fonctions externes, comme vé
 
 Fin septembre 2024, Meta a lancé Llama 3.2, incluant une version optimisée pour l’auto-complétion, pouvant bientôt fonctionner sur des téléphones portables et des ordinateurs plus légers. Llama 3.2 existe également en version Vision, permettant d’analyser et de répondre à des questions sur des images.
 
+Llama 3.2 est également entrainé pour fonctionner, outre l'anglais en allemand, en français, en italien, en portugais, en hindi, en espagnol, et en Thaï.  
+
 Pour en savoir plus sur Le LLM Llama, vous pouvez visiter [sa page Wikipedia](https://fr.wikipedia.org/wiki/LLaMA)
+
+Voir [Llama 3.2](https://ollama.com/library/llama3.2) sur [Ollama.com](https://ollama.com/)
 
 Ensuite nous pouvons consulter le LLM gratuit de Google, Gemma.

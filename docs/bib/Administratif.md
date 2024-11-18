@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Albert, L’intelligence Artificielle du Gouvernement
+# Albert
 
 ## Albert c’est quoi ?
 

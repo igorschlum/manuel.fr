@@ -106,10 +106,10 @@ const config = {
            position: 'left',
         },
         {
-          to: '/dev', // Chemin vers la page d'accueil de la sidebar "installer"
-          label: 'Developper',
-          position: 'left',
-       },
+           to: '/dev', // Chemin vers la page d'accueil de la sidebar "Développer"
+           label: 'Developper',
+           position: 'left',
+        },
        {
            to: '/bib', // Chemin vers la page d'accueil de la sidebar "Bibliotèques"
            label: 'Bib',

@@ -1,7 +1,6 @@
 ---
 sidebar_position: 2
 ---
-C'est Installation ici
 
 # Prérequis
 

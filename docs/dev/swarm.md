@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 5
 ---
 Swarm est un framework (un ensemble de fonctions) écrit en python qui permet de faire interagir plusieurs LLM entre eux pour créer des agents.
 C'est un outil en anglais que l'on peut télécharge gratuitement sur GitHub. Il est développé par OpenAI et fonctionne normalement avec ChatGPT, mais on peut le modifier pour le faire fonctionner avec Ollama. Pour installler Swarm, il faut taper cette commande dans le terminal :
