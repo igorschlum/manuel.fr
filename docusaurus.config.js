@@ -6,6 +6,8 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
+// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Manuel.fr',
@@ -53,10 +55,18 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          feedOptions: {
+            type: ['rss', 'atom'],
+            xslt: true,
+          },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/igorschlum/manuel.fr/blob/main/',
+             // Useful options to enforce blogging best practices
+            onInlineTags: 'warn',
+            onInlineAuthors: 'warn',
+            onUntruncatedBlogPosts: 'warn',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -91,26 +101,33 @@ const config = {
         },
         items: [
           {
+            type: 'docSidebar',
+            sidebarId: 'L',
+            position: 'left',
             to: '/learn', // Chemin vers la page d'accueil de la sidebar "Découvrir"
             label: 'Comprendre',
             position: 'left',
           },  
           {
             to: '/use', // Chemin vers la page d'accueil de la sidebar "installer"
+            sidebarId: 'U',
             label: 'Utiliser',
             position: 'left',
          },
          {
+          sidebarId: 'I',
            to: '/install', // Chemin vers la page d'accueil de la sidebar "installer"
            label: 'Installer',
            position: 'left',
         },
         {
+          sidebarId: 'D',
            to: '/dev', // Chemin vers la page d'accueil de la sidebar "Développer"
            label: 'Developper',
            position: 'left',
         },
        {
+        sidebarId: 'B',
            to: '/bib', // Chemin vers la page d'accueil de la sidebar "Bibliotèques"
            label: 'Bib',
            position: 'left',

@@ -1,7 +1,9 @@
 ---
 sidebar_position: 2
 ---
-Pour installer Docusaurus ou n8n et d'autres programmes sur votre ordinateur, il faut d'abord installer Node et npm
+Node et npm sont des outils de programmation qui permettent d'installer et de faire tourner des applications.
+
+Leur installation est facile et nous en auront besoin pour installer des outils OpenSource comme Bert ou n8n.
 
 1. Quand vous installez Node.js cela installe également npm. Voici les étapes pour l’installation :
 
@@ -33,31 +35,4 @@ npm install -g npm@latest
 
 Notez que vous pouvez également utiliser un gestionnaire de versions Node comme nvm pour installer Node.js et npm. Cela vous permet de basculer facilement entre différentes versions de Node.js et npm.
 
-8. Vous pouvez aussi installer Homebrew qui est un outil pour en installer d'autres sur votre mac
-
-Rendez-vous sur https://brew.sh et suivez les instuctions.
-
-Une fois brew installé, il faut rajouter le chemin d'accès de Brew dans votre système et tapant dans le terminal
-
-```bash
-export PATH=/opt/homebrew/bin:$PATH
-```
-
-si ça ne fonctionne pas, une autre solution est d'installer l'utilitaire nvm
-
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-
-
-On doit redémarrer l'application terminal ou taper la commande suivante :
-
-
-nvm install node
-
-Il faut ensuite définir la dernière version de node comme version par défaut :
-
-nvm alias default node
-
-On peut vérifier que la mise à jour s'est bien passée :
-
-nvm install node
-
+8. Vous pourriez aussi installer Homebrew qui est un outil pour en installer d'autres sur votre mac, mais il est déconseillé de mélanger les outils de gestion de paquets. Nous partons donc du principe que c'est npm que nous allons utiliser.

@@ -1,11 +1,14 @@
 ---
-sidebar_position: 5
+sidebar_position: 4
 ---
 
 # Python
 
-**Python** est un langage de programmation largement utilisé dans les applications Web, le développement de logiciels, la science des données et le machine learning¹. Il est efficace, facile à apprendre et peut s'exécuter sur de nombreuses plateformes¹. Python est également apprécié pour sa syntaxe claire et simple, ce qui facilite l'apprentissage des concepts de base de la programmation².
+**Python** est un langage de programmation largement utilisé dans les applications Web, le développement de logiciels, la science des données et le machine learning¹. Il est efficace, facile à apprendre et peut s'exécuter sur de nombreuses plateformes¹. Python est également apprécié pour sa syntaxe claire et simple, ce qui facilite l'apprentissage des concepts de base de la programmation
 
+
+
+## Installer Python sur votre Mac
 Voici comment vous pouvez installer Python sur votre Mac :
 
 1. Rendez-vous sur le [site officiel de Python](https://www.python.org/downloads/macos/).
