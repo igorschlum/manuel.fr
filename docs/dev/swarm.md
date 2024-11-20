@@ -30,7 +30,7 @@ pour installer tous les tutos sur les Agents de Cale Medin, utilisez le terminal
 git clone https: //github.com/coleam00/ai-agents-masterclass.git
 ```
 
-Ce même Code Medin travaille sur un projet d'AI Coding Assistant qui est expliqué dans [cette vidéo](https://www.youtube.com/watch?v=31ivQdydmGg) en anglais
+Ce même Code Medin travaille sur un projet d'AI Coding Assistant qui est expliqué dans [cette vidéo](https://www.youtube.com/watch?v=31ivQdydmGg) ou [celle-ci](https://www.youtube.com/watch?v=8jpVeUTNExI) en anglais toutes les deux.
 
 
 
