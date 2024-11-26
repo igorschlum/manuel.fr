@@ -42,14 +42,12 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          sidebarPath: require.resolve('./sidebars.js'), // Chemin vers le fichier de la barre latérale
+          routeBasePath: '/', // Si vous souhaitez que les documents soient à la racine du site
+          includeCurrentVersion: true,
+          showLastUpdateTime: true,
 
-          routeBasePath: '/', // Sert les docs à la racine du site
-          /* autres options du plugin docs */
 
-          
-          sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/igorschlum/manuel.fr/tree/main/',
         },
@@ -69,7 +67,7 @@ const config = {
             onUntruncatedBlogPosts: 'warn',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
@@ -91,12 +89,25 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        { name: 'description', content: 'Ollama expliqué, pour utiliser facilement les LLMs OpenSource sur son Mac' },
+        { property: 'og:title', content: 'Manuel.fr pour Ollama et les LLMs' },
+        { property: 'og:description', content: 'Ollama expliqué, pour utiliser facilement les LLMs OpenSource sur son Mac' },
+        { property: 'og:image', content: 'https://manuel.fr/img/logo.svg' }, // URL de l'image
+        { property: 'og:url', content: 'https://manuel.fr/' }, // URL du site
+  
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', content: 'Manuel.fr pour Ollama et les LLMs' },
+        { name: 'twitter:description', content: 'Ollama expliqué, pour utiliser facilement les LLMs OpenSource sur son Mac' },
+        { name: 'twitter:image', content: 'https://manuel.fr/img/facile.svg' }, // URL de l'image
+      ],
+  
       // Replace with your project's social card
       image: 'img/ollama.png',
       navbar: {
         title: 'manuel.fr',
         logo: {
-          alt: 'Manuel.fr Logo',
+          alt: 'Logo manuel.fr',
           src: 'img/logo.svg',
         },
         items: [
