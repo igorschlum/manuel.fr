@@ -32,8 +32,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`L'IA openSource avec Ollama ${siteConfig.title}`}
+      description="Apprenez l'Intelligence Artificielle Open Source sur votre Mac avec Ollama. Accédez à des guides pratiques, des ressources sur les modèles de langage (LLMs) et des outils IA pour comprendre et déployer l'IA localement.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

@@ -19,3 +19,5 @@ Pour obtenir ce modèle rendez-vous sur [le site](https://ollama.ai/library/llam
 3. *Il surpasse tous les autres modèles de langage à grande échelle ([LLM](/learn/lectures/glossaire#LLM)) open-source.*
 
 Pour obtenir ce modèle rendez-vous sur [le site](https://ollama.ai/library/wizard-math/tags) de ollama.
+
+Il y sur le site de [Canopé](https://www.reseau-canope.fr/ia-en-classe) des ressources à l'attention des enseignants pour se former en intelligence artificielle.
