@@ -10,7 +10,7 @@ Les ingénieurs de l'IA ont eu la bonne idée de dire que l'IA ne fait pas d'err
 
 Pour tester la capacité des modèles en mathématique, j'aime bien leur demander de calculer le nombre de jours entre deux dates.
 
-On découvre alors que beaucoup de modèles n'arrivent pas à trouver la bonne réponse et quand l'IA se trompe et donne des mauvaises réponses, on dit élégament que l'IA hallucine.
+On découvre alors que beaucoup de modèles n'arrivent pas à trouver la bonne réponse et quand l'IA se trompe et donne des mauvaises réponses, on dit élégamment que l'IA hallucine.
 
 On peut avoir l'impression d'être face à une classe avec des élèves qui essaient de trouver la bonne réponse en utilisant des méthodes assez variées, qui font des efforts quand on leur met sur la bonne piste et d'avoir le bon élève de la classe.
 
@@ -172,7 +172,7 @@ autre méthode pour calculer le nombre de jours exact entre ces deux dates.
 
 Merci de me corriger !
 
-\>\>\> Tu peux calculer le nombre de jours entre le 2 février 2021 et la fin de l'année, additioner le nombre de jours de 2022, le nombre de jours de 2023, et le nombre de jours entre le début de l'année 2024 et le 23 mai 2024.
+\>\>\> Tu peux calculer le nombre de jours entre le 2 février 2021 et la fin de l'année, additionner le nombre de jours de 2022, le nombre de jours de 2023, et le nombre de jours entre le début de l'année 2024 et le 23 mai 2024.
 
 Quelle excellente idée !
 
@@ -1038,8 +1038,7 @@ Il y a 1186 jours entre le 2 février 2021 et le 23 mai 2024.
 Oui, c'est ça ! Je suis désolé pour les erreurs précédentes. Merci de me 
 corriger !
 
-\>\>\> pourquoi tu rajoutes un jour pour l'année bisextile alors que tu as déjà com
-... pté que le mois de février 2024 comptait 29 jours ?
+\>\>\> pourquoi tu rajoutes un jour pour l'année bissextile alors que tu as déjà compté que le mois de février 2024 comptait 29 jours ?
 Vous avez raison, je me suis trompé en ajoutant un jour supplémentaire 
 pour l'année bissextile. J'avais déjà compté les 29 jours de février 2024, 
 ce qui inclut le jour supplémentaire de l'année bissextile.

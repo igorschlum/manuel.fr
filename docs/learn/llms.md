@@ -18,7 +18,7 @@ Il y a plusieurs LLM comme il y a plusieurs encyclopédies. Chaque éditeur de L
 
 Ils sont entrainés de façon différentes, donc même si deux LLM partaient de la même base de connaissance, la façon dont ils sont entrainés les rendra différents et bien sûr, ils sont entrainés sur des jeux de données différents. Chacun entraîne son champion pour qu'il soit le meilleur dans sa catégorie.
 
-Cela permet à certains LLM d'être spécialisés dans l'assistance à la programmation, la description d'images, la médecine,le droit ou dans la résolution de problèmes mathématiques.
+Cela permet à certains LLM d'être spécialisés dans l'assistance à la programmation, la description d'images, la médecine, le droit ou dans la résolution de problèmes mathématiques.
 
 ## combien en existe-t-il ?
 
@@ -30,11 +30,11 @@ sur le site [Hugging face](https://huggingface.com), il en existe des centaines 
 
 ### Les version majeurs
 
-En plus d'être très nombreux, chaque LLM est disponible en plusieurs variations. La première dans sont numéro de version. Par exemple, le LLM LLama est sorti en openSource en version 2, puis en version 3, puis en version 3.1 et maintenant en version 3.2.
+En plus d'être très nombreux, chaque LLM est disponible en plusieurs variations. La première est dans son numéro de version. Par exemple, le LLM LLama est sorti en openSource en version 2, puis en version 3, puis en version 3.1 et maintenant en version 3.2.
 
 Il en est de même pour le modèle Gemma de Google qui est sorti en version 1 puis en version 2.
 
-Quand un éditeur sort une nouvelle version  de son LLM cela a nécessité de réentrainer complètement le modèle, c'est un gros travail en temps machine et c'est pourquoi les versions sont souvent espacées de 6 mois à plus d'un an.
+Quand un éditeur sort une nouvelle version  de son LLM cela a nécessité de réentraîner complètement le modèle, c'est un gros travail en temps machine et c'est pourquoi les versions sont souvent espacées de 6 mois à plus d'un an.
 
 ### La taille du modèle
 
@@ -48,7 +48,7 @@ En revanche, les versions plus grandes offrent une meilleure qualité de répons
 
 ### La quantisation
 
-Les modèles varient aussi aussi en fonction de la Quantization comme expliqué [ici](https://www.manuel.fr/learn/Principes/Quantisastion), le prinicpe est d'attribuer moins de précision à un LLM pour qu'il donne des réponses plus rapide, mais c'est moins précis.
+Les modèles varient aussi en fonction de la Quantization comme expliqué [ici](https://www.manuel.fr/learn/Principes/Quantisastion), le prinicpe est d'attribuer moins de précision à un LLM pour qu'il donne des réponses plus rapide, mais c'est moins précis.
 
 La quantization est une technique qui permet de réduire la taille des modèles d’IA en économisant de la mémoire. Cela consiste à diminuer le nombre de bits utilisés pour représenter chaque paramètre du modèle : par exemple, passer de 16 bits à 8 bits ou même à 4 bits. En diminuant le nombre de bits, chaque paramètre utilise moins de mémoire. Par exemple, passer de 16 à 8 bits divise presque par deux la quantité de mémoire nécessaire.
 
@@ -60,7 +60,7 @@ Ollama est fait pour faire tourner des LLM sur des ordinateur personnels à choi
 
 Il est encore possible de faire varier des LLM en changeant la taille de leur taille de contexte, par exemple, si vous voulez résumer un livre entier, il faut que le LLM puisse stocker le livre pour entre le résumer. Aujourd'hui les meilleurs modèles peuvent avoir jusqu'à 128K de taille de contexte, mais il faut pour cela cloner le modèle pour lui dire d'utiliser un espace de mémoire plus important.
 
-Les premiers modèles comme Llama2 avaientt une taille de contexte de 4096 tokens, ce qui fait qu'il oubliait au fur et à mesure le début de la conversation et on pouvait tourner en rond. Il me semble que c'est Gemma2 qui a proposé une taille de context de 128K tokens, suivi ensuite par les autres LLM OpenSource. Toutefois cette taille est la taille maximum qu'un LLM peut avoir, mais il faut que le paramètre soit modifié dans le modèle pour lui faire travailler avec un contexte plus grand. Comme ça prend plus de mémoire, ce n'est pas proposé par défaut par Ollama.
+Les premiers modèles comme Llama2 avaient une taille de contexte de 4096 tokens, ce qui fait qu'il oubliait au fur et à mesure le début de la conversation et on pouvait tourner en rond. Il me semble que c'est Gemma2 qui a proposé une taille de context de 128K tokens, suivi ensuite par les autres LLM OpenSource. Toutefois cette taille est la taille maximum qu'un LLM peut avoir, mais il faut que le paramètre soit modifié dans le modèle pour lui faire travailler avec un contexte plus grand. Comme ça prend plus de mémoire, ce n'est pas proposé par défaut par Ollama.
 
 Nous verrons tout cela dans la personnalisation des LLM.
 
@@ -68,7 +68,7 @@ Nous verrons tout cela dans la personnalisation des LLM.
 
 Vous pouvez aussi modifier un LLM en lui demander de changer son attitude, lui dire qu'il est un professeur d'histoire pour des enfants de CM2 ou qu'il vous apprend une langue ou qu'il critique chacune de choses que vous lui indiquez. En changeant son attitude vous changer complètement sa façon de réagir à vos demandes.
 
-Une autre façon de modifier un modèle et de l'affiner. C'est une opération un peu plus complexe, mais qui peut s'avérer très intéressante, vous allez pouvoir lui transmettre une biliothèque d'informations sous la forme de questions réponses et celles-ci affiner sa façon de répondre. Cette méthode est expliquée ici.
+Une autre façon de modifier un modèle et de l'affiner. C'est une opération un peu plus complexe, mais qui peut s'avérer très intéressante, vous allez pouvoir lui transmettre une bibliothèque d'informations sous la forme de questions réponses et celles-ci affiner sa façon de répondre. Cette méthode est expliquée ici.
 
 Il y a encore d'autres variations que vous pouvez appliquer à un modèle, comme changer la diversité de ses réponses, voulez-vous qu'il réponde toujours de la même façon à la même question ou voulez-vous qu'il varient ses réponses ? Si vous construisez un chatbox pour un support technique, c'est mieux qu'il réponde de la même façon aux mêmes questions.
 
