@@ -3,8 +3,8 @@ sidebar_position: 1
 title: "Introduction"
 ---
 
-Manuel.fr veux vous faire découvrir, comprendre et surtout utiliser **l'intelligence artificielle** sur Mac avec [Ollama](https://ollama.com).
-J'ai passé beaucoup de temps à comprendre et à synthétiser ce que j'ai appris pour vous faire gagner du temps.
+Manuel.fr veut vous faire découvrir, comprendre et surtout utiliser **l'intelligence artificielle** sur Mac avec [Ollama](https://ollama.com).
+J'ai passé beaucoup de temps à comprendre et à synthétiser ce que j'ai apris pour vous faire gagner du temps.
 
 # Introduction
 
@@ -14,7 +14,7 @@ Une autre révolution plus discrète a suivi. Celle de l'IA OpenSource, menée p
 
 Vous pouvez ainsi éviter que votre usage de l'IA ne vienne nourrir des serveurs de publicité ; vos données restent confidentielles. l'IA OpenSource permet également de faire tourner différents modèles qui ont chacun leur propre comportement.
 
-L'application Ollama vous permet de faire tourner les dictionnaires ([LLM](/learn/lectures/glossaire#LLM)) Open source que vous voulez sur votre ordinateur en toute confidentialité et sans coût supplémentaire que l'électricité consommée par votre ordinateur. Le plus connu des [LLM](/learn/lectures/glossaire#LLM) gratuits est Llama qui a inspiré le nom de l'application Ollama, mais nous verrons plus loin sur le site qu'il y a beaucoup d'autres [LLM](/learn/lectures/glossaire#LLM) que l'on peut utiliser.
+L'application Ollama vous permet de faire tourner les dictionnaires ([LLM](/learn/lectures/glossaire#LLM)) Open source que vous voulez sur votre ordinateur en toute confidentialité et sans coût supplémentaire autre que l'électricité consommée par votre ordinateur. Le plus connu des [LLM](/learn/lectures/glossaire#LLM) gratuits est Llama qui a inspiré le nom de l'application Ollama, mais nous verrons plus loin sur le site qu'il y a beaucoup d'autres [LLM](/learn/lectures/glossaire#LLM) que l'on peut utiliser.
 
 
 ## Exemple
@@ -74,7 +74,7 @@ Vous pourrez accéder à la liste des [LLM](/learn/lectures/glossaire#LLM) qui s
 
 Vous comprendrez pourquoi chaque [LLM](/learn/lectures/glossaire#LLM) est souvent distribué en plusieurs tailles et en plusieurs types.
 
-Vous verrez que vous pourrez cloner modèle pour en créer un qui aura un comportement différents.
+Vous verrez que vous pourrez cloner un modèle pour en créer un qui aura un comportement différent.
 
 Vous verrez quels sont les outils que l'on peut ajouter pour compléter le fonctionnement d'Ollama.
 
