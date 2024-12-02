@@ -63,16 +63,16 @@ En résumé, le ciel est bleu en raison de la diffusion de la lumière par les m
 
 [Bibliothèque](/bib/) pour découvrir les principaux LLM disponibles
 
-Nous allons partir du principe que vous êtes curieux, malin, que vous avez envie d'apprendre, mais que nous n'y connaissez pas grand chose. Les fins connaisseurs pourront toujours utiliser les index à droite pour passer à la section suivante quand il connaisse déjà je sujet traité.
+Nous allons partir du principe que vous êtes curieux, malin, que vous avez envie d'apprendre, mais que nous n'y connaissez pas grand-chose. Les fins connaisseurs pourront toujours utiliser les index à droite pour passer à la section suivante quand il connaisse déjà je sujet traité.
 
 
 Nous allons voir sur ce site [comment installer Ollama](/install/) sur votre Mac en lançant llama3.2
 
-Vouz verrez également ici quelles sont les différents types de [LLM](/learn/lectures/glossaire#LLM) et à quoi ils servent.
+Vous verrez également ici quelles sont les différents types de [LLM](/learn/lectures/glossaire#LLM) et à quoi ils servent.
 
 Vous pourrez accéder à la liste des [LLM](/learn/lectures/glossaire#LLM) qui sont disponibles sur le site Ollama qui en facilite l'installation.
 
-Vous comprendrez pourquoi chaque [LLM](/learn/lectures/glossaire#LLM) est souvent distribué en plusieurs tailles et en plusieur types.
+Vous comprendrez pourquoi chaque [LLM](/learn/lectures/glossaire#LLM) est souvent distribué en plusieurs tailles et en plusieurs types.
 
 Vous verrez que vous pourrez cloner un modèle pour en créer un qui aura un comportement différent.
 
@@ -87,4 +87,4 @@ Vous verrez aussi comment importer un [LLM](/learn/lectures/glossaire#LLM) depui
 Si vous voulez collaborer à l'écriture de ce site, il est fait avec Docusaurus et son code source est sur GitHub.
 En attendant, n'hésitez pas à cliquer dans les menus du site pour le parcourir et vous formez.
 
-Commençons par conprendre quels sont des [Usages](/learn/usages) simples que l'on peut faire avec l'Intelligence Artificielle
+Commençons par comprendre quels sont des [Usages](/learn/usages) simples que l'on peut faire avec l'Intelligence Artificielle

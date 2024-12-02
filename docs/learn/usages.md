@@ -11,7 +11,7 @@ Avant de vous lancer dans l'installation du logiciel Ollama et de ce qu'il faut 
 Quand vous lancez Ollama, vous pouvez lui poser des questions comme si vous consultiez un dictionnaire :
 
 <details open>
-  <summary>\>\>\> Quelle est la définition du mot "caligraphie" ?</summary>
+  <summary>\>\>\> Quelle est la définition du mot "calligraphie" ?</summary>
 
 La calligraphie est une forme d'écriture qui utilise des caractères 
 graphiques spécifiques pour créer un effet visuel et émotionnel. Elle 
@@ -42,7 +42,7 @@ ajouter une touche personnelle à ses écrits.
 Mais on peut aussi lui demander des conseils.
 
 <details open>
-  <summary>\>\>\> Par quoi faut-il commencer pour apprendre la caligraphie ?</summary>
+  <summary>\>\>\> Par quoi faut-il commencer pour apprendre la calligraphie ?</summary>
 
 Pour apprendre la calligraphie, il est recommandé de commencer par les 
 étapes suivantes :
