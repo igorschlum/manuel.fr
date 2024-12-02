@@ -226,6 +226,13 @@ Pour afficher les modèles installés, taper dans le terminal de commande:
 ollama list
 ```
 
+Les modèles sont installés dans un dossier à cet endroit :
+
+Users/votrenom/.ollama/models/manifests/registry.ollama.ai/library
+
+Le fait qu'il y a un . devant le dossier ollama, signifie que c'est un dossier caché.
+
+
 ![Attention](/img/list.png)
 
 Pour proposer une modification, rendez-vous sur le [github de cette page](https://github.com/igorschlum/manuel.fr) puis dans `docs/intro.md` et cliquer sur le petit stylet.
