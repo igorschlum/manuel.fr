@@ -1170,6 +1170,121 @@ Total : 333 + 730 + 144 = 1207 jours
 
 </details>
 
+## Avec llama3.3
+
+Llama3.3:70B-q8 répond bien du premier coup
+
+<details open>
+  <summary>combien de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
+
+\>\>\> 
+Pour calculer le nombre de jours entre le 2 février 2021 et le 23 mai 
+2024, nous allons procéder étape par étape.
+
+1. **Calcul des jours restants en février 2021** :
+   - Février a 28 jours en 2021 (année non bissextile).
+   - Il reste 26 jours en février après le 2 février (28 - 2 = 26).
+
+2. **Calcul des jours pour les mois complets de mars à décembre 2021** :
+   - Mars : 31 jours
+   - Avril : 30 jours
+   - Mai : 31 jours
+   - Juin : 30 jours
+   - Juillet : 31 jours
+   - Août : 31 jours
+   - Septembre : 30 jours
+   - Octobre : 31 jours
+   - Novembre : 30 jours
+   - Décembre : 31 jours
+   - Total pour ces mois = 31 + 30 + 31 + 30 + 31 + 31 + 30 + 31 + 30 + 31 
+= 304 jours
+
+3. **Total de jours pour l’année 2021** :
+   - Jours restants en février : 26 jours
+   - Jours pour les mois complets de mars à décembre : 304 jours
+   - Total pour 2021 = 26 + 304 = 330 jours
+
+4. **Calcul des jours pour les années 2022 et 2023** :
+   - Chaque année non bissextile compte 365 jours.
+   - 2022 est une année non bissextile, donc 365 jours.
+   - 2023 est également une année non bissextile, donc 365 jours.
+   - Total pour 2022 et 2023 = 365 + 365 = 730 jours
+
+5. **Calcul des jours pour l’année 2024 jusqu’au 23 mai** :
+   - Janvier : 31 jours
+   - Février : 29 jours (2024 est une année bissextile)
+   - Mars : 31 jours
+   - Avril : 30 jours
+   - Mai : 23 jours (jusqu’au 23 mai)
+   - Total pour ces mois = 31 + 29 + 31 + 30 + 23 = 144 jours
+
+6. **Calcul total** :
+   - Jours en 2021 : 330 jours
+   - Jours en 2022 et 2023 : 730 jours
+   - Jours en 2024 jusqu’au 23 mai : 144 jours
+   - Total général = 330 + 730 + 144 = 1204 jours
+
+Il y a donc **1204 jours** entre le 2 février 2021 et le 23 mai 2024.
+
+</details>
+
+Alors que Llama3.3:70B-q4 doit s'y reprendre à deux fois et se trompe encore un peu.
+
+<details open>
+  <summary>combien de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
+
+\>\>\> 
+Il y a 1198 jours entre le 2 février 2021 et le 23 mai 2024.
+
+>>> comment tu calcules cela ?
+Pour calculer le nombre de jours entre deux dates, je peux utiliser une 
+formule ou un algorithme qui prend en compte les années, les mois et les 
+jours. Voici les étapes que je suivrais pour calculer le nombre de jours 
+entre le 2 février 2021 et le 23 mai 2024 :
+
+1. **Calcul des jours restants dans l'année 2021** :
+ * Février : 28 - 2 = 26 jours (puisque le 2 février est déjà passé)
+ * Mars : 31 jours
+ * Avril : 30 jours
+ * Mai : 31 jours
+ * Juin : 30 jours
+ * Juillet : 31 jours
+ * Août : 31 jours
+ * Septembre : 30 jours
+ * Octobre : 31 jours
+ * Novembre : 30 jours
+ * Décembre : 31 jours
+ Total pour 2021 : 26 + 31 + 30 + 31 + 30 + 31 + 31 + 30 + 31 + 30 + 31 = 
+332 jours
+
+2. **Calcul des jours pour les années complètes (2022 et 2023)** :
+ * Chaque année compte 365 jours (sauf les années bissextiles, qui 
+comptent 366 jours). Les années 2022 et 2023 ne sont pas des années 
+bissextiles.
+ * Total pour 2022 : 365 jours
+ * Total pour 2023 : 365 jours
+
+3. **Calcul des jours pour l'année 2024 (jusqu'au 23 mai)** :
+ * Janvier : 31 jours
+ * Février : 29 jours (car 2024 est une année bissextile)
+ * Mars : 31 jours
+ * Avril : 30 jours
+ * Mai : 23 jours (puisque nous voulons calculer jusqu'au 23 mai)
+ Total pour 2024 : 31 + 29 + 31 + 30 + 23 = 144 jours
+
+4. **Addition de tous les jours** :
+ * Jours restants en 2021 : 332 jours
+ * Jours en 2022 : 365 jours
+ * Jours en 2023 : 365 jours
+ * Jours en 2024 (jusqu'au 23 mai) : 144 jours
+ Total : 332 + 365 + 365 + 144 = 1206 jours
+
+Cependant, j'ai commis une erreur dans mon calcul initial. La bonne 
+réponse est 1206 jours entre le 2 février 2021 et le 23 mai 2024.
+
+Je m'excuse pour la confusion et je vous remercie de me corriger !
+
+</details>
 ## Avec ChatGPT d'OpenAI
 
 Il a le bon résonnement et la bonne réponse

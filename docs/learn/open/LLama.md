@@ -22,7 +22,9 @@ Avec un modèle Tool, les LLM peuvent utiliser des fonctions externes, comme vé
 
 Fin septembre 2024, Meta a lancé Llama 3.2, incluant une version optimisée pour l’auto-complétion, pouvant bientôt fonctionner sur des téléphones portables et des ordinateurs plus légers. Llama 3.2 existe également en version Vision, permettant d’analyser et de répondre à des questions sur des images.
 
-Llama 3.2 est également entrainé pour fonctionner, outre l'anglais en allemand, en français, en italien, en portugais, en hindi, en espagnol, et en Thaï.  
+Llama 3.2 est également entrainé pour fonctionner, outre l'anglais en allemand, en français, en italien, en portugais, en hindi, en espagnol, et en Thaï.
+
+Llama 3.3 70b est sorti début décembre 2024. Il est meilleur pour traiter des fichiers json en entrée comme en sortie.
 
 Pour en savoir plus sur Le LLM Llama, vous pouvez visiter [sa page Wikipedia](https://fr.wikipedia.org/wiki/LLaMA)
 

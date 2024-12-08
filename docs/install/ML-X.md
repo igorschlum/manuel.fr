@@ -1,5 +1,5 @@
 ---
-sidebar_position: 12
+sidebar_position: 9
 ---
 Pour affiner des modèles existants, il faut installer ML-X sur votre Mac.
 MLX est une librairie OpenSource développée par Apple et qui permet de profiter de la puissance des processeurs Apple silicon (M1, M2, M3) pour faire tourner des modèles d'intelligence artificielle ou pour les entraîner.
@@ -21,7 +21,7 @@ et [HTTP model serving](https://github.com/ml-explore/mlx-examples/blob/main/llm
 
 ml-x permet de faire des tâches en ligne de commande de façon plus complexes que Ollama.
 
-Avec votre compte [HuggingFace](https://www.manuel.fr/install/Hugging%20Face%20CLI) vous pouvez utiliser directement des modèles de données avec ML-X
+Avec votre compte [HuggingFace](https://www.manuel.fr/install/HuggingFace) vous pouvez utiliser directement des modèles de données avec ML-X
 
 Sur HuggingFace, vous pouvez chercher les modèles de [MLX Community](https://huggingface.co/mlx-community).
 

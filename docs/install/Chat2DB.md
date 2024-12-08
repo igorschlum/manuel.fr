@@ -1,5 +1,5 @@
 ---
-sidebar_position: 11
+sidebar_position: 8
 ---
 Chat2DB est un outil intéressant et OpenSource pour discuter avec les bases de données.
 
