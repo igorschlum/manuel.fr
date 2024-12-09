@@ -47,10 +47,10 @@ Pour lancer Ollama et pour charger un premier [LLM](/learn/lectures/glossaire#LL
 Taper dans le terminal la commande:
 
 ```bash
-ollama run llama3
+ollama run llama3.2
 ```
 
-Le mot `run` permet d'executer le modèle `llama3`. Si le modèle n'est pas chargé, il va se charger (cela occupe un peu moins de 4 Giga sur le disque)
+Le mot `run` permet d'executer le modèle `llama3.2`. Si le modèle n'est pas chargé, il va se charger (cela occupe un peu moins de 4 Giga sur le disque)
 
 ![run llama3](/img/llama3.png)
 
