@@ -17,3 +17,5 @@ Avec Gemma, Google vise à étendre l’accessibilité et la capacité d’innov
 Pour plus de détails sur Gemma, vous pouvez consulter la [documentation officielle de Google](https://ai.google.dev/gemma?hl=fr).
 
 Google offre également des formations sur l'intelligence artificielle en français sur [cette page](https://www.cloudskillsboost.google/paths/118?locale=fr)
+
+En plus de Gemma, Google promose le modèle Gemini qui est gratuit dans [l'interface studio](https://aistudio.google.com/) si vous avez un compte Google Workspace. Google [annonce](https://x.com/JeffDean/status/1865081640546156993) en décembre 2024 que le modèle Gemini-exp-1206 obtient le meilleur score dans toutes les catégories. Ce modèle à un "Context size" de plus de 2 millions de tokens et peut analyser jusqu'à une heure de vidéo.
