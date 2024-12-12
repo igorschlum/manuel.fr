@@ -97,3 +97,6 @@ A la fin vous pouvez faire Enter pour éxecuter le script python et vous devriez
 
 L'intérêt de passer par une commande python plutôt que de passer par une commande directe dans le terminal, est qu'on peut ensuite enregistrer cette commande dans un fichier et lancer le script. On peut aussi lui donner des paramètres différents pour changer son comportement et on peut faire varier les paramètres d'Ollama.
 
+## ressources en anglais sur Python et son installation
+
+[Le site kinsta.com](https://kinsta.com/knowledgebase/install-python/) est recommandé par des formateurs pour expliquer à quoi sert Pyhton et comment l'installer
