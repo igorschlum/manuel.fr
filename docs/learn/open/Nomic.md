@@ -12,6 +12,8 @@ On peut ainsi naviguer dans les datas avec [cet outil graphique](https://atlas.n
 
 La société Nomic a développer le [logiciel gpt4all](https://www.nomic.ai/gpt4all) pour faire tourner les LLM qui vient concurrencer Ollama et qui est supérieur sur un point, c'est qu'on peut lui donner le chemin d'accès d'un dossier et il peut indexer toutes les données de ce dossier. Je lui ai demandé d'indexer le site manuel.fr. Pour cela, gpt4all utilise la technique du [RAG](/learn/principes/rag), mais de façon totalement automatisée et très facilement.
 
+[Cette page](/install/GPT4All) explique comment installer et configurer GPT4All
+
 J'ai été impressionné par le résultat. Voici des questions que j'ai posées à Llama3.2 une fois que j'ai fait un embedded tous les fichiers du site manuel.fr
 
 <details open>
