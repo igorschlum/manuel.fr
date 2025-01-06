@@ -219,6 +219,12 @@ connaissance base, améliorer vos méthodes de recherche et d'enseignement,
 et contribuer au développement de la field.
 ```
 
+Pour vérifier qu'Ollama est installé vous pouvez aussi taper l'adresse de son serveur local dans son navigateur web, attention à ce que ça ne fonctionne pas avec une adresse en https.
+
+```bash
+http://localhost:11434
+```
+
 
 Pour afficher les modèles installés, taper dans le terminal de commande:
 

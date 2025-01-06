@@ -18,4 +18,12 @@ Pour plus de détails sur Gemma, vous pouvez consulter la [documentation officie
 
 Google offre également des formations sur l'intelligence artificielle en français sur [cette page](https://www.cloudskillsboost.google/paths/118?locale=fr)
 
-En plus de Gemma, Google promose le modèle Gemini qui est gratuit dans [l'interface studio](https://aistudio.google.com/) si vous avez un compte Google Workspace. Google [annonce](https://x.com/JeffDean/status/1865081640546156993) en décembre 2024 que le modèle Gemini-exp-1206 obtient le meilleur score dans toutes les catégories. Ce modèle à un "Context size" de plus de 2 millions de tokens et peut analyser jusqu'à une heure de vidéo.
+En plus de Gemma, Google promose le modèle Gemini qui est gratuit dans [l'interface studio](https://aistudio.google.com/) si vous avez un compte Google Workspace. Google [annonce](https://x.com/JeffDean/status/1865081640546156993) en décembre 2024 que le modèle Gemini-exp-1206 obtient le meilleur score dans toutes les catégories. Ce modèle à un "Context size" de plus de 2 millions de tokens et peut analyser jusqu'à une heure de vidéo [depuis ce lien](https://aistudio.google.com/app/starter-apps/video?ref=upmynt.com).
+
+Vous avez des prompts qui vous permettent de faire les requêtes les plus courantes :
+
+**A/V captions** qui signifie "Audio/Visual captions" et cela fait référence aux sous-titres ou légendes générés pour décrire chaque scène de la vidéo chargée.
+**Paragraph** donne un court descriptif du déroulé de la vidéo.
+**Key moments**  donne un récapitulatif des moments clés de la vidéo.
+**Table** donne ce récapitulatif sous forme d'un tableau.
+**Chart** graphique des moments les plus intéressant de la vidéo.
