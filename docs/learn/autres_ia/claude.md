@@ -14,3 +14,5 @@ Il y a une version gratuite sur https://claude.ia mais il faut créer un compte 
 Il y a une application mobile pour Claude à laquelle on peut parler pour lui poser des questions et il répond à l'oral.
 
 Claude en est maintenant à sa version 3.5 et en ce début novembre 2024, il y a des gens qui disent que Claude est plus précis dans ses réponses que ChatGPT. Si vous voulez tester plusieurs outils payant d'intelligence artificielle, on peut le tester.
+
+Claude sait maintenant [analyser](https://www.anthropic.com/news/analysis-tool) de façon précise des documents CSV. Je n'ai pas encore essayé ces possibilités.

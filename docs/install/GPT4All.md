@@ -9,7 +9,7 @@ L'application GPT4All est une application open source proposée par la société
 
 Pour installer l'application, vous pouvez suivre les instructions ci-dessous :
 
-1. Télécharger l'archive du dépôt GitHub [ici](https://github.com/nomic-ai/gpt4all) ou depuis le site de Nomic.
+1. Télécharger l'archive du dépôt GitHub [ici](https://github.com/nomic-ai/gpt4all) ou depuis [le site de Nomic](https://www.nomic.ai/gpt4all).
 
 2. Extraire l'archive dans le dossier de votre choix.
 3. Lancer l'application en exécutant le fichier `gpt4all` (Linux) ou `gpt4all.exe` (Windows).
