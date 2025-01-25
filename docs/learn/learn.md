@@ -4,7 +4,7 @@ title: "Introduction"
 ---
 
 Manuel.fr veut vous faire découvrir, comprendre et surtout utiliser **l'intelligence artificielle** sur Mac avec [Ollama](https://ollama.com).
-J'ai passé beaucoup de temps à comprendre et à synthétiser ce que j'ai apris pour vous faire gagner du temps.
+J'ai passé beaucoup de temps à comprendre et à synthétiser ce que j'ai appris pour vous faire gagner du temps.
 
 # Introduction
 
