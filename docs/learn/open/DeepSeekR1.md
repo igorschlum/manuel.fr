@@ -4,6 +4,8 @@ sidebar_position: 6
 
 # DeepSeek
 
+Le LLM à 5 millions de $ qui défraie la chronique
+
 ## histoire
 
 DeepSeek est disponible en deux versions DeepSeek v3 et DeepSeekR1. C'est un modèle qui a été entrainé à partir de Llama3-70B de Meta. A la différence de Llama3.1, DeepSeekR1 est orienté raisonnement. Quand vous lui poser une question, il va commencer par réfléchir et poser les bases de la réponse et c'est seulement après qu'il vous répond. Il est donc assez lent à répondre, mais les réponses sont de qualité.
@@ -101,15 +103,14 @@ Du **1er janvier 2024** au **23 mai 2024** :
   Total pour 2024 : 31 + 29 + 31 + 30 + 23 = **144 jours**
 
 ### Étape 5 : Total des jours
-\[
-\text{Total} = \text{Jours en 2021} + \text{Jours en 2022 et 2023} + 
-\text{Jours en 2024} = 304 + 730 + 144 = \boxed{1178 \text{ jours}}
+
+Total = Jours en 2021 + Jours en 2022 et 2023 + Jours en 2024 = 304 + 730 + 144 = 1178 jours
 \]
 
 **Réponse finale :**
-\[
-\boxed{1178}
-\]
+
+1178
+
  </details>
 
 Si on compare maintenant avec Copilot de Microsoft il n'y a pas photo, le raisonnement est beaucoup plus précis, rapide et surtout juste. Copilot est également gratuit d'utilisation, on peut l'utiliser en ligne sans s'enregistrer. Copilot n'est toutefois pas open source.

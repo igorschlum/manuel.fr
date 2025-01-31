@@ -73,18 +73,18 @@ const config = {
     ],
   ],
 
-  plugins: [
-    [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
-      {
+//  plugins: [
+   // [
+     // require.resolve("@easyops-cn/docusaurus-search-local"),
+    //  {
         // ... Your options.
         // `hashed` is recommended for long-term cache of index file.
-        hashed: true,
+     //   hashed: true,
         // For Docs using Chinese, set the language option accordingly.
-        language: "fr",
-      }
-    ],
-  ],
+     //   language: "fr",
+   //   }
+   // ],
+//  ],
   
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
