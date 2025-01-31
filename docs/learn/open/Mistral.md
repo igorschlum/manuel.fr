@@ -6,7 +6,7 @@ sidebar_position: 4
 
 L'éditeur de LLM soutenu par l'état français
 
-Le dernier en date est le modèle mistral Small qui est sorti en janvier 2025. Il tourne bien sur un Mac avec 32 Go de Ram. Pour l'installer, vous devez taper la commande suivante dans le terminal.
+Le dernier en date est le modèle mistral Small qui est sorti en janvier 2025. Il tourne bien sur un Mac avec 32 Go de Ram. Pour l'installer, vous pouvez le charger directement depuis Ollama.com.
 
 ```bash
 ollama run mistral-small:24b
