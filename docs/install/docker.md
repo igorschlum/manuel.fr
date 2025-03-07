@@ -5,7 +5,7 @@ sidebar_position: 3
 
 #Docker
 
-Si vous êtes sur MacOS, il n'est pas conseillé d'utiliser Docker pour faire tourner Ollama, car Docker ne gère pas bien la mémoire allouée par MacOS à la GPU.
+Si vous êtes sur MacOS, il n'est pas conseillé d'utiliser Docker pour faire tourner Ollama, car Docker ne gère pas bien la mémoire allouée par MacOS à la GPU. Plus simplement avec Docker, Ollama va tourner, mais beaucoup plus lentement, ce qui est dommage.
 
 ## Installation interactive
 Télécharger le fichier d'installation depuis le site officiel de Docker ou les notes de version
