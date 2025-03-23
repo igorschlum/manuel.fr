@@ -20,8 +20,8 @@ Donc conseil très important, ne pas oublier de vérifier ce que dit l'IA géné
 ## Mistral 0.0.3
 
 <details open>
-  <summary>ollama run mistral
-    \>\>\> combien de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
+<summary>ollama run mistral
+/>/>/> combien de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
 
  Il y a 1 068 jours entre le 2 février 2021 et le 23 mai 2024. Pour calculer cela, il suffit de déterminer la différence numérique 
 entre les dates (en prenant en compte que février a 28 ou 29 jours) puis de diviser ce nombre par le nombre de jours dans une année 
@@ -68,8 +68,8 @@ exactement celui trouvé en calculant la différence numérique entre les dates 
 ## Llama3 de Meta
 
 <details open>
-  <summary>Ollama run llama3
-  \>\>\> combien de jours entre ces deux dates : 2 février 2021 et 23 mai 2024 ?</summary>
+<summary>Ollama run llama3
+\>\>\> combien de jours entre ces deux dates : 2 février 2021 et 23 mai 2024 ?</summary>
  
 Pour calculer le nombre de jours entre les deux dates, je vais utiliser 
 une formule simple :
@@ -256,7 +256,7 @@ Donc, il y a au total 1210 jours entre le 2 février 2021 et le 23 mai 2024.
 La version 2:27b avait la bonne réponse
 
 <details open>
-  <summary>ollama run gemma2:27b
+<summary>ollama run gemma2:27b
 \>\>\> combien de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
 ... 
 Voici comment calculer le nombre de jours :
@@ -273,7 +273,7 @@ Voici comment calculer le nombre de jours :
 Mai la version3:12b se trompe
 
 <details open>
-  <summary>ollama run gemma3:12b
+<summary>ollama run gemma3:12b
 \>\>\> combien de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
 ... 
 Pour calculer le nombre de jours entre le 2 février 2021 et le 23 mai 2024, on peut procéder comme suit :
@@ -302,7 +302,7 @@ Donc, il y a 1571 jours entre le 2 février 2021 et le 23 mai 2024.
  La version 3:27b a quand même la bonne réponse, mais son calcul est un peu plus compliqué qu'avec la version 2
 
 <details open>
-  <summary>ollama run gemma3:27b
+<summary>ollama run gemma3:27b
 \>\>\> combien de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
 
  Pour calculer le nombre de jours entre le 2 février 2021 et le 23 mai 2024, on peut procéder comme suit :
@@ -336,8 +336,8 @@ Donc, il y a 1206 jours entre le 2 février 2021 et le 23 mai 2024.
  Alors, faisons un essai et posons la même question en anglais avec Gemma3:12b
 
 <details open>
-  <summary>ollama run gemma3:12b
->>> how many days between feb 2nd 2021 and may 23, 2024?</summary>
+<summary>ollama run gemma3:12b
+/>/>/> how many days between feb 2nd 2021 and may 23, 2024?</summary>
 
 To calculate the number of days between February 2nd, 2021 and May 23, 2024, we can break it down into the number of 
 days in each year.
@@ -382,7 +382,7 @@ Final Answer: The final answer is $\boxed{1206}$
 
 
 <details open>
-  <summary>ollama run qwen2:7b
+<summary>ollama run qwen2:7b
 \>\>\>combien de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
 Pour calculer le nombre de jours entre le 2 février 2021 et le 23 mai 2024, nous pouvons diviser cette période en plusieurs segments plus 
 faciles à gérer :
@@ -425,7 +425,7 @@ Donc, il y a 1211 jours entre le 2 février 2021 et le 23 mai 2024.
 ## Avec Falcon2 proposé par TII
 
 <details open>
-  <summary>ollama run falcon2
+<summary>ollama run falcon2
 \>\>\>combien de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
 
 Le nombre de jours entre le 2 février 2021 et le 23 mai 2024 est de 1095 jours. 
@@ -481,7 +481,7 @@ So, there are <b>691 days between February 2, 2021 and May 23, 2024.</b>.
 ## avec wizard-math:7b
 
 <details open>
-  <summary>ollama run wizard-math:7b
+<summary>ollama run wizard-math:7b
 \>\>\> combien de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
 
   Jours, mois = 745 - 2 - 23 = 720  
@@ -497,7 +497,7 @@ So, there are <b>691 days between February 2, 2021 and May 23, 2024.</b>.
 ## avec starling-lm
 
 <details open>
-  <summary>ollama run starling-lm
+<summary>ollama run starling-lm
 \>\>\> combien de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
 
  Pour calculer le nombre de jours entre deux dates, on peut utiliser la formule : nombre de jours = (année 2 - année 1) × 365 + (mois 2 - mois 1) × 30 + 
@@ -525,7 +525,7 @@ Donc, il y a 1206 jours entre le 2 février 2021 et le 23 mai 2024.
 
 
 <details open>
-  <summary>ollama run orca2:13b
+<summary>ollama run orca2:13b
 \>\>\> combien de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
 
 D'abord, nous devons compter les jours seuls. Ensuite, nous devons additionner les mois pour déterminer la durée totale. Finalement, nous devons diviser 
@@ -543,7 +543,7 @@ Donc, il y a 91 jours entre le 2 février 2021 et le 23 mai 2024.
 ## Avec nous-hermes2-mixtral
 
 <details open>
-  <summary>ollama run nous-hermes2-mixtral
+<summary>ollama run nous-hermes2-mixtral
 />/>/> combien de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
 Il y a 978 jours entre le 2 février 2021 et le 23 mai 2024.
 
@@ -571,7 +571,7 @@ Cela nous indique qu'il y a effectivement eu 978 jours entre le 2 février 2021 
 ## Avec Codestral par Mistral
 
 <details open>
-  <summary>ollama run codestral:latest
+<summary>ollama run codestral:latest
 \>\>\> combien de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
 
  Il y a 1,257 jours entre le 2 février 2021 et le 23 mai 2024.
@@ -875,7 +875,7 @@ Donc, la bonne somme des jours entre le **2 février 2021** et le **23 mai 2024*
 Ce modèle OpenSource a la bonne réponse, mais il nécessite 70 Go de mémoire vive pour tourner.
 
 <details open>
-  <summary>combien il y a de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
+<summary>combien il y a de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
 
 \>\>\> peux-tu m'expliquer comment tu fais ton calcul ?
 Pour calculer le nombre de jours entre deux dates, j'utilise une méthode 
@@ -980,7 +980,7 @@ Je m'excuse pour la confusion précédente !
 Llama3.2 90b est moins bon dans ce calcul que llama3.170b
 
 <details open>
-  <summary>combien de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
+<summary>combien de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
 
 \>\>\> 
 Il y a 1187 jours entre le 2 février 2021 et le 23 mai 2024.
@@ -1285,7 +1285,7 @@ Total : 333 + 730 + 144 = 1207 jours
 Llama3.3:70B-q8 répond bien du premier coup
 
 <details open>
-  <summary>combien de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
+<summary>combien de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
 
 \>\>\> 
 Pour calculer le nombre de jours entre le 2 février 2021 et le 23 mai 
@@ -1341,7 +1341,7 @@ Il y a donc **1204 jours** entre le 2 février 2021 et le 23 mai 2024.
 Alors que Llama3.3:70B-q4 doit s'y reprendre à deux fois et se trompe encore un peu.
 
 <details open>
-  <summary>combien de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
+<summary>combien de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
 
 \>\>\> 
 Il y a 1198 jours entre le 2 février 2021 et le 23 mai 2024.
@@ -1399,7 +1399,7 @@ Je m'excuse pour la confusion et je vous remercie de me corriger !
 
 Il a le bon résonnement et la bonne réponse
 <details open>
-  <summary>combien de jours entre ces deux dates : 2 février 2021 et 23 mai 2024 ?</summary>
+<summary>combien de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
 
 Pour calculer le nombre de jours entre le 2 février 2021 et le 23 mai 2024, nous pouvons suivre ces étapes :
 
