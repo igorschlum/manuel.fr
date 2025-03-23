@@ -251,7 +251,9 @@ entre le 1er janvier 2024 et le 23 mai 2024) = 1210 jours
 Donc, il y a au total 1210 jours entre le 2 février 2021 et le 23 mai 2024.
  </details>
 
-## Avec Gemma2:27B de Google
+## Avec Gemma de Google
+
+La version 2:27b avait la bonne réponse
 
 <details open>
   <summary>ollama run gemma2:27b
@@ -266,6 +268,114 @@ Voici comment calculer le nombre de jours :
 22).
 
 **Total :** 333 + 365 + 365 + 143 = **1206 jours**
+ </details>
+
+Mai la version3:12b se trompe
+
+<details open>
+  <summary>ollama run gemma3:12b
+\>\>\> combien de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
+... 
+Pour calculer le nombre de jours entre le 2 février 2021 et le 23 mai 2024, on peut procéder comme suit :
+
+*   **De 2 février 2021 au 2 février 2024 :** Il y a 3 ans.
+    *   2021 : 365 jours
+    *   2022 : 365 jours
+    *   2023 : 365 jours
+    *   2024 est une année bissextile, donc 366 jours.
+    *   Total : 365 + 365 + 365 + 366 = 1461 jours
+
+*   **Du 2 février 2024 au 23 mai 2024 :**
+    *   Février : 28 - 2 = 26 jours (2024 est bissextile)
+    *   Mars : 31 jours
+    *   Avril : 30 jours
+    *   Mai : 23 jours
+    *   Total : 26 + 31 + 30 + 23 = 110 jours
+
+*   **Nombre total de jours :** 1461 + 110 = 1571 jours
+
+Donc, il y a 1571 jours entre le 2 février 2021 et le 23 mai 2024.
+
+**Réponse :** 1571 jours.
+ </details>
+
+ La version 3:27b a quand même la bonne réponse, mais son calcul est un peu plus compliqué qu'avec la version 2
+
+<details open>
+  <summary>ollama run gemma3:27b
+\>\>\> combien de jours entre le 2 février 2021 et le 23 mai 2024 ?</summary>
+
+ Pour calculer le nombre de jours entre le 2 février 2021 et le 23 mai 2024, on peut procéder comme suit :
+
+Nombre de jours restants en 2021 :
+Février : 28 - 2 = 26 jours (2021 n'est pas une année bissextile)
+Mars : 31 jours
+Avril : 30 jours
+Mai : 31 jours
+Juin : 30 jours
+Juillet : 31 jours
+Août : 31 jours
+Septembre : 30 jours
+Octobre : 31 jours
+Novembre : 30 jours
+Décembre : 31 jours
+Total jours restants en 2021 : 26 + 31 + 30 + 31 + 30 + 31 + 31 + 30 + 31 + 30 + 31 = 332 jours
+Nombre de jours en 2022 : 365 jours (2022 n'est pas une année bissextile)
+Nombre de jours en 2023 : 365 jours (2023 n'est pas une année bissextile)
+Nombre de jours en 2024 jusqu'au 23 mai :
+Janvier : 31 jours
+Février : 29 jours (2024 est une année bissextile)
+Mars : 31 jours
+Avril : 30 jours
+Mai : 23 jours
+Total jours en 2024 : 31 + 29 + 31 + 30 + 23 = 144 jours
+Nombre total de jours : 332 + 365 + 365 + 144 = 1206 jours
+Donc, il y a 1206 jours entre le 2 février 2021 et le 23 mai 2024.
+ </details>
+
+ Alors, faisons un essai et posons la même question en anglais avec Gemma3:12b
+
+<details open>
+  <summary>ollama run gemma3:12b
+>>> how many days between feb 2nd 2021 and may 23, 2024?</summary>
+
+To calculate the number of days between February 2nd, 2021 and May 23, 2024, we can break it down into the number of 
+days in each year.
+
+From February 2nd, 2021 to December 31st, 2021:
+February has 28 days in 2021 (since 2021 is not a leap year).
+Days in February 2021: 28 - 2 = 26
+Days in March 2021: 31
+Days in April 2021: 30
+Days in May 2021: 31
+Days in June 2021: 30
+Days in July 2021: 31
+Days in August 2021: 31
+Days in September 2021: 30
+Days in October 2021: 31
+Days in November 2021: 30
+Days in December 2021: 31
+Total days in 2021: 26 + 31 + 30 + 31 + 30 + 31 + 31 + 30 + 31 + 30 + 31 = 332
+
+In 2022:
+2022 is not a leap year, so it has 365 days.
+
+In 2023:
+2023 is not a leap year, so it has 365 days.
+
+In 2024:
+2024 is a leap year, so it has 366 days.
+Days in January 2024: 31
+Days in February 2024: 29
+Days in March 2024: 31
+Days in April 2024: 30
+Days in May 2024: 23
+Total days in 2024: 31 + 29 + 31 + 30 + 23 = 144
+
+Total number of days between February 2nd, 2021 and May 23, 2024 is:
+332 + 365 + 365 + 144 = 1206
+
+Final Answer: The final answer is $\boxed{1206}$
  </details>
 
 ## Avec Qwen2.5:7b par Alibaba
