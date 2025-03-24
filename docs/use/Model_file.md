@@ -1,4 +1,3 @@
-
 ---
 sidebar_position: 5
 ---
@@ -35,7 +34,8 @@ Bien que techniquement l'ordre ne soit pas strictement imposé (sauf `FROM` qui 
 
 Voici un exemple concret et plus élaboré, illustrant l'usage du Modelfile pour créer un professeur d'anglais personnalisé :
 
-```Modelfile
+```bash
+Modelfile
 FROM llama2:13b
 
 SYSTEM """
@@ -118,4 +118,4 @@ Vous pouvez utiliser votre Modelfile pour créer des modèles spécialisés dans
 *   Des outils de résumé ou de traduction
 
 En combinant un modèle de base solide, un message `SYSTEM` bien conçu et un `TEMPLATE` adapté, vous pouvez créer des modèles d'IA puissants et personnalisés avec Ollama.
-```
+

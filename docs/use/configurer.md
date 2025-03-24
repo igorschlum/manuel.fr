@@ -68,6 +68,8 @@ Vous pouvez partager l'application Ollama sur votre réseau local en wifi ou par
 
 Dans son utilisation basic le logiciel Ollama que vous avez installé n'est utilisable que depuis l'ordinateur sur lequel il tourne et on le lance depuis le terminal car il écoute uniquement sur `localhost` (127.0.0.1), ce qui le rend inaccessible depuis d'autres ordinateurs.
 
+Je pars du principe que vous allez faire cela sur un Mac mini ou un MacStudio qui sont les plus adaptés, car une fois configurés, ils n'ont plus besoin d'écran, de clavier et de souris. Ils se mettent en veille et donc ne consomment presque rien tant qu'il n'y a pas de requêtes entrantes et peuvent redémarrer tout seuls en cas de coupure de courant.
+
 
 ## configurer Ollama pour écouter les appels réseau
 
@@ -163,3 +165,41 @@ http://192.168.1.10:11434  (Remplacez 192.168.1.10 par l'adresse IP de votre Mac
 *   Vous devriez maintenant pouvoir interagir avec l'API Ollama depuis cet appareil.  Pour utiliser l'API, référez-vous à la documentation officielle d'Ollama, mais au lieu d'utiliser `localhost:11434`, utilisez l'adresse IP de votre Mac suivie de `:11434`.
 
 Vous pouvez ainsi configurer cette adresse dans l'application [ChatBox](https://www.manuel.fr/use/chatbox) ou dans l'application [MSTY](https://www.manuel.fr/use/Msty).
+
+### Configurez le mac pour qu'il redémarre automatiquement
+
+Vous pouvez activer cette option depuis les préférences système, économiseur d'énergie puis "Option" et ensuite Activer "Démarrage automatique après une panne de courant".
+
+Le plus simple est d'activer cette option depuis le terminal
+
+```bash
+sudo pmset -a autorestart 1
+```
+
+et pour vérifier l'état
+
+```bash
+pmset -g | grep autorestart
+```
+
+#### On configure le mac pour une semi-veille
+
+On commence par régler le mac pour qu'il ne se mette pas en veille profonde
+
+```bash
+sudo pmset -a standby 0
+```
+
+Puis on permet qu'il sorte de veille s'il reçoit des requêtes sur le réseau.
+
+```bash
+sudo pmset -a womp 1
+```
+
+Vérification de la configuration
+
+```bash
+pmset -g | grep womp
+pmset -g | grep standby
+```
+
