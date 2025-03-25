@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Modelfile : Créer et personnaliser des modèles avec Ollama
+# Modelfile
 
 Un Modelfile est une configuration, un ensemble d'instructions, qui définit comment créer et personnaliser un modèle d'IA avec Ollama. Il sert de recette pour construire un modèle prêt à l'emploi ou à être partagé.
 
@@ -77,7 +77,7 @@ PARAMETER stop "<|im_end|>"
 *    **`PARAMETER`** :
     *  `temperature 0.7` :  Une température modérée pour un équilibre entre créativité et cohérence.
     *   `top_p 0.9`:  Un paramètre de sampling qui limite les choix du modèle aux tokens les plus probables.
-    *    `stop "<|im_start|>"
+    *   `stop "<|im_start|>"`
     *   `stop "<|im_end|>"`:  Indique au modèle de s'arrêter de générer du texte lorsqu'il rencontre ces séquences, ce qui correspond à la fin d'un message dans notre `TEMPLATE`.
 
 **Comment utiliser cet exemple :**
