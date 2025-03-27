@@ -34,11 +34,10 @@ Si vous utilisez un Mac avec beaucoup de mémoire, vous allez choisir de travail
 
 pour l'instant, c'est un peu compliqué de conserver un LLM en mémoire.
 
-Il faut ouvrir le terminal et indiquer ici le nom de votre modèle. Personnellement j'utilise le modèle llama3.1:70b-instruct-q8_0 qui occupe 74 Go de mémoire.
+Si vous avez un mémoire qui est lourd, vous pouvez utiliser une commande qui va garder le model en mémoire vive
 
-```bash
-curl http://localhost:11434/api/generate -d '{"model": "llama3.1:70b-instruct-q8_0", "keep_alive": -1}'
-```
+
+
 
 # Augmenter la mémoire disponible pour le GPU
 
@@ -71,12 +70,21 @@ Dans son utilisation basic le logiciel Ollama que vous avez installé n'est util
 Je pars du principe que vous allez faire cela sur un Mac mini ou un MacStudio qui sont les plus adaptés, car une fois configurés, ils n'ont plus besoin d'écran, de clavier et de souris. Ils se mettent en veille et donc ne consomment presque rien tant qu'il n'y a pas de requêtes entrantes et peuvent redémarrer tout seuls en cas de coupure de courant.
 
 
+## Configurer le pare-feu macOS (si activé)
+
+*   Si le pare-feu macOS est activé, vous devez autoriser les connexions entrantes pour Ollama.
+*   Allez dans "Préférences Système" > "Sécurité et confidentialité" > "Pare-feu".
+*   Si le pare-feu est activé, cliquez sur "Options de pare-feu...".
+*   Cliquez sur le bouton "+" et ajoutez l'application Ollama.  Le chemin de l'exécutable est généralement `/usr/bin/ollama`.  Assurez-vous que l'option "Autoriser les connexions entrantes" est sélectionnée.
+*   Si vous ne trouvez pas Ollama dans la liste, vous pouvez autoriser les connexions entrantes pour le processus `ollama` (sans l'interface graphique) en cliquant sur le `+` et en ajoutant `/usr/bin/ollama`.
+*   **Alternative (moins sécurisée):** Pour des tests rapides *uniquement*, vous pouvez temporairement désactiver le pare-feu.  *N'oubliez pas de le réactiver immédiatement après.*
+
 ## configurer Ollama pour écouter les appels réseau
 
 
 Ollama utilise des variables d'environnement pour sa configuration. La variable clé ici est `OLLAMA_HOST`.
 
-### Option 1 (Temporaire, pour tester)
+### sur la session en cours
 
 Cette modification ne sera valable que pour la session Terminal en cours. C'est idéal pour tester rapidement.
 
@@ -91,70 +99,31 @@ ollama serve
 
 La première ligne configure la variable d'environnement. La deuxième redémarre le service Ollama avec la nouvelle configuration.  Ne fermez pas cette fenêtre de Terminal, sinon le service s'arrêtera.
 
-### Option 2 (Permanent)
+### Le faire à chaque démarrage et garder le modèle en mémoire
 
-Cette modification sera appliquée à chaque démarrage d'Ollama. C'est la méthode recommandée pour une utilisation régulière.
-
-1.  **Créer ou modifier le fichier de service systemd:** Ollama utilise `systemd` pour gérer son démarrage et son exécution.  Nous allons modifier le fichier de service.
-
-2.  Ouvrez "Terminal".
-
-3.  Tapez la commande suivante (vous aurez besoin de votre mot de passe administrateur) :
+On va enregistrer cette commande pour qu'elle soit exécuter à chaque démarrage
 
 ```bash
-sudo /usr/bin/ollama system-service enable
+nano ~/.zshrc
 ```
-4.  Ouvrez le fichier du service avec la commande :
+
+Ajoutez la commande de partage et l'option keep-alive qui garde les modèles en VRAM
 
 ```bash
-sudo nano /etc/systemd/system/ollama.service
-```
-ou si la commande au dessus ne fonctionne pas
-
-```bash
-sudo nano ~/.config/systemd/user/ollama.service
+export OLLAMA_HOST=0.0.0.0:11434
+ollama serve --keep-alive -1
 ```
 
-5.  Cherchez la ligne qui commence par `ExecStart=`. Elle ressemble probablement à ceci:
 
-```
-ExecStart=/usr/bin/ollama serve
-```
-6.  **Ajoutez** la variable d'environnement `OLLAMA_HOST` juste avant la commande `/usr/bin/ollama serve`, en vous assurant qu'elle soit sur la même ligne que `ExecStart=`. Le résultat devrait ressembler à ceci :
+Sauvegardez et quittez.
 
-```
-ExecStart=OLLAMA_HOST=0.0.0.0:11434 /usr/bin/ollama serve
-```
-
-7.   Enregistrez les modifications et fermez l'éditeur de texte (Ctrl+O, Entrée, Ctrl+X dans nano).
-
-8.  Rechargez la configuration de `systemd` :
-
-```bash
-sudo systemctl daemon-reload
-```
-9.  Redémarrez le service Ollama :
-
-```bash
-sudo systemctl restart ollama
-```
-
-## Configurer le pare-feu macOS (si activé)
-
-*   Si le pare-feu macOS est activé, vous devez autoriser les connexions entrantes pour Ollama.
-*   Allez dans "Préférences Système" > "Sécurité et confidentialité" > "Pare-feu".
-*   Si le pare-feu est activé, cliquez sur "Options de pare-feu...".
-*   Cliquez sur le bouton "+" et ajoutez l'application Ollama.  Le chemin de l'exécutable est généralement `/usr/bin/ollama`.  Assurez-vous que l'option "Autoriser les connexions entrantes" est sélectionnée.
-*   Si vous ne trouvez pas Ollama dans la liste, vous pouvez autoriser les connexions entrantes pour le processus `ollama` (sans l'interface graphique) en cliquant sur le `+` et en ajoutant `/usr/bin/ollama`.
-*   **Alternative (moins sécurisée):** Pour des tests rapides *uniquement*, vous pouvez temporairement désactiver le pare-feu.  *N'oubliez pas de le réactiver immédiatement après.*
-
-### Trouver l'adresse IP de votre Mac
+## Trouver l'adresse IP de votre Mac
 
 *   Bien que nous ayons configuré Ollama pour écouter sur toutes les interfaces, vous devez connaître l'adresse IP de votre Mac pour que les autres appareils puissent s'y connecter.
 *   **Préférences Système:** Allez dans "Préférences Système" > "Réseau". Sélectionnez votre connexion active (Wi-Fi ou Ethernet) et notez l'adresse IP affichée (par exemple, `192.168.1.10`).
 *   **Terminal (alternative):**  Ouvrez Terminal et tapez: `ifconfig | grep "inet " | grep -v 127.0.0.1`.  L'adresse IP à côté de `inet` (et qui n'est *pas* 127.0.0.1) est votre adresse.
 
-### Accéder à Ollama depuis un autre appareil
+## Accéder à Ollama depuis un autre appareil
 
 *   Sur un autre ordinateur, tablette ou téléphone connecté au *même* réseau local, ouvrez un navigateur web.
 *   Dans la barre d'adresse, tapez l'adresse IP de votre Mac, suivie de `:11434`.  Par exemple:
