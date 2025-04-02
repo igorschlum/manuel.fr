@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
 ---
 Node et npm sont des outils de programmation qui permettent d'installer et de faire tourner des applications.
 

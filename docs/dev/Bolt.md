@@ -1,13 +1,19 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 ---
-n8n est un outil qui vous permet de créer des agents intelligents qui vont utiliser l'IA en local sur votre Mac.
+Bolt.new est un outil assez étonnant. Vous pouvez utiliser l'intelligence artificielle pour construire une application ou un site web gratuitement en utilisant Ollama. Nous allons avancer pas à pas dans cette partie.
 
-n8n existe en version gratuite, mais n'est pas openSource, il ne prend pas beaucoup de mémoire sur votre mac et s'installe facilement.
+Bolt est développé par la société [StackBlitz](https://stackblitz.com). A l'origine, StackBlitz est un outil pour développer directement depuis une page web et donc de pouvoir tester le programme que l'on écrit directement, mais encore faut-il savoir programmer.
 
-Pour installer n8n, il faut d'abord avoir installé  Node et npm (voir cette page)
+StackBlitz a alors développé le site [Bolt.new](https://bolt.new) qui permet de développer une application à partir d'un prompt. Une fois l'application développée, on peut toujours avec des prompts la modifier pour l'améliorer.
 
-Ensuite après avoir ouvert le Terminal, vous pouvez 
+Bolt s'appuie sur l'outil d'intelligence artificiel [Claude](https://www.manuel.fr/learn/autres_ia/claude), c'est cette IA qui va générer le programme selon vos prompts.
+
+Le problème, c'est qu'il faut prendre un abonnement qui est payant et qu'à force de faire faire des modifications et de passer du temps à fignoler son application, on peut se retrouver assez rapidement avec une facture de plusieurs centaines d'euros.
+
+Mais Bolt est aussi un projet OpenSource que l'on peut télécharger depuis GitHub. On peut le télécharger, mais on peut aussi le modifier et c'est ce qu'à fait 
+
+Mais un développeur a modifié l'application Bolt 
 
 ```bash
 npm install -g n8n

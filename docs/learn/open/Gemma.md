@@ -2,9 +2,9 @@
 sidebar_position: 2
 ---
 
-# Gemma
+# Gemma 3
 
-Gemma est le modèle de langage large (LLM) de Google, conçu pour offrir une intelligence conversationnelle avancée accessible gratuitement. Comme Llama, il est destiné aux chercheurs, aux développeurs et aux entreprises qui cherchent à intégrer une IA performante sans coûts d'accès prohibitifs.
+Gemma est le modèle de langage large (LLM) de Google, conçu pour offrir une intelligence conversationnelle avancée accessible gratuitement. Cette version sortie début mars 2025 Comme Llama, il est destiné aux chercheurs, aux développeurs et aux entreprises qui cherchent à intégrer une IA performante sans coûts d'accès prohibitifs.
 
 Gemma a été lancé avec l’objectif de rendre l’intelligence artificielle plus ouverte et collaborative. Bien que Google possède déjà d’autres IA, Gemma se distingue par son orientation open-source, permettant aux utilisateurs de personnaliser et de déployer le modèle selon leurs besoins spécifiques, tout en bénéficiant d’améliorations constantes de la communauté.
 
@@ -26,4 +26,4 @@ Vous avez des prompts qui vous permettent de faire les requêtes les plus couran
 **Paragraph** donne un court descriptif du déroulé de la vidéo.
 **Key moments**  donne un récapitulatif des moments clés de la vidéo.
 **Table** donne ce récapitulatif sous forme d'un tableau.
-**Chart** graphique des moments les plus intéressant de la vidéo.
+**Chart** graphique des moments les plus intéressant de la vidéo.   
