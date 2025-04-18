@@ -5,6 +5,7 @@ sidebar_position: 5
 # Rag
 
 
+
 - *C’est une méthode utilisée pour améliorer les résultats des grands modèles de langage, en les enrichissants avec par exemple les données de votre entreprise ou de vos travaux de recherche personnels*
 
 - *Pour cela, il faut nourrir le modèle choisi en lui ingurgitant les données qui doivent être prises en compte dans ses réponses.*
