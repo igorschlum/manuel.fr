@@ -10,6 +10,8 @@ Gemma a été lancé avec l’objectif de rendre l’intelligence artificielle p
 
 Google a mis en avant la capacité de Gemma à traiter des tâches variées avec une flexibilité et une précision remarquables. Les versions de Gemma sont entraînées sur des données récentes et diversifiées, optimisées pour la compréhension du contexte, la génération de texte créatif et la réponse aux questions complexes. Pour assurer une grande accessibilité, Google propose Gemma en plusieurs tailles, adaptées aux différentes capacités de traitement, de l’ordinateur personnel aux infrastructures de serveurs robustes.
 
+Pour plus de performance, Gemma3 existe maintenant dans un format QAT (Quantization aware trained models) qui préserve une qualité équivalente à celle des modèles en demi-précision (BF16), tout en conservant une empreinte mémoire plus faible (3 fois inférieure à celle des modèles non quantifiés).
+
 Le développement de Gemma a été conçu pour un usage modulable et ouvert aux intégrations d'outils extérieurs. Comme les modèles "Tool" d'Ollama, Gemma peut également se connecter à des services externes pour offrir des réponses enrichies et adaptées à des situations en temps réel. Par exemple, grâce à cette capacité d'intégration, il est possible pour Gemma de donner des recommandations d’activités adaptées à la météo locale ou de répondre à des requêtes spécifiques nécessitant des mises à jour régulières, comme les nouvelles ou les informations de circulation.
 
 Avec Gemma, Google vise à étendre l’accessibilité et la capacité d’innovation en matière d’IA conversationnelle, offrant un outil gratuit, flexible, et particulièrement utile pour les développeurs, les créateurs et les entreprises de toutes tailles.

@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 # GPT4All
 
-L'application GPT4All est une application open source proposée par la société Nomic. L'intérêt de GPTAAll est d'offrir une interface graphique assez facile à utiliser pour faire du RAG.
+L'application GPT4All est une application open source proposée par la société Nomic. L'intérêt de GPTAAll est d'offrir une interface graphique assez facile à utiliser pour faire du RAG. Toutefois les mises à jour ne sont plus assurées sur cette application depuis la version 3.10 qui est sortie depuis le 25 février 2025. C'est dommage car dans les améliorations en attente de publication, il y a la francisation de l'application.
 
 ## Installation
 
@@ -25,6 +25,8 @@ Il faut cliquer sur l'icône "Models" pour accéder aux différents modèles dis
 Attention, quand vous téléchargez un modèle pour GPT4All, il ne se mélange pas aux modèles déjà téléchargés dans le dossier d'Ollama. Ce qui fait que si vous avez besoin d'un modèle pour les deux applications, il faut le télécharger deux fois.
 
 Si vous voulez télécharger un modèle type LLama3.3, vous devez utiliser un VPN car avec cette loi européenne sur l'Euro IA acte, HuggingFace n'autorise pas le téléchargement de ces modèles depuis des IP françaises.
+
+Si vous voulez installer Gemma3 ou un autre model récent qui est disponible sur le site Ollama, vous pouvez demander à GPT4All d'utiliser Ollama en retrant ce que vous voulez dans le champs "API Key" et http://localhost:11434/v1 dans le champs "Base URL". Vous devrez rentrer ensuite à la main le nom du model dans le champs "Model Name".
 
 ## Chatbot
 

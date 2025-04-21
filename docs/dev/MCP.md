@@ -1,5 +1,6 @@
 ---
 sidebar_position: 8
+title: "MCP"
 ---
 
 # Model Context Protocol
@@ -25,6 +26,8 @@ Ce processus est fastidieux, non standardisé (chaque développeur pouvait le fa
 *   Un **protocole de communication standardisé** entre le LLM (ou l'application qui l'utilise) et le "serveur" qui héberge l'outil.
 
 En résumé, le MCP est comme une **"interface universelle"** qui permet aux LLM de se "brancher" plus facilement à différents outils, un peu comme un port USB standard permet de connecter divers périphériques à un ordinateur.
+
+Le projet MCP est openSource et disponible sur (GitHub)[https://github.com/modelcontextprotocol].
 
 ## Pourquoi le MCP est-il Intéressant ?
 
@@ -52,8 +55,34 @@ Cela permet à des applications compatibles MCP (comme l'application de bureau C
 
 D'autres approches existent également, comme l'utilisation d'outils tels que `mcphost`, qui permettent de démarrer un serveur capable de gérer plusieurs "serveurs MCP" (pour les fichiers, la recherche web, les bases de données...) et de les connecter à un modèle Ollama spécifique capable de faire des "tool calls".
 
-**En Conclusion**
+
+## Apple MCP Tools : Contrôlez votre Mac avec l'IA via MCP
+
+Pour illustrer concrètement la puissance du MCP sur macOS, un projet open source particulièrement intéressant est (**Apple MCP Tools**)[https://github.com/Dhravya/apple-mcp], développé par Dhravya Shah. Ce projet fournit une collection d'outils "natifs" pour Mac, accessibles via le protocole MCP. Concrètement, cela signifie que vous pouvez demander à une IA compatible MCP (utilisée via une application comme Claude Desktop, Cursor, ou potentiellement vos modèles Ollama locaux via un hôte MCP) d'interagir directement avec vos applications Apple !
+
+Imaginez pouvoir demander à votre assistant IA de :
+
+*   Envoyer un iMessage ou un email (même avec des pièces jointes).
+*   Lire, rechercher ou créer des notes dans l'application Notes.
+*   Chercher un contact.
+*   Gérer vos Rappels (créer, lister, rechercher).
+*   Consulter ou ajouter des événements à votre Calendrier.
+*   Effectuer une recherche web (via DuckDuckGo).
+*   Interagir avec Plans (rechercher des lieux, obtenir des itinéraires).
+
+Le véritable atout de ce projet est la capacité à **enchaîner ces commandes** pour créer des flux de travail complexes, comme "lis la note sur la conférence, trouve les contacts mentionnés, et envoie-leur un email de remerciement". C'est un excellent exemple de la manière dont MCP permet aux modèles de langage de dépasser la simple génération de texte pour devenir de véritables assistants capables d'agir sur votre environnement Mac. Facilement installable (notamment via Smithery ou `bun`), ce projet démontre le potentiel passionnant de l'intégration de l'IA locale et des outils du quotidien grâce à des standards ouverts comme MCP.
+
+## Autres ressources à explorer
+
+A tester, le projet (MCP Server Fetch)[https://4sysops.com/archives/install-mcp-server-fetch-for-claude-ai-on-mac-and-windows/] qui permet de récupérer des pages web en markdown à travers le protocole MCP sur Mac
+
+Et l'installation de (GitHubMCP server)[https://allthings.how/how-to-set-up-github-mcp-server-for-use-with-claude-desktop-on-windows-and-mac/] sur MacOS 
+
+
+## En Conclusion
 
 Le Model Context Protocol (MCP) représente une avancée significative vers une meilleure **interopérabilité** dans le monde de l'IA. Il standardise la façon dont les LLM peuvent accéder à des outils et des données externes, ouvrant la voie à des applications et des agents IA plus puissants et plus utiles.
 
 Pour les utilisateurs de **Mac** qui apprécient la flexibilité et le contrôle offerts par **Ollama** et les LLM open source, la compatibilité émergente avec le MCP est une excellente nouvelle. Elle promet de pouvoir bientôt connecter facilement vos modèles locaux à un écosystème croissant d'outils, débloquant ainsi de nouvelles possibilités passionnantes, tout en gardant le contrôle sur votre environnement. L'avenir de l'IA locale et connectée s'annonce prometteur !
+
+##
