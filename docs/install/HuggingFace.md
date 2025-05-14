@@ -32,6 +32,19 @@ Pour importer le modèle dans Ollama, il suffit de rajouter "ollama run hf.co/ d
 ollama run hf.co/iG8R/t5_translate_en_ru_zh_large_1024_v2-Q8_0-GGUF
 ```
 
+Certains modèles nécessitent de mettre son identifiant HuggingFace pour pouvoir les télécharger et parfois, il y a des erreurs de TimeOut sur le téléchargement.
+
+```bash
+ollama run hf.co/{username}/{reponame}:latest
+```
+
+peut alors être remplacé par :
+
+```bash
+ollama run hf-mirror.com/{username}/{reponame}:latest
+```
+
+
 Vous voyez ensuite le modèle s'importer dans Ollama, comme s'il était chargé depuis le site Ollama.
 
 ## créer un template file
