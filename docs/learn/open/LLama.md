@@ -30,7 +30,7 @@ Llama 4 est conçu pour des cas d'usage commerciaux et de recherche. Ses capacit
 
 Il prend en charge nativement **12 langues** : l'allemand, l'anglais, l'arabe, l'espagnol, le français, l'hindi, l'indonésien, l'italien, le portugais, le tagalog, le thaï et le vietnamien. (Il est à noter que le pré-entraînement a couvert 200 langues, ouvrant la porte au fine-tuning pour d'autres langues, sous respect de la licence).
 
-**Retour d'expérience personnel :** Ayant pu tester Llama 4 peu après sa sortie, j'ai constaté qu'il était **exceptionnellement bon en traduction** entre les langues supportées. C'est un vrai point fort. En revanche, malgré ses capacités multimodales annoncées, je n'ai **pas encore réussi à obtenir de bons résultats pour des tâches simples d'OCR** (Reconnaissance Optique de Caractères) sur une image. Il semble que ce domaine nécessite peut-être encore des ajustements ou une approche spécifique.
+**Retour d'expérience personnel :** Ayant pu tester Llama 4 peu après sa sortie, j'ai constaté qu'il était **exceptionnellement bon en traduction** entre les langues supportées. C'est un vrai point fort.
 
 Comme ses prédécesseurs récents, Llama 4 est distribué sous la **Llama 4 Community License**, autorisant les usages commerciaux et la recherche, y compris la génération de données synthétiques pour améliorer d'autres modèles, sous réserve du respect de la politique d'utilisation acceptable.
 
