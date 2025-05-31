@@ -2,80 +2,84 @@
 sidebar_position: 3
 ---
 
-# Les LLM
+# Les LLM : Comprendre pour Mieux Choisir sur Mac
 
-LLM est l'acronyme de Large Language Model.
+LLM est l'acronyme de Large Language Model (Grand Modèle de Langage). Mais au-delà du jargon, qu'est-ce que cela implique concrètement, surtout quand on veut les utiliser sur nos Macs avec Ollama ?
 
 ## Qu'est-ce qu'un LLM ?
 
-Par analogie, on peut comparer un LLM à un documentaliste - écrivain public avec une encyclopédie. On peut lui poser des questions, et en fonction de ce qui est écrit dans son dictionnaire, il va vous répondre et vous pouvez entamer une discussion avec lui. Le LLM peut être multi-langue, c'est à dire qu'on peut lui poser des questions en français, en anglais ou dans d'autres langues et il répond plus ou moins bien dans la langue demandée en fonction de ce qui est écrit dans son encyclopédie.
+Imaginez un documentaliste ultra-érudit doublé d'un écrivain public, possédant une encyclopédie gigantesque et multilingue. Vous pouvez lui poser des questions sur une infinité de sujets, et il vous répondra en se basant sur les connaissances contenues dans son "encyclopédie". Il peut dialoguer, rédiger, résumer, traduire, voire aider à coder.
 
-D'un point de vue technique, un LLM est une somme de connaissance entrainée qui sait deviner les caractères à afficher selon les questions que vous lui posez. C'est très étonnant car donne l'impression qu'il y a une intelligence, mais elle n'est qu'artificielle.
+Techniquement, un LLM est un réseau de neurones entraîné sur d'immenses quantités de données textuelles (et parfois d'autres types, comme des images). Il apprend à "prédire" la suite la plus probable d'un texte, ce qui lui permet de générer des réponses cohérentes et contextuelles. Cette capacité de prédiction, bien qu'artificielle, donne souvent une impression d'intelligence et de compréhension.
 
-## pourquoi plusieurs LLM ?
+## Pourquoi une telle diversité de LLM ?
 
-Il y a plusieurs LLM comme il y a plusieurs encyclopédies. Chaque éditeur de LLM essai de faire le meilleur selon ses critères. certains répondent plus rapidement aux questions, d'autres maîtrisent mieux le français.
+Il existe une multitude de LLM, chacun avec ses forces, ses faiblesses et ses spécialités. Les raisons sont multiples :
 
-Ils sont entrainés de façon différentes, donc même si deux LLM partaient de la même base de connaissance, la façon dont ils sont entrainés les rendra différents et bien sûr, ils sont entrainés sur des jeux de données différents. Chacun entraîne son champion pour qu'il soit le meilleur dans sa catégorie.
+*   **Jeux de données d'entraînement variés :** Chaque LLM est entraîné sur un corpus de textes spécifique, ce qui influence sa base de connaissances et son "style".
+*   **Architectures et méthodes d'entraînement différentes :** Les "recettes" pour construire et entraîner ces modèles varient, menant à des performances distinctes.
+*   **Objectifs spécifiques :** Certains LLM sont optimisés pour la conversation générale, d'autres pour l'assistance au code (comme CodeLlama), la description d'images (LLaVA), la médecine, le droit, ou la résolution de problèmes mathématiques.
 
-Cela permet à certains LLM d'être spécialisés dans l'assistance à la programmation, la description d'images, la médecine, le droit ou dans la résolution de problèmes mathématiques.
+Sur [Ollama.com](https://ollama.com), vous trouverez une centaine de modèles facilement installables. Le site [Hugging Face](https://huggingface.co) en répertorie des centaines de milliers, dont beaucoup peuvent être importés dans Ollama.
 
-## combien en existe-t-il ?
+## Les Variations d'un Même LLM : Ce Qui Compte Vraiment
 
-sur le site [Ollama.com](https://ollama.com), il existe plus d'une centaine de LLM. Il y a ceux qui sont officiellement affichés sur le site et ceux qui sont mis à disposition par des utilisateurs d'Ollama et qu'on ne retrouve qu'en faisant une recherche. Tout ceux-là s'installent très facilement.
+Au-delà du nom du modèle, plusieurs facteurs cruciaux déterminent ses capacités et ses exigences, surtout pour un usage local sur Mac.
 
-sur le site [Hugging face](https://huggingface.com), il en existe des centaines de milliers qui sont le plus souvent dans un format que l'on peut importer facilement dans Ollama.
+### 1. Les Versions (Ex: Llama 3 -> Llama 4, Gemma 2 -> Gemma 3)
 
-## combien de variations de chaque LLM ?
+Les éditeurs publient régulièrement de nouvelles versions majeures de leurs modèles (par exemple, Llama de Meta est passé par les versions 2, 3, et plus récemment Llama 4 ; Gemma de Google a évolué de Gemma, Gemma 2, à **Gemma 3**). Chaque nouvelle version représente souvent des mois, voire plus d'un an, de réentraînement intensif, apportant des améliorations significatives en termes de performance, de connaissances ou de nouvelles capacités (comme la multimodalité native pour Llama 4).
 
-### Les version majeurs
+### 2. La Taille du Modèle (Nombre de Paramètres)
 
-En plus d'être très nombreux, chaque LLM est disponible en plusieurs variations. La première dans son numéro de version. Par exemple, le LLM LLama est sorti en openSource en version 2, puis en version 3, puis en version 3.1 et maintenant en version 3.2.
+C'est un critère fondamental. Exprimé en milliards de paramètres (B), cela indique la "complexité" ou la "richesse" du modèle.
 
-Il en est de même pour le modèle Gemma de Google qui est sorti en version 1 puis en version 2.
+*   **Spectre large :** On trouve des modèles très légers (ex: TinyLlama avec ~1 milliard de paramètres, pesant moins de 1 Go), des modèles de taille intermédiaire (comme **Gemma 3** qui se décline en versions **4B, 12B et 27B**), jusqu'à des géants comme certaines variantes de Llama 4 (ex: Maverick avec 245B de paramètres) ou DeepSeek-V2 (236B de paramètres activés).
+*   **Impact direct sur la qualité :** Plus de paramètres signifient généralement une meilleure compréhension des nuances, des réponses plus élaborées et une capacité accrue à gérer des tâches complexes. Un Gemma 3 27B sera plus performant qu'un Gemma 3 4B.
+*   **L'inconvénient : la gourmandise en ressources.** Un plus grand nombre de paramètres signifie un fichier de modèle plus volumineux et, surtout, une consommation de mémoire vive (RAM) plus importante.
 
-Quand un éditeur sort une nouvelle version de son LLM cela a nécessité de réentrainer complètement le modèle, c'est un gros travail en temps machine et c'est pourquoi les versions sont souvent espacées de 6 mois à plus d'un an.
+**Sur Mac, la RAM est REINE :** Pour qu'un LLM fonctionne avec Ollama sur votre Mac, **l'intégralité du modèle (après quantification) doit pouvoir être chargée dans la mémoire vive unifiée de votre machine.**
 
-### La taille du modèle
+*   **Des Macs conçus pour l'IA :** Apple positionne clairement ses machines récentes, notamment le **Mac Studio, comme étant optimisées pour les charges de travail d'IA.** Un Mac Studio peut être configuré avec jusqu'à **512 Go de mémoire vive**, ce qui change radicalement la donne pour l'exécution locale de grands modèles.
+*   **Exemple concret avec un Mac Studio haut de gamme :** Avec 512 Go de RAM, il devient tout à fait envisageable de faire tourner des modèles très puissants. Une variante de **Llama 4 comme Maverick (245B)**, dont les poids quantifiés en `q8_0` occuperaient environ **245 Go**, nécessiterait une mémoire vive totale estimée autour de 350-450 Go (pour inclure le contexte, les activations, le système d'exploitation et d'autres applications). C'est exigeant, mais potentiellement à portée d'un Mac Studio configuré au maximum.
+*   **Les limites existent toujours :** Des modèles encore plus grands, comme certains modèles de recherche expérimentaux ou des architectures MoE complètes comme DeepSeek-V2 (dont la version complète nécessiterait plus de 600 Go de RAM rien que pour les poids non quantifiés), peuvent dépasser même les configurations Mac les plus robustes. Il est donc crucial de toujours choisir une taille de modèle en adéquation avec votre matériel.
 
-Prenons par exemple le LLM Gemma2 de Google. Il est disponible en version 2b, 9b et 27b. Le nombre représente le nombre de paramètres dans le modèle. Donc 9b signifie que le modèle contient 9 milliards de paramètres.
+### 3. La Quantification : Moins de RAM, Moins de Précision ? Les Choix d'Ollama
 
-Les paramètres sont comme des "connections" internes dans le cerveau d'une IA. Plus il y a de paramètres, plus le modèle peut apprendre de détails et produire des réponses complexes. Un modèle de 27B aura donc bien plus de capacité qu'un modèle de 2B, mais ce surplus de puissance vient avec des avantages et des inconvénients.
+La [quantification](/learn/Principes/Quantisastion) réduit la taille d'un modèle en diminuant la précision numérique de ses paramètres. C'est une étape clé pour faire tourner de gros modèles sur des machines avec une RAM limitée.
 
-Les versions plus petites, comme le modèle 3B, nécessitent moins de puissance de calcul et produisent des réponses plus rapides, bien adaptées aux tâches simples comme la complétion automatique de texte. Par exemple, le modèle 3B peut générer environ 40 tokens par seconde sur un Mac M1, ce qui le rend très efficace pour des applications légères.
+*   **Les options rationalisées par Ollama :** Récemment, l'équipe Ollama a simplifié les choix de quantification disponibles pour la plupart des modèles. Typiquement, vous trouverez :
+    *   **`q4_K_M`**: Une quantification sur 4 bits (souvent la variante "K_M" qui offre un bon équilibre entre taille et préservation de la qualité pour du 4 bits). C'est généralement l'option la plus légère, consommant le moins de RAM. Elle est souvent proposée par défaut pour assurer une accessibilité maximale.
+    *   **`q8_0`**: Une quantification sur 8 bits. Elle offre une meilleure fidélité et des performances plus proches du modèle original que le 4 bits, au prix d'une consommation de RAM environ doublée par rapport à une version 4 bits du même modèle.
+    *   **`f16` ou `fp16`**: Représente le modèle en demi-précision (16-bit floating point). C'est la version la plus "précise" et la plus lourde parmi les options quantifiées courantes, demandant le plus de RAM. Elle est à privilégier si vous avez beaucoup de mémoire vive et que vous souhaitez la qualité la plus proche possible du modèle original non quantifié.
+*   **Le compromis :** Choisir une quantification plus basse (comme `q4_K_M`) permet d'économiser beaucoup de RAM, mais peut introduire une légère perte de nuance ou de précision dans les réponses. Le `q8_0` est un bon compromis si vous avez la RAM. Le `f16` est pour ceux qui veulent le moins de compromis sur la qualité et qui ont la RAM nécessaire.
+*   **Adaptation à votre matériel :**
+    *   Si votre RAM est limitée, `q4_K_M` sera souvent votre seule option pour les modèles plus volumineux.
+    *   Avec une RAM confortable (ex: 32Go, 64Go ou plus), vous pourrez opter pour `q8_0` pour une meilleure qualité, voire `f16` pour les modèles de taille modérée.
+    *   Sur un Mac Studio avec beaucoup de RAM (128Go, 192Go, 512Go), vous aurez la flexibilité d'utiliser `q8_0` ou `f16` même pour de très grands modèles, maximisant ainsi la qualité de la réponse.
 
-En revanche, les versions plus grandes offrent une meilleure qualité de réponse, mais elles demandent davantage de ressources et sont plus lentes. Il est souvent judicieux de commencer par tester un modèle plus puissant lors des premiers essais pour voir si le LLM répond bien aux besoins. Une fois les capacités validées, on peut ensuite passer à des modèles plus petits pour optimiser la vitesse et l'efficacité.
+### 4. La Taille du Contexte : L'Ampleur de la "Mémoire Vive" du LLM
 
-### La quantisation
+La taille du contexte, exprimée en tokens (morceaux de mots), définit la quantité d'information que le LLM peut "garder en tête" simultanément lors d'une conversation ou du traitement d'un document.
 
-Les modèles varient aussi aussi en fonction de la Quantization comme expliqué [ici](https://www.manuel.fr/learn/Principes/Quantisastion), le principe est d'attribuer moins de précision à un LLM pour qu'il donne des réponses plus rapides, mais c'est moins précis.
+*   **Évolution majeure :** Les premiers modèles comme Llama 2 avaient des contextes limités (ex: 4096 tokens).
+*   **Nouveaux horizons :** Aujourd'hui, des modèles OpenSource atteignent des fenêtres de contexte impressionnantes. Certaines variantes de **Llama 4 (comme Maverick ou Scout) peuvent gérer jusqu'à 1 million de tokens (voire 10 millions pour Scout en recherche) !**. Des modèles comme **Gemma 3 27B** proposent également des contextes étendus (par exemple, jusqu'à 256k tokens). Cela permet de traiter des livres entiers, des bases de code volumineuses ou de maintenir des conversations très longues sans perte d'information.
+*   **Impact sur la RAM :** Une plus grande fenêtre de contexte activée consomme significativement plus de RAM pendant l'utilisation, en plus de la RAM requise par le modèle lui-même. Ce n'est souvent pas la taille de contexte maximale qui est activée par défaut dans Ollama pour économiser les ressources. Nous verrons comment ajuster cela dans la section sur la personnalisation.
 
-La quantization est une technique qui permet de réduire la taille des modèles d’IA en économisant de la mémoire. Cela consiste à diminuer le nombre de bits utilisés pour représenter chaque paramètre du modèle : par exemple, passer de 16 bits à 8 bits ou même à 4 bits. En diminuant le nombre de bits, chaque paramètre utilise moins de mémoire. Par exemple, passer de 16 à 8 bits divise presque par deux la quantité de mémoire nécessaire.
+### 5. Le Rôle du Modèle (System Prompt) et l'Affinement (Fine-Tuning)
 
-La quantization a un coût. En diminuant la précision des nombres qui représentent les paramètres du modèle, on perd en finesse de calcul, ce qui peut générer des réponses moins nuancées, des erreurs de compréhension et des incohérences.
+*   **Rôle :** Vous pouvez influencer le comportement d'un LLM en lui assignant un "rôle" ou une "personnalité" via un "system prompt" (ex: "Tu es un expert en histoire pour enfants de CM2").
+*   **Affinement :** Une technique plus avancée pour spécialiser un modèle existant en l'entraînant sur un jeu de données spécifique (questions/réponses ciblées).
 
-Ollama est conçu pour faire tourner des LLM sur des ordinateurs personnels et a choisi de proposer une quantization par défaut de 4 bites, ce qui me semble personnellement trop modeste, mais nous verrons cela plus tard.
+## Comment Choisir le Bon LLM pour Vos Besoins sur Mac ?
 
-### La taille du contexte
+1.  **Évaluez votre matériel :** Combien de RAM avez-vous ? C'est le facteur déterminant sur Mac.
+2.  **Définissez votre usage :** Tâches simples et rapides ? Discussions complexes ? Traitement de longs documents avec un grand contexte ?
+3.  **Commencez par tester :** Ollama facilite l'expérimentation.
+    *   Pour un usage général et performant, les modèles **Llama de Meta** (Llama 3, Llama 4) et **Gemma de Google** (Gemma 2, Gemma 3) sont d'excellents points de départ. Choisissez une taille de paramètres et une quantification (`q4_K_M`, `q8_0`, `f16`) adaptées à votre RAM.
+    *   Si la taille du contexte est primordiale, cherchez les modèles récents spécifiant de grandes fenêtres (et vérifiez les besoins en RAM correspondants).
+4.  **Itérez :** Testez différentes tailles, quantifications et, si besoin, explorez des modèles plus spécialisés.
 
-Il est encore possible de faire varier des LLM en changeant la taille de leur taille de contexte, par exemple, si vous voulez résumer un livre entier, il faut que le LLM puisse stocker le livre pour pouvoir le résumer. Aujourd'hui les meilleurs modèles peuvent avoir jusqu'à 128K de taille de contexte, mais il faut pour cela cloner le modèle pour lui dire d'utiliser un espace de mémoire plus important.
-
-Les premiers modèles comme Llama2 avaient une taille de contexte de 4096 tokens, ce qui fait qu'il oubliait au fur et à mesure le début de la conversation et on pouvait tourner en rond. Il me semble que c'est Gemma2 qui a proposé une taille de context de 128K tokens, suivi ensuite par les autres LLM OpenSource. Toutefois cette taille est la taille maximum qu'un LLM peut avoir, mais il faut que le paramètre soit modifié dans le modèle pour lui faire travailler avec un contexte plus grand. Comme ça prend plus de mémoire, ce n'est pas proposé par défaut par Ollama.
-
-Nous verrons tout cela dans la personnalisation des LLM.
-
-### Le rôle du modèle
-
-Vous pouvez aussi modifier un LLM en lui demander de changer son attitude, lui dire qu'il est un professeur d'histoire pour des enfants de CM2 ou qu'il vous apprend une langue ou qu'il critique chacune des choses que vous lui indiquez. En changeant son attitude vous changer complètement sa façon de réagir à vos demandes.
-
-Une autre façon de modifier un modèle et de l'affiner. C'est une opération un peu plus complexe, mais qui peut s'avérer très intéressante, vous allez pouvoir lui transmettre une biliothèque d'informations sous la forme de questions réponses et celles-ci affineront sa façon de répondre. Cette méthode est expliquée ici.
-
-Il y a encore d'autres variations que vous pouvez appliquer à un modèle, comme changer la diversité de ses réponses, voulez-vous qu'il réponde toujours de la même façon à la même question ou voulez-vous qu'il varie ses réponses ? Si vous construisez un chatbox pour un support technique, c'est mieux qu'il réponde de la même façon aux mêmes questions.
-
-## Comment choisir le LLM qui convient à chaque besoin ?
-
-C'est bien le problème et comme de nouveaux LLM sortent régulièrement, il faut commencer par faire des tests manuellement et c'est pour cela qu'Ollama est très pratique, car il permet de charger et de configurer des LLM localement, rapidement et sans coût particulier.
-
-On peut dire quand même que pour l'instant les modèles de type LLama fournis par la société Meta sont les plus performants et la sortie de Llama3.2 vient conforter encore cette position de leader dans les modèles généralistes.
+L'écosystème évolue vite. L'important est de comprendre ces variables pour faire des choix éclairés et profiter au mieux de la puissance des LLM localement.
 
 On va maintenant regarder les principaux [LLMs gratuits](/category/llms-gratuits) qui sont à notre disposition.

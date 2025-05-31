@@ -14,6 +14,11 @@ const config = {
   tagline: "Déployer l'IA OpenSource sur votre Mac avec Ollama",
   favicon: 'img/favicon.ico',
 
+  future: {
+    experimental_faster: true,
+    v4: true // <--- Ligne ajoutée ici
+  },
+
   // Set the production url of your site here
   url: 'https://manuel.fr',
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -46,7 +51,6 @@ const config = {
           routeBasePath: '/', // Si vous souhaitez que les documents soient à la racine du site
           includeCurrentVersion: true,
           showLastUpdateTime: true,
-
 
           editUrl:
             'https://github.com/igorschlum/manuel.fr/tree/main/',
@@ -85,7 +89,7 @@ const config = {
    //   }
    // ],
 //  ],
-  
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -95,13 +99,13 @@ const config = {
         { property: 'og:description', content: 'Ollama expliqué, pour utiliser facilement les LLMs OpenSource sur son Mac' },
         { property: 'og:image', content: 'https://manuel.fr/img/logo.svg' }, // URL de l'image
         { property: 'og:url', content: 'https://manuel.fr/' }, // URL du site
-  
+
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: 'Manuel.fr pour Ollama et les LLMs' },
         { name: 'twitter:description', content: 'Ollama expliqué, pour utiliser facilement les LLMs OpenSource sur son Mac' },
         { name: 'twitter:image', content: 'https://manuel.fr/img/facile.svg' }, // URL de l'image
       ],
-  
+
       // Replace with your project's social card
       image: 'img/ollama.png',
       navbar: {
@@ -117,8 +121,8 @@ const config = {
             position: 'left',
             to: '/learn', // Chemin vers la page d'accueil de la sidebar "Découvrir"
             label: 'Comprendre',
-            position: 'left',
-          },  
+            // position: 'left', // Doublon de position, peut être enlevé si 'left' est la position par défaut souhaitée pour tous les items de gauche
+          },
           {
             to: '/use', // Chemin vers la page d'accueil de la sidebar "installer"
             sidebarId: 'U',
