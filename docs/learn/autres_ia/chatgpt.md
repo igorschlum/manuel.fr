@@ -29,5 +29,3 @@ Ollama a compris qu'il y avait un potentiel important dans le traitement automat
 L'usage des API d'Ollama permet d'interroger des modèles très très rapides qui peuvent répondre à des questions simples, il permet également d'interroger des modèles spécialisés dans tel ou tel domaine et il existe plus de 500 000 modèles d'IA sur HugingFace.
 
 Imaginez une encyclopédie qui veut concurrencer tous les livres qui ont été écrit. Vous trouvez toujours un livre qui est plus précis et pointu sur un domaine qu'une encyclopédie aussi large soit-elle.
-
-C'est en cela qu'Ollama offre un potentiel très important.
