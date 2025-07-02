@@ -1,6 +1,6 @@
 {
   "name": "manuel.fr",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
@@ -14,8 +14,9 @@
     "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
-    "@docusaurus/core": "^3.7.0",
-    "@docusaurus/preset-classic": "^3.7.0",
+    "@docusaurus/core": "^3.8.0",
+    "@docusaurus/faster": "^3.8.0",
+    "@docusaurus/preset-classic": "^3.8.0",
     "@mdx-js/react": "^3.1.0",
     "clsx": "^2.0.0",
     "prism-react-renderer": "^2.3.0",
@@ -40,6 +41,6 @@
     ]
   },
   "engines": {
-    "node": ">=22.0"
+    "node": ">=18.0"
   }
 }
