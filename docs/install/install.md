@@ -15,6 +15,13 @@ C'est parti !
 
 # Installation
 
+Je vous conseille d'installer la version prélimiaire d'Ollama 0.10.0 qui possède maintenant une interface graphique vous permettant de discuter très facilement avec un LLM.
+
+Voici [le lien](https://github.com/ollama/ollama/releases/download/v0.10.0-rc0/Ollama.dmg) pour télécharger cette version.
+
+
+Sinon vous pouvez suivre les instructions du site Ollama pour l'installer sur Windows.
+
 Si ce n'est déjà fait, commencez par **[téléchargez Ollama](https://ollama.ai/download)**
 
 Vous avez dans votre dossier téléchargement le fichier Ollama-darwin.zip

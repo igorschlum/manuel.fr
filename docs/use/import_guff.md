@@ -9,26 +9,35 @@ description: "Description pas à pas de l'import d'un modèle GUFF dans Ollama d
 ## introduction
 
 Sur le site Ollama.com, il y a de nombreux modèles qui peuvent être téléchargés et installer facilement avec une ligne de commande.
-Par exemple, on peut depuis le terminal taper "Ollama run llama3.1" et charger en mémoire vive le modèle Llama3.1 depuis votre disque dur et si le modèle n'est pas encore présent sur votre stockage local, il sera préalablement chargé depuis le site d'Ollama.com.
+Par exemple, on peut depuis le terminal taper "Ollama run llama3.2" et charger en mémoire vive le modèle Llama3.2 depuis votre disque dur et si le modèle n'est pas encore présent sur votre stockage local, il sera préalablement chargé depuis le site d'Ollama.com.
 
 Il y a une centaine de modèles prêt à l'emploi sur le site [Ollama.com](https://ollama.com/library)
 
-Vous pouvez aussi dans le cadre de l'utilisation que vous voulez faire de l'IA Générative, utiliser d'autres modèles qui ne sont pas encore disponible sur le site Ollama, par exemple des modèles qui sont sur le site [Hugging Face](https://www.manuel.fr/learn/autres_ia/Hugging%20Face) qui en héberge plusieurs centaines de milliers.
+Vous pouvez aussi dans le cadre de l'utilisation que vous voulez faire de l'IA Générative, utiliser d'autres modèles qui ne sont pas encore disponible sur le site Ollama, par exemple des modèles qui sont sur le site [Hugging Face](https://www.manuel.fr/learn/autres_ia/hugging_face) qui en héberge plusieurs centaines de milliers.
 
+## créer un compte sur Hugging Face
+
+Vous devez avoir un compte sur Hugging Face, si vous n'en avez pas déjà, vous pouvez en créer un sur le site [Hugging Face](https://huggingface.co)
 
 ## choisir son modèle
 
-Commencez par aller sur Hugging Face et recherchez un modèle qui vous intéressent. Par exemple nous allons importer le modèle Croissant LLM trouvé sur le [site de central suppélec](https://www.centralesupelec.fr/fr/croissant-llm-une-percee-en-ia-generative-realisee-par-le-laboratoire-mics)
+Commencez par aller sur Hugging Face et recherchez un modèle qui vous intéressent. Par exemple le 19 juillet j'ai envie d'essayer le LLM chinois Kimi dont les vidéos sur Youtube disent beaucoup de bien.
 
-vous pouvez aller sur [Hugging Face](https://www.manuel.fr/comprendre/Autres%20IA/Hugging%20Face), faire des recherches et choisir un modèle parmis les centaines de milliers de Modèles disponibles.
+Hugging Face et Ollama se sont mis d'accord sur un format d'import simple, par exemple ici : 
 
-## pré-requis
+```bash
+ollama pull hf.co/unsloth/Kimi-Dev-72B-GGUF:IQ4_XS
+```
 
-Avant d'importer un LLM au [format GUFF](https://www.manuel.fr/comprendre/lectures/glossaire#gguf), il va falloir le télécharger depuis le site d'HuggingFace, mais parfois les modèles sont composés de plusieurs fichiers et il y a un script qui permet de faire cette importation facilement sur votre Mac.
+## Importer d'autres fichiers GUFF
+
+Si le LLM au [format GUFF](https://www.manuel.fr/comprendre/lectures/glossaire#gguf) que vous voulez importer provient d'un autre site que HuggingFace, il va falloir le télécharger et ensuite importer avec Ollama. 
+
+Parfois les modèles sont composés de plusieurs fichiers et il y a un script qui permet de faire cette importation facilement sur votre Mac.
 
 Pour faire tourner ce script, il faut l'installer sur votre Mac et pour l'installer on va utiliser HomeBrew qui est un utilitaire très connu pour installer des librairies et les mettre à jour.
 
-Normalement, vous avez déjà installer HomeBrew .
+Rendez-vous sur https://brew.sh et suivez les instuctions.
 
 Puis il faut installer si vous ne l'avez pas déjà: git lfs (Large file storage), cette extension vous aidera a gérer les fichiers lourds comme les GUFF .
 
