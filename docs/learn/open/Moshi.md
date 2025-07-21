@@ -5,6 +5,9 @@ sidebar_position: 8
 # Moshi
 
 Moshi est un projet open source de synthèse vocale développé par le laboratoire de recherche en IA Kyutai, cofondé par Xavier Niel, Rodolphe Saadé et Eric Schmidt. Ce projet a été présenté pour la première fois en juillet 2024. Moshi est une IA conversationnelle capable de générer des conversations en temps réel avec une latence très faible (160 millisecondes).
+
+En juillet 2025, le code source a été dévoilé pour faire du TTS (Texte to Speach) et également du (Speach to Text) et on peut essayer cette is sur le site [unmute.sh](https://unmute.sh) c'est assez prometteur.
+
 Ce qui rend Moshi unique, c'est sa capacité à reconnaître et à adapter son ton en fonction des émotions, à chuchoter, à hésiter, à faire des plaisanteries, et même à prendre un accent. Il a été entraîné avec un mélange de données textuelles et audio, et peut fonctionner localement sur un appareil non connecté.
 
 ## Applications

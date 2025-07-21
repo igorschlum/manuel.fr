@@ -46,7 +46,7 @@ C'est un critère fondamental. Exprimé en milliards de paramètres (B), cela in
 
 ### 3. La Quantification : Moins de RAM, Moins de Précision ? Les Choix d'Ollama
 
-La [quantification](/learn/Principes/Quantisastion) réduit la taille d'un modèle en diminuant la précision numérique de ses paramètres. C'est une étape clé pour faire tourner de gros modèles sur des machines avec une RAM limitée.
+La [quantification](/learn/principes/quantisastion) réduit la taille d'un modèle en diminuant la précision numérique de ses paramètres. C'est une étape clé pour faire tourner de gros modèles sur des machines avec une RAM limitée.
 
 *   **Les options rationalisées par Ollama :** Récemment, l'équipe Ollama a simplifié les choix de quantification disponibles pour la plupart des modèles. Typiquement, vous trouverez :
     *   **`q4_K_M`**: Une quantification sur 4 bits (souvent la variante "K_M" qui offre un bon équilibre entre taille et préservation de la qualité pour du 4 bits). C'est généralement l'option la plus légère, consommant le moins de RAM. Elle est souvent proposée par défaut pour assurer une accessibilité maximale.

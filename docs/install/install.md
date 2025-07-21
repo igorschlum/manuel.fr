@@ -17,8 +17,13 @@ C'est parti !
 
 Je vous conseille d'installer la version prélimiaire d'Ollama 0.10.0 qui possède maintenant une interface graphique vous permettant de discuter très facilement avec un LLM.
 
-Voici [le lien](https://github.com/ollama/ollama/releases/download/v0.10.0-rc0/Ollama.dmg) pour télécharger cette version.
+Voici **[le lien](https://github.com/ollama/ollama/releases/download/v0.10.0-rc0/Ollama.dmg)** pour télécharger cette version.
 
+Ouvrez ensuite le fichier **ollama.dmg** qui se trouve dans votre dossier de téléchargement.
+
+Faites glisser l'icône de l'application Ollama sur votre dossier Applications.
+
+![Copier_vers_Applications](/img/copyollama.jpeg)
 
 Sinon vous pouvez suivre les instructions du site Ollama pour l'installer sur Windows.
 

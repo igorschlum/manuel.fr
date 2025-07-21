@@ -30,4 +30,4 @@ Avec **Qwen3**, Alibaba a lancé une nouvelle génération de sa série de LLM, 
 
 **Accessibilité et Tests Personnels :**
 
-Ce qui est particulièrement intéressant avec le modèle phare **Qwen3-235B**, c'est la promesse qu'il puisse **tourner sur mon Mac équipé de 192 Go de Ram. C'est une perspective alléchante pour les utilisateurs disposant de machines puissantes, rendant un modèle de cette envergure potentiellement accessible en local. **Je n'ai pas encore eu le temps de réaliser des tests approfondis sur cette configuration**, mais c'est un point à surveiller. Cette page sera mise à jour dès que j'aurai pu évaluer ses performances et son comportement dans cet environnement.
+Ce qui est particulièrement intéressant avec le modèle phare **Qwen3-235B**, c'est qu'il tourne sur un Mac équipé de **192 Go de Ram**, rendant un modèle de cette envergure accessible en local. C'est le modèle le plus important adapté à ce Mac haut de gamme.

@@ -20,8 +20,6 @@ il y a dans la doc de docusarus une page qui peret de voir si les couleurs
   --ifm-color-primary-lightest: #0056dd;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-
-  /* Couleur des SVG en mode clair */
   --svg-color: #223d72;
 }
 
@@ -35,29 +33,41 @@ il y a dans la doc de docusarus une page qui peret de voir si les couleurs
   --ifm-color-primary-lighter: #e7efff;
   --ifm-color-primary-lightest: #ffffff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-
-  /* Couleur des SVG en mode sombre */
   --svg-color: #ffffff;
 }
 
-/* CSS pour le logo en fonction du thème */
+/* ========================================================================== */
+/* CORRECTION CIBLÉE POUR LE FOOTER                                           */
+/* ========================================================================== */
+.footer--dark {
+  /* La couleur de fond que vous aviez déjà, conservée */
+  --ifm-footer-background-color: #2f374a;
 
-/* Mode clair */
+  /* La couleur des titres comme "Docs", "Community" en blanc */
+  --ifm-footer-title-color: #ffffff;
+
+  /* CORRIGÉ : La couleur des liens par défaut est maintenant BLANC */
+  --ifm-footer-link-color: #ffffff;
+
+  /* AJOUTÉ : La couleur des liens au survol est maintenant le bleu clair de votre thème sombre */
+  --ifm-footer-link-hover-color: #a8c6fe;
+}
+
+
+/* CSS pour le logo en fonction du thème (VOTRE CODE ORIGINAL CONSERVÉ) */
 :root .navbar__logo img {
   filter: invert(0); /* Couleur normale (noir ou sombre) en mode clair */
 }
 
-/* Mode sombre */
 :root[data-theme='dark'] .navbar__logo img {
   filter: invert(1); /* Inverse les couleurs pour afficher en blanc en mode sombre */
 }
 
-/* Mode clair */
+/* (VOTRE CODE ORIGINAL CONSERVÉ) */
 .themed-svg {
   filter: invert(0); /* Affiche les SVG en couleur sombre (ou noire) */
 }
 
-/* Mode sombre */
 :root[data-theme='dark'] .themed-svg {
   filter: invert(1); /* Inverse les couleurs pour afficher les SVG en blanc */
 }
