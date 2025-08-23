@@ -37,3 +37,5 @@ coverage/
 # Optional lockfiles (on choisit d’inclure package-lock.json)
 # yarn.lock
 # pnpm-lock.yaml
+.docusaurus/
+.codegpt/
