@@ -10,7 +10,7 @@ tagline: "Déployer l'IA OpenSource sur votre Mac avec Ollama",
 // MODIFICATION : Le favicon pointe maintenant vers le fichier SVG
 favicon: 'img/favicon.svg',
 future: {
-experimental_faster: true,
+experimental_faster: false,
 v4: true
 },
 url: 'https://manuel.fr',

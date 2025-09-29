@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 11
 ---
 Autogen est un outil développé en openSource par Microsoft.
 

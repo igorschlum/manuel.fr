@@ -1,108 +1,187 @@
 ---
-sidebar_position: 9
+sidebar_position: 10
 title: "OpenCode"
 ---
-Bolt.new est un outil assez étonnant. Vous pouvez utiliser l'intelligence artificielle pour construire une application ou un site web gratuitement en utilisant Ollama. Nous allons avancer pas à pas dans cette partie.
 
-Bolt est développé par la société [StackBlitz](https://stackblitz.com). A l'origine, StackBlitz est un outil pour développer directement depuis une page web et donc de pouvoir tester le programme que l'on écrit directement, mais encore faut-il savoir programmer.
+OpenCode est un outil open source qui permet d’utiliser l’intelligence artificielle pour comprendre, explorer et interagir avec un projet de développement. Contrairement à des assistants comme ChatGPT ou Claude, OpenCode est conçu pour fonctionner **directement dans votre terminal**, en local, et avec vos propres fichiers.
 
-StackBlitz a alors développé le site [Bolt.new](https://bolt.new) qui permet de développer une application à partir d'un prompt. Une fois l'application développée, on peut toujours avec des prompts la modifier pour l'améliorer.
+Il ne s’agit pas d’un éditeur de code, mais d’un **agent intelligent** qui peut répondre à des questions sur votre projet, vous aider à naviguer dans le code, et même vous suggérer des améliorations. Et tout cela, sans avoir besoin d’envoyer vos fichiers dans le cloud.
 
-Bolt s'appuie sur l'outil d'intelligence artificiel [Claude](https://www.manuel.fr/learn/autres_ia/claude), c'est cette IA qui va générer le programme selon vos prompts.
+---
 
-Le problème, c'est qu'il faut prendre un abonnement qui est payant et qu'à force de faire faire des modifications et de passer du temps à fignoler son application, on peut se retrouver assez rapidement avec une facture de plusieurs centaines d'euros.
+## 🧠 À quoi sert OpenCode ?
 
-Mais Bolt est aussi un projet OpenSource que l'on peut télécharger depuis GitHub. On peut le télécharger, mais on peut aussi le modifier et c'est ce qu'à fait 
+OpenCode permet de créer une application ou un site web **sans savoir programmer**, simplement en dialoguant avec une intelligence artificielle. On peut commencer par demander à l’IA de générer un prototype, puis lui faire faire des modifications au fur et à mesure, en fonction de ses besoins.
 
-Mais un développeur a modifié l'application Bolt 
+C’est une manière accessible et puissante de découvrir le développement logiciel, même si on débute.
 
-```bash
-npm install -g n8n
-```
+OpenCode fonctionne avec des modèles LLM (Large Language Models) que vous pouvez choisir en fonction de la mémoire disponible sur votre machine :
 
-Pour faire la mise à jour de n8n vous verrez dans la barre de commandes à droite qu'il y a une indication qu'il y a une nouvelle version et depuis quand cette nouvelle version est disponible. Vous pourrez alors installer la mise à jour en tapant la commande suivante :
+- Si vous avez un Mac récent, vous pouvez utiliser une version open source d’**Ollama**, qui permet d’exécuter des modèles localement.
+- Sinon, vous pouvez utiliser **Qwen3 Coder**, un modèle performant disponible en plusieurs tailles, adapté aux petites configurations.
 
-```bash
-npm update -g n8n
-```
+Une fois votre projet généré, vous pouvez :
 
-On peut également installer n8n à partir de Docker, mais visiblement ce n'est pas conseillé quand on est sur un Mac, donc nous n'allons pas expliquer ici comment faire, mais vous trouverez plein de tutos sur le net si vous préférez utiliser Docker.
+- Le pousser sur **GitHub** gratuitement
+- Le déployer sur un serveur **Vercel** gratuitement
 
-L'installation par npm m'affiche tout un tas de warning, mais ce sont principalement sur des librairies pour accéder à aws ou à azur et je sais que nous n'allons pas utiliser ces librairies. De plus il faut s'habituer à ces messages qui vous disent que des librairies ne sont pas à jour. Les librairies s'utilisant les unes les autres c'est impossible d'avoir toujours les derniers librairies à jour.
+Cela vous permet d’avoir une application en ligne, accessible depuis n’importe quel navigateur, sans frais.
 
-une fois l'installation terminée, il suffit de taper n8n ans le terminal et on a une adresse web qui s'affiche pour accéder à l'interface.
+OpenCode est donc un outil idéal pour :
 
-Il est conseillé d'avoir Chrome par défaut comme navigateur, car n8n n'aime pas safari.
-
-Chez moi, le lien s'ouvre sur "http://localhost:5678/"(http://localhost:5678/)
-
-n8n est en anglais
-
-Un premier écran va vous demander de vous enregistrer pour utiliser 8n8.
-
-Dans la barre de menu à droite, on voit qu'il y a une aide en ligne mais comme elle est en anglais, on va essayer d'avancer sur cette page pour expliquer comment fonctionne n8n.
-
-Il y a dans le menu, un choix "Variables", c'est uniquement pour la version payante et donc cela ne va pas nous interesser ici.
-
-Tout en bas à côté de votre nom, il y a ... et ça permet d'accéder aux settings de l'application. Beaucoup de ces settings sont liés à la version commerciale de n8n, donc nous n'allons pas les aborder ici.
-
-On va plutôt s'intéresser dans la fenêtre principale à l'item "Template" qui permet d'aller chercher des temptate d'automatisation tout faits, il y en a plus de 1000.
-
-On va s'intéresser à celui qui s'appelle "Very Quick Start"(https://n8n.io/workflows/1700-very-quick-quickstart/)
-
-On a un bouton pour l'installer directement sur mon serveur local.
-
-Vous voyez alors apparaître à l'écran 3 blocs reliés les uns aux autres. L'exécution du script se lit de gauche à droite. On peut cliquer sur chaque bloc pour comprendre ce qu'il fait.
-
-Le premier bloc en forme de curseur permet d'indiquer que le script va être exécuter quand on clique sur le bouton "Test", mais plus tard vous pourrez déterminer des scripts qui s'exécutent sur un évenement externe. On verra ça plus tard.
-
-Le second bloc en forme de base de données avec un chapeau est une fonction qui va donner les coordonnées de 5 clients bidons qui servent pour la démonstartion et pour la suite de l'exemple. Quand on clique deux fois sur l'icône de la base données, on voit une grande fenêtre s'aficher et cette fenêtre montre à gauche l'input (ici le clic sur le bouton, au milieu les réglages de l'action et à droite le résultat de l'action). Dans ce cas, c'est soit un tableau de données, soit un fichier json contenant les résultats sous la forme d'un json. (mettre un lien ici pour renvoyer sur l'explication du format json)
-
-On peut également afficher le résultat dans un format Schema qui est une autre façon d'afficher l'information.
+- Prototyper rapidement une idée
+- Modifier un projet existant sans toucher au code
+- Comprendre comment fonctionne une application
+- Travailler avec une IA directement dans le terminal
 
 
-
-
-
-
-
-Tout en bas, il y a votre 
- 
-
-1. Quand vous installez Node.js cela installe également npm. Voici les étapes pour l’installation :
-
-2. Téléchargez Node.js : Vous pouvez télécharger Node.js en cliquant [ici](https://nodejs.org/dist/v20.11.0/node-v20.11.0.pkg).
-
-3. Installez Node.js : Ouvrez le fichier téléchargé et suivez les instructions pour installer Node.js.
-
-4. Vérifiez l’installation : Une fois l’installation terminée, vous pouvez vérifier si Node.js et npm sont correctement installés en ouvrant un terminal et en exécutant les commandes suivantes :
+Exemples de commandes :
 
 ```bash
-node -v
+opencode
 ```
+
+Puis dans l’interface :
 
 ```bash
-npm -v
+/init
 ```
 
-5. Ces commandes afficheront les versions de Node.js et npm respectivement1.
+Cela crée un fichier `AGENTS.md` qui sert de point de départ pour l’analyse du projet.
 
-6. Mise à jour de npm : Si vous souhaitez mettre à jour npm à sa dernière version, vous pouvez utiliser la commande suivante dans votre terminal :
+Ensuite, vous pouvez poser des questions comme :
 
 ```bash
-npm install -g npm@latest
+Comment est gérée l’authentification dans @packages/functions/src/api/index.ts ?
 ```
 
-7. Cette commande installera la dernière version de npm.
+---
 
-Notez que vous pouvez également utiliser un gestionnaire de versions Node comme nvm pour installer Node.js et npm. Cela vous permet de basculer facilement entre différentes versions de Node.js et npm.
+## 🛠️ Installation sans Homebrew
 
-8. Vous pouvez aussi installer Homebrew qui est un outil pour en installer d'autres sur votre mac
+Si vous n’avez pas Homebrew sur votre Mac, pas de souci. Voici comment installer OpenCode autrement :
 
-Rendez-vous sur https://brew.sh et suivez les instuctions.
+### 1. Ouvrez votre terminal
 
-Une fois brew installé, il faut rajouter le chemin d'accès de Brew dans votre système et tapant dans le terminal
+### 2. Tapez la commande suivante :
 
 ```bash
-export PATH=/opt/homebrew/bin:$PATH
+curl -fsSL https://opencode.ai/install | bash
 ```
+
+Cette commande télécharge et installe automatiquement OpenCode dans le dossier `~/.opencode/bin`.
+
+### 3. Ajoutez ce dossier à votre `PATH` si nécessaire :
+
+```bash
+export PATH="$HOME/.opencode/bin:$PATH"
+```
+
+Vous pouvez aussi ajouter cette ligne à votre fichier `.zshrc` ou `.bash_profile` pour que ce soit permanent.
+
+### 4. Vérifiez l’installation :
+
+```bash
+opencode --version
+```
+
+---
+
+## 🍺 Installation avec Homebrew
+
+Si vous utilisez Homebrew, l’installation est encore plus simple :
+
+```bash
+brew install sst/tap/opencode
+```
+
+Cela installe automatiquement OpenCode et le rend accessible dans votre terminal.
+
+---
+
+## 🔐 Authentification
+
+OpenCode fonctionne avec des modèles d’intelligence artificielle. Vous devez donc vous connecter avec une clé API.
+
+### 1. Lancez la commande :
+
+```bash
+opencode auth login
+```
+
+### 2. Suivez les instructions pour coller votre clé API. Vous pouvez en obtenir une sur [opencode.ai/auth](https://opencode.ai/auth) ou utiliser une clé OpenAI si vous en avez déjà une.
+
+---
+
+## 🤖 Fonctionnement avec Ollama
+
+OpenCode peut aussi fonctionner avec [Ollama](https://ollama.com), une solution locale pour exécuter des modèles LLM sur votre propre machine.
+
+### Pour utiliser OpenCode avec Ollama :
+
+1. Installez Ollama sur votre Mac :  
+   [Télécharger Ollama](https://ollama.com/download)
+
+2. Lancez Ollama dans le terminal :
+
+```bash
+ollama run llama3
+```
+
+3. Dans OpenCode, configurez l’authentification pour utiliser Ollama :
+
+```bash
+opencode auth login
+```
+
+Puis sélectionnez **Ollama** comme fournisseur de modèle.
+
+Cela permet à OpenCode d’interagir avec votre projet en utilisant un modèle IA local, sans dépendre d’un service cloud.
+
+---
+
+## 🚀 Utilisation dans un projet
+
+Une fois installé et authentifié :
+
+1. Allez dans le dossier de votre projet :
+
+```bash
+cd /chemin/vers/mon/projet
+```
+
+2. Lancez OpenCode :
+
+```bash
+opencode
+```
+
+3. Initialisez le projet :
+
+```bash
+/init
+```
+
+4. Posez vos questions dans le terminal, comme :
+
+```bash
+Quels sont les fichiers qui gèrent les appels API ?
+```
+
+---
+
+## 🧩 Remarques
+
+- OpenCode fonctionne en ligne de commande, mais l’interface est très intuitive.
+- Il est compatible avec macOS (Intel et Apple Silicon).
+- Vous pouvez l’utiliser avec différents fournisseurs IA (OpenAI, Claude, Ollama, etc.).
+- Il ne modifie pas votre code, sauf si vous lui demandez explicitement.
+
+---
+
+OpenCode est un outil puissant pour les développeurs qui veulent **gagner du temps** et **mieux comprendre leur code**, sans dépendre d’un navigateur ou d’un service cloud.
+```
+
+---
+
+Tu veux que je t’aide à rédiger une page pour Ollama ou à créer un exemple de session avec OpenCode + Ollama ? Je peux t’en préparer une aussi.
