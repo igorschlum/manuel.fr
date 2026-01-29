@@ -71,7 +71,7 @@ Tout en bas, il y a votre
 
 1. Quand vous installez Node.js cela installe également npm. Voici les étapes pour l’installation :
 
-2. Téléchargez Node.js : Vous pouvez télécharger Node.js en cliquant [ici](https://nodejs.org/dist/v20.11.0/node-v20.11.0.pkg).
+2. Téléchargez Node.js : Vous pouvez télécharger Node.js depuis cette page [ici](https://nodejs.org/fr/download).
 
 3. Installez Node.js : Ouvrez le fichier téléchargé et suivez les instructions pour installer Node.js.
 
@@ -89,13 +89,10 @@ npm -v
 
 6. Mise à jour de npm : Si vous souhaitez mettre à jour npm à sa dernière version, vous pouvez utiliser la commande suivante dans votre terminal :
 
-```bash
-npm install -g npm@latest
-```
 
 7. Cette commande installera la dernière version de npm.
 
-Notez que vous pouvez également utiliser un gestionnaire de versions Node comme nvm pour installer Node.js et npm. Cela vous permet de basculer facilement entre différentes versions de Node.js et npm.
+Notez que vous pouvez également utiliser un gestionnaire de versions Node comme nvm pour installer Node.js et npm. 
 
 8. Vous pouvez aussi installer Homebrew qui est un outil pour en installer d'autres sur votre mac
 

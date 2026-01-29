@@ -27,7 +27,8 @@
     "@babel/plugin-proposal-decorators": "^7.25.9",
     "@docusaurus/module-type-aliases": "^3.7.0",
     "@docusaurus/types": "^3.7.0",
-    "@rspack/cli": "^1.5.8"
+    "@rspack/cli": "^1.5.8",
+    "baseline-browser-mapping": "^2.9.19"
   },
   "browserslist": {
     "production": [

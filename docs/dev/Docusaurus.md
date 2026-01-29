@@ -14,7 +14,7 @@ Pour installer et commencer à utiliser Docusaurus sur votre Mac, voici les éta
 
 ## Prérequis
 
-Vous aurez besoin de Node.js version 18.0 ou supérieure, nous en avons fait une [page](/install/node_npm).
+Vous aurez besoin de Node.js version 24.0 ou supérieure, nous en avons fait une [page](/install/node_npm).
 
 ## Générez un nouveau site
 
