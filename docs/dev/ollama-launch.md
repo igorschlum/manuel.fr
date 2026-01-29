@@ -6,8 +6,7 @@ title: "Coder avec Ollama"
 ## Coder depuis le terminal avec Ollama
 
 Ollama permet d’utiliser des **outils d’assistance au code directement depuis votre terminal**.  
-Grâce à la commande `ollama launch`, vous pouvez **configurer et lancer des assistants de codage** comme Claude Code, Codex, OpenCode ou Droid sans avoir à créer de fichiers de configuration ou définir manuellement des variables d’environnement.  [oai_citation:0‡Ollama](https://ollama.com/blog/launch?utm_source=chatgpt.com)
-
+Grâce à la commande `ollama launch`, vous pouvez **configurer et lancer des assistants de codage** comme Claude Code, Codex, OpenCode ou Droid sans avoir à créer de fichiers de configuration ou définir manuellement des variables d’environnement.
 ---
 
 ## 🛠 Lancer un outil de codage

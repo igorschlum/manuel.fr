@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 Je vous propose de configurer Ollama pour le rendre encore plus performant

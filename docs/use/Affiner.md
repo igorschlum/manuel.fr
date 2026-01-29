@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 11
 title: "Affiner un modèle (FineTUne)"
 description: "Description pas à pas de la méthode pour affiner un modèle de données."
 ---

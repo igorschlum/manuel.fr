@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 10
 title: "Import SafeSensor"
 description: "Description pas à pas de l'import d'un modèle SafeSensor dans Ollama depuis Hunging Face"
 ---
