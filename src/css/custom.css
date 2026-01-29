@@ -71,3 +71,10 @@ il y a dans la doc de docusarus une page qui peret de voir si les couleurs
 :root[data-theme='dark'] .themed-svg {
   filter: invert(1); /* Inverse les couleurs pour afficher les SVG en blanc */
 }
+
+.screenshot {
+  width: 60%;
+  max-width: 700px;
+  display: block;
+  margin: 1.5rem auto;
+}

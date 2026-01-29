@@ -39,6 +39,5 @@ Sur cette page, vous trouverez ce qu'ils appellent l'atlas des données.
 Comme tous est opensource, on peut facilement rêver que cela ouvre la voie à beaucoup d'application, car on va pouvoir à la fois retirer du contenu inutile des modèles et rajouter du contenu pertinant pour chaque usage.
 Ça devrait ouvrir la porte à de nombreux usages qui vont pouvoir être installés sur des téléphones portables et des ordinateurs personnels.
 
-![Atlas des données](/img/atlas.webp "Atlas de nomic-embed-text")
-
+<img class="screenshot" alt="Atlas des données" src="/img/atlas.webp" title="Atlas de nomic-embed-text" />
 

@@ -14,13 +14,13 @@ Il est assez simple d'utilisation.
 
 *Tout d'abord il faut **installer** Chatbox, pour cela cliquer *[ici](https://chatboxai.app/fr/install?download=darwin-x86_64)* pour une installation net, ou rendez-vous sur leur* [site](https://chatboxai.app/fr)
 
-![installation](/img/chatboxinstallation.png)
+<img class="screenshot" alt="installation" src="/img/chatboxinstallation.png" />
 
 *faites glisser.*
 
 *Une fois tout ça finit, lancer l'application qui se trouve donc dans votre dossier **Application**.*
 
-![securite](/img/chatboxsecurite.png)
+<img class="screenshot" alt="securite" src="/img/chatboxsecurite.png" />
 
 *Ce message s'affiche car nous avons **installé** cette application depuis **internet**. Cliquez "Ouvrir".*
 
@@ -34,7 +34,7 @@ Il est assez simple d'utilisation.
 
 *Puis, **paramètres**.*
 
-![choisir](/img/ChoisirIAchatbox.png)
+<img class="screenshot" alt="choisir" src="/img/ChoisirIAchatbox.png" />
 
 ***Changez** le "Fournisseur de modèle IA" et choisissez "Ollama"".*
 

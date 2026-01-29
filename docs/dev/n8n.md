@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 8
 ---
 n8n est un outil qui vous permet de créer des agents intelligents qui vont utiliser l'IA en local sur votre Mac.
 

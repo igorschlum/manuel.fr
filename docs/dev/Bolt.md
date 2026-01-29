@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 9
 title: "Bolt"
 ---
 Bolt.new est un outil assez étonnant. Vous pouvez utiliser l'intelligence artificielle pour construire une application ou un site web gratuitement en utilisant Ollama. Nous allons avancer pas à pas dans cette partie.

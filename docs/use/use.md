@@ -7,7 +7,7 @@ title: "Commandes"
 
 Dans son utilisation basique, on lance l'application Ollama et dans le menu "modèle" on choisit celui qui nous convient.
 
-## utisation depuis le terminal
+## utilisation depuis le terminal
 
 Dans son utilisation plus avancée, on peut lancer Ollama depuis l'application "Terminal" en tapant ollama run et en indiquant le nom du modèle à utiliser. Pour cela on utilise la commande run de Ollama qui est la plus importante.
 

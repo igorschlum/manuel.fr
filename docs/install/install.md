@@ -30,7 +30,7 @@ Une fois le fichier téléchargé, ouvrez **`Ollama.dmg`** depuis votre dossier 
 
 Faites ensuite glisser l’icône de l’application **Ollama** dans votre dossier **Applications**.
 
-![Copier vers Applications](/img/copyollama.jpeg)
+<img class="screenshot" alt="Copier vers Applications" src="/img/copyollama.jpeg" />
 
 *(Si vous êtes sous Windows, reportez-vous aux instructions officielles sur le site d’Ollama.)*
 
@@ -40,20 +40,20 @@ Faites ensuite glisser l’icône de l’application **Ollama** dans votre dossi
 
 Lancez l’application **Ollama** depuis le dossier *Applications*.
 
-![Avertissement de sécurité](/img/warning.png)
+<img class="screenshot" alt="Avertissement de sécurité" src="/img/warning.png" />
 
 Un message de sécurité apparaît : macOS vous informe que l’application provient d’Internet et non de l’App Store.  
 Vous pouvez confirmer sans problème.
 
 Si Ollama n’a pas été déplacé dans le dossier *Applications*, un message en anglais vous proposera de le faire automatiquement.
 
-![Move to Applications](/img/move.png)
+<img class="screenshot" alt="Move to Applications" src="/img/move.png" />
 
 Cliquez sur **« Move to Applications »**.
 
 Et si votre fichier était sur le bureau, macOS va aussi vous demander d'autoriser Ollama à accéder aux fichiers sur le bureau pour qu'il puisse se déplacer lui-même dans le dossier Applications.
 
-![Autoriser l'accès au bureau](/img/autoriser.png)
+<img class="screenshot" alt="Autoriser l'accès au bureau" src="/img/autoriser.png" />
 
 ---
 
@@ -61,12 +61,12 @@ Et si votre fichier était sur le bureau, macOS va aussi vous demander d'autoris
 
 Un dialogue apparaît ensuite pour vous demander d’autoriser l’installation de l’**interface en ligne de commande** :
 
-![Autoriser CLI](/img/cli.png)
+<img class="screenshot" alt="Autoriser CLI" src="/img/cli.png" />
 
 Il faut accepter.  
 Cette interface permet à Ollama de fonctionner **en arrière-plan**, même lorsque la fenêtre principale n’est pas ouverte.
 
-![background](/img/background.png)
+<img class="screenshot" alt="background" src="/img/background.png" />
 
 macOS vous indique également qu’Ollama a ajouté des éléments pouvant s’exécuter en arrière-plan.  
 C’est normal : Ollama agit comme un **serveur local**, accessible par d’autres applications.
@@ -77,7 +77,7 @@ C’est normal : Ollama agit comme un **serveur local**, accessible par d’autr
 
 La fenêtre principale d’Ollama s’affiche.
 
-![ollama](/img/ollama.png)
+<img class="screenshot" alt="ollama" src="/img/ollama.png" />
 
 L’interface n’est pas encore traduite en français, mais elle reste volontairement simple.
 
