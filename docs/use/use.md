@@ -3,14 +3,16 @@ sidebar_position: 1
 title: "Commandes"
 ---
 
-Voici les commnandes à utiliser dans le terminal
+# Utiliser Ollama
 
-# Utiliser un modèle Ollama
+Dans son utilisation basique, on lance l'application Ollama et dans le menu "modèle" on choisit celui qui nous convient.
 
-Dans son utilisation basique, on lance l'application Ollama depuis le terminal en tapant ollama run et en indiquant le nom du modèle à utiliser. Pour cela on utilise la commande run de Ollama qui est la plus importante.
+## utisation depuis le terminal
+
+Dans son utilisation plus avancée, on peut lancer Ollama depuis l'application "Terminal" en tapant ollama run et en indiquant le nom du modèle à utiliser. Pour cela on utilise la commande run de Ollama qui est la plus importante.
 
 ```bash
-ollama run lama3.2
+ollama run gemma3:4b
 ```
 
 Mais il existe d'autres commandes qu'il faut apprendre à utiliser au fur et à mesure de votre progression.
@@ -29,18 +31,22 @@ Usage:
   ollama [command]
 
 Available Commands:
-  serve       Start ollama
-  create      Create a model from a Modelfile
-  show        Show information for a model
-  run         Run a model
-  stop        Stop a running model
-  pull        Pull a model from a registry
-  push        Push a model to a registry
-  list        List models
-  ps          List running models
-  cp          Copy a model
-  rm          Remove a model
-  help        Help about any command
+serve       Start ollama
+ create      Create a model
+ show        Show information for a model
+ run         Run a model
+ stop        Stop a running model
+ pull        Pull a model from a registry
+ push        Push a model to a registry
+ signin      Sign in to ollama.com
+ signout     Sign out from ollama.com
+ list        List models
+ ps          List running models
+ cp          Copy a model
+ rm          Remove a model
+ launch      Launch an integration with Ollama
+ help        Help about any command
+
 
 Flags:
   -h, --help      help for ollama
