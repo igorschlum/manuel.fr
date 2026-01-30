@@ -78,3 +78,15 @@ il y a dans la doc de docusarus une page qui peret de voir si les couleurs
   display: block;
   margin: 1.5rem auto;
 }
+
+/* Meilleur contraste pour la barre de recherche en mode clair */
+html[data-theme='light'] .navbar__search-input {
+  color: #111827;
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+}
+
+html[data-theme='light'] .navbar__search-input::placeholder {
+  color: #6b7280;
+  opacity: 1;
+}

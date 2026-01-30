@@ -18,7 +18,11 @@ const config = {
   organizationName: "igorschlum",
   projectName: "manuel.fr",
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: "warn",
+    },
+  },
   i18n: {
     defaultLocale: "fr",
     locales: ["fr"],
@@ -32,7 +36,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           routeBasePath: "/",
           includeCurrentVersion: true,
-          showLastUpdateTime: true,
+          showLastUpdateTime: false,
           editUrl: "https://github.com/igorschlum/manuel.fr/tree/main/",
         },
         blog: {
@@ -50,6 +54,15 @@ const config = {
           customCss: require.resolve("./src/css/custom.css"),
         },
       }),
+    ],
+  ],
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+        docsRouteBasePath: "/",
+      },
     ],
   ],
   themeConfig: {

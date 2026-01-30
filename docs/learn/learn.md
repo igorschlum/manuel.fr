@@ -10,7 +10,7 @@ J'ai passé beaucoup de temps à comprendre et à synthétiser ce que j'ai appri
 
 Vous connaissez ChatGPT qui a été lancé le 30 novembre 2022, on peut lui poser des questions dans un prompt et vous obtenez instantanément une réponse à votre question. C'est la révolution de l'IA Générative, et les géants du net font la course à l'innovation.
 
-Une autre révolution plus discrète a suivi. Celle de l'IA OpenSource, menée par le groupe Meta et suivie par d'autres qui permet de faire tourner l'IA sur son propre ordinateur ou ses propres serveurs.
+Une autre révolution plus discrète a suivi. Celle de l'IA OpenSource, initiée par le groupe Meta et suivie par d'autres qui permet de faire tourner l'IA sur son propre ordinateur ou ses propres serveurs.
 
 Vous pouvez ainsi éviter que votre usage de l'IA ne vienne nourrir des serveurs de publicité ; vos données restent confidentielles. l'IA OpenSource permet également de faire tourner différents modèles qui ont chacun leur propre comportement.
 
