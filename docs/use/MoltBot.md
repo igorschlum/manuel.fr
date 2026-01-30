@@ -5,7 +5,7 @@ title: "Moltbot"
 
 ## Moltbot : l’assistant IA open-source qui agit
 
-**Moltbot** est un **assistant IA personnel open-source et auto-hébergé** capable d’aller bien au-delà d’un simple chatbot. Contrairement à une IA qui se contente de répondre à vos questions, Moltbot **exécute des tâches réelles**, interagit avec votre système et vos applications, et peut fonctionner **24 h/24 sur votre machine ou serveur**.
+**Moltbot** est un **assistant IA personnel open-source et auto-hébergé** capable d’aller bien au-delà d’un simple chatbot. Contrairement à une IA qui se contente de répondre à vos questions, Moltbot **exécute des tâches réelles**, interagit avec votre système et vos applications, et peut fonctionner **24 h/24 sur votre machine ou serveur**. Une différence clé avec d’autres solutions IA, c’est que Moltbot est **proactif** : il peut **prendre des décisions et lancer des actions de lui-même**, selon les règles et permissions que vous définissez.
 
 > Moltbot s’appelait à l’origine *Clawdbot*. Il a été renommé *Moltbot* suite à une demande de la société Anthropic autour d’un conflit de marque, mais **les fonctionnalités restent les mêmes**.
 
