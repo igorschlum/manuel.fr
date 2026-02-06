@@ -25,7 +25,6 @@ OpenClaw est conçu pour être plus qu’un simple générateur de texte : c’e
 
 Le cœur du système repose sur un **assistant IA qui interprète vos instructions en langage naturel** et planifie des actions à partir de celles-ci, utilisant des modèles (localement ou via API) pour définir la meilleure façon d’exécuter vos demandes.
 
----
 
 ## 🛠 Installation et fonctionnement
 
@@ -35,39 +34,43 @@ OpenClaw est conçu pour être auto-hébergé :
 - il fonctionne de manière persistante, en arrière-plan, avec une mémoire contextuelle locale qui lui permet de **se souvenir de vos interactions** au fil du temps ;
 - contrairement aux assistants cloud classiques, **vous gardez le contrôle total de vos données** si vous utilisez des modèles locaux ou que vous configurez les accès API de manière sécurisée.
 
-Pour installer OpenClaw, il faut ouvrir le terminal et taper la commande :
+On va faire comme si OpenClaw était un nouvel employé :
+
+- On va lui faire un compte à lui sur la machine.
+- On va limiter ses accès réseaux
+- On va limiter ses privilèges
+- On va lui donner ses propres Autoristation et mots de passe et ne pas partager les notres
+- Et on va regarder ce qu'il fait et lui demander de rendre des comptes.
+
+---
+
+## 🛠 Installation sur macOS
+
+OpenClaw est conçu pour être auto-hébergé et peut être installé directement sur macOS :
+
+1. Téléchargez la dernière version du fichier .dmg depuis la page des releases GitHub :  
+   👉 [OpenClaw](https://github.com/openclaw/openclaw/releases/)
+
+2. Ouvrez ce fichier et installez l’application dans le dossier **Applications** comme n’importe quel logiciel macOS.
+
+3. Lancez l’application **OpenClaw** et accordez-lui les autorisations que vous souhaitez (accès aux fichiers, au calendrier, automatisation, etc.).
+
+👉 Il est impératif de comprendre ce que vous autorisez et comment sécuriser votre instance si vous choisissez d’utiliser OpenClaw au quotidien.
+
+---
+
+## ⚙️ Utiliser Ollama comme moteur IA
+
+Ollama a intégré une commande à taper pour installer sa connexion avec Openclaw
 
 ```bash
-sudo curl -fsSL https://openclaw.ai/install.sh | bash
+ollama launch openclaw
 ```
-
 ---
 
-## ⚠️ Sécurité et risques
+## Ouvrir la fenêtre d'OpenClaw
 
-Donner à un assistant IA des **permissions étendues sur votre système** présente des risques non négligeables :
-
-- accès à vos fichiers personnels, calendriers ou messages ;
-- possibilité d’exécuter des commandes système ou des scripts sans supervision ;
-- **risque d’injection de prompt ou d’exécution involontaire de commandes** si OpenClaw est mal configuré ;
-- stockage de données sensibles en clair si vous n’êtes pas rigoureux dans vos réglages.
-
-👉 Il est donc impératif de comprendre ce que vous autorisez et comment sécuriser votre instance si vous choisissez d’utiliser OpenClaw au quotidien.
-
----
-
-## 💡 Scénarios d’usage
-
-Voici quelques exemples de ce que OpenClaw peut faire une fois installé :
-
-- vous envoyer un résumé automatique de vos e-mails chaque matin ;
-- exécuter un script pour organiser vos fichiers ou lancer des tâches répétitives ;
-- automatiser des interactions Web (navigation, remplissage de formulaires, extraction de données) ;
-- intégrer vos routines quotidiennes à un flux de travail proactif, en anticipant certaines actions.
-
-Ce type d’agent va au-delà de la simple réponse textuelle : il **gère, planifie et agit** en fonction de vos instructions.
-
----
+[Lien pour ouvrir OpenClaw](http://127.0.0.1:18789/__openclaw__/canvas/)
 
 ## 📌 En résumé
 
@@ -75,77 +78,6 @@ OpenClaw est un **assistant IA auto-hébergé puissant et modulaire**, qui trans
 
 Cela ouvre des possibilités fascinantes pour l’automatisation personnelle et professionnelle — mais requiert aussi une bonne compréhension des implications de sécurité avant d’être utilisé sur une machine principale.
 
----
 
-## 🧩 Exemple de configuration Ollama
 
-```bash
-cat ~/.clawdbot/clawdbot.json
-```
-
-```json
-{
-  "messages": {
-    "ackReactionScope": "group-mentions"
-  },
-  "models": {
-    "providers": {
-      "ollama": {
-        "baseUrl": "http://127.0.0.1:11434/v1",
-        "apiKey": "ollama-local",
-        "api": "openai-responses",
-        "models": [
-          {
-            "id": "glm-4.7-flash:latest",
-            "name": "GLM-4.7 Flash",
-            "reasoning": true,
-            "input": ["text"],
-            "cost": {
-              "input": 0,
-              "output": 0,
-              "cacheRead": 0,
-              "cacheWrite": 0
-            },
-            "contextWindow": 128000,
-            "maxTokens": 8192
-          }
-        ]
-      }
-    }
-  },
-  "agents": {
-    "defaults": {
-      "model": {
-        "primary": "ollama/glm-4.7-flash:latest"
-      },
-      "maxConcurrent": 4,
-      "subagents": {
-        "maxConcurrent": 8
-      },
-      "compaction": {
-        "mode": "safeguard"
-      },
-      "workspace": "/Users/manuel/clawd"
-    }
-  },
-  "gateway": {
-    "mode": "local",
-    "auth": {
-      "mode": "token",
-      "token": "CHANGE_ME"
-    },
-    "port": 18789,
-    "bind": "loopback",
-    "tailscale": {
-      "mode": "off",
-      "resetOnExit": false
-    }
-  }
-}
-```
-
----
-
-## 🔗 Ressources
-
-- [Doc officielle](https://docs.openclaw.ai/getting-started)
+- [Doc officielle](https://docs.openclaw.ai/providers/ollama)
