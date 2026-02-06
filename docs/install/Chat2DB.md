@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 11
 ---
 <h1>Chat2DB</h1>
 

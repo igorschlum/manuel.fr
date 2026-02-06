@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 12
 ---
 Pour affiner des modèles existants, il faut installer ML-X sur votre Mac.
 MLX est une librairie OpenSource développée par Apple et qui permet de profiter de la puissance des processeurs Apple silicon (M1, M2, M3) pour faire tourner des modèles d'intelligence artificielle ou pour les entraîner.
