@@ -175,6 +175,15 @@ ollama pull llama3.2
 
 C'est arrivé plusieurs fois qu'il y a des problèmes dans le LLM et qu'il faille le recharger, car une nouvelle version a été silencieusement mise à disposition. Silencieusement, car cette mise à jour a été faite sans changer le numéro de version du modèle. Ça arrive parfois quand la mise à jour ne concerne pas le modèle en lui-même, mais les paramètres du modèle.
 
+Tips : Quand Ollama charge un modèle, il a tendance à prendre beaucoup de bande passante et ça peut gêner d'autres utilisateurs du réseau.
+
+Pour limiter la vitesse à laquelle il charge les llm on peut taper : 
+
+```bash
+trickle -s -d 50mb ollama pull xxxxx
+```
+
+
 # Supprimer un modèle
 
 Si vous avez essayé un modèle et que vous voyez qu'il ne correspond pas à vos attentes et donc que vous n'allez pas l'utiliser, vous pouvez le supprimer de votre ordinateur, car chaque modèle pèse souvent pas loin de 10 Go et sur un Mac avec 256 Go de disque dur, chaque modèle peut prendre 4% de l'espace disque du disque dur. Il faut donc faire faire attention à bien nettoyer de temps en temps les modèles qu'on a dans la liste. Ce sont souvent les plus anciens qu'il faut supprimer, car les modèles actifs sont remis à jour régulièrement.
