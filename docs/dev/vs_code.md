@@ -2,53 +2,125 @@
 sidebar_position: 4
 ---
 
-# VSCode
+# VS Code
 
-VSCode est un éditeur de texte éditer par Microsoft et utilisé par les développeurs pour écrire des applications.
+Visual Studio Code (VS Code) est un éditeur de code gratuit développé par Microsoft. Il est très populaire car il est léger, puissant et s'adapte à tous les types de développement.
 
-Grace à l'intelligence Artificielle, on peut se faire aider dans la rédaction des codes sources.
+Grâce à l'intelligence artificielle, VS Code peut vous aider à écrire du code plus rapidement et avec moins d'erreurs. Au lieu de payer pour des services en ligne comme ChatGPT, vous pouvez utiliser des modèles d'IA locaux installés sur votre Mac avec Ollama. Cela vous permet d'être aidé gratuitement et en toute confidentialité.
 
-VSCode permet par exemple de s'interfacer sur ChatGPT pour faire ça, mais ça peut revenir assez vite cher. On peut aussi le connecter sur Ollama en local sur son serveur ou sur un serveur partagé de l'entreprise.
+## Installer VS Code
 
+1. Rendez-vous sur le site officiel : [https://code.visualstudio.com/](https://code.visualstudio.com/)
+2. Cliquez sur le bouton **Télécharger pour Mac**
+3. Une fois le téléchargement terminé, ouvrez le fichier téléchargé depuis votre dossier **Téléchargements**
+4. Glissez-déposez l'application **Visual Studio Code** dans votre dossier **Applications**
+5. Lancez VS Code depuis votre dossier Applications ou via Spotlight (Cmd + Espace)
 
-# installation de VS Code
+## Utiliser Ollama dans VS Code
 
-Depuis la page d'accueil du site de Visual Studio Code : https://code.visualstudio.com/, cliquez sur le bouton "Télécharger pour Mac".
+Voici la méthode la plus simple pour utiliser des modèles d'IA locaux dans VS Code avec Ollama.
 
-L'application **Visual Studio Code** se trouve dans votre dossier **Téléchargements**, vous n'avez plus qu'à la déplacer dans le dossier Application et la lancer.
+### Prérequis
 
-## installation des extensions
+Avant de commencer, assurez-vous d'avoir :
 
-Nous allons avoir besoin de plusieurs extensions pour VS-Code suivant les usages que vous voulez en faire et en fonction de l'avancée dans ce site.
+- **Ollama installé** sur votre Mac (voir la page [Installer Ollama](/install/))
+- **Visual Studio Code installé** (voir section ci-dessus)
+- **L'extension GitHub Copilot Chat installée** dans VS Code
+- **Une connexion GitHub active** dans VS Code
 
-### Code GPT
+### Installer l'extension GitHub Copilot Chat
 
-Quand vous installer Code GPT, vous pouvez faire que Ollama et un modèle d'IA vous aide à développer du code directement dans Visual Code Studio. Ça va vous permettre d'être plus efficace dans l'écriture et la comprehension de langages de développement qui vont être utiles si vous voulez utiliser Ollama de façon plus poussée.
+1. Ouvrez VS Code
+2. Cliquez sur l'icône **Extensions** dans la barre latérale gauche (ou appuyez sur `Cmd + Shift + X`)
+3. Recherchez **GitHub Copilot Chat**
+4. Cliquez sur **Installer**
+
+> **Note :** Vous devrez vous connecter à votre compte GitHub pour activer l'extension. Cliquez sur le bouton de connexion qui apparaît et suivez les instructions.
+
+### Configurer Ollama dans VS Code
+
+Une fois toutes les prérequis remplis, ouvrez le **Terminal** de votre Mac et tapez la commande suivante :
+
+```bash
+ollama launch vscode
+```
+
+Cette commande configure automatiquement VS Code pour qu'il puisse voir et utiliser vos modèles Ollama installés localement.
+
+### Utiliser un modèle local dans le chat
+
+Après avoir lancé la commande :
+
+1. Ouvrez **Copilot Chat** dans VS Code (icône de chat dans la barre latérale ou `Cmd + Shift + P` puis tapez "Copilot Chat: Open Chat")
+2. Cliquez sur le **sélecteur de modèle** (souvent affiché en bas du panneau de chat ou dans les paramètres du chat)
+3. Choisissez **Ollama** ou **Local** comme fournisseur
+4. Sélectionnez le modèle que vous avez installé (par exemple `qwen3.5:122b`, `mistral`, etc.)
+
+Vous pouvez maintenant discuter avec l'IA et demander de l'aide pour écrire du code, expliquer des concepts, ou corriger des erreurs — le tout avec un modèle qui tourne localement sur votre Mac !
+
+### Dépannage
+
+Si votre modèle n'apparaît pas dans le sélecteur :
+
+- **Vérifiez votre connexion GitHub** dans VS Code (en bas à gauche, cliquez sur l'icône de compte)
+- **Assurez-vous que Ollama fonctionne** : ouvrez un terminal et tapez `ollama list` pour voir vos modèles installés
+- **Redémarrez VS Code** après avoir lancé `ollama launch vscode`
+- **Vérifiez que vous avez bien installé un modèle** : si la liste est vide, installez-en un avec `ollama pull llama3.2` (ou un autre modèle de votre choix)
+
+## Extensions utiles selon vos besoins
+
+En plus de GitHub Copilot Chat, voici d'autres extensions qui peuvent vous être utiles selon ce que vous voulez faire :
 
 ### Exécuter du code
 
-Il faut installer Code Runner, si vous voulez pouvoir exécuter du code depuis VSC.
+Pour exécuter du code directement depuis VS Code sans ouvrir de terminal :
 
-### Pyton
+- Installez l'extension **Code Runner**
 
-Pour écrire des scripts en python, il vous faut les extenstions Python, Python Debugger, et Pylance.
+### Développer en Python
 
-### PHP
+Pour écrire et déboguer des scripts Python :
 
-Pour faire du code PHP, il vous fait les extensions PHP, PHP Profiler, PHP intelephense et IntelliPHP
+- **Python** (par Microsoft)
+- **Python Debugger**
+- **Pylance**
 
-### HTML CSS Support
+### Développer en PHP
 
-pour faire de l'HTML
+Pour le développement PHP :
 
-### French Language Package
+- **PHP Intelephense**
+- **PHP Profiler**
+- **IntelliPHP**
 
-Pour avoir une interface de VSC en Français.
+### HTML et CSS
 
-### Docker
+Pour travailler avec HTML et CSS :
 
-Si vous voulez utiliser Docker comme expliquer dans ce site. Vous pouvez aussi installer l'extension Dev Containers.
+- **HTML CSS Support**
 
-### Go
+### Interface en français
 
-Si vous voulez compiler par vous-même Ollama et avoir ainsi les versions en cours de développement.
+Pour avoir VS Code entièrement en français :
+
+- **French Language Pack**
+
+### Containers et développement web
+
+Pour travailler avec Docker ou des environnements isolés :
+
+- **Docker**
+- **Dev Containers**
+
+### Développer en Go
+
+Si vous souhaitez compiler Ollama vous-même ou travailler avec Go :
+
+- **Go** (par Go Team)
+
+### Alternative avancée : Code GPT
+
+> **Note :** Code GPT était auparavant recommandé comme solution principale, mais la méthode avec GitHub Copilot Chat est maintenant plus simple et mieux intégrée. Code GPT reste une alternative si vous avez des besoins spécifiques.
+
+L'extension **Code GPT** permet également d'utiliser Ollama dans VS Code. Elle peut être utile si vous avez des besoins avancés ou si vous préférez son interface. Cependant, pour la plupart des utilisateurs qui veulent simplement utiliser des modèles locaux, GitHub Copilot Chat est la solution la plus simple et la mieux maintenue.
