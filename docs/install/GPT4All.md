@@ -26,7 +26,7 @@ Attention, quand vous téléchargez un modèle pour GPT4All, il ne se mélange p
 
 Si vous voulez télécharger un modèle type LLama3.3, vous devez utiliser un VPN car avec cette loi européenne sur l'Euro IA acte, HuggingFace n'autorise pas le téléchargement de ces modèles depuis des IP françaises.
 
-Si vous voulez installer Gemma3 ou un autre model récent qui est disponible sur le site Ollama, vous pouvez demander à GPT4All d'utiliser Ollama en retrant ce que vous voulez dans le champs "API Key" et http://localhost:11434/v1 dans le champs "Base URL". Vous devrez rentrer ensuite à la main le nom du model dans le champs "Model Name".
+Si vous voulez installer Gemma3 ou un autre model récent qui est disponible sur le site Ollama, vous pouvez demander à GPT4All d'utiliser Ollama en rentrant ce que vous voulez dans le champ "API Key" et http://localhost:11434/v1 dans le champ "Base URL". Vous devrez rentrer ensuite à la main le nom du model dans le champ "Model Name".
 
 ## Chatbot
 

@@ -13,4 +13,4 @@ Sur le site d'Ollama.com, il y a une zone de recherche de modèles. En rechercha
 
 ## Rédiger un prompt efficace
 
-Vous pouvez rédiger un prompte efficace pour indiquer à l'IA qu'elle est une traductrice professionnelle, lui donner le contexte et lui demander de ne répondre que part la traduction dans la langue voulue.
+Vous pouvez rédiger un prompte efficace pour indiquer à l'IA qu'elle est une traductrice professionnelle, lui donner le contexte et lui demander de ne répondre que par la traduction dans la langue voulue.

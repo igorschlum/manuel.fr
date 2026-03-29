@@ -16,7 +16,7 @@ pip install spyder
 
 Swarm repond au problème qu'un prompt tout seul ne peut pas tout faire quand on veut faire des tâches complexes avec de l'IA. Par exemple si vous voulez une IA qui puisse chercher des données dans un RAG et ensuite prendre ces données pour les traduire en vietnamien, vous devrez utiliser d'un côté une IA qui est efficace pour récupérer les données et répondre à la question et ensuite utiliser une autre IA qui saura traduire les résultats en Vietnamien. Il faudra donc enchaîner plusieurs IA, les uns à la suite des autres.
 
-On peut imaginer également que vous voulez vous assurer que vous pouvez faire confiance aux réponses de l'IA et éviter les Hallucations et que vous préférer répondre "Je ne sais" plutôt que de répondre à côté. Vous pouvez alors poser la même question à deux ou trois IA, puis ensuite demander à ces trois IA de comparer les réponses les unes avec les autres pour dire si les réponses des trois IA sont identiques. Si les trois IA vous disent que les réponses sont indentiques, il y a de fortes chances que ça soit vrai.
+On peut imaginer également que vous voulez vous assurer que vous pouvez faire confiance aux réponses de l'IA et éviter les Hallucinations et que vous préférer répondre "Je ne sais" plutôt que de répondre à côté. Vous pouvez alors poser la même question à deux ou trois IA, puis ensuite demander à ces trois IA de comparer les réponses les unes avec les autres pour dire si les réponses des trois IA sont identiques. Si les trois IA vous disent que les réponses sont identiques, il y a de fortes chances que ça soit vrai.
 
 On retrouve ici toutes les explications données par OpenIA sur comment utiliser Swarm : https://cookbook.openai.com/examples/orchestrating_agents
 

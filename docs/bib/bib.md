@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
-title: "Biblliothèques"
+title: "Bibliothèques"
 ---
 
-Dans cette partie du site, nous allons voir toutes les familles de LLM que nous allons pouvons installer par type d'usage.
+Dans cette partie du site, nous allons voir toutes les familles de LLM que nous pouvons installer par type d'usage.
 
 Plutôt que de ranger chaque modèle dans une case, nous allons explorer ensemble les différentes *capacités* que ces IA peuvent déployer.
 

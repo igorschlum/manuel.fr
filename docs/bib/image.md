@@ -6,7 +6,7 @@ sidebar_position: 3
 
 Llava est amusant à utiliser pour découvrir l'intelligence artificielle sur son Macintosh, car il permet de faire de la reconnaissance sur les images.
 
-Vous pouvez demander à Llava de décrire le contenu d'une image (jpeg ou png), de demander des précisions sur telle ou telle partie de l'image, lui demander de retranscrire du texte présent sur une image.
+Vous pouvez demander à Llava de décrire le contenu d'une image (jpeg ou png), lui demander des précisions sur telle ou telle partie de l'image, lui demander de retranscrire du texte présent sur une image.
 
 Imaginez par exemple que vous scanner tous les courriers que vous recevez par poste et que l'intelligence artificielle vous range automatiquement tous vos relevés de banque, vos factures à payer, etc.
 

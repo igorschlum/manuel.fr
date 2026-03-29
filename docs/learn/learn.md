@@ -12,14 +12,14 @@ Vous connaissez ChatGPT qui a été lancé le 30 novembre 2022, on peut lui pose
 
 Une autre révolution plus discrète a suivi. Celle de l'IA OpenSource, initiée par le groupe Meta et suivie par d'autres qui permet de faire tourner l'IA sur son propre ordinateur ou ses propres serveurs.
 
-Vous pouvez ainsi éviter que votre usage de l'IA ne vienne nourrir des serveurs de publicité ; vos données restent confidentielles. l'IA OpenSource permet également de faire tourner différents modèles qui ont chacun leur propre comportement.
+Vous pouvez ainsi éviter que votre usage de l'IA ne vienne nourrir des serveurs de publicité ; vos données restent confidentielles. L'IA OpenSource permet également de faire tourner différents modèles qui ont chacun leur propre comportement.
 
-L'application Ollama vous permet de faire tourner les dictionnaires ([LLM](/learn/lectures/glossaire#LLM)) Open source que vous voulez sur votre ordinateur en toute confidentialité et sans coût supplémentaire autre que l'électricité consommée par votre ordinateur. Le plus connu des [LLM](/learn/lectures/glossaire#LLM) gratuits est Llama qui a inspiré le nom de l'application Ollama, mais nous verrons plus loin sur le site qu'il y a beaucoup d'autres [LLM](/learn/lectures/glossaire#LLM) que l'on peut utiliser.
+L'application Ollama vous permet de faire tourner les modèles ([LLM](/learn/lectures/glossaire#LLM)) Open source que vous voulez sur votre ordinateur en toute confidentialité et sans coût supplémentaire autre que l'électricité consommée par votre ordinateur. Le plus connu des [LLM](/learn/lectures/glossaire#LLM) gratuits est Llama qui a inspiré le nom de l'application Ollama, mais nous verrons plus loin sur le site qu'il y a beaucoup d'autres [LLM](/learn/lectures/glossaire#LLM) que l'on peut utiliser.
 
 
 ## Exemple
 
-Avant d'installer Ollama, voici un exemple de [Prompt](/learn/lectures/glossaire#prompt), (terme utilisé en anglais pour désigner l'instruction que l'on demander à l'IA) et de réponse
+Avant d'installer Ollama, voici un exemple de [Prompt](/learn/lectures/glossaire#prompt), (terme utilisé en anglais pour désigner l'instruction que l'on demande à l'IA) et de réponse
 
 
 <details open>
@@ -63,10 +63,10 @@ En résumé, le ciel est bleu en raison de la diffusion de la lumière par les m
 
 [Bibliothèque](/bib/) pour découvrir les principaux LLM disponibles
 
-Nous allons partir du principe que vous êtes curieux, malin, que vous avez envie d'apprendre, mais que nous n'y connaissez pas grand-chose. Les fins connaisseurs pourront toujours utiliser les index à droite pour passer à la section suivante quand il connaisse déjà je sujet traité.
+Nous allons partir du principe que vous êtes curieux, malin, que vous avez envie d'apprendre, mais que vous n'y connaissez pas grand-chose. Les fins connaisseurs pourront toujours utiliser les index à droite pour passer à la section suivante quand il connaît déjà le sujet traité.
 
 
-Nous allons voir sur ce site [comment installer Ollama](/install/) sur votre Mac en lançant llama3.2
+Nous allons voir sur ce site [comment installer Ollama](/install/) sur votre Mac en lançant gemma3
 
 Vous verrez également ici quelles sont les différents types de [LLM](/learn/lectures/glossaire#LLM) et à quoi ils servent.
 
@@ -82,9 +82,9 @@ Vous verrez comment vous pourrez affiner un modèle avec des informations nouvel
 
 Vous verrez la différence entre Affiner un modèle et faire du RAG
 
-Vous verrez aussi comment importer un [LLM](/learn/lectures/glossaire#LLM) depuis Hunging Face.
+Vous verrez aussi comment importer un [LLM](/learn/lectures/glossaire#LLM) depuis Hugging Face.
 
 Si vous voulez collaborer à l'écriture de ce site, il est fait avec Docusaurus et son code source est sur GitHub.
-En attendant, n'hésitez pas à cliquer dans les menus du site pour le parcourir et vous formez.
+En attendant, n'hésitez pas à cliquer dans les menus du site pour le parcourir et vous former.
 
-Commençons par comprendre quels sont des [Usages](/learn/usages) simples que l'on peut faire avec l'Intelligence Artificielle
+Commençons par comprendre quels sont les [Usages](/learn/usages) simples que l'on peut faire avec l'Intelligence Artificielle

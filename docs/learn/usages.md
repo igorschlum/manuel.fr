@@ -24,7 +24,7 @@ Vous pouvez par exemple utiliser l'intelligence artificielle pour trouver des so
 
 ## Effectuer des actions 
 
-Vous pouvez également demander à Ollama d'effectuer des actions, on parle alors d'Agent qui savent exécuter des tâches en interaction avec des logiciels selon ce qui lui a été demandé.
+Vous pouvez également demander à Ollama d'effectuer des actions, on parle alors d'Agents qui savent exécuter des tâches en interaction avec des logiciels selon ce qui lui a été demandé.
 
 ## Rechercher
 

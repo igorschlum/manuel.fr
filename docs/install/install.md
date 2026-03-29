@@ -5,7 +5,7 @@ title: "Ollama"
 
 # Prérequis
 
-Il est recommandé d'avoir un Mac M1, M2, M3 ou M4, mais si vous avez un Mac intel avec au minimum MacOS 11 big sur, ça pourra aussi fonctionner. Si vous êtes sur Windows, vous pouvez suivre les instructions du site Ollama pour l'installer sur Windows.
+Il est recommandé d'avoir un Mac M1, M2, M3 ou M4, mais si vous avez un Mac intel avec au minimum MacOS 11 Big Sur, ça pourra aussi fonctionner. Si vous êtes sur Windows, vous pouvez suivre les instructions du site Ollama pour l'installer sur Windows.
 
 Et vous devez avoir quelques notions d'anglais, mais nous traduirons au fur et à mesure tous les termes anglais que nous croiserons, comme [LLM](/learn/lectures/glossaire#LLM)
 
@@ -28,7 +28,7 @@ Faites glisser l'icône de l'application Ollama sur votre dossier Applications.
 
 Sinon vous pouvez suivre les instructions du site Ollama pour l'installer sur Windows.
 
-Si ce n'est déjà fait, commencez par **[téléchargez Ollama](https://ollama.ai/download)**
+Si ce n'est déjà fait, commencez par **[télécharger Ollama](https://ollama.ai/download)**
 
 Vous avez dans votre dossier téléchargement le fichier Ollama-darwin.zip
 
@@ -67,7 +67,7 @@ Le mot `run` permet d'executer le modèle `llama3.2`. Si le modèle n'est pas ch
 
 ![run llama3](/img/llama3.png)
 
-Une fois le modèle téléchargé, vous pouvez commencer une discution.
+Une fois le modèle téléchargé, vous pouvez commencer une discussion.
 
 *demandez par exemple*
 
@@ -75,7 +75,7 @@ Une fois le modèle téléchargé, vous pouvez commencer une discution.
 je suis étudiant en philosophie, j'ai 34 ans et je vis à Montreal,
 en quoi l'intelligence artificielle peut m'être utile ?
 ```
-*vous pouvez bien sur personnaliser la demande, c'est une bonne façon d'apréhender l'intelligence artificielle. Voici le genre de réponse que vous pouvez avoir, sachant qu'à chaque fois la réponse est différente, même si vous lui posez la même question.*
+*vous pouvez bien sûr personnaliser la demande, c'est une bonne façon d'appréhender l'intelligence artificielle. Voici le genre de réponse que vous pouvez avoir, sachant qu'à chaque fois la réponse est différente, même si vous lui posez la même question.*
 
 
 ```text

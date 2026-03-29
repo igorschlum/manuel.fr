@@ -58,7 +58,7 @@ D'autres approches existent également, comme l'utilisation d'outils tels que `m
 
 ## Apple MCP Tools : Contrôlez votre Mac avec l'IA via MCP
 
-Pour illustrer concrètement la puissance du MCP sur macOS, un projet open source particulièrement intéressant est (**Apple MCP Tools**)[https://github.com/Dhravya/apple-mcp], développé par Dhravya Shah. Ce projet fournit une collection d'outils "natifs" pour Mac, accessibles via le protocole MCP. Concrètement, cela signifie que vous pouvez demander à une IA compatible MCP (utilisée via une application comme Claude Desktop, Cursor, ou potentiellement vos modèles Ollama locaux via un hôte MCP) d'interagir directement avec vos applications Apple !
+Pour illustrer concrètement la puissance du MCP sur macOS, un projet open source particulièrement intéressant est [Apple MCP Tools](https://github.com/Dhravya/apple-mcp), développé par Dhravya Shah. Ce projet fournit une collection d'outils "natifs" pour Mac, accessibles via le protocole MCP. Concrètement, cela signifie que vous pouvez demander à une IA compatible MCP (utilisée via une application comme Claude Desktop, Cursor, ou potentiellement vos modèles Ollama locaux via un hôte MCP) d'interagir directement avec vos applications Apple !
 
 Imaginez pouvoir demander à votre assistant IA de :
 

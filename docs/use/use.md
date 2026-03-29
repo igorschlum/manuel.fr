@@ -59,7 +59,7 @@ Flags:
 ollama list
 ```
 
-La commande list permet de lister tous les LLM qui sont disponibles localement pour être utilisé dans Ollama avec la taille de chacun d'eux et la date à laquelle le modèle a été chargé sur la machine ainsi que le code interne du modele. Par exemple sur mon MacBook voici ce que ça donne :
+La commande list permet de lister tous les LLM qui sont disponibles localement pour être utilisés dans Ollama avec la taille de chacun d'eux et la date à laquelle le modèle a été chargé sur la machine ainsi que le code interne du modèle. Par exemple sur mon MacBook voici ce que ça donne :
 
 <details open>
   <summary>Liste des modèles sur mon MacBook</summary>
