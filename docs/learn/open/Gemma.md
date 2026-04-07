@@ -2,9 +2,9 @@
 sidebar_position: 2
 ---
 
-# Gemma 4 : Le Modèle Agent Open-Source de Google
+# Gemma
 
-Gemma est la nouvelle génération de modèles de langage large (LLM) de Google DeepMind. **Gemma 4** est conçu pour offrir une intelligence conversationnelle avancée et des capacités d'agent de pointe, le tout avec une licence **Apache 2.0**.
+Gemma 4 est la nouvelle génération de modèles de langage large (LLM) de Google DeepMind. **Gemma 4** est conçu pour offrir une intelligence conversationnelle avancée et des capacités d'agent de pointe, le tout avec une licence **Apache 2.0**.
 
 Cette version représente un saut qualitatif majeur, destinée aux développeurs, chercheurs et entreprises qui souhaitent intégrer une IA de calibre professionnel, totalement ouverte et déployable localement, sans dépendance à une plateforme unique.
 
