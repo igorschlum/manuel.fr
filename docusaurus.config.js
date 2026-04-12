@@ -10,7 +10,7 @@ const config = {
   // MODIFICATION : Le favicon pointe maintenant vers le fichier SVG
   favicon: "img/favicon.svg",
   future: {
-    experimental_faster: false,
+    faster: false,
     v4: true,
   },
   url: "https://manuel.fr",

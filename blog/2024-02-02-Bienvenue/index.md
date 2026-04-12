@@ -5,7 +5,7 @@ authors: [igorschlum]
 tags: [Bonjour, Ollama]
 ---
 
-<!-- truncate -->
+{/* truncate */}
 
 J'ai commencé l'informatique en 1979 avec un Apple II, c'était la première révolution numérique, la micro-informatique à la portée de tout un chacun.
 
