@@ -70,7 +70,7 @@ ollama launch openclaw
 
 ## Ouvrir la fenêtre d'OpenClaw
 
-[Lien pour ouvrir OpenClaw](http://127.0.0.1:18789/__openclaw__/canvas/)
+[Lien pour ouvrir OpenClaw](http://127.0.0.1:18789/)
 
 ## 📌 En résumé
 
