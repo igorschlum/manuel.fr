@@ -3,7 +3,7 @@ sidebar_position: 3
 ---
 # GPT4All
 
-L'application GPT4All est une application open source proposée par la société Nomic. L'intérêt de GPTAAll est d'offrir une interface graphique assez facile à utiliser pour faire du RAG. Toutefois les mises à jour ne sont plus assurées sur cette application depuis la version 3.10 qui est sortie depuis le 25 février 2025. C'est dommage car dans les améliorations en attente de publication, il y a la francisation de l'application.
+L'application GPT4All est une application open source proposée par la société Nomic. L'intérêt de GPT4All est d'offrir une interface graphique assez facile à utiliser pour faire du RAG. Toutefois les mises à jour ne sont plus assurées sur cette application depuis la version 3.10 qui est sortie depuis le 25 février 2025. C'est dommage car dans les améliorations en attente de publication, il y a la francisation de l'application.
 
 ## Installation
 
@@ -12,7 +12,6 @@ Pour installer l'application, vous pouvez suivre les instructions ci-dessous :
 1. Télécharger l'archive du dépôt GitHub [ici](https://github.com/nomic-ai/gpt4all) ou depuis [le site de Nomic](https://www.nomic.ai/gpt4all).
 
 2. Extraire l'archive dans le dossier de votre choix.
-3. Lancer l'application en exécutant le fichier `gpt4all` (Linux) ou `gpt4all.exe` (Windows).
 
 ## Traduction en français
 
