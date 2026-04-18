@@ -168,8 +168,8 @@ sudo sysctl iogpu.wired_limit_mb=0
 
 Maintenant que vous savez comment utiliser Ollama depuis le terminal, sachez qu'il existe plusieurs types d'outils pour aller plus loin :
 
-- **Des interfaces de chat** (ChatBox, Msty, Page-Assist) pour discuter avec vos modèles dans un environnement plus convivial que le terminal, avec la possibilité de comparer plusieurs LLM en parallèle.
-- **Des agents IA** (Hermes, OpenClaw) qui ne se contentent pas de répondre à vos questions : ils exécutent des tâches, interagissent avec votre système, se connectent à vos messageries et peuvent agir de manière autonome.
-- **Des orchestrateurs** (Paperclip) qui coordonnent plusieurs agents entre eux comme une véritable équipe avec des rôles, des objectifs et des budgets.
+- **Des interfaces de chat** ([ChatBox](/use/chatbox), [Msty](/use/Msty), [Page-Assist](/use/page-assist)) pour discuter avec vos modèles dans un environnement plus convivial que le terminal, avec la possibilité de comparer plusieurs LLM en parallèle.
+- **Des agents IA** ([Hermes](/use/hermes), [OpenClaw](/use/OpenClaw)) qui ne se contentent pas de répondre à vos questions : ils exécutent des tâches, interagissent avec votre système, se connectent à vos messageries et peuvent agir de manière autonome.
+- **Des orchestrateurs** ([Paperclip](/use/paperclip)) qui coordonnent plusieurs agents entre eux comme une véritable équipe avec des rôles, des objectifs et des budgets.
 
 Ollama fournit aussi des commandes `ollama launch` pour installer facilement ces intégrations.
