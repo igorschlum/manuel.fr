@@ -64,6 +64,8 @@ La commande list permet de lister tous les LLM qui sont disponibles localement p
 <details open>
   <summary>Liste des modèles sur mon MacBook</summary>
 
+```
+NAME                                                              ID              SIZE      MODIFIED
 gemma4:latest                                                     c6eb396dbd59    9.6 GB    6 days ago
 gemma4:e4b                                                        c6eb396dbd59    9.6 GB    2 weeks ago
 qwen3.5:27b                                                       7653528ba5cb    17 GB     6 weeks ago
@@ -83,6 +85,7 @@ granite4:latest                                                   4235724a127c  
 gpt-oss:120b-cloud                                                569662207105    -         6 months ago
 snowflake-arctic-embed2:latest                                    5de93a84837d    1.2 GB    6 months ago
 qwen3-embedding:4b                                                df5bd2e3c74c    2.5 GB    6 months ago
+```
 
 </details>
 
@@ -163,4 +166,10 @@ sudo sysctl iogpu.wired_limit_mb=0
 
 ---
 
-Maintenant que vous savez comment utiliser Ollama, on va voir qu'il y a des applications qui offrent des interfaces plus sympas que le terminal pour utiliser Ollama.
+Maintenant que vous savez comment utiliser Ollama depuis le terminal, sachez qu'il existe plusieurs types d'outils pour aller plus loin :
+
+- **Des interfaces de chat** (ChatBox, Msty, Page-Assist) pour discuter avec vos modèles dans un environnement plus convivial que le terminal, avec la possibilité de comparer plusieurs LLM en parallèle.
+- **Des agents IA** (Hermes, OpenClaw) qui ne se contentent pas de répondre à vos questions : ils exécutent des tâches, interagissent avec votre système, se connectent à vos messageries et peuvent agir de manière autonome.
+- **Des orchestrateurs** (Paperclip) qui coordonnent plusieurs agents entre eux comme une véritable équipe avec des rôles, des objectifs et des budgets.
+
+Ollama fournit aussi des commandes `ollama launch` pour installer facilement ces intégrations.
