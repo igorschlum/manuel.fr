@@ -147,6 +147,41 @@ ollama ps
 Dans la liste qui s'affiche on voit jusque quand chaque modèle reste en mémoire.
 
 
+# La taille de contexte
+
+Quand vous utilisez un modèle d'IA, la **taille de contexte** (ou *context length*) est la quantité de texte que le modèle peut garder en mémoire pendant une conversation. Plus la taille de contexte est grande, plus le modèle peut se souvenir d'échanges longs, analyser des documents volumineux ou travailler sur des projets de code étendus.
+
+Par défaut, chaque modèle a une taille de contexte définie par son créateur. Mais certaines tâches — comme l'analyse de longs fichiers, le développement avec Claude Code ou Copilot CLI, ou les conversations prolongées — nécessitent un contexte plus grand (≥ 64k tokens) pour fonctionner correctement.
+
+## Vérifier la taille de contexte allouée
+
+La commande `ollama ps` affiche la taille de contexte effective de chaque modèle en cours d'exécution, ainsi que sa répartition entre GPU et CPU :
+
+```bash
+ollama ps
+```
+
+```
+NAME             ID              SIZE      PROCESSOR    CONTEXT    UNTIL
+gemma3:latest    a2af6cc3eb7f    6.6 GB    100% GPU     65536      2 minutes from now
+```
+
+La colonne **CONTEXT** indique la taille de contexte en tokens, et la colonne **PROCESSOR** montre si le modèle est entièrement sur le GPU (100% GPU) ou partiellement sur le CPU. Pour de meilleures performances, évitez que le modèle soit partiellement déchargé sur le CPU.
+
+## Modifier la taille de contexte
+
+Vous pouvez ajuster la taille de contexte directement dans l'application Ollama. Mais si ce n'est pas possible ou si vous lancez Ollama depuis le terminal, vous pouvez utiliser la commande `ollama serve` avec la variable d'environnement `OLLAMA_CONTEXT_LENGTH` :
+
+```bash
+OLLAMA_CONTEXT_LENGTH=64000 ollama serve
+```
+
+Cela fixe la taille de contexte à 64 000 tokens pour tous les modèles lancés par la suite.
+
+:::tip Choix de la taille
+Pour les tâches simples, le contexte par défaut du modèle suffit. Pour le développement avec des outils comme Claude Code ou Copilot CLI, on recommande au moins 64k tokens. Plus le contexte est grand, plus le modèle consomme de mémoire.
+:::
+
 # Augmenter la mémoire GPU
 
 Ollama loge les LLM dans la mémoire allouée aux GPU. Sur Mac, macOS limite cette mémoire à 66 % de la RAM totale. Si vous voulez aller au-delà :
@@ -170,6 +205,6 @@ Maintenant que vous savez comment utiliser Ollama depuis le terminal, sachez qu'
 
 - **Des interfaces de chat** ([ChatBox](/use/chatbox), [Msty](/use/Msty), [Page-Assist](/use/page-assist)) pour discuter avec vos modèles dans un environnement plus convivial que le terminal, avec la possibilité de comparer plusieurs LLM en parallèle.
 - **Des agents IA** ([Hermes](/use/hermes), [OpenClaw](/use/OpenClaw)) qui ne se contentent pas de répondre à vos questions : ils exécutent des tâches, interagissent avec votre système, se connectent à vos messageries et peuvent agir de manière autonome.
-- **Des orchestrateurs** ([Paperclip](/use/paperclip)) qui coordonnent plusieurs agents entre eux comme une véritable équipe avec des rôles, des objectifs et des budgets.
+- **Un orchestrateur** ([Paperclip](/use/paperclip)) qui coordonne plusieurs agents entre eux comme une véritable équipe avec des rôles, des objectifs et des budgets.
 
 Ollama fournit aussi des commandes `ollama launch` pour installer facilement ces intégrations.

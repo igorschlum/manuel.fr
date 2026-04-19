@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:pageassist.xyz)",
+      "WebFetch(domain:github.com)",
+      "WebSearch",
+      "Bash(for:*)",
+      "Bash(head:*)",
+      "Bash(done)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

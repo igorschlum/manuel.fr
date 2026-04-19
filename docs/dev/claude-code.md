@@ -173,6 +173,20 @@ En pratique, vous n'aurez presque jamais besoin de faire cette configuration man
 
 ---
 
+## Message de dépense Anthropic
+
+Vous pouvez voir apparaître un message du type :
+
+```
+You've spent $5 on the Anthropic API this session.
+Learn more about how to monitor your spending:
+https://docs.anthropic.com/s/claude-code-cost
+```
+
+**Ne tenez pas compte de ce message.** Claude Code ne sait pas qu'il tourne avec un modèle open source servi par Ollama. Ce compteur de dépenses est conçu pour l'API Anthropic payante et n'a aucune signification quand vous utilisez des modèles locaux ou cloud via Ollama.
+
+---
+
 ## Résumé
 
 Avec Claude Code et Ollama, vous pouvez :
