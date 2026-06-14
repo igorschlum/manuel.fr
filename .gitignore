@@ -39,3 +39,4 @@ coverage/
 # pnpm-lock.yaml
 .docusaurus/
 .codegpt/
+.claude/settings.local.json
